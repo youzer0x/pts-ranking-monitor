@@ -30,7 +30,9 @@ Claude スケジュール・クラウドルーチン（毎日 06:06 JST・Sonnet
 はじめてでも進められるよう、クリック単位で書いています。**Step 1〜9 を上から順に**実施してください。
 所要 30〜45 分程度。途中で詰まったら末尾の「困ったとき」を参照してください。
 
-> 用意するもの：GitHub アカウント／Gmail アカウント（2段階認証ON）／J-Quants の Light 以上のプランの API キー／Claude（Max プラン・Claude Code ルーチンが使えるアカウント）。
+> 用意するもの：GitHub アカウント／Gmail アカウント＋ Google Cloud（無料・OAuth クライアント作成に使用）／J-Quants の Light 以上のプランの API キー／Claude（Max プラン・Claude Code ルーチンが使えるアカウント）。
+
+> メール送信について：クラウド環境は HTTP/HTTPS プロキシ経由で動くため、Gmail の SMTP（ポート465）は使えません。本システムは **Gmail API（HTTPS）** で送信します（送信先 `*.googleapis.com` は既定の許可リストに含まれます）。
 
 ### Step 1：GitHub にリポジトリを作る
 
@@ -77,44 +79,73 @@ git push -u origin main
 4. 数分後、`https://あなたの名前.github.io/pts-ranking-monitor/` で公開されます（初回はデータがあるので
    サンプルの 2026-06-15 が表示されます）。
 
-### Step 5：Gmail のアプリパスワードを取得する（通知メール送信用）
+### Step 5：Gmail API の認証情報を用意する（通知メール送信用）
 
-1. https://myaccount.google.com/security で「**2段階認証プロセス**」が**ON**であることを確認（OFF なら先に ON）。
-2. https://myaccount.google.com/apppasswords を開く。
-3. アプリ名に「**PTS Ranking Monitor**」と入力 →「**作成**」。
-4. 表示される **16桁のパスワード**をコピーして控える（スペースは入れない）。
+クラウドでは SMTP が使えないため、Gmail API（HTTPS）で送信します。Google Cloud で OAuth クライアントを作り、リフレッシュトークンを取得します（無料・1回だけ）。
+
+1. **プロジェクト作成**：https://console.cloud.google.com に通知元の Gmail でログイン → 上部のプロジェクト選択 →「**新しいプロジェクト**」→ 名前 `PTS Ranking Monitor` →「作成」→ そのプロジェクトを選択。
+2. **Gmail API を有効化**：上の検索窓で「**Gmail API**」→ 開いて「**有効にする**」。
+3. **OAuth 同意画面**：左メニュー「**APIとサービス**」→「**OAuth 同意画面**」→ User Type「**外部**」→ 作成 → アプリ名 `PTS Ranking Monitor`、ユーザーサポートメール＝自分、デベロッパー連絡先＝自分 →「保存して次へ」。スコープ画面はそのまま「保存して次へ」。テストユーザー画面で**自分の Gmail を追加**して保存。
+   - **重要**：最後に「**アプリを公開**（本番にする / Publish app）」を実行してください。テスト状態のままだとリフレッシュトークンが**7日で失効**し、自動実行が1週間で止まります。本番にすると失効しません（個人利用なので「未確認アプリ」の警告は出ますが問題ありません）。
+4. **OAuth クライアント ID 作成**：「**認証情報**」→「**認証情報を作成**」→「**OAuth クライアント ID**」→ アプリの種類「**デスクトップ アプリ**」→ 名前任意 →「作成」。表示される **クライアント ID** と **クライアントシークレット** を控える。
+5. **リフレッシュトークン取得**（手元の Git Bash で1回だけ）：
+   ```bash
+   cd /c/Users/YujiroOkawa/project-private/pts-ranking-monitor
+   python scripts/get_gmail_token.py
+   ```
+   - クライアント ID／シークレットを貼り付け → ブラウザで自分の Google アカウントを選択。
+   - 「**このアプリは Google で確認されていません**」と出たら「**詳細**」→「**（アプリ名）に移動（安全ではないページ）**」→ Gmail 送信の許可を「**続行**」。
+   - ターミナルに表示される `GMAIL_REFRESH_TOKEN=...` を控える。
+6. これで **クライアント ID・クライアントシークレット・リフレッシュトークン**の3つが揃いました（Step 7 で登録）。
 
 ### Step 6：J-Quants の API キーを用意する
 
 - J-Quants（https://jpx-jquants.com）の **Light プラン以上**の API キー（リフレッシュトークン/ID トークンではなく、`x-api-key` に使うキー）を控えます。
   - Free プランは当日値が取得できない（遅延）ため**不可**。
 
-### Step 7：Claude に「カスタム環境」を作る（シークレット・ネット許可・初期化）
+### Step 7：Claude に「カスタム環境」を作る（環境変数・ネット許可・初期化）
 
-> ルーチン作成フォームからは環境を編集できないため、**先に環境を作ります**。
+> 環境変数・ネット許可・セットアップは**すべて claude.ai 側で設定**します（GitHub 側ではありません）。専用の「Secrets（秘密保管庫）」欄は存在せず、認証情報も**環境変数**として入れます。個人アカウントのルーチンは他人と共有されないため、見えるのは自分だけです。
 
-1. https://claude.ai を開き、**Settings → Environments**（環境）を開く。
-2. 「**New environment / 新規作成**」を選び、名前を `pts-ranking-env` などにする。
-3. **Secrets / 環境変数**に次の4つを追加（名前は完全一致で）：
-   | 名前 | 値 |
-   |------|----|
-   | `JQUANTS_API_KEY` | Step 6 の J-Quants API キー |
-   | `GMAIL_ADDRESS` | 送信元の Gmail アドレス |
-   | `GMAIL_APP_PASSWORD` | Step 5 の16桁パスワード |
-   | `NOTIFY_TO` | 通知の宛先メールアドレス（自分宛なら GMAIL_ADDRESS と同じでOK） |
-   - 任意：`TZ` = `Asia/Tokyo`（日付計算を JST に固定。設定推奨）。
-   - 任意：`PAGES_URL` = `https://あなたの名前.github.io/pts-ranking-monitor/`（メールのリンク用。未設定でも自動推定します）。
-4. **ネットワーク許可**（外部接続の許可リスト）に次を追加：
-   - `kabutan.jp`（株探：PTSランキング・銘柄ページ）
-   - `api.jquants.com`（J-Quants API）
-   - `www.release.tdnet.info`（TDnet 適時開示）
-   - `smtp.gmail.com`（メール送信）
-   - **Web 検索／記事閲覧を有効化**し、報道裏取り用に主要メディアを許可：`nikkei.com`・`reuters.com`・`bloomberg.com`・`wsj.com`・`ft.com`・`cnbc.com`・`asia.nikkei.com`・`jiji.com`・`kyodonews.jp`・`toyokeizai.net`・`diamond.jp`（広めに許可できる設定ならそれでも可）。
-5. **セットアップ・スクリプト**（環境構築時に1回走るコマンド）に次を設定：
+1. https://claude.ai/code/routines で **New routine**（または既存の鉛筆＝Edit）を開く。**Instructions 欄の下の雲アイコン**（最初は `Default`）をクリック → 「**Add environment / 環境を追加**」を選び、名前を `pts-ranking-monitor` にする（"Default" は共有なので使わない）。
+2. **環境変数**（`.env` 形式・1行に `KEY=value`・**引用符で囲まない**）に次を入力：
+   ```
+   JQUANTS_API_KEY=（Step 6 の J-Quants API キー）
+   GMAIL_CLIENT_ID=（Step 5 のクライアント ID）
+   GMAIL_CLIENT_SECRET=（Step 5 のクライアントシークレット）
+   GMAIL_REFRESH_TOKEN=（Step 5 のリフレッシュトークン）
+   GMAIL_ADDRESS=（送信元の Gmail アドレス）
+   NOTIFY_TO=（宛先。自分宛なら GMAIL_ADDRESS と同じ）
+   TZ=Asia/Tokyo
+   PAGES_URL=https://あなたの名前.github.io/pts-ranking-monitor/
+   ```
+   - `TZ` … 営業日ゲートの日付判定を JST に固定（必須）。
+   - `PAGES_URL` … メール／インデックスのリンク先（未設定でも自動推定）。
+3. **ネットワーク許可（Network access）**：既定の `Trusted` だと外部サイトが `403` でブロックされます。次のどちらかにする：
+   - **おすすめ（簡単）＝`Full`**：すべて許可。ドメイン登録不要で、検索で出たどの記事も取得でき確実。
+   - **ロックダウン＝`Custom`**：「**Allowed domains**」に下記を1行ずつ入力し、**「Also include default list of common package managers」に必ずチェック**（pip と Gmail API `*.googleapis.com` のため）。
+     ```
+     kabutan.jp
+     api.jquants.com
+     www.release.tdnet.info
+     nikkei.com
+     asia.nikkei.com
+     reuters.com
+     bloomberg.com
+     wsj.com
+     ft.com
+     cnbc.com
+     jiji.com
+     kyodonews.jp
+     toyokeizai.net
+     diamond.jp
+     ```
+   - メール送信（Gmail API）の `gmail.googleapis.com`・`oauth2.googleapis.com` は既定の `*.googleapis.com` に含まれるため**追加不要**（`Full` でも `Custom`＋デフォルト込みでもOK）。Web 検索ツールはクラウドのルーチンで既定で使えます。
+4. **セットアップ・スクリプト（Setup script）**に次を設定：
    ```bash
    pip install -r requirements.txt
    ```
-6. 保存する。
+5. 「**Save changes**」で保存する。
 
 ### Step 8：スケジュール・ルーチンを作る
 
@@ -173,7 +204,8 @@ pts-ranking-monitor/
 │   ├── tdnet.py         # TDnet 適時開示（15:30以降の突合）
 │   ├── business_day.py  # 東証営業日判定・セッション日導出
 │   ├── html_generator.py# GitHub Pages / メール本文 HTML
-│   ├── gmail_sender.py  # Gmail 送信（SMTP）
+│   ├── gmail_sender.py  # Gmail 送信（Gmail API・HTTPS）
+│   ├── get_gmail_token.py # 【ローカル1回】リフレッシュトークン取得（OAuth）
 │   └── publish.py       # Stage2: JSON→docs/data・manifest・index.html・メール
 └── docs/                # GitHub Pages（自動更新）
     ├── index.html
@@ -198,7 +230,7 @@ pts-ranking-monitor/
 |------|------|
 | ルーチンが動かない | スケジュール（cron）とタイムゾーン、リポジトリ/環境の紐づけを確認。手動「Run now」でログを見る |
 | Pages が表示されない | Settings → Pages が **main / /docs** か確認。初回反映に数分かかる |
-| メールが届かない | 環境のシークレット（`GMAIL_ADDRESS`/`GMAIL_APP_PASSWORD`/`NOTIFY_TO`）を再確認。アプリパスワードにスペースが入っていないか |
+| メールが届かない | 環境変数 `GMAIL_CLIENT_ID`/`GMAIL_CLIENT_SECRET`/`GMAIL_REFRESH_TOKEN`/`GMAIL_ADDRESS`/`NOTIFY_TO` を再確認。OAuth 同意画面を「**本番（公開）**」にしたか（テストのままだとトークンが7日で失効）。`Custom` の場合は「デフォルト込み」にチェックがあるか（`*.googleapis.com` のため） |
 | 時価総額が出ない/少ない | `JQUANTS_API_KEY` が **Light 以上**か（Free は当日値なし）。ネット許可に `api.jquants.com` があるか |
 | PTS が取得できない | ネット許可に `kabutan.jp` があるか。06:06 より大幅に早い時刻だと未確定の可能性 |
 | 変動要因が薄い | 環境で **Web 検索が有効**か、主要メディアのドメインが許可されているか確認 |

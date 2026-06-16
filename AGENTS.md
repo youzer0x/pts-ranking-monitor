@@ -19,8 +19,9 @@
 5. commit & push    docs/ をコミットしてプッシュ（GitHub App 権限）
 ```
 
-`TZ=Asia/Tokyo` 前提。`JQUANTS_API_KEY`・`GMAIL_ADDRESS`・`GMAIL_APP_PASSWORD`・`NOTIFY_TO` は
-カスタム環境のシークレットから供給される。
+`TZ=Asia/Tokyo` 前提。`JQUANTS_API_KEY`・`GMAIL_CLIENT_ID`・`GMAIL_CLIENT_SECRET`・
+`GMAIL_REFRESH_TOKEN`・`GMAIL_ADDRESS`・`NOTIFY_TO` はカスタム環境の環境変数から供給される
+（メール送信は Gmail API＝HTTPS。クラウドは SMTP 不可）。
 
 ---
 
