@@ -1,0 +1,825 @@
+{
+  "session_date": "2026-06-15",
+  "next_date": "2026-06-16",
+  "session_window": "2026-06-15 17:00 → 2026-06-16 06:00 JST",
+  "generated_at": "2026-06-16 16:22 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 5000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 20,
+    "dropped_turnover": 23,
+    "dropped_mcap": 10
+  },
+  "rows": [
+    {
+      "code": "6838",
+      "name": "多摩川ホールディングス",
+      "market": "スタンダード",
+      "mcap_oku": 168,
+      "mcap_flag": "",
+      "pct": 21.28,
+      "pts": 2280.0,
+      "close": 1880.0,
+      "volume": 17500,
+      "turnover_yen": 39900000,
+      "turnover_m": 39.9,
+      "shoutfy_jq": 8912700,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "6838",
+          "name": "多摩川ＨＤ",
+          "title": "時価評価差額の計上を含む2026年10月期通期連結業績予想および配当予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570326.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6838",
+          "name": "多摩川ＨＤ",
+          "title": "2026年10月期 第2四半期決算短信〔IFRS〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570407.pdf"
+        }
+      ],
+      "factor": "6/15 16:00 開示：2Q決算＋通期業績・配当予想の修正",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "2315",
+      "name": "ＣＡＩＣＡ　ＤＩＧＩＴＡＬ",
+      "market": "スタンダード",
+      "mcap_oku": 101,
+      "mcap_flag": "",
+      "pct": 20.71,
+      "pts": 67.6,
+      "close": 56.0,
+      "volume": 394500,
+      "turnover_yen": 26668200,
+      "turnover_m": 26.7,
+      "shoutfy_jq": 181081018,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "2315",
+          "name": "ＣＡＩＣＡ　Ｄ",
+          "title": "2026年10月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569866.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2315",
+          "name": "ＣＡＩＣＡ　Ｄ",
+          "title": "株式会社善光総合研究所の子会社化に伴うのれんの額及び特別利益・特別損失の計上に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569686.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2315",
+          "name": "ＣＡＩＣＡ　Ｄ",
+          "title": "2026年10月期 第２四半期(中間期) 決算補足説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569813.pdf"
+        }
+      ],
+      "factor": "6/15 15:30 開示：中間決算＋善光総合研究所の子会社化に伴うのれん・特別損益計上",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "3480",
+      "name": "ジェイ・エス・ビー",
+      "market": "プライム",
+      "mcap_oku": 1742,
+      "mcap_flag": "",
+      "pct": 13.13,
+      "pts": 8971.0,
+      "close": 7930.0,
+      "volume": 9000,
+      "turnover_yen": 80739000,
+      "turnover_m": 80.7,
+      "shoutfy_jq": 21961200,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/12 公表のTOB（ウォーバーグ・ピンカス、非公開化、約20%プレミアム）。PTSがTOB価格(≈8,970円)に収斂",
+      "factor_kind": "報道",
+      "rank": 3
+    },
+    {
+      "code": "6966",
+      "name": "三井ハイテック",
+      "market": "プライム",
+      "mcap_oku": 1890,
+      "mcap_flag": "",
+      "pct": 12.86,
+      "pts": 1081.2,
+      "close": 958.0,
+      "volume": 251600,
+      "turnover_yen": 272029920,
+      "turnover_m": 272.0,
+      "shoutfy_jq": 197334325,
+      "cur_end": "2027-01-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/12 引け後の通期業績予想の上方修正（連結経常 100→145億・+45%、1Q経常は前年比4.0倍）。6/15日中+18.6%→PTS続伸",
+      "factor_kind": "報道",
+      "rank": 4
+    },
+    {
+      "code": "456A",
+      "name": "ＨＵＭＡＮ　ＭＡＤＥ",
+      "market": "グロース",
+      "mcap_oku": 1632,
+      "mcap_flag": "",
+      "pct": 11.46,
+      "pts": 1985.1,
+      "close": 1781.0,
+      "volume": 9100,
+      "turnover_yen": 18064410,
+      "turnover_m": 18.1,
+      "shoutfy_jq": 91645600,
+      "cur_end": "2027-01-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "456A",
+          "name": "Ｇ－ヒューマンメイド",
+          "title": "2027年１月期第１四半期決算短信〔日本基準〕(非連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565853.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "456A",
+          "name": "Ｇ－ヒューマンメイド",
+          "title": "2027年1月期第1四半期決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570073.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "456A",
+          "name": "Ｇ－ヒューマンメイド",
+          "title": "株式会社アンダーカバーの株式取得に向けた基本合意書締結に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570075.pdf"
+        }
+      ],
+      "factor": "6/15 16:00 開示：1Q決算＋(株)アンダーカバー株式取得の基本合意",
+      "factor_kind": "開示",
+      "rank": 5
+    },
+    {
+      "code": "278A",
+      "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+      "market": "グロース",
+      "mcap_oku": 707,
+      "mcap_flag": "",
+      "pct": 10.76,
+      "pts": 8030.0,
+      "close": 7250.0,
+      "volume": 61900,
+      "turnover_yen": 497057000,
+      "turnover_m": 497.1,
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "2027年１月期　第１四半期決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569715.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "2027年１月期 第１四半期 決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569753.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "第三者割当による第18回新株予約権乃至第22回新株予約権（行使価額修正条項付）及び第23回新株予約権乃至第27回新株予約権の発行に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569393.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "資金調達に関する補足説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569743.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "エストニア子会社設立に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569847.pdf"
+        }
+      ],
+      "factor": "6/15 16:00 開示：1Q決算＋エストニア子会社設立＋第三者割当による新株予約権(MSワラント)発行＝資金調達",
+      "factor_kind": "開示",
+      "rank": 6
+    },
+    {
+      "code": "4446",
+      "name": "Ｌｉｎｋ−Ｕグループ",
+      "market": "プライム",
+      "mcap_oku": 103,
+      "mcap_flag": "",
+      "pct": 10.27,
+      "pts": 805.0,
+      "close": 730.0,
+      "volume": 40600,
+      "turnover_yen": 32683000,
+      "turnover_m": 32.7,
+      "shoutfy_jq": 14174100,
+      "cur_end": "2026-07-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/10 発表の新規事業「Link-U Mangaful Base」＋6/12決算を巡る値動きの一環",
+      "factor_kind": "報道",
+      "rank": 7
+    },
+    {
+      "code": "4666",
+      "name": "パーク２４",
+      "market": "プライム",
+      "mcap_oku": 3189,
+      "mcap_flag": "",
+      "pct": 9.2,
+      "pts": 2036.0,
+      "close": 1864.5,
+      "volume": 14900,
+      "turnover_yen": 30336400,
+      "turnover_m": 30.3,
+      "shoutfy_jq": 171048369,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "4666",
+          "name": "パーク２４",
+          "title": "2026年10月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569710.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "4666",
+          "name": "パーク２４",
+          "title": "2026年10月期　第２四半期（中間期）決算補足資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570528.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "4666",
+          "name": "パーク２４",
+          "title": "特別損失・法人税等調整額（益）の計上、および2026年10月期第２四半期（中間期）連結業績予想と実績の差異、ならびに通期連結業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570538.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "4666",
+          "name": "パーク２４",
+          "title": "株主優待制度の再開に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570569.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "4666",
+          "name": "パーク２４",
+          "title": "2026年10月期　速報数値　5月度",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570578.pdf"
+        }
+      ],
+      "factor": "6/15 16:00 開示：中間決算＋株主優待制度の再開＋業績予想の修正",
+      "factor_kind": "開示",
+      "rank": 8
+    },
+    {
+      "code": "5016",
+      "name": "ＪＸ金属",
+      "market": "プライム",
+      "mcap_oku": 34966,
+      "mcap_flag": "†",
+      "pct": 8.6,
+      "pts": 4090.0,
+      "close": 3766.0,
+      "volume": 315300,
+      "turnover_yen": 1289577000,
+      "turnover_m": 1289.6,
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "日経 6/15 18:00 配信スクープ「光通信の半導体材料(インジウムリン基板)を10倍増産・〜2030年度に1,200億円投資」。配信がPTSナイトに直撃。6/16も続伸",
+      "factor_kind": "報道",
+      "rank": 9,
+      "shares_kabutan": 953183210,
+      "mcap_kabutan_oku": 35897
+    },
+    {
+      "code": "9279",
+      "name": "ギフトホールディングス",
+      "market": "プライム",
+      "mcap_oku": 841,
+      "mcap_flag": "",
+      "pct": 6.79,
+      "pts": 4480.0,
+      "close": 4195.0,
+      "volume": 4500,
+      "turnover_yen": 20160000,
+      "turnover_m": 20.2,
+      "shoutfy_jq": 20048101,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "9279",
+          "name": "ギフトＨＤ",
+          "title": "連結業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570406.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "9279",
+          "name": "ギフトＨＤ",
+          "title": "2026年10月期第２四半期（中間期）決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570443.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "9279",
+          "name": "ギフトＨＤ",
+          "title": "2026年10月期 ２Q決算について想定されるご質問に対する回答",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570459.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "9279",
+          "name": "ギフトＨＤ",
+          "title": "2026年10月期　第２四半期（中間期）　決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570424.pdf"
+        }
+      ],
+      "factor": "6/15 15:30 開示：中間決算＋連結業績予想の修正",
+      "factor_kind": "開示",
+      "rank": 10
+    },
+    {
+      "code": "6327",
+      "name": "北川精機",
+      "market": "スタンダード",
+      "mcap_oku": 316,
+      "mcap_flag": "",
+      "pct": 5.53,
+      "pts": 3952.0,
+      "close": 3745.0,
+      "volume": 21300,
+      "turnover_yen": 84177600,
+      "turnover_m": 84.2,
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "高値圏からのリバウンド(半導体・プレス機関連)。6/15固有の材料は確認できず",
+      "factor_kind": "テーマ",
+      "rank": 11
+    },
+    {
+      "code": "285A",
+      "name": "キオクシアホールディングス",
+      "market": "プライム",
+      "mcap_oku": 496447,
+      "mcap_flag": "",
+      "pct": 5.38,
+      "pts": 95800.0,
+      "close": 90910.0,
+      "volume": 88600,
+      "turnover_yen": 8487880000,
+      "turnover_m": 8487.9,
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "生成AIメモリ需要主導、6/15は日中+11.96%で年初来高値(90,910円)。PTSも続伸。自社開示なし",
+      "factor_kind": "テーマ",
+      "rank": 12
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "market": "プライム",
+      "mcap_oku": 407769,
+      "mcap_flag": "",
+      "pct": 4.92,
+      "pts": 7490.0,
+      "close": 7139.0,
+      "volume": 287800,
+      "turnover_yen": 2155622000,
+      "turnover_m": 2155.6,
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "OpenAIのIPO観測(米報道で6/22にもIPO申請の可能性)で保有資産の再評価期待",
+      "factor_kind": "報道",
+      "rank": 13
+    },
+    {
+      "code": "2586",
+      "name": "フルッタフルッタ",
+      "market": "グロース",
+      "mcap_oku": 100,
+      "mcap_flag": "†",
+      "pct": 4.26,
+      "pts": 98.0,
+      "close": 94.0,
+      "volume": 59000,
+      "turnover_yen": 5782000,
+      "turnover_m": 5.8,
+      "shoutfy_jq": 106394569,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "2586",
+          "name": "Ｇ－フルッタフルッタ",
+          "title": "第14回新株予約権（行使価額修正条項付）の行使価額の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570646.pdf"
+        }
+      ],
+      "factor": "6/15 15:30 開示：第14回新株予約権(行使価額修正条項付)の行使価額の修正(PTS売買代金は¥6Mと小さい)",
+      "factor_kind": "開示",
+      "rank": 14,
+      "shares_kabutan": 109829569,
+      "mcap_kabutan_oku": 103
+    },
+    {
+      "code": "290A",
+      "name": "Ｓｙｎｓｐｅｃｔｉｖｅ",
+      "market": "グロース",
+      "mcap_oku": 1728,
+      "mcap_flag": "",
+      "pct": 4.2,
+      "pts": 1365.0,
+      "close": 1310.0,
+      "volume": 17000,
+      "turnover_yen": 23205000,
+      "turnover_m": 23.2,
+      "shoutfy_jq": 131879450,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "防衛・宇宙テーマ(大型契約・6/4のレーティング引き上げ等)の一環。6/15固有材料は確認できず",
+      "factor_kind": "テーマ",
+      "rank": 15
+    },
+    {
+      "code": "6994",
+      "name": "指月電機製作所",
+      "market": "スタンダード",
+      "mcap_oku": 380,
+      "mcap_flag": "",
+      "pct": 3.57,
+      "pts": 1190.0,
+      "close": 1149.0,
+      "volume": 16500,
+      "turnover_yen": 19635000,
+      "turnover_m": 19.6,
+      "shoutfy_jq": 33061003,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/15固有の材料は確認できず(コンデンサ/需給)",
+      "factor_kind": "テーマ",
+      "rank": 16
+    },
+    {
+      "code": "6055",
+      "name": "ジャパンマテリアル",
+      "market": "プライム",
+      "mcap_oku": 2597,
+      "mcap_flag": "",
+      "pct": 3.36,
+      "pts": 2553.0,
+      "close": 2470.0,
+      "volume": 2200,
+      "turnover_yen": 5616600,
+      "turnover_m": 5.6,
+      "shoutfy_jq": 105149520,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "半導体ガス・材料供給。6/15固有の材料は確認できず",
+      "factor_kind": "テーマ",
+      "rank": 17
+    },
+    {
+      "code": "7220",
+      "name": "武蔵精密工業",
+      "market": "プライム",
+      "mcap_oku": 3046,
+      "mcap_flag": "",
+      "pct": 3.34,
+      "pts": 4800.0,
+      "close": 4645.0,
+      "volume": 2300,
+      "turnover_yen": 11040000,
+      "turnover_m": 11.0,
+      "shoutfy_jq": 65581861,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/15固有の材料は確認できず(自動車部品/需給)",
+      "factor_kind": "テーマ",
+      "rank": 18
+    },
+    {
+      "code": "3825",
+      "name": "リミックスポイント",
+      "market": "スタンダード",
+      "mcap_oku": 358,
+      "mcap_flag": "",
+      "pct": 3.33,
+      "pts": 248.0,
+      "close": 240.0,
+      "volume": 149400,
+      "turnover_yen": 37051200,
+      "turnover_m": 37.1,
+      "shoutfy_jq": 149044800,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "暗号資産保有・エネルギー事業で相場/需給連動の可能性。6/15固有材料は確認できず",
+      "factor_kind": "テーマ",
+      "rank": 19
+    },
+    {
+      "code": "3350",
+      "name": "メタプラネット",
+      "market": "スタンダード",
+      "mcap_oku": 3313,
+      "mcap_flag": "",
+      "pct": 3.08,
+      "pts": 268.0,
+      "close": 260.0,
+      "volume": 319900,
+      "turnover_yen": 85733200,
+      "turnover_m": 85.7,
+      "shoutfy_jq": 1274171340,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "ビットコイン保有戦略銘柄でBTC相場・需給に連動。6/15固有材料は確認できず",
+      "factor_kind": "テーマ",
+      "rank": 20
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "4492",
+      "name": "ゼネテック",
+      "pct": 20.0,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "9237",
+      "name": "笑美面",
+      "pct": 16.34,
+      "turnover_m": 2.8,
+      "volume": 4000
+    },
+    {
+      "code": "7709",
+      "name": "クボテック",
+      "pct": 15.63,
+      "turnover_m": 0.1,
+      "volume": 1000
+    },
+    {
+      "code": "2323",
+      "name": "ｆｏｎｆｕｎ",
+      "pct": 7.69,
+      "turnover_m": 0.3,
+      "volume": 1000
+    },
+    {
+      "code": "6228",
+      "name": "ジェイ・イー・ティ",
+      "pct": 6.83,
+      "turnover_m": 0.8,
+      "volume": 900
+    },
+    {
+      "code": "184A",
+      "name": "学びエイド",
+      "pct": 6.11,
+      "turnover_m": 1.1,
+      "volume": 3300
+    },
+    {
+      "code": "5885",
+      "name": "ジーデップ・アドバンス",
+      "pct": 6.01,
+      "turnover_m": 0.8,
+      "volume": 300
+    },
+    {
+      "code": "4973",
+      "name": "日本高純度化学",
+      "pct": 5.78,
+      "turnover_m": 2.7,
+      "volume": 500
+    },
+    {
+      "code": "6634",
+      "name": "ＪＮグループ",
+      "pct": 5.45,
+      "turnover_m": 0.1,
+      "volume": 1200
+    },
+    {
+      "code": "2345",
+      "name": "ＨＯＤＬ１",
+      "pct": 4.82,
+      "turnover_m": 1.1,
+      "volume": 5500
+    },
+    {
+      "code": "6347",
+      "name": "プラコー",
+      "pct": 4.17,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "3441",
+      "name": "山王",
+      "pct": 4.13,
+      "turnover_m": 1.1,
+      "volume": 400
+    },
+    {
+      "code": "6356",
+      "name": "日本ギア工業",
+      "pct": 3.98,
+      "turnover_m": 0.4,
+      "volume": 300
+    },
+    {
+      "code": "4777",
+      "name": "ガーラ",
+      "pct": 3.96,
+      "turnover_m": 0.3,
+      "volume": 1200
+    },
+    {
+      "code": "3926",
+      "name": "オープンドア",
+      "pct": 3.83,
+      "turnover_m": 0.2,
+      "volume": 600
+    },
+    {
+      "code": "3903",
+      "name": "ｇｕｍｉ",
+      "pct": 3.47,
+      "turnover_m": 0.9,
+      "volume": 3500
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラス",
+      "pct": 3.46,
+      "turnover_m": 0.0,
+      "volume": 800
+    },
+    {
+      "code": "3133",
+      "name": "海帆",
+      "pct": 3.39,
+      "turnover_m": 0.3,
+      "volume": 2500
+    },
+    {
+      "code": "5805",
+      "name": "ＳＷＣＣ",
+      "pct": 3.35,
+      "turnover_m": 4.0,
+      "volume": 300
+    },
+    {
+      "code": "3371",
+      "name": "ソフトクリエイトホールディングス",
+      "pct": 3.3,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "9227",
+      "name": "マイクロ波化学",
+      "pct": 3.17,
+      "turnover_m": 0.3,
+      "volume": 300
+    },
+    {
+      "code": "9444",
+      "name": "トーシンホールディングス",
+      "pct": 3.11,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "7245",
+      "name": "大同メタル工業",
+      "pct": 3.04,
+      "turnover_m": 0.1,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "9760",
+      "name": "進学会ホールディングス",
+      "pct": 37.98,
+      "turnover_m": 12.9,
+      "mcap_oku": 22
+    },
+    {
+      "code": "7084",
+      "name": "Ｓｍｉｌｅ　Ｈｏｌｄｉｎｇｓ",
+      "pct": 21.38,
+      "turnover_m": 16.2,
+      "mcap_oku": 76
+    },
+    {
+      "code": "4179",
+      "name": "ジーネクスト",
+      "pct": 16.67,
+      "turnover_m": 6.0,
+      "mcap_oku": 33
+    },
+    {
+      "code": "3664",
+      "name": "ＷＩＺＥ",
+      "pct": 11.6,
+      "turnover_m": 13.2,
+      "mcap_oku": 21
+    },
+    {
+      "code": "8894",
+      "name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "pct": 11.6,
+      "turnover_m": 39.3,
+      "mcap_oku": 38
+    },
+    {
+      "code": "4570",
+      "name": "免疫生物研究所",
+      "pct": 11.11,
+      "turnover_m": 15.5,
+      "mcap_oku": 88
+    },
+    {
+      "code": "281A",
+      "name": "インフォメティス",
+      "pct": 10.41,
+      "turnover_m": 91.9,
+      "mcap_oku": 37
+    },
+    {
+      "code": "5136",
+      "name": "ｔｒｉｐｌａ",
+      "pct": 9.46,
+      "turnover_m": 18.3,
+      "mcap_oku": 86
+    },
+    {
+      "code": "7083",
+      "name": "ＡＨＣグループ",
+      "pct": 3.69,
+      "turnover_m": 11.3,
+      "mcap_oku": 19
+    },
+    {
+      "code": "460A",
+      "name": "ＢＲＡＮＵ",
+      "pct": 3.16,
+      "turnover_m": 8.5,
+      "mcap_oku": 40
+    }
+  ]
+}
