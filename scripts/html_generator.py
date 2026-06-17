@@ -50,11 +50,13 @@ def generate_email_html(data, pages_url, max_items=25):
           <td style="padding:7px 8px;border-bottom:1px solid #eee;white-space:nowrap;">{r.get('name','')}</td>
           <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;white-space:nowrap;font-family:Arial,sans-serif;">{fmt_mcap(r.get('mcap_oku'), r.get('mcap_flag'))}</td>
           <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;white-space:nowrap;font-family:Arial,sans-serif;color:#c0392b;font-weight:600;">{fmt_pct(r.get('pct'))}</td>
-          <td style="padding:7px 8px;border-bottom:1px solid #eee;font-size:12px;line-height:1.5;">{badge}{factor}</td>
+          <td class="col-factor" style="padding:7px 8px;border-bottom:1px solid #eee;font-size:12px;line-height:1.5;">{badge}{factor}</td>
         </tr>""")
     table_rows = "\n".join(trs)
     return f"""<!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>@media screen and (max-width:600px){{ .col-factor{{display:none!important;}} }}</style>
+</head>
 <body style="font-family:'Helvetica Neue',Arial,'Hiragino Sans',sans-serif;color:#333;margin:0;padding:0;background:#f5f5f5;">
   <div style="max-width:980px;margin:20px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
     <div style="background:#11243f;color:#fff;padding:18px 22px;">
@@ -73,7 +75,7 @@ def generate_email_html(data, pages_url, max_items=25):
           <th style="padding:8px;text-align:left;border-bottom:2px solid #11243f;">銘柄</th>
           <th style="padding:8px;text-align:right;border-bottom:2px solid #11243f;white-space:nowrap;">時価総額<br>(億円)</th>
           <th style="padding:8px;text-align:right;border-bottom:2px solid #11243f;white-space:nowrap;">上昇率</th>
-          <th style="padding:8px;text-align:left;border-bottom:2px solid #11243f;width:40%;">変動要因</th>
+          <th class="col-factor" style="padding:8px;text-align:left;border-bottom:2px solid #11243f;width:40%;">変動要因</th>
         </tr></thead>
         <tbody>
 {table_rows}
