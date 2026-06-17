@@ -16,7 +16,7 @@
 2. 素データ生成      python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 3. 変動要因の裏取り   各 row の factor / factor_kind を埋める（★Claude の中核作業・後述 §3）
 4. 公開＋通知        python scripts/publish.py docs/tmp/ranking.json
-5. commit & push    docs/ をコミットしてプッシュ（GitHub App 権限）
+5. commit & push    docs/ を main にコミットし git push origin HEAD:main（claude/ ブランチ不可）
 ```
 
 `TZ=Asia/Tokyo` 前提。`JQUANTS_API_KEY`・`GMAIL_CLIENT_ID`・`GMAIL_CLIENT_SECRET`・
@@ -69,10 +69,15 @@ python scripts/publish.py docs/tmp/ranking.json
 - Pages URL は環境変数 `PAGES_URL`（無ければ `GITHUB_REPOSITORY_OWNER`/`GITHUB_REPOSITORY` から推定）。
 - 動作確認だけでメールを送りたくない場合は `--no-email` を付ける。
 
-## 5. commit & push
+## 5. commit & push（必ず main へ）
 
-- `docs/index.html` と `docs/data/`（`*.json`・`manifest.json`）をコミットし、プッシュする。
-- コミットメッセージ例：`Update PTS gainers <SESSION>`。
+- `docs/index.html` と `docs/data/`（`*.json`・`manifest.json`）をコミットし、**デフォルトブランチ `main` に push** する。
+- GitHub Pages は **main/docs** を配信するため、`claude/...` ブランチへ push しても反映されない。クラウドセッションが `claude/...` ブランチ上にいても、**必ず次で main へ直接 push する**（本リポジトリは unrestricted branch push 許可済み）。**PR は作らない**。
+  ```bash
+  git add docs/index.html docs/data
+  git commit -m "Update PTS gainers <SESSION>"
+  git push origin HEAD:main
+  ```
 - `docs/tmp/` は `.gitignore` 済み（コミットしない）。
 
 ---
@@ -84,7 +89,7 @@ python scripts/publish.py docs/tmp/ranking.json
 - [ ] 各 row の `factor`/`factor_kind` を、**[開示]（15:30以降）→[報道]（一次記事＋配信時刻でセッション窓と整合）→[テーマ]** の順で裏取りして埋めたか。**検索要約を出典にしていないか**。材料が無ければ正直に「材料未確認」としたか。
 - [ ] 個人発信を引用・参照していないか。数値は実測のみで創作がないか。投資助言をしていないか。
 - [ ] `publish.py` が成功し、`docs/data/<SESSION>.json`・`manifest.json`・`index.html` が更新されたか。Gmail が送信されたか。
-- [ ] `docs/` をコミット＆プッシュしたか。
+- [ ] `docs/` を **main** にコミット＆プッシュしたか（`git push origin HEAD:main`。`claude/...` ブランチではない）。
 
 ## データソースと役割（再掲）
 

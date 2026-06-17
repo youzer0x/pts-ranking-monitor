@@ -141,9 +141,9 @@ git push -u origin main
      diamond.jp
      ```
    - メール送信（Gmail API）の `gmail.googleapis.com`・`oauth2.googleapis.com` は既定の `*.googleapis.com` に含まれるため**追加不要**（`Full` でも `Custom`＋デフォルト込みでもOK）。Web 検索ツールはクラウドのルーチンで既定で使えます。
-4. **セットアップ・スクリプト（Setup script）**に次を設定：
+4. **セットアップ・スクリプト（Setup script）**に次を設定（クラウドの setup はリポジトリ外で走るため `-r requirements.txt` ではなくパッケージ名を直接指定する。クォートや `>=` は貼り付けで化けやすいので使わない。後半は PEP668 対策のフォールバック）：
    ```bash
-   pip install -r requirements.txt
+   pip install jpholiday || pip install --break-system-packages jpholiday
    ```
 5. 「**Save changes**」で保存する。
 

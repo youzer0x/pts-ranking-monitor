@@ -15,7 +15,7 @@
 
 4. 公開＋通知: `python scripts/publish.py docs/tmp/ranking.json` を実行する（docs/data/<SESSION>.json 保存・manifest 更新・index.html 再生成・Gmail 送信）。
 
-5. commit & push: docs/index.html と docs/data/ をコミットして push する（コミットメッセージ例 "Update PTS gainers <SESSION>"）。docs/tmp/ はコミットしない。
+5. commit & push（必ず main へ）: docs/index.html と docs/data/ をコミットし、デフォルトブランチ main に push する。GitHub Pages は main/docs を配信するため claude/ ブランチに push しても反映されない。クラウドセッションが claude/ ブランチ上にいても、必ず `git add docs/index.html docs/data && git commit -m "Update PTS gainers <SESSION>" && git push origin HEAD:main` で main へ直接 push する（PR は作らない／本リポジトリは unrestricted branch push 許可済み）。docs/tmp/ はコミットしない。
 
 最後に、SESSION・該当社数・主要な変動要因の要約を1段落で報告すること。エラー時は原因と対処を報告する。
 ```
