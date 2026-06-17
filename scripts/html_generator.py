@@ -112,7 +112,7 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--text
 .chip .num{font-family:Arial,sans-serif;font-weight:700;font-size:16px;color:var(--primary);}
 .container{max-width:1280px;margin:14px auto 28px;padding:0 16px;}
 .card{background:var(--card);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06);overflow:hidden;}
-.note{padding:12px 16px;font-size:12px;color:var(--sub);border-bottom:1px solid var(--border);margin-bottom:12px;}
+.note{padding:10px 8px 12px;font-size:12px;color:var(--sub);}
 table{width:100%;border-collapse:collapse;font-size:13px;}
 thead th{padding:9px 10px;text-align:left;background:#f6f8fc;border-bottom:2px solid var(--primary);font-size:12px;color:var(--sub);white-space:nowrap;position:sticky;top:0;}
 thead th.r{text-align:right;}
@@ -151,10 +151,11 @@ tbody tr:hover td{background:var(--hover);}
   <select id="dateSelect" onchange="loadDate(this.value)"><option>読み込み中...</option></select></div>
 </div></div>
 <div class="summary" id="summary"></div>
-<div class="container"><div class="card">
+<div class="container">
   <div class="note" id="note"></div>
+  <div class="card">
   <div id="tableArea"><div class="loading">データを読み込んでいます…</div></div>
-</div>
+  </div>
 <div class="container" style="margin-top:0;"><div id="droppedArea"></div></div>
 </div>
 <div class="footer">PTS ランキング・モニター｜Claude 定期実行で自動生成｜時価総額・終値・株数＝J-Quants V2／PTS＝株探(J-Market)／開示＝TDnet｜本情報は参考であり投資助言ではない</div>
