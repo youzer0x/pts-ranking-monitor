@@ -1,0 +1,635 @@
+{
+  "session_date": "2026-06-17",
+  "next_date": "2026-06-18",
+  "session_window": "2026-06-17 17:00 → 2026-06-18 06:00 JST",
+  "generated_at": "2026-06-18 06:10 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 5000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 15,
+    "dropped_turnover": 33,
+    "dropped_mcap": 4
+  },
+  "rows": [
+    {
+      "code": "1401",
+      "name": "エムビーエス",
+      "market": "グロース",
+      "mcap_oku": 122,
+      "mcap_flag": "",
+      "pct": 25.36,
+      "pts": 1977.0,
+      "close": 1577.0,
+      "volume": 26900,
+      "turnover_yen": 53181300,
+      "turnover_m": 53.2,
+      "shoutfy_jq": 7732000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず（TDnet 15:30以降の開示なし、主要メディアにも当日の個別記事なし）。2026年2月に国内唯一の大型外航船向けドライドック工事への採用（創業以来最大規模の受注）を開示しており、直近中間期も増収・大幅増益で過去最高更新。時価総額が小さく流動性が低いため、少量の需要で価格が大きく動く需給特性がある。",
+      "factor_kind": "テーマ",
+      "rank": 1
+    },
+    {
+      "code": "8508",
+      "name": "Ｊトラスト",
+      "market": "スタンダード",
+      "mcap_oku": 1036,
+      "mcap_flag": "",
+      "pct": 15.21,
+      "pts": 894.0,
+      "close": 776.0,
+      "volume": 137700,
+      "turnover_yen": 123083800,
+      "turnover_m": 123.1,
+      "shoutfy_jq": 133515915,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "8508",
+          "name": "Ｊトラスト",
+          "title": "特別株主優待の実施に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571453.pdf"
+        }
+      ],
+      "factor": "2026年6月17日16時、特別株主優待の実施を適時開示。通常の株主優待に加え特別優待を実施することが株主還元の強化として評価され、PTSでの買いが集中した。",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "6981",
+      "name": "村田製",
+      "market": "プライム",
+      "mcap_oku": 213280,
+      "mcap_flag": "",
+      "pct": 12.1,
+      "pts": 12180.0,
+      "close": 10865.0,
+      "volume": 87700,
+      "turnover_yen": 1068186000,
+      "turnover_m": 1068.2,
+      "shoutfy_jq": 1963001843,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "AIサーバー向けMLCC（積層セラミックコンデンサー）・電源モジュールの受注が前年同期比約8割増と急拡大しており、「AI向け先端電子部品の需要爆発」として主要メディアが相次ぎ報道（日経・東洋経済等）。6月15日には米AIチップ株の急騰（SOX高、ARM +8.3%等）を受けた半導体・電子部品株全体への物色が続いており、PTS夜間でもその余波が続いた。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "報道",
+      "rank": 3
+    },
+    {
+      "code": "4368",
+      "name": "扶桑化学",
+      "market": "プライム",
+      "mcap_oku": 4394,
+      "mcap_flag": "",
+      "pct": 9.09,
+      "pts": 4500.0,
+      "close": 4125.0,
+      "volume": 13000,
+      "turnover_yen": 58500000,
+      "turnover_m": 58.5,
+      "shoutfy_jq": 106533000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "4368",
+          "name": "扶桑化学",
+          "title": "補助金収入に伴う特別利益の計上および連結業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572758.pdf"
+        }
+      ],
+      "factor": "2026年6月17日16時、補助金収入による特別利益の計上と連結業績予想の上方修正を適時開示。利益改善が好感され、PTSで大幅高となった。",
+      "factor_kind": "開示",
+      "rank": 4
+    },
+    {
+      "code": "4971",
+      "name": "メック",
+      "market": "プライム",
+      "mcap_oku": 2192,
+      "mcap_flag": "",
+      "pct": 7.13,
+      "pts": 11999.0,
+      "close": 11200.0,
+      "volume": 600,
+      "turnover_yen": 7199400,
+      "turnover_m": 7.2,
+      "shoutfy_jq": 19571093,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "AIサーバー向け半導体パッケージ基板用薬品（エッチング液等）の需要急拡大テーマが継続。2026年5月12日開示の2026年12月期第1四半期決算は売上高+38.5%・営業利益+90.2%の大幅増益かつ通期上方修正であり、その好業績評価が続いている。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "テーマ",
+      "rank": 5
+    },
+    {
+      "code": "146A",
+      "name": "コロンビア",
+      "market": "スタンダード",
+      "mcap_oku": 219,
+      "mcap_flag": "",
+      "pct": 6.3,
+      "pts": 3020.0,
+      "close": 2841.0,
+      "volume": 9700,
+      "turnover_yen": 29294000,
+      "turnover_m": 29.3,
+      "shoutfy_jq": 7716600,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "146A",
+          "name": "コロンビア・ワークス",
+          "title": "自己株式取得に係る事項の決定に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572306.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "146A",
+          "name": "コロンビア・ワークス",
+          "title": "東京証券取引所プライム市場への市場区分変更申請に向けた準備開始に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572311.pdf"
+        }
+      ],
+      "factor": "2026年6月17日16時、自己株式取得の実施決定と東証プライム市場への市場区分変更申請に向けた準備開始を同時に適時開示。株主還元強化とステータス向上の期待が同時に材料視され、PTSで買いが集中した。",
+      "factor_kind": "開示",
+      "rank": 6
+    },
+    {
+      "code": "9984",
+      "name": "ＳＢＧ",
+      "market": "プライム",
+      "mcap_oku": 392975,
+      "mcap_flag": "",
+      "pct": 6.1,
+      "pts": 7300.0,
+      "close": 6880.0,
+      "volume": 255800,
+      "turnover_yen": 1867340000,
+      "turnover_m": 1867.3,
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年6月16日、SoftBank Corp・SB OAI Japan GK・SoftBank Group・OpenAIが共催した企業向けイベントで、OpenAI技術を活用したサイバーセキュリティサービス（Patching as a Service）の展開を発表（group.softbank公式）。日中取引は-3.07%と調整したが、ARM保有を通じたAI関連投資への期待が再燃しPTSで急反発した。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "報道",
+      "rank": 7
+    },
+    {
+      "code": "3103",
+      "name": "ユニチカ",
+      "market": "スタンダード",
+      "mcap_oku": 714,
+      "mcap_flag": "",
+      "pct": 5.18,
+      "pts": 1300.0,
+      "close": 1236.0,
+      "volume": 41500,
+      "turnover_yen": 53950000,
+      "turnover_m": 54.0,
+      "shoutfy_jq": 57752343,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "次世代AIサーバー向け半導体パッケージ基板用ガラスクロスの供給不足・需要急拡大テーマが継続。直近の2026年3月期第3四半期では営業利益が前年同期比110.3%増と大幅増益、通期予想も上方修正（営業利益+62.4%増の95億円）しており、AI関連銘柄としての物色が続いている。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "テーマ",
+      "rank": 8
+    },
+    {
+      "code": "6330",
+      "name": "東洋エンジ",
+      "market": "プライム",
+      "mcap_oku": 1156,
+      "mcap_flag": "",
+      "pct": 5.1,
+      "pts": 2310.0,
+      "close": 2198.0,
+      "volume": 31100,
+      "turnover_yen": 71841000,
+      "turnover_m": 71.8,
+      "shoutfy_jq": 52588607,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "南鳥島沖の深海レアアース泥回収システム技術開発（JAMSTEC委託）を背景にした国産レアアース開発の国策テーマが継続。日米レアアース協力体制強化の調整が進んでいるとの報道もあり、当該テーマの中核銘柄として物色が続いた。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "テーマ",
+      "rank": 9
+    },
+    {
+      "code": "8035",
+      "name": "東エレク",
+      "market": "プライム",
+      "mcap_oku": 342594,
+      "mcap_flag": "",
+      "pct": 4.05,
+      "pts": 75580.0,
+      "close": 72640.0,
+      "volume": 15700,
+      "turnover_yen": 1186606000,
+      "turnover_m": 1186.6,
+      "shoutfy_jq": 471632733,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6月15日の米AIチップ株急騰（SOX大幅高、ARM +8.3%等）の余波が続いた。5月29日発表の1→5株式分割（10月1日効力発生）と1,500億円・750万株上限の自社株買い（6月1日開始）が引き続き評価されており、半導体製造装置への長期需要拡大期待と相まってPTSでも買いが続いた。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "テーマ",
+      "rank": 10
+    },
+    {
+      "code": "6779",
+      "name": "日電波",
+      "market": "プライム",
+      "mcap_oku": 1007,
+      "mcap_flag": "",
+      "pct": 3.97,
+      "pts": 4528.0,
+      "close": 4355.0,
+      "volume": 3200,
+      "turnover_yen": 14489600,
+      "turnover_m": 14.5,
+      "shoutfy_jq": 23128605,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。AIデータセンター向け周波数制御デバイス（水晶デバイス・高周波デバイス）の需要増加期待を背景に、半導体・AI関連銘柄への物色が続く中で連れ高した。",
+      "factor_kind": "テーマ",
+      "rank": 11
+    },
+    {
+      "code": "8136",
+      "name": "サンリオ",
+      "market": "プライム",
+      "mcap_oku": 2223,
+      "mcap_flag": "",
+      "pct": 3.62,
+      "pts": 902.0,
+      "close": 870.5,
+      "volume": 124000,
+      "turnover_yen": 111848000,
+      "turnover_m": 111.8,
+      "shoutfy_jq": 255408303,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "8136",
+          "name": "サンリオ",
+          "title": "2026年３月期決算発表日に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572773.pdf"
+        }
+      ],
+      "factor": "2026年6月17日16時、2026年3月期本決算の発表日程を適時開示。直近の第3四半期（売上高+36.7%・営業利益+51.8%増）の強い実績を踏まえ、本決算での大幅増益確認への期待感から買いが先行した。",
+      "factor_kind": "開示",
+      "rank": 12
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテク",
+      "market": "プライム",
+      "mcap_oku": 49689,
+      "mcap_flag": "",
+      "pct": 3.42,
+      "pts": 54500.0,
+      "close": 52700.0,
+      "volume": 12000,
+      "turnover_yen": 654000000,
+      "turnover_m": 654.0,
+      "shoutfy_jq": 94286400,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "蘭ASMLの幹部が「非常に力強い需要があり、生産能力を拡大している」と発言したインタビュー報道（株探ニュース等が6月17日報道）が材料視され、フォトマスク検査装置の最有力サプライヤーとして恩恵期待から日中+13.16%の大幅高。PTSはその余勢が続いた。当日15:30以降のTDnet開示はなし。",
+      "factor_kind": "報道",
+      "rank": 13
+    },
+    {
+      "code": "9216",
+      "name": "ビーウィズ",
+      "market": "プライム",
+      "mcap_oku": 209,
+      "mcap_flag": "",
+      "pct": 3.39,
+      "pts": 1525.0,
+      "close": 1475.0,
+      "volume": 5400,
+      "turnover_yen": 8235000,
+      "turnover_m": 8.2,
+      "shoutfy_jq": 14183200,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:30",
+          "code": "9216",
+          "name": "ビーウィズ",
+          "title": "当社株式の上場維持基準への適合及び監理銘柄（確認中）指定解除に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572110.pdf"
+        }
+      ],
+      "factor": "2026年6月17日17時30分、東証が監理銘柄（確認中）の指定解除を決定し、同社も適時開示。6月1日の監理銘柄指定以来、上場廃止懸念が払拭される形となり、PTSで買い戻しが入った。",
+      "factor_kind": "開示",
+      "rank": 14
+    },
+    {
+      "code": "6366",
+      "name": "千代建",
+      "market": "スタンダード",
+      "mcap_oku": 2077,
+      "mcap_flag": "",
+      "pct": 3.13,
+      "pts": 823.0,
+      "close": 798.0,
+      "volume": 6900,
+      "turnover_yen": 5678700,
+      "turnover_m": 5.7,
+      "shoutfy_jq": 260324529,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。2026年3月期は営業利益が前期比236.2%増と大幅改善し、Golden Pass LNG（米国）の竣工・初期操業開始やカタールNFEプロジェクトの順調な進捗が評価されてきた。また5月には「中東LNGプラント工事の本格再開」が報じられており、LNGプラントEPC（エンジニアリング）銘柄としての物色が続いた。",
+      "factor_kind": "テーマ",
+      "rank": 15
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "3900",
+      "name": "クラウドＷ",
+      "pct": 15.67,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "4840",
+      "name": "トライアイズ",
+      "pct": 14.93,
+      "turnover_m": 1.4,
+      "volume": 1800
+    },
+    {
+      "code": "7122",
+      "name": "近畿車輌",
+      "pct": 8.51,
+      "turnover_m": 1.5,
+      "volume": 600
+    },
+    {
+      "code": "378A",
+      "name": "ヒット",
+      "pct": 8.17,
+      "turnover_m": 0.5,
+      "volume": 200
+    },
+    {
+      "code": "8151",
+      "name": "東陽テクニカ",
+      "pct": 8.06,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "330A",
+      "name": "タレントＸ",
+      "pct": 7.83,
+      "turnover_m": 2.0,
+      "volume": 4600
+    },
+    {
+      "code": "9010",
+      "name": "富士急行",
+      "pct": 6.77,
+      "turnover_m": 3.2,
+      "volume": 1200
+    },
+    {
+      "code": "5537",
+      "name": "アルバリンク",
+      "pct": 6.19,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "4880",
+      "name": "セルソース",
+      "pct": 5.94,
+      "turnover_m": 0.3,
+      "volume": 1000
+    },
+    {
+      "code": "325A",
+      "name": "テンシャル",
+      "pct": 4.91,
+      "turnover_m": 0.4,
+      "volume": 100
+    },
+    {
+      "code": "3976",
+      "name": "シャノン",
+      "pct": 4.85,
+      "turnover_m": 0.3,
+      "volume": 600
+    },
+    {
+      "code": "4082",
+      "name": "稀元素化学工業",
+      "pct": 4.84,
+      "turnover_m": 2.6,
+      "volume": 1200
+    },
+    {
+      "code": "4777",
+      "name": "ガーラ",
+      "pct": 4.81,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "5572",
+      "name": "リッジアイ",
+      "pct": 4.32,
+      "turnover_m": 0.6,
+      "volume": 200
+    },
+    {
+      "code": "4425",
+      "name": "Kudan",
+      "pct": 4.25,
+      "turnover_m": 2.6,
+      "volume": 1300
+    },
+    {
+      "code": "6166",
+      "name": "中村超硬",
+      "pct": 4.2,
+      "turnover_m": 1.0,
+      "volume": 1800
+    },
+    {
+      "code": "9556",
+      "name": "イントループ",
+      "pct": 4.17,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "4170",
+      "name": "カイゼンプラットフォーム",
+      "pct": 3.92,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "7063",
+      "name": "バードマン",
+      "pct": 3.7,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "190A",
+      "name": "コーディアグループ",
+      "pct": 3.68,
+      "turnover_m": 0.5,
+      "volume": 7000
+    },
+    {
+      "code": "2693",
+      "name": "ＹＫＴ",
+      "pct": 3.61,
+      "turnover_m": 0.6,
+      "volume": 1500
+    },
+    {
+      "code": "7603",
+      "name": "ジー・イー・プランニング",
+      "pct": 3.45,
+      "turnover_m": 0.1,
+      "volume": 2300
+    },
+    {
+      "code": "5244",
+      "name": "jig.jp",
+      "pct": 3.4,
+      "turnover_m": 0.8,
+      "volume": 4900
+    },
+    {
+      "code": "7726",
+      "name": "黒田精工",
+      "pct": 3.39,
+      "turnover_m": 0.8,
+      "volume": 500
+    },
+    {
+      "code": "9240",
+      "name": "デリバリーコンサルティング",
+      "pct": 3.39,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "6864",
+      "name": "エヌエフホールディングス",
+      "pct": 3.39,
+      "turnover_m": 0.6,
+      "volume": 300
+    },
+    {
+      "code": "6495",
+      "name": "宮入バルブ製作所",
+      "pct": 3.36,
+      "turnover_m": 0.1,
+      "volume": 600
+    },
+    {
+      "code": "4599",
+      "name": "ステムリム",
+      "pct": 3.33,
+      "turnover_m": 3.2,
+      "volume": 10300
+    },
+    {
+      "code": "542A",
+      "name": "ビタブリッドジャパン",
+      "pct": 3.31,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "6574",
+      "name": "コンヴァノ",
+      "pct": 3.26,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "3823",
+      "name": "ＷＨＤコーポレーション",
+      "pct": 3.23,
+      "turnover_m": 0.7,
+      "volume": 22900
+    },
+    {
+      "code": "4413",
+      "name": "ボードルア",
+      "pct": 3.09,
+      "turnover_m": 2.0,
+      "volume": 800
+    },
+    {
+      "code": "5724",
+      "name": "アサカ理研",
+      "pct": 3.04,
+      "turnover_m": 0.5,
+      "volume": 200
+    },
+    {
+      "code": "7048",
+      "name": "ベルトラ",
+      "pct": 3.01,
+      "turnover_m": 0.0,
+      "volume": 200
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "3753",
+      "name": "フライトホールディングス",
+      "pct": 22.38,
+      "turnover_m": 50.7,
+      "mcap_oku": 22
+    },
+    {
+      "code": "8107",
+      "name": "キムラタン",
+      "pct": 9.09,
+      "turnover_m": 51.3,
+      "mcap_oku": 91
+    },
+    {
+      "code": "6840",
+      "name": "ＡＫＩＢＡホールディングス",
+      "pct": 3.5,
+      "turnover_m": 6.6,
+      "mcap_oku": 76
+    },
+    {
+      "code": "7859",
+      "name": "アルメディオ",
+      "pct": 3.36,
+      "turnover_m": 9.8,
+      "mcap_oku": 56
+    }
+  ]
+}
