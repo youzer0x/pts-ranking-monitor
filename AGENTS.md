@@ -59,7 +59,7 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 **ソース規律（厳守）**：採用は確立した経済報道機関と一次情報（TDnet・企業 IR・取引所・中銀・統計当局）のみ。
 **個人発信（X/Twitter 個人・note.com・個人ブログ/Substack・Reddit/掲示板・YouTube 個人・匿名まとめ・生成系）は引用も参照もしない**。判断に迷うソースは不採用。数値は実測のみ・創作禁止・投資助言をしない。
 
-JSON 編集後は `docs/tmp/ranking.json` を**上書き保存**する（`rows` の順序・他フィールドは変えない）。
+JSON 編集後は `docs/tmp/ranking.json` を**上書き保存**する。**`factor`/`factor_kind` 以外のフィールド（`code`/`name`/`market`/`mcap_oku`/`pct`/`pts`/`close`/`turnover_m`/`disclosures` 等）と `rows` の順序は一切変更しない**。特に **`name` を株探の略称で上書きしない**（最終的に `publish.py` が J-Quants 正式名称＝`CoName` へ自動正規化するが、そもそも書き換えないこと）。
 
 ## 4. 公開＋通知
 

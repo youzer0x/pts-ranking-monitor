@@ -75,6 +75,28 @@ def write_index():
     print(f"  index.html written: {path}")
 
 
+def normalize_names(data):
+    """銘柄名を J-Quants 正式名称（CoName・株式会社抜き）へ強制的に揃える。
+
+    後段の編集で name が株探の略称に化けても、公開前にここで CoName へ上書きする
+    （決定的ガードレール）。J-Quants 取得に失敗した場合は既存の name を維持する。
+    """
+    try:
+        import jquants
+        m = jquants.master_by_date(data["session_date"])
+    except Exception as e:
+        print(f"  (name normalize skipped: {type(e).__name__}: {e})")
+        return
+    fixed = 0
+    for lst in (data.get("rows"), data.get("dropped_turnover"), data.get("dropped_mcap")):
+        for r in lst or []:
+            co = m.get(jquants.code5(r["code"]), {}).get("CoName")
+            if co and r.get("name") != co:
+                r["name"] = co
+                fixed += 1
+    print(f"  names normalized to J-Quants CoName ({fixed} changed)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ranking_json")
@@ -88,6 +110,7 @@ def main():
         sys.exit("invalid ranking json: missing session_date")
     print(f"Publishing {data['session_date']} ({len(rows)} rows) ...")
 
+    normalize_names(data)
     save_data(data)
     cleanup_old()
     update_manifest()
