@@ -107,7 +107,7 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--text
 .header h1{font-size:21px;font-weight:700;}
 .date-selector{display:flex;align-items:center;gap:8px;}
 .date-selector label{font-size:13px;opacity:.9;}
-.date-selector select{padding:7px 30px 7px 12px;font-size:14px;font-family:'JetBrains Mono',monospace;border:1px solid rgba(255,255,255,.3);border-radius:6px;background:rgba(255,255,255,.15);color:#fff;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' stroke='white' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;}
+.date-selector select{padding:7px 30px 7px 12px;font-size:14px;font-family:Arial,sans-serif;border:1px solid rgba(255,255,255,.3);border-radius:6px;background:rgba(255,255,255,.15);color:#fff;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' stroke='white' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;}
 .date-selector select option{background:#11243f;color:#fff;}
 .summary{max-width:1280px;margin:16px auto 0;padding:0 16px;display:flex;gap:10px;flex-wrap:wrap;}
 .chip{background:var(--card);border-radius:8px;padding:8px 14px;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
