@@ -41,7 +41,7 @@ def _access_token():
 
 def _build_raw(sender, recipient, session_date, count, html_body):
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"【PTS夜間値上がり】{session_date} 値上がりランキング（{count}社）"
+    msg["Subject"] = f"【PTS夜間値上がり】{session_date} 値上がり率ランキング（{count}社）"
     msg["From"] = sender
     msg["To"] = recipient
     msg.attach(MIMEText(
