@@ -162,7 +162,7 @@ tbody tr:hover td{background:var(--hover);}
 <body>
 <div class="header"><div class="header-inner">
   <nav class="tabs">
-    <a class="tab" href="https://youzer0x.github.io/tse-day-ranking-monitor/">📈 東証 値上がり率ランキング</a>
+    <a class="tab" href="https://youzer0x.github.io/tse-ranking-monitor/">📈 東証 値上がり率ランキング</a>
     <h1 class="tab active">📈 PTS 夜間 値上がり率ランキング</h1>
   </nav>
   <div class="date-selector"><label for="dateSelect">セッション日:</label>
