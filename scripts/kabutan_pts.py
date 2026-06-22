@@ -9,16 +9,20 @@
   - 株探は「売買代金」を直接提供しないため、売買代金 ≒ PTS気配 × 夜間出来高 で概算する。
 
 stdlib のみ（urllib）。ネット取得 or 保存済みHTML（argv）から再パースの両対応。
+デスクトップ版が AWS WAF にブロックされた場合はモバイル版（s.kabutan.jp）に自動フォールバックする。
 
 usage:
   python kabutan_pts.py                # ライブ取得して上昇率≥3%を表示
   python kabutan_pts.py page1.html ... # 保存済みHTMLから再パース
 """
-import sys, re, json, time, urllib.request, urllib.parse
+import sys, re, json, time, subprocess, urllib.request, urllib.parse
 
 BASE = "https://kabutan.jp/warning/pts_night_price_increase"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+MOBILE_BASE = "https://s.kabutan.jp/warnings/pts_night_price_increase/"
+MOBILE_UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
+             "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
 DEFAULT_MIN_PCT = 3.0          # 上昇率の下限（%）
 DEFAULT_MIN_TURNOVER = 5_000_000  # 売買代金の下限（円）
 MAX_PAGES = 40
@@ -43,6 +47,60 @@ def _num(s):
         return float(s)
     except ValueError:
         return None
+
+
+def parse_mobile_html(html):
+    """モバイル版（s.kabutan.jp）1ページ分のHTMLからランキング行を返す。"""
+    rows = []
+    tb = html.find("<tbody>")
+    te = html.find("</tbody>", tb)
+    if tb < 0 or te < 0:
+        return rows
+    parts = re.split(r"(?=<tr\b)", html[tb:te])
+    for part in parts:
+        cm = re.search(r"/stocks/([0-9]{2,4}[A-Za-z]?)/", part)
+        if not cm:
+            continue
+        code = cm.group(1)
+        nm = re.search(r'<abbr title="([^"]+)">', part)
+        if nm:
+            name = nm.group(1)
+        else:
+            nm2 = re.search(r'<p class="font-bold[^"]*"[^>]*>([^<]+)</p>', part)
+            name = nm2.group(1).strip() if nm2 else "?"
+        mb = re.search(r'<span class="px-1 text-slate-500">([^<]+)</span>', part)
+        badge = mb.group(1).strip() if mb else "?"
+        tds = re.findall(r"<td[^>]*>\s*([\d,]+(?:\.\d+)?)", part)
+        if len(tds) < 2:
+            continue
+        close_k = _num(tds[0])
+        pts = _num(tds[1])
+        pct_m = re.search(r"plus-num'>\+([0-9.]+)<span", part)
+        pct = _num(pct_m.group(1)) if pct_m else None
+        vol_m = re.search(r"<td>\s*([\d,]+)<span[^>]*>株<", part)
+        vol = int(vol_m.group(1).replace(",", "")) if vol_m else 0
+        turnover = (pts or 0) * vol
+        rows.append(dict(code=code, name=name, badge=badge, close_k=close_k,
+                         pts=pts, pct=pct, volume=vol, turnover_yen=turnover))
+    return rows
+
+
+def fetch_page_mobile(page):
+    """モバイル版をcurlで取得（AWS WAF フォールバック用）。"""
+    url = MOBILE_BASE + "?" + urllib.parse.urlencode({"market": "all", "page": page})
+    for attempt in range(5):
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "-A", MOBILE_UA, "--http2", "--compressed",
+                 "--max-time", "40", url],
+                capture_output=True, timeout=50)
+            if result.returncode == 0:
+                return result.stdout.decode("utf-8", "replace")
+        except Exception:
+            pass
+        if attempt < 4:
+            time.sleep(1.5 ** attempt)
+    return ""
 
 
 def parse_html(html):
@@ -126,11 +184,26 @@ def kabutan_shares(code):
 
 
 def fetch_gainers(min_pct=DEFAULT_MIN_PCT, max_pages=MAX_PAGES, verbose=True):
-    """上昇率降順で取得し、min_pct を下回ったページで停止して該当行を返す。"""
+    """上昇率降順で取得し、min_pct を下回ったページで停止して該当行を返す。
+    デスクトップ版が WAF でブロックされた場合はモバイル版に自動フォールバックする。"""
+    # デスクトップ版を試行（WAF ブロック検出）
+    use_mobile = False
+    try:
+        test_html = fetch_page(1)
+        if not parse_html(test_html):
+            use_mobile = True
+    except Exception:
+        use_mobile = True
+
+    parse_fn = parse_mobile_html if use_mobile else parse_html
+    page_fn = fetch_page_mobile if use_mobile else fetch_page
+    if use_mobile and verbose:
+        print("# kabutan: desktop blocked by WAF, falling back to mobile (s.kabutan.jp)", file=sys.stderr)
+
     out = []
     for page in range(1, max_pages + 1):
-        html = fetch_page(page)
-        rows = parse_html(html)
+        html = page_fn(page)
+        rows = parse_fn(html)
         if not rows:
             break
         out.extend(rows)
