@@ -1,0 +1,387 @@
+{
+  "session_date": "2026-06-23",
+  "next_date": "2026-06-24",
+  "session_window": "2026-06-23 17:00 → 2026-06-24 06:00 JST",
+  "generated_at": "2026-06-24 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 5000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 7,
+    "dropped_turnover": 16,
+    "dropped_mcap": 10
+  },
+  "rows": [
+    {
+      "code": "3544",
+      "name": "サツドラホールディングス",
+      "market": "スタンダード",
+      "mcap_oku": 158,
+      "mcap_flag": "",
+      "pct": 10.87,
+      "pts": 1234.0,
+      "close": 1113.0,
+      "volume": 78800,
+      "turnover_yen": 97239200,
+      "turnover_m": 97.2,
+      "shoutfy_jq": 14236564,
+      "cur_end": "2026-05-15",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "テラ株式会社によるMBO公開買付（TOB価格1,220円・買付期間2026年6月22日〜8月3日）発表（2026年6月19日付TDnet開示）を受け、株価がTOB価格にサヤ寄せする展開。PTS価格1,234円はTOB価格を小幅上回る水準で推移",
+      "factor_kind": "報道",
+      "rank": 1
+    },
+    {
+      "code": "8136",
+      "name": "サンリオ",
+      "market": "プライム",
+      "mcap_oku": 11980,
+      "mcap_flag": "",
+      "pct": 7.87,
+      "pts": 1011.9,
+      "close": 938.1,
+      "volume": 840700,
+      "turnover_yen": 850704330,
+      "turnover_m": 850.7,
+      "shoutfy_jq": 1277041515,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "8136",
+          "name": "サンリオ",
+          "title": "2026年３月期決算短信[日本基準](連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576716.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "8136",
+          "name": "サンリオ",
+          "title": "第66期（2026年3月期）決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576850.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "8136",
+          "name": "サンリオ",
+          "title": "剰余金の配当に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576881.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "8136",
+          "name": "サンリオ",
+          "title": "2028年満期ユーロ円建転換社債型新株予約権付社債の転換価額の調整に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576884.pdf"
+        }
+      ],
+      "factor": "2026年3月期決算を当日15:30に開示。売上高1,940億円（前期比+33.9%）・営業利益778億円（+50.3%）・純利益546億円（+30.9%）がいずれも過去最高更新。元常務の不正報酬問題による発表延期後の待望の開示で、配当も同時公表",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "6740",
+      "name": "ジャパンディスプレイ",
+      "market": "プライム",
+      "mcap_oku": 1901,
+      "mcap_flag": "†",
+      "pct": 6.53,
+      "pts": 52.2,
+      "close": 49.0,
+      "volume": 2205500,
+      "turnover_yen": 115127100,
+      "turnover_m": 115.1,
+      "shoutfy_jq": 3880393562,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:30",
+          "code": "6740",
+          "name": "ＪＤＩ",
+          "title": "（訂正・数値データ訂正）「2026年3月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575925.pdf"
+        }
+      ],
+      "factor": "2026年3月期決算短信の数値データ訂正を16:30に開示（英語版も同時公開）。5月14日発表の原決算では純損失198億円（前期782億円から大幅縮小）・営業損失187億円に改善。訂正の具体的な変更内容はPDF参照が必要",
+      "factor_kind": "開示",
+      "rank": 3,
+      "shares_kabutan": 4265632462,
+      "mcap_kabutan_oku": 2090
+    },
+    {
+      "code": "9256",
+      "name": "サクシード",
+      "market": "グロース",
+      "mcap_oku": 134,
+      "mcap_flag": "",
+      "pct": 5.62,
+      "pts": 3950.0,
+      "close": 3740.0,
+      "volume": 9600,
+      "turnover_yen": 37920000,
+      "turnover_m": 37.9,
+      "shoutfy_jq": 3579950,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。2026年3月期決算（5月発表）で経常利益356百万円が会社予想比+11.9%の上振れ着地・次期売上+27.9%増収見通しを示しており、その後の株価モメンタムが継続とみられる",
+      "factor_kind": "テーマ",
+      "rank": 4
+    },
+    {
+      "code": "464A",
+      "name": "ＱＰＳホールディングス",
+      "market": "グロース",
+      "mcap_oku": 974,
+      "mcap_flag": "†",
+      "pct": 4.43,
+      "pts": 2100.0,
+      "close": 2011.0,
+      "volume": 31700,
+      "turnover_yen": 66570000,
+      "turnover_m": 66.6,
+      "shoutfy_jq": 48411000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。防衛省衛星コンステレーション整備事業（総規模2,831億円）受注・JAXA宇宙戦略基金採択（最大212億円・2026年1月確定）・スカパーJSATが2026年3月に筆頭株主化等の既存材料を背景とした宇宙・防衛テーマの地合いが継続",
+      "factor_kind": "テーマ",
+      "rank": 5,
+      "shares_kabutan": 55860500,
+      "mcap_kabutan_oku": 1123
+    },
+    {
+      "code": "186A",
+      "name": "アストロスケールホールディングス",
+      "market": "グロース",
+      "mcap_oku": 1563,
+      "mcap_flag": "†",
+      "pct": 4.26,
+      "pts": 1199.0,
+      "close": 1150.0,
+      "volume": 51100,
+      "turnover_yen": 61268900,
+      "turnover_m": 61.3,
+      "shoutfy_jq": 135905600,
+      "cur_end": "2026-04-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。6月12日付開示の2026年4月期決算（売上収益+141.8%の59億円・純損失215億円から67億円に縮小）を起点とした上昇基調と、軌道上サービスへの政府・防衛省需要拡大テーマが下支えとみられる",
+      "factor_kind": "テーマ",
+      "rank": 6,
+      "shares_kabutan": 138779700,
+      "mcap_kabutan_oku": 1596
+    },
+    {
+      "code": "3853",
+      "name": "アステリア",
+      "market": "プライム",
+      "mcap_oku": 204,
+      "mcap_flag": "",
+      "pct": 3.0,
+      "pts": 1200.0,
+      "close": 1165.0,
+      "volume": 6000,
+      "turnover_yen": 7200000,
+      "turnover_m": 7.2,
+      "shoutfy_jq": 17491265,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず",
+      "factor_kind": "テーマ",
+      "rank": 7
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "7640",
+      "name": "トップカルチャー",
+      "pct": 30.12,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "2164",
+      "name": "地域新聞社",
+      "pct": 14.83,
+      "turnover_m": 0.7,
+      "volume": 3700
+    },
+    {
+      "code": "9854",
+      "name": "愛眼",
+      "pct": 13.64,
+      "turnover_m": 2.1,
+      "volume": 8500
+    },
+    {
+      "code": "4499",
+      "name": "Ｓｐｅｅｅ",
+      "pct": 7.5,
+      "turnover_m": 2.1,
+      "volume": 800
+    },
+    {
+      "code": "9240",
+      "name": "デリバリーコンサルティング",
+      "pct": 6.1,
+      "turnover_m": 1.2,
+      "volume": 3100
+    },
+    {
+      "code": "6731",
+      "name": "ピクセラ",
+      "pct": 6.1,
+      "turnover_m": 0.2,
+      "volume": 2300
+    },
+    {
+      "code": "3681",
+      "name": "ブイキューブ",
+      "pct": 5.0,
+      "turnover_m": 4.1,
+      "volume": 391700
+    },
+    {
+      "code": "7063",
+      "name": "Ｂｉｒｄｍａｎ",
+      "pct": 4.79,
+      "turnover_m": 0.0,
+      "volume": 400
+    },
+    {
+      "code": "8217",
+      "name": "オークワ",
+      "pct": 4.58,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "7318",
+      "name": "セレンディップ・ホールディングス",
+      "pct": 4.08,
+      "turnover_m": 0.8,
+      "volume": 300
+    },
+    {
+      "code": "7524",
+      "name": "マルシェ",
+      "pct": 3.83,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "7740",
+      "name": "タムロン",
+      "pct": 3.82,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "7353",
+      "name": "ＫＩＹＯラーニング",
+      "pct": 3.49,
+      "turnover_m": 0.6,
+      "volume": 1000
+    },
+    {
+      "code": "4772",
+      "name": "ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ",
+      "pct": 3.43,
+      "turnover_m": 0.0,
+      "volume": 300
+    },
+    {
+      "code": "7883",
+      "name": "サンメッセ",
+      "pct": 3.36,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "5884",
+      "name": "クラダシ",
+      "pct": 3.23,
+      "turnover_m": 0.1,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "6897",
+      "name": "ツインバード",
+      "pct": 40.65,
+      "turnover_m": 98.8,
+      "mcap_oku": 60
+    },
+    {
+      "code": "584A",
+      "name": "ＬｉＮＫＸ",
+      "pct": 21.82,
+      "turnover_m": 182.6,
+      "mcap_oku": null
+    },
+    {
+      "code": "6181",
+      "name": "タメニー",
+      "pct": 17.14,
+      "turnover_m": 14.1,
+      "mcap_oku": 31
+    },
+    {
+      "code": "3237",
+      "name": "イントランス",
+      "pct": 11.52,
+      "turnover_m": 20.5,
+      "mcap_oku": 43
+    },
+    {
+      "code": "281A",
+      "name": "インフォメティス",
+      "pct": 7.85,
+      "turnover_m": 43.5,
+      "mcap_oku": 37
+    },
+    {
+      "code": "4265",
+      "name": "Ｉｎｓｔｉｔｕｔｉｏｎ　ｆｏｒ　ａ　Ｇｌｏｂａｌ　Ｓｏｃｉｅｔｙ",
+      "pct": 7.37,
+      "turnover_m": 23.0,
+      "mcap_oku": 18
+    },
+    {
+      "code": "149A",
+      "name": "シンカ",
+      "pct": 6.3,
+      "turnover_m": 76.5,
+      "mcap_oku": 32
+    },
+    {
+      "code": "581A",
+      "name": "ＧＯ",
+      "pct": 4.69,
+      "turnover_m": 85.3,
+      "mcap_oku": null
+    },
+    {
+      "code": "4840",
+      "name": "トライアイズ",
+      "pct": 3.75,
+      "turnover_m": 60.3,
+      "mcap_oku": 63
+    },
+    {
+      "code": "5856",
+      "name": "エルアイイーエイチ",
+      "pct": 3.33,
+      "turnover_m": 29.2,
+      "mcap_oku": 3
+    }
+  ]
+}
