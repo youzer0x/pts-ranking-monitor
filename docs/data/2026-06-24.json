@@ -1,0 +1,436 @@
+{
+  "session_date": "2026-06-24",
+  "next_date": "2026-06-25",
+  "session_window": "2026-06-24 17:00 → 2026-06-25 06:00 JST",
+  "generated_at": "2026-06-25 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 5000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 9,
+    "dropped_turnover": 24,
+    "dropped_mcap": 4
+  },
+  "rows": [
+    {
+      "code": "3010",
+      "name": "ポラリス・ホールディングス",
+      "market": "スタンダード",
+      "mcap_oku": 393,
+      "mcap_flag": "",
+      "pct": 29.17,
+      "pts": 217.0,
+      "close": 168.0,
+      "volume": 217600,
+      "turnover_yen": 47219200,
+      "turnover_m": 47.2,
+      "shoutfy_jq": 233914680,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "3010",
+          "name": "ポラリスＨＤ",
+          "title": "株主還元方針の見直し及び2027 年３月期配当予想の修正（増配）に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578025.pdf"
+        }
+      ],
+      "factor": "2027年3月期の配当予想修正（増配）と株主還元方針の見直しを16:00に適時開示。サプライズとなった配当増額発表が好感され急騰した。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "4978",
+      "name": "リプロセル",
+      "market": "グロース",
+      "mcap_oku": 114,
+      "mcap_flag": "†",
+      "pct": 25.0,
+      "pts": 150.0,
+      "close": 120.0,
+      "volume": 259100,
+      "turnover_yen": 38865000,
+      "turnover_m": 38.9,
+      "shoutfy_jq": 95147891,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "4978",
+          "name": "Ｇ－リプロセル",
+          "title": "日本国内における脊髄小脳変性症（ＳＣＡ３型及びＳＣＡ６型）を対象とした幹細胞製品「Stemchymal」の製造販売承認申請に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578295.pdf"
+        }
+      ],
+      "factor": "脊髄小脳変性症（SCA3型・SCA6型）を対象とした幹細胞製品「Stemchymal」について、日本国内での製造販売承認申請を実施したと15:30に適時開示。国内薬事申請の進展をナイトセッションが評価し急騰した。",
+      "factor_kind": "開示",
+      "rank": 2,
+      "shares_kabutan": 98079891,
+      "mcap_kabutan_oku": 118
+    },
+    {
+      "code": "6740",
+      "name": "ジャパンディスプレイ",
+      "market": "プライム",
+      "mcap_oku": 2328,
+      "mcap_flag": "†",
+      "pct": 18.33,
+      "pts": 71.0,
+      "close": 60.0,
+      "volume": 13588900,
+      "turnover_yen": 964811900,
+      "turnover_m": 964.8,
+      "shoutfy_jq": 3880393562,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:00",
+          "code": "6740",
+          "name": "ＪＤＩ",
+          "title": "第24期定時株主総会及び普通株主様による種類株主総会における議決権行使結果のお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568527.pdf"
+        }
+      ],
+      "factor": "6月24日開催の第24期定時株主総会で、完全子会社JDI Design and Development合同会社（JDIDD）の吸収合併（7月1日予定）等の構造改革議案が可決。その議決権行使結果を17:00に適時開示した。日米共同による大型ディスプレイ工場構想（推定$130億規模）が注目されるなか、AGMでの再建関連議案全可決が確認されたことが材料視されたとみられる。",
+      "factor_kind": "開示",
+      "rank": 3,
+      "shares_kabutan": 4265632462,
+      "mcap_kabutan_oku": 2559
+    },
+    {
+      "code": "9256",
+      "name": "サクシード",
+      "market": "グロース",
+      "mcap_oku": 159,
+      "mcap_flag": "",
+      "pct": 7.58,
+      "pts": 4776.5,
+      "close": 4440.0,
+      "volume": 16200,
+      "turnover_yen": 77379300,
+      "turnover_m": 77.4,
+      "shoutfy_jq": 3579950,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "9256",
+          "name": "Ｇ－サクシード",
+          "title": "事業計画及び成長可能性に関する事項",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577715.pdf"
+        }
+      ],
+      "factor": "グロース市場上場規程に基づく「事業計画及び成長可能性に関する事項」を適時開示。次期（2027年3月期）売上高27.9%増・営業利益11.3%増の計画に加え、教育AI子会社の設立や児童福祉領域への事業拡大による成長ロードマップが示されたことが評価された。",
+      "factor_kind": "開示",
+      "rank": 4
+    },
+    {
+      "code": "7245",
+      "name": "大同メタル工業",
+      "market": "プライム",
+      "mcap_oku": 796,
+      "mcap_flag": "",
+      "pct": 3.71,
+      "pts": 1737.2,
+      "close": 1675.0,
+      "volume": 8100,
+      "turnover_yen": 14071320,
+      "turnover_m": 14.1,
+      "shoutfy_jq": 47520253,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。新造船需要の高まりとデータセンター向け発電機用すべり軸受の好調により、2027年3月期に15期ぶりとなる過去最高益更新見通し（経常利益前期比+21.6%）を5月に公表済み。造船・産業機械テーマへの継続的な評価が背景にある。",
+      "factor_kind": "テーマ",
+      "rank": 5
+    },
+    {
+      "code": "7220",
+      "name": "武蔵精密工業",
+      "market": "プライム",
+      "mcap_oku": 2646,
+      "mcap_flag": "",
+      "pct": 3.59,
+      "pts": 4180.0,
+      "close": 4035.0,
+      "volume": 19500,
+      "turnover_yen": 81510000,
+      "turnover_m": 81.5,
+      "shoutfy_jq": 65581861,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。ホンダグループ系の精密機械部品メーカーで二輪・四輪向け部品を主力とする。2026年5月にはインド子会社がEV向け統合型電動パワートレインシステムの供給基本合意書を締結しており、EV事業拡大への期待が継続。",
+      "factor_kind": "テーマ",
+      "rank": 6
+    },
+    {
+      "code": "5016",
+      "name": "ＪＸ金属",
+      "market": "プライム",
+      "mcap_oku": 43016,
+      "mcap_flag": "†",
+      "pct": 3.58,
+      "pts": 4799.0,
+      "close": 4633.0,
+      "volume": 374700,
+      "turnover_yen": 1798185300,
+      "turnover_m": 1798.2,
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "Micron TechnologyがFY2026第3四半期決算（6月24日米引け後）で売上高$41.5B・EPS$25.11と事前予想を大幅超過、第4四半期ガイダンスも$50B（予想比大幅超過）と強いAIデータセンター向けHBM需要を確認。米半導体ETF（SMH）が時間外+3%超高。同社は6月16日に同社比較リリースでAIデータセンター向け光通信インフラ用インジウムリン（InP）基板の生産能力を最大10倍（4か年・最大1,200億円投資）に拡大すると発表済みであり、AI半導体材料銘柄として連想買いが波及したとみられる。",
+      "factor_kind": "報道",
+      "rank": 7,
+      "shares_kabutan": 953183210,
+      "mcap_kabutan_oku": 44161
+    },
+    {
+      "code": "6762",
+      "name": "ＴＤＫ",
+      "market": "プライム",
+      "mcap_oku": 74178,
+      "mcap_flag": "",
+      "pct": 3.22,
+      "pts": 3939.0,
+      "close": 3816.0,
+      "volume": 28200,
+      "turnover_yen": 111079800,
+      "turnover_m": 111.1,
+      "shoutfy_jq": 1943859885,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "Micron TechnologyのFY2026第3四半期大幅増収増益決算（6月24日米引け後）がAIデータセンター・半導体需要の堅調を裏付け、米半導体ETFが時間外+3%超高。スマートフォン向け小型電池世界首位でAI端末・産業機器向け電子部品を手掛けるTDKにも連想買いが入ったとみられる。26年3月期は好業績が続き通期上方修正済み。",
+      "factor_kind": "報道",
+      "rank": 8
+    },
+    {
+      "code": "5802",
+      "name": "住友電気工業",
+      "market": "プライム",
+      "mcap_oku": 97059,
+      "mcap_flag": "",
+      "pct": 3.15,
+      "pts": 12610.0,
+      "close": 12225.0,
+      "volume": 10800,
+      "turnover_yen": 136188000,
+      "turnover_m": 136.2,
+      "shoutfy_jq": 793940571,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "Micron TechnologyのFY2026第3四半期大幅増収増益（6月24日米引け後）がAIデータセンター需要の拡大を確認し、米半導体ETFが時間外+3%超高。住友電工はJX金属と並びインジウムリン（InP）基板の世界大手（シェア約4割）であり、AI光通信インフラ拡大の受益銘柄として買いが入ったとみられる。光半導体の生産能力をFY2026に前年度比2倍、FY2029にさらに2倍へ増強する計画を進めている。",
+      "factor_kind": "報道",
+      "rank": 9
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "2961",
+      "name": "日本調理機",
+      "pct": 17.79,
+      "turnover_m": 2.0,
+      "volume": 300
+    },
+    {
+      "code": "6334",
+      "name": "明治機械",
+      "pct": 17.17,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "6135",
+      "name": "牧野フライス製作所",
+      "pct": 11.81,
+      "turnover_m": 1.6,
+      "volume": 100
+    },
+    {
+      "code": "7359",
+      "name": "東京通信グループ",
+      "pct": 8.84,
+      "turnover_m": 0.1,
+      "volume": 400
+    },
+    {
+      "code": "9976",
+      "name": "セキチュー",
+      "pct": 8.59,
+      "turnover_m": 1.5,
+      "volume": 1300
+    },
+    {
+      "code": "9240",
+      "name": "デリバリーコンサルティング",
+      "pct": 7.89,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "368A",
+      "name": "北里コーポレーション",
+      "pct": 7.43,
+      "turnover_m": 1.3,
+      "volume": 1000
+    },
+    {
+      "code": "2499",
+      "name": "日本和装ホールディングス",
+      "pct": 7.43,
+      "turnover_m": 0.7,
+      "volume": 2300
+    },
+    {
+      "code": "9268",
+      "name": "オプティマスグループ",
+      "pct": 7.24,
+      "turnover_m": 0.3,
+      "volume": 800
+    },
+    {
+      "code": "3911",
+      "name": "Ａｉｍｉｎｇ",
+      "pct": 5.03,
+      "turnover_m": 0.1,
+      "volume": 400
+    },
+    {
+      "code": "7337",
+      "name": "ひろぎんホールディングス",
+      "pct": 4.6,
+      "turnover_m": 2.4,
+      "volume": 1100
+    },
+    {
+      "code": "6573",
+      "name": "ＣＲＡＶＩＡ",
+      "pct": 4.55,
+      "turnover_m": 0.2,
+      "volume": 9600
+    },
+    {
+      "code": "550A",
+      "name": "ソフトテックス",
+      "pct": 4.17,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "4344",
+      "name": "ソースネクスト",
+      "pct": 3.96,
+      "turnover_m": 0.2,
+      "volume": 2100
+    },
+    {
+      "code": "2323",
+      "name": "ｆｏｎｆｕｎ",
+      "pct": 3.87,
+      "turnover_m": 0.1,
+      "volume": 500
+    },
+    {
+      "code": "7571",
+      "name": "ヤマノホールディングス",
+      "pct": 3.72,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "3358",
+      "name": "Ｔｒａｉｌｈｅａｄ　Ｇｌｏｂａｌ　Ｈｏｌｄｉｎｇｓ",
+      "pct": 3.61,
+      "turnover_m": 0.2,
+      "volume": 2300
+    },
+    {
+      "code": "3133",
+      "name": "海帆",
+      "pct": 3.58,
+      "turnover_m": 1.0,
+      "volume": 8700
+    },
+    {
+      "code": "6574",
+      "name": "コンヴァノ",
+      "pct": 3.57,
+      "turnover_m": 0.1,
+      "volume": 1400
+    },
+    {
+      "code": "6629",
+      "name": "テクノホライゾン",
+      "pct": 3.44,
+      "turnover_m": 1.2,
+      "volume": 1100
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラス",
+      "pct": 3.08,
+      "turnover_m": 0.0,
+      "volume": 700
+    },
+    {
+      "code": "3842",
+      "name": "ネクストジェン",
+      "pct": 3.07,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "4331",
+      "name": "テイクアンドギヴ・ニーズ",
+      "pct": 3.04,
+      "turnover_m": 3.8,
+      "volume": 5600
+    },
+    {
+      "code": "6998",
+      "name": "日本タングステン",
+      "pct": 3.02,
+      "turnover_m": 0.4,
+      "volume": 200
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "584A",
+      "name": "ＬｉＮＫＸ",
+      "pct": 23.88,
+      "turnover_m": 21.2,
+      "mcap_oku": null
+    },
+    {
+      "code": "5721",
+      "name": "エスクリプトエナジー",
+      "pct": 16.79,
+      "turnover_m": 79.3,
+      "mcap_oku": 98
+    },
+    {
+      "code": "6181",
+      "name": "タメニー",
+      "pct": 10.3,
+      "turnover_m": 68.5,
+      "mcap_oku": 45
+    },
+    {
+      "code": "6659",
+      "name": "メディアリンクス",
+      "pct": 6.35,
+      "turnover_m": 36.7,
+      "mcap_oku": 48
+    }
+  ]
+}
