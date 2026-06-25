@@ -1,0 +1,404 @@
+{
+  "session_date": "2026-06-25",
+  "next_date": "2026-06-26",
+  "session_window": "2026-06-25 17:00 → 2026-06-26 06:00 JST",
+  "generated_at": "2026-06-26 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 7,
+    "dropped_turnover": 19,
+    "dropped_mcap": 5
+  },
+  "rows": [
+    {
+      "code": "3696",
+      "name": "セレス",
+      "market": "プライム",
+      "mcap_oku": 206,
+      "mcap_flag": "",
+      "pct": 20.66,
+      "pts": 2050.0,
+      "close": 1699.0,
+      "volume": 18000,
+      "turnover_yen": 36900000,
+      "turnover_m": 36.9,
+      "shoutfy_jq": 12116500,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "3696",
+          "name": "セレス",
+          "title": "持分法適用関連会社株式に関する基本合意書の締結および特別利益の計上に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579669.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3696",
+          "name": "セレス",
+          "title": "通期連結業績予想および配当予想の修正（増配）に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578093.pdf"
+        }
+      ],
+      "factor": "15:30に2件の開示を同時発表。①持分法適用関連会社の株式譲渡に関する基本合意書を締結し特別利益を計上予定（売却資金を原資に最大25億円の自己株式取得も予定）。②2026年12月期通期業績予想を上方修正するとともに年間配当を1株あたり90円（前期比10円増・3期連続増配）に修正。業績上方修正・増配・自社株取得・特別利益の複合発表が急騰の主因とみられる。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "2962",
+      "name": "テクニスコ",
+      "market": "スタンダード",
+      "mcap_oku": 153,
+      "mcap_flag": "",
+      "pct": 7.25,
+      "pts": 1790.0,
+      "close": 1669.0,
+      "volume": 42700,
+      "turnover_yen": 76433000,
+      "turnover_m": 76.4,
+      "shoutfy_jq": 9193374,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:00",
+          "code": "2962",
+          "name": "テクニスコ",
+          "title": "資金の借入及び返済に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625580631.pdf"
+        }
+      ],
+      "factor": "17:00（PTSナイト開幕と同時）に「資金の借入及び返済に関するお知らせ」を開示（開示本文の詳細は未確認）。欧米・アジア向けヒートシンク需要回復を背景に2026年6月期通期での営業黒字転換を見込む回復局面にあり、財務体制の整備として受け取られた可能性があるが、開示内容が上昇+7.25%の主因かは確認できず。",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "7068",
+      "name": "フィードフォースグループ",
+      "market": "グロース",
+      "mcap_oku": 115,
+      "mcap_flag": "",
+      "pct": 6.65,
+      "pts": 513.0,
+      "close": 481.0,
+      "volume": 30100,
+      "turnover_yen": 15441300,
+      "turnover_m": 15.4,
+      "shoutfy_jq": 23941658,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "7068",
+          "name": "Ｇ－ＦフォースＧ",
+          "title": "2026年５月期 決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579791.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "7068",
+          "name": "Ｇ－ＦフォースＧ",
+          "title": "2026年5月期決算説明資料（事業計画及び成長可能性に関する事項）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579841.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "7068",
+          "name": "Ｇ－ＦフォースＧ",
+          "title": "資本金の額の減少（減資）に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579820.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "7068",
+          "name": "Ｇ－ＦフォースＧ",
+          "title": "剰余金の配当に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579837.pdf"
+        }
+      ],
+      "factor": "15:30に2026年5月期通期決算を開示。売上高49.1億円（前期比+12.3%）・営業利益19.8億円（+24.4%）・純利益14.5億円（+44.2%）と増収増益。年間配当を1株あたり15円（前期比5円増）に設定し、翌期（2027年5月期）もさらに5円増の20円を予想。あわせて無償減資（資本金の額の減少）も発表した。",
+      "factor_kind": "開示",
+      "rank": 3
+    },
+    {
+      "code": "3656",
+      "name": "ＫＬａｂ",
+      "market": "プライム",
+      "mcap_oku": 167,
+      "mcap_flag": "†",
+      "pct": 4.55,
+      "pts": 218.5,
+      "close": 209.0,
+      "volume": 72200,
+      "turnover_yen": 15775700,
+      "turnover_m": 15.8,
+      "shoutfy_jq": 79860600,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "gumi共同開発の新作スマホゲーム「僕のヒーローアカデミア UNITED SURVIVAL」（略称ヒロサバ）の全世界同時事前登録が6月25日に開始。KLab公式プレスリリース（PR Times配信）および4GamerなどゲームメディアがKLab・gumi共同のタイトルとして当日報道。事前登録開始日は6月3日付TDnet開示で既に予告されていた。",
+      "factor_kind": "報道",
+      "rank": 4,
+      "shares_kabutan": 83792600,
+      "mcap_kabutan_oku": 175
+    },
+    {
+      "code": "1969",
+      "name": "高砂熱学工業",
+      "market": "プライム",
+      "mcap_oku": 6986,
+      "mcap_flag": "",
+      "pct": 3.46,
+      "pts": 5145.0,
+      "close": 4973.0,
+      "volume": 3000,
+      "turnover_yen": 15435000,
+      "turnover_m": 15.4,
+      "shoutfy_jq": 140478804,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "IFIS株予報によると、6月25日付で国内大手証券がレーティングを引き上げ（強気）・目標株価を6,000円に設定（終値4,973円比約+21%）。空調工事最大手として2026年3月期で4期連続過去最高益を達成しており、アナリスト評価の改善が引け後に買いを誘ったとみられる。証券会社名の詳細は一般メディアでは未確認。",
+      "factor_kind": "報道",
+      "rank": 5
+    },
+    {
+      "code": "6740",
+      "name": "ジャパンディスプレイ",
+      "market": "プライム",
+      "mcap_oku": 2134,
+      "mcap_flag": "†",
+      "pct": 3.45,
+      "pts": 56.9,
+      "close": 55.0,
+      "volume": 5133900,
+      "turnover_yen": 292118910,
+      "turnover_m": 292.1,
+      "shoutfy_jq": 3880393562,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:45",
+          "code": "6740",
+          "name": "ＪＤＩ",
+          "title": "借入金の返済のお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578908.pdf"
+        }
+      ],
+      "factor": "16:45（PTSナイトセッション開始直前）に「借入金の返済のお知らせ」を開示（日経会社情報DIGITAL確認）。74億円超の債務超過が続き12期連続最終赤字の同社において、借入金の返済完了は財務改善への一歩として受け取られたとみられる。",
+      "factor_kind": "開示",
+      "rank": 6,
+      "shares_kabutan": 4265632462,
+      "mcap_kabutan_oku": 2346
+    },
+    {
+      "code": "2121",
+      "name": "ＭＩＸＩ",
+      "market": "プライム",
+      "mcap_oku": 1820,
+      "mcap_flag": "†",
+      "pct": 3.29,
+      "pts": 2636.0,
+      "close": 2552.0,
+      "volume": 7900,
+      "turnover_yen": 20824400,
+      "turnover_m": 20.8,
+      "shoutfy_jq": 71330850,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "2121",
+          "name": "ＭＩＸＩ",
+          "title": "持分法適用関連会社の異動予定及び特別利益の計上見込みに関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579739.pdf"
+        }
+      ],
+      "factor": "15:30に「持分法適用関連会社の異動予定及び特別利益の計上見込みに関するお知らせ」を開示。持分法適用関連会社が同適用範囲外となる見込みで、それに伴い特別利益を計上する見通しを開示。一時的収益改善への期待が材料視されたとみられる。",
+      "factor_kind": "開示",
+      "rank": 7,
+      "shares_kabutan": 68530850,
+      "mcap_kabutan_oku": 1749
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "4395",
+      "name": "アクリート",
+      "pct": 14.56,
+      "turnover_m": 9.4,
+      "volume": 11900
+    },
+    {
+      "code": "3903",
+      "name": "ｇｕｍｉ",
+      "pct": 13.71,
+      "turnover_m": 4.1,
+      "volume": 16000
+    },
+    {
+      "code": "9421",
+      "name": "エヌジェイホールディングス",
+      "pct": 10.49,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "6335",
+      "name": "東京機械製作所",
+      "pct": 10.14,
+      "turnover_m": 5.8,
+      "volume": 8300
+    },
+    {
+      "code": "3976",
+      "name": "シャノン",
+      "pct": 10.06,
+      "turnover_m": 0.3,
+      "volume": 600
+    },
+    {
+      "code": "2329",
+      "name": "東北新社",
+      "pct": 7.67,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "2001",
+      "name": "ニップン",
+      "pct": 6.95,
+      "turnover_m": 2.4,
+      "volume": 800
+    },
+    {
+      "code": "1968",
+      "name": "太平電業",
+      "pct": 6.84,
+      "turnover_m": 0.8,
+      "volume": 300
+    },
+    {
+      "code": "3562",
+      "name": "Ｎｏ．１",
+      "pct": 6.8,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "3681",
+      "name": "ブイキューブ",
+      "pct": 6.67,
+      "turnover_m": 1.1,
+      "volume": 115800
+    },
+    {
+      "code": "6223",
+      "name": "西部技研",
+      "pct": 6.1,
+      "turnover_m": 6.0,
+      "volume": 2300
+    },
+    {
+      "code": "3933",
+      "name": "チエル",
+      "pct": 6.01,
+      "turnover_m": 0.1,
+      "volume": 300
+    },
+    {
+      "code": "2997",
+      "name": "ストレージ王",
+      "pct": 5.86,
+      "turnover_m": 0.3,
+      "volume": 300
+    },
+    {
+      "code": "4422",
+      "name": "ＶＡＬＵＥＮＥＸ",
+      "pct": 5.82,
+      "turnover_m": 1.2,
+      "volume": 2000
+    },
+    {
+      "code": "6620",
+      "name": "宮越ホールディングス",
+      "pct": 5.68,
+      "turnover_m": 3.6,
+      "volume": 4500
+    },
+    {
+      "code": "4446",
+      "name": "Ｌｉｎｋ−Ｕグループ",
+      "pct": 5.38,
+      "turnover_m": 1.5,
+      "volume": 2100
+    },
+    {
+      "code": "4772",
+      "name": "ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ",
+      "pct": 4.48,
+      "turnover_m": 0.5,
+      "volume": 7300
+    },
+    {
+      "code": "6177",
+      "name": "ＡｐｐＢａｎｋ",
+      "pct": 4.17,
+      "turnover_m": 0.2,
+      "volume": 2100
+    },
+    {
+      "code": "2776",
+      "name": "新都ホールディングス",
+      "pct": 3.33,
+      "turnover_m": 0.5,
+      "volume": 5400
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "7578",
+      "name": "ニチリョク",
+      "pct": 17.54,
+      "turnover_m": 13.7,
+      "mcap_oku": 11
+    },
+    {
+      "code": "2961",
+      "name": "日本調理機",
+      "pct": 6.12,
+      "turnover_m": 14.8,
+      "mcap_oku": 75
+    },
+    {
+      "code": "584A",
+      "name": "ＬｉＮＫＸ",
+      "pct": 5.78,
+      "turnover_m": 600.1,
+      "mcap_oku": null
+    },
+    {
+      "code": "4664",
+      "name": "アール・エス・シー",
+      "pct": 4.25,
+      "turnover_m": 83.5,
+      "mcap_oku": 33
+    },
+    {
+      "code": "550A",
+      "name": "ソフトテックス",
+      "pct": 4.22,
+      "turnover_m": 30.4,
+      "mcap_oku": 21
+    }
+  ]
+}
