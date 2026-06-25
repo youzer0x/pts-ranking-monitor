@@ -62,7 +62,7 @@ def generate_email_html(data, pages_url, max_items=25):
     <div style="background:#11243f;color:#fff;padding:18px 22px;">
       <h1 style="margin:0;font-size:19px;font-weight:600;">📈 PTS 夜間 値上がり率ランキング</h1>
       <p style="margin:6px 0 0;font-size:13px;opacity:0.9;">{date_str}｜該当 {n} 社｜{win}</p>
-      <p style="margin:4px 0 0;font-size:11px;opacity:0.7;">条件：上昇率≥+3% かつ 売買代金≥5百万円／東証個別・時価総額≥100億円</p>
+      <p style="margin:4px 0 0;font-size:11px;opacity:0.7;">条件：上昇率≥+3% かつ 売買代金≥10百万円／東証個別・時価総額≥100億円</p>
     </div>
     <div style="padding:16px 20px;">
       <div style="text-align:center;margin:0 0 14px;">
@@ -216,7 +216,7 @@ function render(){
     (data.generated_at?'<div class="chip">生成 '+esc(data.generated_at)+'</div>':'');
   const c=data.criteria||{};
   document.getElementById('note').textContent=
-    '抽出条件：PTS上昇率≥+'+(c.min_pct??3)+'% かつ 売買代金≥'+((c.min_turnover_yen??5e6)/1e6)+'百万円／東証個別株のみ・時価総額≥'+(c.min_mcap_oku??100)+'億円。時価総額は当日終値×発行済株式数（億円・四捨五入）。† は増資・自己株で株探最新株数と>1%乖離。';
+    '抽出条件：PTS上昇率≥+'+(c.min_pct??3)+'% かつ 売買代金≥'+((c.min_turnover_yen??10e6)/1e6)+'百万円／東証個別株のみ・時価総額≥'+(c.min_mcap_oku??100)+'億円。時価総額は当日終値×発行済株式数（億円・四捨五入）。† は増資・自己株で株探最新株数と>1%乖離。';
   let h='<table><thead><tr><th class="r">#</th><th>コード</th><th>銘柄</th><th>市場</th><th class="r">上昇率</th><th class="r">上昇幅<br>(円)</th><th class="r">PTS気配<br>(円)</th><th class="r">東証終値<br>(円)</th><th class="r">売買代金<br>(百万円)</th><th>変動要因</th></tr></thead><tbody>';
   rows.forEach(r=>{
     let factor=esc(r.factor||'（材料未確認）');
@@ -242,7 +242,7 @@ function render(){
   const dt=data.dropped_turnover||[];
   let dh='';
   if(dt.length){
-    dh='<details class="dropped card" style="padding:0 14px 10px;"><summary>参考：上昇率≥+3% だが売買代金&lt;5百万円 で除外（薄商い'+dt.length+'件）</summary><table><thead><tr><th>コード</th><th>銘柄</th><th class="r">上昇率</th><th class="r">売買代金<br>(百万円)</th></tr></thead><tbody>';
+    dh='<details class="dropped card" style="padding:0 14px 10px;"><summary>参考：上昇率≥+3% だが売買代金&lt;10百万円 で除外（薄商い'+dt.length+'件）</summary><table><thead><tr><th>コード</th><th>銘柄</th><th class="r">上昇率</th><th class="r">売買代金<br>(百万円)</th></tr></thead><tbody>';
     dt.forEach(r=>{dh+='<tr><td class="code">'+esc(fmtCode(r.code))+'</td><td class="name">'+esc(r.name)+'</td><td class="pct" data-label="上昇率">'+fmtPct(r.pct)+'</td><td class="num" data-label="売買代金(百万円)">'+fmtTurnover(r.turnover_m)+'</td></tr>';});
     dh+='</tbody></table></details>';
   }

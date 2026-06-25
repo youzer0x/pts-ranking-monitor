@@ -5,13 +5,13 @@
   "generated_at": "2026-06-16 16:22 JST",
   "criteria": {
     "min_pct": 3.0,
-    "min_turnover_yen": 5000000,
+    "min_turnover_yen": 10000000,
     "min_mcap_oku": 100
   },
   "counts": {
-    "qualifying": 20,
-    "dropped_turnover": 23,
-    "dropped_mcap": 10
+    "qualifying": 18,
+    "dropped_turnover": 27,
+    "dropped_mcap": 8
   },
   "rows": [
     {
@@ -437,36 +437,6 @@
       "rank": 13
     },
     {
-      "code": "2586",
-      "name": "フルッタフルッタ",
-      "market": "グロース",
-      "mcap_oku": 100,
-      "mcap_flag": "†",
-      "pct": 4.26,
-      "pts": 98.0,
-      "close": 94.0,
-      "volume": 59000,
-      "turnover_yen": 5782000,
-      "turnover_m": 5.8,
-      "shoutfy_jq": 106394569,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
-      "disclosures": [
-        {
-          "time": "15:30",
-          "code": "2586",
-          "name": "Ｇ－フルッタフルッタ",
-          "title": "第14回新株予約権（行使価額修正条項付）の行使価額の修正に関するお知らせ",
-          "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570646.pdf"
-        }
-      ],
-      "factor": "6/15 15:30 開示：第14回新株予約権(行使価額修正条項付)の行使価額の修正(PTS売買代金は¥6Mと小さい)",
-      "factor_kind": "開示",
-      "rank": 14,
-      "shares_kabutan": 109829569,
-      "mcap_kabutan_oku": 103
-    },
-    {
       "code": "290A",
       "name": "Ｓｙｎｓｐｅｃｔｉｖｅ",
       "market": "グロース",
@@ -484,7 +454,7 @@
       "disclosures": [],
       "factor": "防衛・宇宙テーマ(大型契約・6/4のレーティング引き上げ等)の一環。6/15固有材料は確認できず",
       "factor_kind": "テーマ",
-      "rank": 15
+      "rank": 14
     },
     {
       "code": "6994",
@@ -504,27 +474,7 @@
       "disclosures": [],
       "factor": "6/15固有の材料は確認できず(コンデンサ/需給)",
       "factor_kind": "テーマ",
-      "rank": 16
-    },
-    {
-      "code": "6055",
-      "name": "ジャパンマテリアル",
-      "market": "プライム",
-      "mcap_oku": 2597,
-      "mcap_flag": "",
-      "pct": 3.36,
-      "pts": 2553.0,
-      "close": 2470.0,
-      "volume": 2200,
-      "turnover_yen": 5616600,
-      "turnover_m": 5.6,
-      "shoutfy_jq": 105149520,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
-      "disclosures": [],
-      "factor": "半導体ガス・材料供給。6/15固有の材料は確認できず",
-      "factor_kind": "テーマ",
-      "rank": 17
+      "rank": 15
     },
     {
       "code": "7220",
@@ -544,7 +494,7 @@
       "disclosures": [],
       "factor": "6/15固有の材料は確認できず(自動車部品/需給)",
       "factor_kind": "テーマ",
-      "rank": 18
+      "rank": 16
     },
     {
       "code": "3825",
@@ -564,7 +514,7 @@
       "disclosures": [],
       "factor": "暗号資産保有・エネルギー事業で相場/需給連動の可能性。6/15固有材料は確認できず",
       "factor_kind": "テーマ",
-      "rank": 19
+      "rank": 17
     },
     {
       "code": "3350",
@@ -584,7 +534,7 @@
       "disclosures": [],
       "factor": "ビットコイン保有戦略銘柄でBTC相場・需給に連動。6/15固有材料は確認できず",
       "factor_kind": "テーマ",
-      "rank": 20
+      "rank": 18
     }
   ],
   "dropped_turnover": [
@@ -594,6 +544,13 @@
       "pct": 20.0,
       "turnover_m": 0.0,
       "volume": 100
+    },
+    {
+      "code": "4179",
+      "name": "ジーネクスト",
+      "pct": 16.67,
+      "turnover_m": 6.0,
+      "volume": null
     },
     {
       "code": "9237",
@@ -659,6 +616,13 @@
       "volume": 5500
     },
     {
+      "code": "2586",
+      "name": "フルッタフルッタ",
+      "pct": 4.26,
+      "turnover_m": 5.8,
+      "volume": 59000
+    },
+    {
       "code": "6347",
       "name": "プラコー",
       "pct": 4.17,
@@ -715,6 +679,13 @@
       "volume": 2500
     },
     {
+      "code": "6055",
+      "name": "ジャパンマテリアル",
+      "pct": 3.36,
+      "turnover_m": 5.6,
+      "volume": 2200
+    },
+    {
       "code": "5805",
       "name": "ＳＷＣＣ",
       "pct": 3.35,
@@ -734,6 +705,13 @@
       "pct": 3.17,
       "turnover_m": 0.3,
       "volume": 300
+    },
+    {
+      "code": "460A",
+      "name": "ＢＲＡＮＵ",
+      "pct": 3.16,
+      "turnover_m": 8.5,
+      "volume": null
     },
     {
       "code": "9444",
@@ -764,13 +742,6 @@
       "pct": 21.38,
       "turnover_m": 16.2,
       "mcap_oku": 76
-    },
-    {
-      "code": "4179",
-      "name": "ジーネクスト",
-      "pct": 16.67,
-      "turnover_m": 6.0,
-      "mcap_oku": 33
     },
     {
       "code": "3664",
@@ -813,13 +784,6 @@
       "pct": 3.69,
       "turnover_m": 11.3,
       "mcap_oku": 19
-    },
-    {
-      "code": "460A",
-      "name": "ＢＲＡＮＵ",
-      "pct": 3.16,
-      "turnover_m": 8.5,
-      "mcap_oku": 40
     }
   ]
 }

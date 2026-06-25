@@ -5,7 +5,7 @@
 
 フィルタ:
   - 東証個別株のみ（J-Quants ProdCat=011 かつ Mkt∈{0111,0112,0113}）。ETF/REIT/地方上場は除外。
-  - PTS上昇率 ≥ min_pct（既定 +3%）かつ PTS売買代金 ≥ min_turnover（既定 ¥5,000,000）。
+  - PTS上昇率 ≥ min_pct（既定 +3%）かつ PTS売買代金 ≥ min_turnover（既定 ¥10,000,000）。
   - 時価総額 ≥ min_mcap 億円（既定 100）。時価総額＝J-Quants 終値×発行済株式数×分割/併合補正。
   - 期中の増資・自己株で J-Quants 株数と株探最新株数が >1% 乖離する銘柄は mcap_flag="†"。
 
@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import kabutan_pts, jquants, tdnet, business_day
 
 
-def build(session_iso, min_pct=3.0, min_turnover=5_000_000, min_mcap=100,
+def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
           from_files=None, do_kabutan_shares=True, verbose=True):
     def log(*a):
         if verbose:
@@ -120,7 +120,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="セッション日 YYYY-MM-DD（省略時は直近営業日）")
     ap.add_argument("--min-pct", type=float, default=3.0)
-    ap.add_argument("--min-turnover", type=float, default=5_000_000)
+    ap.add_argument("--min-turnover", type=float, default=10_000_000)
     ap.add_argument("--min-mcap", type=float, default=100)
     ap.add_argument("--out", help="JSON 出力先パス（省略時は stdout）")
     ap.add_argument("--no-kabutan-shares", action="store_true")

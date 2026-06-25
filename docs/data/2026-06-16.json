@@ -5,13 +5,13 @@
   "generated_at": "2026-06-17 09:09 JST",
   "criteria": {
     "min_pct": 3.0,
-    "min_turnover_yen": 5000000,
+    "min_turnover_yen": 10000000,
     "min_mcap_oku": 100
   },
   "counts": {
     "qualifying": 10,
-    "dropped_turnover": 22,
-    "dropped_mcap": 5
+    "dropped_turnover": 23,
+    "dropped_mcap": 4
   },
   "rows": [
     {
@@ -263,6 +263,13 @@
       "volume": 100
     },
     {
+      "code": "6721",
+      "name": "ウインテスト",
+      "pct": 11.1,
+      "turnover_m": 5.9,
+      "volume": null
+    },
+    {
       "code": "6787",
       "name": "メイコー",
       "pct": 9.04,
@@ -431,13 +438,6 @@
       "pct": 13.5,
       "turnover_m": 13.3,
       "mcap_oku": 29
-    },
-    {
-      "code": "6721",
-      "name": "ウインテスト",
-      "pct": 11.1,
-      "turnover_m": 5.9,
-      "mcap_oku": 40
     },
     {
       "code": "3559",

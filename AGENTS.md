@@ -39,7 +39,7 @@ python scripts/check_gate.py
 python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 ```
 - 株探 PTS ナイト値上がり＋J-Quants 時価総額＋TDnet 開示突合を結合し、抽出条件を満たす銘柄を JSON 化する。
-- 抽出条件（確定）：**東証個別株のみ**（J-Quants `ProdCat=011`＋`Mkt∈{0111,0112,0113}`／ETF・REIT・地方単独上場は除外）、**PTS上昇率≥+3% かつ 売買代金(=PTS気配×夜間出来高)≥¥5,000,000**、**時価総額≥100億円**。
+- 抽出条件（確定）：**東証個別株のみ**（J-Quants `ProdCat=011`＋`Mkt∈{0111,0112,0113}`／ETF・REIT・地方単独上場は除外）、**PTS上昇率≥+3% かつ 売買代金(=PTS気配×夜間出来高)≥¥10,000,000**、**時価総額≥100億円**。
 - 時価総額＝**J-Quants 当日終値×発行済株式数×分割/併合補正**（億円・四捨五入。1兆円以上も億円表示）。増資/自己株で株探最新株数と>1%乖離する銘柄は `mcap_flag="†"` が付き、`mcap_kabutan_oku`・`shares_kabutan` も入る。
 - 銘柄名は **J-Quants 正式名称（`CoName`・「株式会社」は付けない）** を用いる。**略称は使わない**（例：9984＝ソフトバンクグループ、6981＝村田製作所、6920＝レーザーテック）。
 - 出力 JSON：`rows`（採用銘柄）、`dropped_turnover`（≥+3%だが薄商い）、`dropped_mcap`（<100億）。各 row の `disclosures` には**当日15:30以降の TDnet 開示**が入っている。**この段階に変動要因は無い**（`factor`・`factor_kind` は空）。
@@ -88,7 +88,7 @@ python scripts/publish.py docs/tmp/ranking.json
 ## 品質ゲート（出力前チェック）
 
 - [ ] ゲートが `SESSION=...` を返したか（`SKIP` なら何もしない）。
-- [ ] 抽出条件（上昇率≥+3% かつ 売買代金≥¥5M／東証個別／時価総額≥100億）を満たす銘柄のみ `rows` にあるか。
+- [ ] 抽出条件（上昇率≥+3% かつ 売買代金≥¥10M／東証個別／時価総額≥100億）を満たす銘柄のみ `rows` にあるか。
 - [ ] 各 row の `factor`/`factor_kind` を、**[開示]（15:30以降）→[報道]（一次記事＋配信時刻でセッション窓と整合）→[テーマ]** の順で裏取りして埋めたか。**検索要約を出典にしていないか**。材料が無ければ正直に「材料未確認」としたか。
 - [ ] 個人発信を引用・参照していないか。数値は実測のみで創作がないか。投資助言をしていないか。
 - [ ] `publish.py` が成功し、`docs/data/<SESSION>.json`・`manifest.json`・`index.html` が更新されたか。Gmail が送信されたか。

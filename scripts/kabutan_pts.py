@@ -24,7 +24,7 @@ MOBILE_BASE = "https://s.kabutan.jp/warnings/pts_night_price_increase/"
 MOBILE_UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
              "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
 DEFAULT_MIN_PCT = 3.0          # 上昇率の下限（%）
-DEFAULT_MIN_TURNOVER = 5_000_000  # 売買代金の下限（円）
+DEFAULT_MIN_TURNOVER = 10_000_000  # 売買代金の下限（円）
 MAX_PAGES = 40
 
 # 1行ぶんの数値列をまとめて取る（通常終値 / PTS気配 / 上昇率 / 出来高）。
