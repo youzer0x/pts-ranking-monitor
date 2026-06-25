@@ -5,7 +5,7 @@
   "generated_at": "2026-06-25 06:07 JST",
   "criteria": {
     "min_pct": 3.0,
-    "min_turnover_yen": 5000000,
+    "min_turnover_yen": 10000000,
     "min_mcap_oku": 100
   },
   "counts": {

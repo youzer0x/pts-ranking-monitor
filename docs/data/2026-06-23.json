@@ -5,12 +5,12 @@
   "generated_at": "2026-06-24 06:07 JST",
   "criteria": {
     "min_pct": 3.0,
-    "min_turnover_yen": 5000000,
+    "min_turnover_yen": 10000000,
     "min_mcap_oku": 100
   },
   "counts": {
-    "qualifying": 7,
-    "dropped_turnover": 16,
+    "qualifying": 6,
+    "dropped_turnover": 17,
     "dropped_mcap": 10
   },
   "rows": [
@@ -176,26 +176,6 @@
       "rank": 6,
       "shares_kabutan": 138779700,
       "mcap_kabutan_oku": 1596
-    },
-    {
-      "code": "3853",
-      "name": "アステリア",
-      "market": "プライム",
-      "mcap_oku": 204,
-      "mcap_flag": "",
-      "pct": 3.0,
-      "pts": 1200.0,
-      "close": 1165.0,
-      "volume": 6000,
-      "turnover_yen": 7200000,
-      "turnover_m": 7.2,
-      "shoutfy_jq": 17491265,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
-      "disclosures": [],
-      "factor": "当日固有の材料は確認できず",
-      "factor_kind": "テーマ",
-      "rank": 7
     }
   ],
   "dropped_turnover": [
@@ -310,6 +290,13 @@
       "pct": 3.23,
       "turnover_m": 0.1,
       "volume": 100
+    },
+    {
+      "code": "3853",
+      "name": "アステリア",
+      "pct": 3.0,
+      "turnover_m": 7.2,
+      "volume": 6000
     }
   ],
   "dropped_mcap": [
