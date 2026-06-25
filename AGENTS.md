@@ -15,8 +15,9 @@
 1. 営業日ゲート     python scripts/check_gate.py        → SKIP なら何もせず終了
 2. 素データ生成      python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 3. 変動要因の裏取り   各 row の factor / factor_kind を埋める（★Claude の中核作業・後述 §3）
-4. 公開＋通知        python scripts/publish.py docs/tmp/ranking.json
+4. 公開ファイル生成   python scripts/publish.py docs/tmp/ranking.json --no-email（メールはまだ送らない）
 5. commit & push    docs/ を main にコミットし git push origin HEAD:main（claude/ ブランチ不可）
+6. メール通知        python scripts/publish.py docs/tmp/ranking.json --notify（Pages 反映を待って Gmail 送信）
 ```
 
 `TZ=Asia/Tokyo` 前提。`JQUANTS_API_KEY`・`GMAIL_CLIENT_ID`・`GMAIL_CLIENT_SECRET`・
@@ -63,14 +64,13 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 
 JSON 編集後は `docs/tmp/ranking.json` を**上書き保存**する。**`factor`/`factor_kind` 以外のフィールド（`code`/`name`/`market`/`mcap_oku`/`pct`/`pts`/`close`/`turnover_m`/`disclosures` 等）と `rows` の順序は一切変更しない**。特に **`name` を株探の略称で上書きしない**（最終的に `publish.py` が J-Quants 正式名称＝`CoName` へ自動正規化するが、そもそも書き換えないこと）。
 
-## 4. 公開＋通知
+## 4. 公開ファイルの生成（メールはまだ送らない）
 
 ```bash
-python scripts/publish.py docs/tmp/ranking.json
+python scripts/publish.py docs/tmp/ranking.json --no-email
 ```
-- `docs/data/<SESSION>.json` を保存、`manifest.json` を更新、`docs/index.html` を再生成し、**Gmail 通知**を送る。
+- `docs/data/<SESSION>.json` を保存、`manifest.json` を更新、`docs/index.html` を再生成する。**この段階では Gmail を送らない**（送信は §6）。
 - Pages URL は環境変数 `PAGES_URL`（無ければ `GITHUB_REPOSITORY_OWNER`/`GITHUB_REPOSITORY` から推定）。
-- 動作確認だけでメールを送りたくない場合は `--no-email` を付ける。
 
 ## 5. commit & push（必ず main へ）
 
@@ -83,6 +83,18 @@ python scripts/publish.py docs/tmp/ranking.json
   ```
 - `docs/tmp/` は `.gitignore` 済み（コミットしない）。
 
+## 6. メール通知（Pages 反映後に送信）
+
+```bash
+python scripts/publish.py docs/tmp/ranking.json --notify
+```
+- **GitHub Pages が当日 SESSION を実際に配信し始める**（`data/manifest.json` の最新日付＝SESSION になる）まで
+  キャッシュ無効化付きで**最大5分ポーリング**し、確認後にメール HTML を **Gmail 通知**（Gmail API／HTTPS）で送る。
+- **必ず §5 の push の後**に実行する。push 前に送ると、読者がリンクを開いた時点で Pages が
+  まだ前コミット（最新日付＝前営業日）を返し、当日分が見えない（=メールのリンク先ラグ）。`--notify` はその窓を閉じる。
+- ライブ確認の取得先は Pages ホスト（`*.github.io`）。カスタム環境の**ネット許可に `github.io` を含める**こと
+  （未許可だと毎回失敗→5分後に送信＝従来同様ラグが残る）。`--notify` は生成・コミットを行わない（§4/§5 済み前提）。
+
 ---
 
 ## 品質ゲート（出力前チェック）
@@ -91,8 +103,9 @@ python scripts/publish.py docs/tmp/ranking.json
 - [ ] 抽出条件（上昇率≥+3% かつ 売買代金≥¥10M／東証個別／時価総額≥100億）を満たす銘柄のみ `rows` にあるか。
 - [ ] 各 row の `factor`/`factor_kind` を、**[開示]（15:30以降）→[報道]（一次記事＋配信時刻でセッション窓と整合）→[テーマ]** の順で裏取りして埋めたか。**検索要約を出典にしていないか**。材料が無ければ正直に「材料未確認」としたか。
 - [ ] 個人発信を引用・参照していないか。数値は実測のみで創作がないか。投資助言をしていないか。
-- [ ] `publish.py` が成功し、`docs/data/<SESSION>.json`・`manifest.json`・`index.html` が更新されたか。Gmail が送信されたか。
+- [ ] `publish.py --no-email`（§4）が成功し、`docs/data/<SESSION>.json`・`manifest.json`・`index.html` が更新されたか。
 - [ ] `docs/` を **main** にコミット＆プッシュしたか（`git push origin HEAD:main`。`claude/...` ブランチではない）。
+- [ ] **push の後**に `publish.py --notify`（§6）を実行し、`live confirmed` を確認のうえ Gmail が送信されたか（push 前に送っていないか）。
 
 ## データソースと役割（再掲）
 

@@ -128,6 +128,7 @@ git push -u origin main
      kabutan.jp
      api.jquants.com
      www.release.tdnet.info
+     あなたの名前.github.io
      nikkei.com
      asia.nikkei.com
      reuters.com
@@ -141,6 +142,7 @@ git push -u origin main
      diamond.jp
      ```
    - メール送信（Gmail API）の `gmail.googleapis.com`・`oauth2.googleapis.com` は既定の `*.googleapis.com` に含まれるため**追加不要**（`Full` でも `Custom`＋デフォルト込みでもOK）。Web 検索ツールはクラウドのルーチンで既定で使えます。
+   - **`<あなたの名前>.github.io` は publish の `--notify`（メール送信前の Pages ライブ確認）で必要**です。未許可だと毎回ライブ確認に失敗し、5分のタイムアウト後に送信します（＝従来どおりメールは届きますが、リンク先が前営業日のままになるラグが残ります）。`Full` なら追加不要。
 4. **セットアップ・スクリプト（Setup script）**に次を設定（クラウドの setup はリポジトリ外で走るため `-r requirements.txt` ではなくパッケージ名を直接指定する。クォートや `>=` は貼り付けで化けやすいので使わない。後半は PEP668 対策のフォールバック）：
    ```bash
    pip install jpholiday || pip install --break-system-packages jpholiday
@@ -183,7 +185,10 @@ cd /c/Users/YujiroOkawa/project-private/pts-ranking-monitor
 python scripts/check_gate.py                                   # 営業日ゲート確認
 python scripts/build_ranking.py --date 2026-06-15 --out docs/tmp/ranking.json
 # （必要なら docs/tmp/ranking.json の各 row の factor/factor_kind を編集）
-python scripts/publish.py docs/tmp/ranking.json --no-email     # メールを送らず Pages だけ更新
+python scripts/publish.py docs/tmp/ranking.json --no-email     # 生成のみ（メールを送らず Pages だけ更新）
+git add docs/index.html docs/data && git commit -m "Update PTS ..." && git push origin HEAD:main  # Pages へ反映
+python scripts/publish.py docs/tmp/ranking.json --notify       # push 後: Pages 反映を待って Gmail 送信（推奨）
+# python scripts/publish.py docs/tmp/ranking.json             # レガシー：即メール送信（push 前送信になるため非推奨）
 ```
 
 ---
@@ -230,6 +235,7 @@ pts-ranking-monitor/
 |------|------|
 | ルーチンが動かない | スケジュール（cron）とタイムゾーン、リポジトリ/環境の紐づけを確認。手動「Run now」でログを見る |
 | Pages が表示されない | Settings → Pages が **main / /docs** か確認。初回反映に数分かかる |
+| メールのリンク先が前営業日のまま | `--notify`（§6）を**必ず push の後**に実行しているか／ネット許可に `github.io` が入っているか確認。`--notify` が Pages 反映を待ってから送る。旧フロー（引数なしの即時送信＝push 前送信）を使っていないか |
 | メールが届かない | 環境変数 `GMAIL_CLIENT_ID`/`GMAIL_CLIENT_SECRET`/`GMAIL_REFRESH_TOKEN`/`GMAIL_ADDRESS`/`NOTIFY_TO` を再確認。OAuth 同意画面を「**本番（公開）**」にしたか（テストのままだとトークンが7日で失効）。`Custom` の場合は「デフォルト込み」にチェックがあるか（`*.googleapis.com` のため） |
 | 時価総額が出ない/少ない | `JQUANTS_API_KEY` が **Light 以上**か（Free は当日値なし）。ネット許可に `api.jquants.com` があるか |
 | PTS が取得できない | ネット許可に `kabutan.jp` があるか。06:06 より大幅に早い時刻だと未確定の可能性 |
