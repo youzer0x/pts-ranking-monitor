@@ -1,0 +1,328 @@
+{
+  "session_date": "2026-06-26",
+  "next_date": "2026-06-27",
+  "session_window": "2026-06-26 17:00 → 2026-06-27 06:00 JST",
+  "generated_at": "2026-06-27 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 3,
+    "dropped_turnover": 26,
+    "dropped_mcap": 8
+  },
+  "rows": [
+    {
+      "code": "3989",
+      "name": "シェアリングテクノロジー",
+      "market": "グロース",
+      "mcap_oku": 243,
+      "mcap_flag": "",
+      "pct": 15.08,
+      "pts": 1145.0,
+      "close": 995.0,
+      "volume": 50200,
+      "turnover_yen": 57479000,
+      "turnover_m": 57.5,
+      "shoutfy_jq": 24429800,
+      "cur_end": "2026-09-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。英国の価値投資ファンド（Asset Value Investors）が保有比率を約27%まで高めており（直近大量保有報告は3月時点）、継続的な需給主導の動きが背景にある可能性がある。",
+      "factor_kind": "テーマ",
+      "rank": 1
+    },
+    {
+      "code": "9256",
+      "name": "サクシード",
+      "market": "グロース",
+      "mcap_oku": 194,
+      "mcap_flag": "",
+      "pct": 7.58,
+      "pts": 5820.0,
+      "close": 5410.0,
+      "volume": 5700,
+      "turnover_yen": 33174000,
+      "turnover_m": 33.2,
+      "shoutfy_jq": 3579950,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。6月24日に適時開示された「事業計画及び成長可能性に関する事項」（2027年3月期の増益転換見通しや教育AI事業の本格展開）への評価継続が背景にある可能性があるが、6月26日ナイトセッション固有の新規材料は確認されない。",
+      "factor_kind": "テーマ",
+      "rank": 2
+    },
+    {
+      "code": "8105",
+      "name": "Ｂｉｔｃｏｉｎ　Ｊａｐａｎ",
+      "market": "スタンダード",
+      "mcap_oku": 104,
+      "mcap_flag": "",
+      "pct": 6.54,
+      "pts": 163.0,
+      "close": 153.0,
+      "volume": 882000,
+      "turnover_yen": 143766000,
+      "turnover_m": 143.8,
+      "shoutfy_jq": 67850648,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:45",
+          "code": "8105",
+          "name": "ＢｉｔｃｏｉｎＪＰＮ",
+          "title": "（開示事項の経過）AIインフラ投資事業におけるファンドへの出資に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260626582325.pdf"
+        }
+      ],
+      "factor": "5月に開始を発表したAIインフラ投資事業のファンド出資について、進捗状況が16:45に適時開示された（「開示事項の経過」）。AI関連米国ファンドへの出資を通じた事業展開の前進が確認されたことがナイトの買い材料となった。",
+      "factor_kind": "開示",
+      "rank": 3
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "7815",
+      "name": "東京ボード工業",
+      "pct": 35.4,
+      "turnover_m": 0.4,
+      "volume": 1300
+    },
+    {
+      "code": "6696",
+      "name": "トラース・オン・プロダクト",
+      "pct": 33.06,
+      "turnover_m": 5.6,
+      "volume": 17400
+    },
+    {
+      "code": "2371",
+      "name": "カカクコム",
+      "pct": 20.8,
+      "turnover_m": 1.2,
+      "volume": 300
+    },
+    {
+      "code": "4442",
+      "name": "バルテス・ホールディングス",
+      "pct": 17.95,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "4446",
+      "name": "Ｌｉｎｋ−Ｕグループ",
+      "pct": 15.06,
+      "turnover_m": 4.6,
+      "volume": 6000
+    },
+    {
+      "code": "7150",
+      "name": "島根銀行",
+      "pct": 14.65,
+      "turnover_m": 0.3,
+      "volume": 500
+    },
+    {
+      "code": "7624",
+      "name": "ＮａＩＴＯ",
+      "pct": 14.42,
+      "turnover_m": 9.0,
+      "volume": 56800
+    },
+    {
+      "code": "5572",
+      "name": "Ｒｉｄｇｅ−ｉ",
+      "pct": 13.85,
+      "turnover_m": 0.6,
+      "volume": 200
+    },
+    {
+      "code": "6548",
+      "name": "旅工房",
+      "pct": 13.52,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "4323",
+      "name": "日本システム技術",
+      "pct": 10.89,
+      "turnover_m": 4.0,
+      "volume": 2400
+    },
+    {
+      "code": "9557",
+      "name": "エアークローゼット",
+      "pct": 9.76,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "9020",
+      "name": "東日本旅客鉄道",
+      "pct": 9.27,
+      "turnover_m": 0.4,
+      "volume": 100
+    },
+    {
+      "code": "6166",
+      "name": "中村超硬",
+      "pct": 8.66,
+      "turnover_m": 1.9,
+      "volume": 3100
+    },
+    {
+      "code": "5287",
+      "name": "イトーヨーギョー",
+      "pct": 7.83,
+      "turnover_m": 0.5,
+      "volume": 600
+    },
+    {
+      "code": "6644",
+      "name": "大崎電気工業",
+      "pct": 7.63,
+      "turnover_m": 4.7,
+      "volume": 3000
+    },
+    {
+      "code": "7980",
+      "name": "重松製作所",
+      "pct": 7.56,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "4308",
+      "name": "Ｊストリーム",
+      "pct": 7.03,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "4196",
+      "name": "ネオマーケティング",
+      "pct": 6.13,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "3192",
+      "name": "白鳩",
+      "pct": 5.38,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "7795",
+      "name": "ＫＹＯＲＩＴＳＵ",
+      "pct": 5.1,
+      "turnover_m": 0.1,
+      "volume": 500
+    },
+    {
+      "code": "5463",
+      "name": "丸一鋼管",
+      "pct": 4.74,
+      "turnover_m": 4.1,
+      "volume": 2300
+    },
+    {
+      "code": "3664",
+      "name": "ＷＩＺＥ",
+      "pct": 3.81,
+      "turnover_m": 3.4,
+      "volume": 155700
+    },
+    {
+      "code": "4425",
+      "name": "Ｋｕｄａｎ",
+      "pct": 3.58,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "2432",
+      "name": "ディー・エヌ・エー",
+      "pct": 3.18,
+      "turnover_m": 4.5,
+      "volume": 1800
+    },
+    {
+      "code": "3050",
+      "name": "ＤＣＭホールディングス",
+      "pct": 3.12,
+      "turnover_m": 7.6,
+      "volume": 4900
+    },
+    {
+      "code": "2138",
+      "name": "クルーズ",
+      "pct": 3.02,
+      "turnover_m": 0.0,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "2388",
+      "name": "ウェッジホールディングス",
+      "pct": 25.0,
+      "turnover_m": 13.7,
+      "mcap_oku": 14
+    },
+    {
+      "code": "9941",
+      "name": "太洋物産",
+      "pct": 23.62,
+      "turnover_m": 21.2,
+      "mcap_oku": 25
+    },
+    {
+      "code": "4265",
+      "name": "Ｉｎｓｔｉｔｕｔｉｏｎ　ｆｏｒ　ａ　Ｇｌｏｂａｌ　Ｓｏｃｉｅｔｙ",
+      "pct": 22.86,
+      "turnover_m": 39.4,
+      "mcap_oku": 17
+    },
+    {
+      "code": "4395",
+      "name": "アクリート",
+      "pct": 18.42,
+      "turnover_m": 53.9,
+      "mcap_oku": 61
+    },
+    {
+      "code": "8946",
+      "name": "ＡＳＩＡＮ　ＳＴＡＲ",
+      "pct": 11.11,
+      "turnover_m": 29.8,
+      "mcap_oku": 17
+    },
+    {
+      "code": "584A",
+      "name": "ＬｉＮＫＸ",
+      "pct": 10.68,
+      "turnover_m": 237.7,
+      "mcap_oku": null
+    },
+    {
+      "code": "4664",
+      "name": "アール・エス・シー",
+      "pct": 7.47,
+      "turnover_m": 13.3,
+      "mcap_oku": 37
+    },
+    {
+      "code": "4179",
+      "name": "ジーネクスト",
+      "pct": 5.75,
+      "turnover_m": 59.5,
+      "mcap_oku": 29
+    }
+  ]
+}
