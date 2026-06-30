@@ -1,0 +1,542 @@
+{
+  "session_date": "2026-06-30",
+  "next_date": "2026-07-01",
+  "session_window": "2026-06-30 17:00 → 2026-07-01 06:00 JST",
+  "generated_at": "2026-07-01 06:08 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 15,
+    "dropped_turnover": 23,
+    "dropped_mcap": 7
+  },
+  "rows": [
+    {
+      "code": "6522",
+      "name": "アスタリスク",
+      "market": "グロース",
+      "mcap_oku": 104,
+      "mcap_flag": "†",
+      "pct": 11.2,
+      "pts": 1479.0,
+      "close": 1330.0,
+      "volume": 170200,
+      "turnover_yen": 251725800,
+      "turnover_m": 251.7,
+      "shoutfy_jq": 7796800,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "スーパーマーケット向け「全商品RFID化ソリューション」の本格展開開始をプレスリリース（6/30正午頃公表）。水分・金属包装への対応技術を独自開発し商業展開を開始すると発表（トレーダーズ・ウェブ, 6/30後場）。日中ストップ高（+29%）まで上昇した需要がPTSに持ち越され続伸。",
+      "factor_kind": "報道",
+      "rank": 1,
+      "shares_kabutan": 8046800,
+      "mcap_kabutan_oku": 107
+    },
+    {
+      "code": "285A",
+      "name": "キオクシアホールディングス",
+      "market": "プライム",
+      "mcap_oku": 489730,
+      "mcap_flag": "",
+      "pct": 6.49,
+      "pts": 95500.0,
+      "close": 89680.0,
+      "volume": 57400,
+      "turnover_yen": 5481700000,
+      "turnover_m": 5481.7,
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "バーンスタインがSanDisk（SNDK）の目標株価を$1,700→$3,000へ大幅引き上げ（Outperform維持, Benzinga・Invezz, 6/30米国市場プレ）、NANDフラッシュ超サイクル・AIメモリ需要の長期化観測が再燃。SanDisk+5.47%・SOX指数四半期最高更新（SOXX +3.6%）を受け、東証唯一の純粋NAND大手として連動高となった。",
+      "factor_kind": "報道",
+      "rank": 2
+    },
+    {
+      "code": "6327",
+      "name": "北川精機",
+      "market": "スタンダード",
+      "mcap_oku": 668,
+      "mcap_flag": "",
+      "pct": 6.06,
+      "pts": 8379.0,
+      "close": 7900.0,
+      "volume": 15400,
+      "turnover_yen": 129036600,
+      "turnover_m": 129.0,
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "株探トップ特集（6/30 19:30 JST配信）でAIサーバー基板向け真空熱プレス機の世界首位級メーカーとして特集。日中もストップ高（+14.5%）を記録しており、PTS開始後に特集記事が浸透し続伸。2026年6月期末で業績期待も背景にある。",
+      "factor_kind": "報道",
+      "rank": 3
+    },
+    {
+      "code": "7803",
+      "name": "ブシロード",
+      "market": "グロース",
+      "mcap_oku": 381,
+      "mcap_flag": "",
+      "pct": 5.45,
+      "pts": 292.1,
+      "close": 277.0,
+      "volume": 34500,
+      "turnover_yen": 10077450,
+      "turnover_m": 10.1,
+      "shoutfy_jq": 137409100,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "7803",
+          "name": "Ｇ－ブシロード",
+          "title": "自己株式取得に係る事項の決定に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260630584064.pdf"
+        }
+      ],
+      "factor": "自己株式取得を決議（15:30開示）。上限800万株・20億円を2026年7月〜12月末に市場買付で実施（発行済株数の5.89%相当）。株主還元策として評価された。",
+      "factor_kind": "開示",
+      "rank": 4
+    },
+    {
+      "code": "8698",
+      "name": "マネックスグループ",
+      "market": "プライム",
+      "mcap_oku": 1570,
+      "mcap_flag": "",
+      "pct": 5.13,
+      "pts": 656.0,
+      "close": 624.0,
+      "volume": 37100,
+      "turnover_yen": 24337600,
+      "turnover_m": 24.3,
+      "shoutfy_jq": 251647100,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "オアシス・マネジメント（香港系アクティビスト）が大量保有報告書を提出、保有比率が5.15%に上昇したとロイターが16:29 JSTに報道。引け後に情報が伝わったためPTSが初の取引機会となり、アクティビスト参入による株主価値向上への期待で買われた。",
+      "factor_kind": "報道",
+      "rank": 5
+    },
+    {
+      "code": "4446",
+      "name": "Ｌｉｎｋ−Ｕグループ",
+      "market": "プライム",
+      "mcap_oku": 122,
+      "mcap_flag": "",
+      "pct": 4.65,
+      "pts": 900.0,
+      "close": 860.0,
+      "volume": 31400,
+      "turnover_yen": 28260000,
+      "turnover_m": 28.3,
+      "shoutfy_jq": 14174100,
+      "cur_end": "2026-07-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6月12日開示の2-4月期決算（営業利益が四半期黒字転換）とCrunchyroll Manga経由の海外マンガ展開（前年同期比162%成長）を材料とした株価上昇が継続。当日固有の材料は確認できず。",
+      "factor_kind": "テーマ",
+      "rank": 6
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "market": "プライム",
+      "mcap_oku": 236729,
+      "mcap_flag": "",
+      "pct": 4.51,
+      "pts": 33800.0,
+      "close": 32340.0,
+      "volume": 28500,
+      "turnover_yen": 963300000,
+      "turnover_m": 963.3,
+      "shoutfy_jq": 732000000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/30の米株式市場で半導体指数SOXが四半期最高を更新（SOXX +3.6%、AMD +7.7%、NVDA +2.6%）。6/29にはKeyBanc・Cantor FitzgeraldがApplied Materialsの目標株価を大幅引き上げ（各$750・$850）しAI向け設備投資拡大期待を強化、半導体試験装置株として連動高となった。",
+      "factor_kind": "テーマ",
+      "rank": 7
+    },
+    {
+      "code": "6146",
+      "name": "ディスコ",
+      "market": "プライム",
+      "mcap_oku": 88149,
+      "mcap_flag": "",
+      "pct": 4.42,
+      "pts": 84850.0,
+      "close": 81260.0,
+      "volume": 4700,
+      "turnover_yen": 398795000,
+      "turnover_m": 398.8,
+      "shoutfy_jq": 108478029,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/30の米半導体指数SOX四半期最高更新（SOXX +3.6%）を受けた半導体装置セクター全体の連動高。ダイシング・グラインディング装置の主力メーカーとして、AI向け先端半導体製造プロセス投資拡大の恩恵株として買われた。",
+      "factor_kind": "テーマ",
+      "rank": 8
+    },
+    {
+      "code": "6525",
+      "name": "ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ",
+      "market": "プライム",
+      "mcap_oku": 25847,
+      "mcap_flag": "",
+      "pct": 4.38,
+      "pts": 11330.0,
+      "close": 10855.0,
+      "volume": 18800,
+      "turnover_yen": 213004000,
+      "turnover_m": 213.0,
+      "shoutfy_jq": 238115614,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/30の米半導体指数SOX四半期最高更新（SOXX +3.6%）を受けた半導体装置セクター全体の連動高。成膜（バッチ式ALD/CVD）装置メーカーとして、AI向け先端半導体製造設備投資拡大の恩恵株として買われた。",
+      "factor_kind": "テーマ",
+      "rank": 9
+    },
+    {
+      "code": "6532",
+      "name": "ベイカレント",
+      "market": "プライム",
+      "mcap_oku": 9381,
+      "mcap_flag": "",
+      "pct": 3.51,
+      "pts": 6248.0,
+      "close": 6036.0,
+      "volume": 3500,
+      "turnover_yen": 21868000,
+      "turnover_m": 21.9,
+      "shoutfy_jq": 155411410,
+      "cur_end": "2026-02-28",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。6/19付け日経報道（国内コンサル7社が2026年度に人員10万人超え、BayCurrent+25%増員計画）でのAI・DX需要継続評価と、7/15予定のQ1 FY2027決算発表を前にした先回り買いが背景と見られる。",
+      "factor_kind": "テーマ",
+      "rank": 10
+    },
+    {
+      "code": "9227",
+      "name": "マイクロ波化学",
+      "market": "グロース",
+      "mcap_oku": 144,
+      "mcap_flag": "",
+      "pct": 3.42,
+      "pts": 938.0,
+      "close": 907.0,
+      "volume": 24500,
+      "turnover_yen": 22981000,
+      "turnover_m": 23.0,
+      "shoutfy_jq": 15892500,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "PMET Resources（カナダ・リチウム資源）・三井物産と、独自のマイクロ波煆焼技術を用いたスポジュメン鉱石の低炭素リチウム精製に関するMOU締結を公表（6/30）。重要鉱物・脱炭素サプライチェーン構築テーマで評価された。",
+      "factor_kind": "報道",
+      "rank": 11
+    },
+    {
+      "code": "4005",
+      "name": "住友化学",
+      "market": "プライム",
+      "mcap_oku": 8513,
+      "mcap_flag": "",
+      "pct": 3.39,
+      "pts": 530.9,
+      "close": 513.5,
+      "volume": 32800,
+      "turnover_yen": 17413520,
+      "turnover_m": 17.4,
+      "shoutfy_jq": 1657914399,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "IHI・ACME（インド）と共同でインドに再生可能エネルギー由来アンモニアを年約40万トン生産する事業（総事業費約4,800億円）への参加を日経が6/29に報道。翌6/30に経産省の水素社会推進法認定が報道されPTSでも継続評価された。",
+      "factor_kind": "報道",
+      "rank": 12
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "market": "プライム",
+      "mcap_oku": 46860,
+      "mcap_flag": "",
+      "pct": 3.32,
+      "pts": 51350.0,
+      "close": 49700.0,
+      "volume": 4500,
+      "turnover_yen": 231075000,
+      "turnover_m": 231.1,
+      "shoutfy_jq": 94286400,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/30の米半導体指数SOX四半期最高更新（SOXX +3.6%）を受けた半導体装置セクター全体の連動高。EUVマスク検査装置の世界的メーカーとして、AI向け先端ロジック・メモリ製造プロセス投資拡大の恩恵株として買われた。",
+      "factor_kind": "テーマ",
+      "rank": 13
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "market": "プライム",
+      "mcap_oku": 340598,
+      "mcap_flag": "",
+      "pct": 3.14,
+      "pts": 6150.0,
+      "close": 5963.0,
+      "volume": 272000,
+      "turnover_yen": 1672800000,
+      "turnover_m": 1672.8,
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "連結子会社ARM Holdings（議決権86%超保有）が米国市場でAGI向けCPUの顧客コミットメントが20億ドルを超えたと示し+3.76%上昇（TradingKey報道, 6/30）。SBGはARM株価変動への連動プロキシとして上昇した。",
+      "factor_kind": "報道",
+      "rank": 14
+    },
+    {
+      "code": "6981",
+      "name": "村田製作所",
+      "market": "プライム",
+      "mcap_oku": 223684,
+      "mcap_flag": "",
+      "pct": 3.12,
+      "pts": 11750.0,
+      "close": 11395.0,
+      "volume": 54400,
+      "turnover_yen": 639200000,
+      "turnover_m": 639.2,
+      "shoutfy_jq": 1963001843,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "6/30の米半導体・電子部品セクター全体の地合い高（SOX四半期最高更新、SOXX +3.6%）を受け、AIサーバー向けMLCC・インダクタ等の需要拡大期待から連動高となった。",
+      "factor_kind": "テーマ",
+      "rank": 15
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "5967",
+      "name": "ＴＯＮＥ",
+      "pct": 19.23,
+      "turnover_m": 2.9,
+      "volume": 5900
+    },
+    {
+      "code": "192A",
+      "name": "インテグループ",
+      "pct": 15.61,
+      "turnover_m": 4.1,
+      "volume": 2900
+    },
+    {
+      "code": "6548",
+      "name": "旅工房",
+      "pct": 10.11,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "5381",
+      "name": "マイポックス",
+      "pct": 9.15,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "6977",
+      "name": "日本抵抗器製作所",
+      "pct": 8.36,
+      "turnover_m": 4.4,
+      "volume": 2100
+    },
+    {
+      "code": "4424",
+      "name": "Ａｍａｚｉａ",
+      "pct": 7.32,
+      "turnover_m": 0.4,
+      "volume": 1900
+    },
+    {
+      "code": "3652",
+      "name": "ディジタルメディアプロフェッショナル",
+      "pct": 6.94,
+      "turnover_m": 7.9,
+      "volume": 3200
+    },
+    {
+      "code": "6557",
+      "name": "ＡＩＡＩグループ",
+      "pct": 6.63,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "7487",
+      "name": "小津産業",
+      "pct": 6.09,
+      "turnover_m": 3.0,
+      "volume": 1600
+    },
+    {
+      "code": "5884",
+      "name": "クラダシ",
+      "pct": 5.81,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "2685",
+      "name": "アンドエスティＨＤ",
+      "pct": 5.54,
+      "turnover_m": 9.5,
+      "volume": 2600
+    },
+    {
+      "code": "5741",
+      "name": "ＵＡＣＪ",
+      "pct": 5.37,
+      "turnover_m": 0.3,
+      "volume": 100
+    },
+    {
+      "code": "4410",
+      "name": "ハリマ化成グループ",
+      "pct": 5.32,
+      "turnover_m": 0.7,
+      "volume": 600
+    },
+    {
+      "code": "4596",
+      "name": "窪田製薬ホールディングス",
+      "pct": 5.27,
+      "turnover_m": 0.8,
+      "volume": 14000
+    },
+    {
+      "code": "2926",
+      "name": "篠崎屋",
+      "pct": 4.95,
+      "turnover_m": 5.4,
+      "volume": 50900
+    },
+    {
+      "code": "7516",
+      "name": "コーナン商事",
+      "pct": 4.54,
+      "turnover_m": 0.9,
+      "volume": 200
+    },
+    {
+      "code": "6480",
+      "name": "日本トムソン",
+      "pct": 3.93,
+      "turnover_m": 1.6,
+      "volume": 700
+    },
+    {
+      "code": "4968",
+      "name": "荒川化学工業",
+      "pct": 3.76,
+      "turnover_m": 0.4,
+      "volume": 200
+    },
+    {
+      "code": "6779",
+      "name": "日本電波工業",
+      "pct": 3.5,
+      "turnover_m": 4.6,
+      "volume": 1300
+    },
+    {
+      "code": "6232",
+      "name": "ＡＣＳＬ",
+      "pct": 3.37,
+      "turnover_m": 3.2,
+      "volume": 1800
+    },
+    {
+      "code": "6101",
+      "name": "ツガミ",
+      "pct": 3.11,
+      "turnover_m": 5.8,
+      "volume": 700
+    },
+    {
+      "code": "6264",
+      "name": "マルマエ",
+      "pct": 3.09,
+      "turnover_m": 5.5,
+      "volume": 1900
+    },
+    {
+      "code": "4883",
+      "name": "モダリス",
+      "pct": 3.03,
+      "turnover_m": 0.1,
+      "volume": 3800
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "7815",
+      "name": "東京ボード工業",
+      "pct": 26.94,
+      "turnover_m": 39.7,
+      "mcap_oku": 14
+    },
+    {
+      "code": "584A",
+      "name": "ＬｉＮＫＸ",
+      "pct": 23.71,
+      "turnover_m": 523.0,
+      "mcap_oku": null
+    },
+    {
+      "code": "589A",
+      "name": "ネイス",
+      "pct": 22.52,
+      "turnover_m": 98.1,
+      "mcap_oku": null
+    },
+    {
+      "code": "4833",
+      "name": "Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ",
+      "pct": 18.65,
+      "turnover_m": 100.0,
+      "mcap_oku": 27
+    },
+    {
+      "code": "265A",
+      "name": "Ｈｍｃｏｍｍ",
+      "pct": 14.37,
+      "turnover_m": 19.7,
+      "mcap_oku": 29
+    },
+    {
+      "code": "3133",
+      "name": "海帆",
+      "pct": 13.19,
+      "turnover_m": 86.8,
+      "mcap_oku": 40
+    },
+    {
+      "code": "546A",
+      "name": "ＭＩＲＡＩＮＩホールディングス",
+      "pct": 10.84,
+      "turnover_m": 257.9,
+      "mcap_oku": null
+    }
+  ]
+}
