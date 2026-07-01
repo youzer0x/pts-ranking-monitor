@@ -1,0 +1,295 @@
+{
+  "session_date": "2026-07-01",
+  "next_date": "2026-07-02",
+  "session_window": "2026-07-01 17:00 → 2026-07-02 06:00 JST",
+  "generated_at": "2026-07-02 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 6,
+    "dropped_turnover": 9,
+    "dropped_mcap": 7
+  },
+  "rows": [
+    {
+      "code": "464A",
+      "name": "ＱＰＳホールディングス",
+      "market": "グロース",
+      "mcap_oku": 924,
+      "mcap_flag": "†",
+      "pct": 12.16,
+      "pts": 2140.0,
+      "close": 1908.0,
+      "volume": 102200,
+      "turnover_yen": 218708000,
+      "turnover_m": 218.7,
+      "shoutfy_jq": 48411000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "464A",
+          "name": "Ｇ－ＱＰＳＨＤ",
+          "title": "業績予想修正並びに営業外収益および繰延税金資産計上に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260701586130.pdf"
+        }
+      ],
+      "factor": "16:00開示。2026年5月期業績予想を上方修正：連結経常利益を従来予想の6億円から11億円（+83%）へ引き上げ。補助金対象の研究開発費が計画比削減となり営業損失が改善したほか、営業外収益の計上および繰延税金資産の認識も利益を押し上げた",
+      "factor_kind": "開示",
+      "rank": 1,
+      "shares_kabutan": 55860500,
+      "mcap_kabutan_oku": 1066
+    },
+    {
+      "code": "6363",
+      "name": "酉島製作所",
+      "market": "プライム",
+      "mcap_oku": 820,
+      "mcap_flag": "†",
+      "pct": 9.5,
+      "pts": 3090.0,
+      "close": 2822.0,
+      "volume": 14000,
+      "turnover_yen": 43260000,
+      "turnover_m": 43.3,
+      "shoutfy_jq": 29045679,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "6363",
+          "name": "酉島製",
+          "title": "(開示事項の経過)新日本造機株式会社の株式の取得(子会社)および通期連結業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260630583928.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "6363",
+          "name": "酉島製",
+          "title": "2027年３月期（中間・期末）配当予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260630583930.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "6363",
+          "name": "酉島製",
+          "title": "2026年度(2027年3月期)連結業績予想修正",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260630583927.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "6363",
+          "name": "酉島製",
+          "title": "人事異動に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260701585955.pdf"
+        }
+      ],
+      "factor": "15:30開示。2027年3月期業績予想を大幅上方修正：連結最終利益を38億円→71億円（+86.8%）へ引き上げ、3期ぶりの過去最高益見通し。中東向け大型案件の売上が2026年6月中に前倒し計上される見込みで売上・利益の大部分が上期に集中。年間配当も64円→68円（中間・期末各34円）に増額。新日本造機の子会社化進捗も同時開示",
+      "factor_kind": "開示",
+      "rank": 2,
+      "shares_kabutan": 28542679,
+      "mcap_kabutan_oku": 805
+    },
+    {
+      "code": "2371",
+      "name": "カカクコム",
+      "market": "プライム",
+      "mcap_oku": 6720,
+      "mcap_flag": "",
+      "pct": 5.01,
+      "pts": 3560.0,
+      "close": 3390.0,
+      "volume": 3600,
+      "turnover_yen": 12816000,
+      "turnover_m": 12.8,
+      "shoutfy_jq": 198218300,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "EQTによる1株3,000円のTOB（期限7月2日）に対し、LINEヤフー/ベイン連合が1株3,232円の法的拘束力ある対抗提案を実施中。7月1日にLINEヤフーが適時開示（経過開示）を提出し買収戦が最終局面へ。PTS価格¥3,560は両提案価格をともに上回り、さらなる価格引き上げへの思惑を反映（日経・Bloomberg 7月1日報道）",
+      "factor_kind": "報道",
+      "rank": 3
+    },
+    {
+      "code": "5967",
+      "name": "ＴＯＮＥ",
+      "market": "スタンダード",
+      "mcap_oku": 116,
+      "mcap_flag": "",
+      "pct": 4.03,
+      "pts": 516.0,
+      "close": 496.0,
+      "volume": 20400,
+      "turnover_yen": 10526400,
+      "turnover_m": 10.5,
+      "shoutfy_jq": 23426000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年5月期業績予想・配当計画の上方修正（引け前に適時開示）を受け、日中ストップ高（+19.23%、終値¥496）。PTSでも続伸",
+      "factor_kind": "開示",
+      "rank": 4
+    },
+    {
+      "code": "402A",
+      "name": "アクセルスペースホールディングス",
+      "market": "グロース",
+      "mcap_oku": 341,
+      "mcap_flag": "",
+      "pct": 3.31,
+      "pts": 530.0,
+      "close": 513.0,
+      "volume": 59000,
+      "turnover_yen": 31270000,
+      "turnover_m": 31.3,
+      "shoutfy_jq": 66390000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。防衛省衛星コンステレーション事業参画（2026年2月、約480億円受注）と、次世代観測衛星GRUS-3（7機、SpaceX Transporter-17搭載、7月7日打ち上げ目標）を控えた宇宙・防衛テーマの需要で物色",
+      "factor_kind": "テーマ",
+      "rank": 5
+    },
+    {
+      "code": "8031",
+      "name": "三井物産",
+      "market": "プライム",
+      "mcap_oku": 127191,
+      "mcap_flag": "",
+      "pct": 3.15,
+      "pts": 4580.0,
+      "close": 4440.0,
+      "volume": 42400,
+      "turnover_yen": 194192000,
+      "turnover_m": 194.2,
+      "shoutfy_jq": 2864666576,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "バークシャー・ハサウェイ（子会社ナショナル・インデムニティー）が三井物産の持分を9.82%→10.83%に引き上げたことが7月1日の変更報告書提出（関東財務局）により判明。5大商社すべての保有比率が10%超となった（日経・Bloomberg 7月1日報道、みんかぶ16:59）",
+      "factor_kind": "報道",
+      "rank": 6
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "5242",
+      "name": "アイズ",
+      "pct": 11.55,
+      "turnover_m": 0.5,
+      "volume": 600
+    },
+    {
+      "code": "153A",
+      "name": "カウリス",
+      "pct": 6.11,
+      "turnover_m": 0.8,
+      "volume": 600
+    },
+    {
+      "code": "3989",
+      "name": "シェアリングテクノロジー",
+      "pct": 5.86,
+      "turnover_m": 2.4,
+      "volume": 1600
+    },
+    {
+      "code": "6166",
+      "name": "中村超硬",
+      "pct": 5.58,
+      "turnover_m": 9.9,
+      "volume": 13400
+    },
+    {
+      "code": "190A",
+      "name": "Ｃｈｏｒｄｉａ　Ｔｈｅｒａｐｅｕｔｉｃｓ",
+      "pct": 4.73,
+      "turnover_m": 0.1,
+      "volume": 1200
+    },
+    {
+      "code": "6656",
+      "name": "インスペック",
+      "pct": 3.51,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "9973",
+      "name": "ＫＯＺＯホールディングス",
+      "pct": 3.5,
+      "turnover_m": 0.6,
+      "volume": 29200
+    },
+    {
+      "code": "8836",
+      "name": "ＲＩＳＥ",
+      "pct": 3.46,
+      "turnover_m": 0.2,
+      "volume": 6700
+    },
+    {
+      "code": "8508",
+      "name": "Ｊトラスト",
+      "pct": 3.32,
+      "turnover_m": 0.5,
+      "volume": 600
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "589A",
+      "name": "ネイス",
+      "pct": 22.98,
+      "turnover_m": 75.7,
+      "mcap_oku": null
+    },
+    {
+      "code": "265A",
+      "name": "Ｈｍｃｏｍｍ",
+      "pct": 20.35,
+      "turnover_m": 124.9,
+      "mcap_oku": 33
+    },
+    {
+      "code": "4918",
+      "name": "アイビー化粧品",
+      "pct": 18.64,
+      "turnover_m": 14.1,
+      "mcap_oku": 19
+    },
+    {
+      "code": "7781",
+      "name": "平山ホールディングス",
+      "pct": 14.95,
+      "turnover_m": 13.2,
+      "mcap_oku": 61
+    },
+    {
+      "code": "9941",
+      "name": "太洋物産",
+      "pct": 14.5,
+      "turnover_m": 29.0,
+      "mcap_oku": 22
+    },
+    {
+      "code": "8894",
+      "name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "pct": 10.77,
+      "turnover_m": 14.3,
+      "mcap_oku": 40
+    },
+    {
+      "code": "6573",
+      "name": "ＣＲＡＶＩＡ",
+      "pct": 10.74,
+      "turnover_m": 14.9,
+      "mcap_oku": 9
+    }
+  ]
+}
