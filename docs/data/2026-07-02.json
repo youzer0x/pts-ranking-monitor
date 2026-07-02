@@ -1,0 +1,458 @@
+{
+  "session_date": "2026-07-02",
+  "next_date": "2026-07-03",
+  "session_window": "2026-07-02 17:00 → 2026-07-03 06:00 JST",
+  "generated_at": "2026-07-03 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 6,
+    "dropped_turnover": 31,
+    "dropped_mcap": 5
+  },
+  "rows": [
+    {
+      "code": "4812",
+      "name": "電通総研",
+      "market": "プライム",
+      "mcap_oku": 4625,
+      "mcap_flag": "",
+      "pct": 15.43,
+      "pts": 2730.0,
+      "close": 2365.0,
+      "volume": 31500,
+      "turnover_yen": 85995000,
+      "turnover_m": 86.0,
+      "shoutfy_jq": 195547440,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:10",
+          "code": "4812",
+          "name": "電通総研",
+          "title": "当社に関する一部報道について",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586631.pdf"
+        }
+      ],
+      "factor": "富士通など複数社によるTOB・株式非公開化の報道を受け急騰。電通グループ（持株61.8%）が上場子会社の電通総研を非公開化する方向で検討、残余株に富士通等が2,000億円規模でTOBを実施する案が浮上と7月2日に共同通信・日経等が報道。PTS気配2,730円はTOB期待価格への収斂とみられる。同日17:10に会社が「当社に関する一部報道について」を適時開示。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "4187",
+      "name": "大阪有機化学工業",
+      "market": "プライム",
+      "mcap_oku": 1318,
+      "mcap_flag": "",
+      "pct": 13.37,
+      "pts": 6666.0,
+      "close": 5880.0,
+      "volume": 2300,
+      "turnover_yen": 15331800,
+      "turnover_m": 15.3,
+      "shoutfy_jq": 22410038,
+      "cur_end": "2026-11-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "4187",
+          "name": "大有機化",
+          "title": "業績予想及び配当予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576875.pdf"
+        }
+      ],
+      "factor": "2026年11月期業績・配当を上方修正。営業利益を64億円→75億円（+17.2%）、純利益を45億円→52億円（+15.6%）に引き上げ。ArFレジスト向け半導体材料の好調継続と高純度特殊溶剤の販売増、コスト転嫁の進展が主因。年間配当も80円→86円に増額（+6円）。",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "6522",
+      "name": "アスタリスク",
+      "market": "グロース",
+      "mcap_oku": 153,
+      "mcap_flag": "†",
+      "pct": 8.16,
+      "pts": 2120.0,
+      "close": 1960.0,
+      "volume": 151100,
+      "turnover_yen": 320332000,
+      "turnover_m": 320.3,
+      "shoutfy_jq": 7796800,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "スーパーマーケット向け全商品RFID化ソリューションの本格展開を6月30日に発表（公式プレスリリース）。同社独自の特許技術（食品・液体への対応）を活用しユニクロで普及したRFIDセルフレジを食品スーパーに展開するもの。7月2日後場にトレーダーズ・ウェブ等が取り上げ株価がストップ高（終値1,960円）となり、PTSでも上昇が継続。",
+      "factor_kind": "報道",
+      "rank": 3,
+      "shares_kabutan": 8046800,
+      "mcap_kabutan_oku": 158
+    },
+    {
+      "code": "4401",
+      "name": "ＡＤＥＫＡ",
+      "market": "プライム",
+      "mcap_oku": 4305,
+      "mcap_flag": "†",
+      "pct": 5.74,
+      "pts": 4387.0,
+      "close": 4149.0,
+      "volume": 9800,
+      "turnover_yen": 42992600,
+      "turnover_m": 43.0,
+      "shoutfy_jq": 103768142,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "みずほ証券が7月1日付で目標株価を4,400円→4,700円に引き上げ（投資判断「買い」継続）。「中長期で過去最高益を連続更新と予想」と評価し、高純度半導体材料・リソグラフィ材料の需要増を主因に引き上げ。引け後にレーティング情報が広まりPTSでも続伸した模様。",
+      "factor_kind": "報道",
+      "rank": 4,
+      "shares_kabutan": 98944242,
+      "mcap_kabutan_oku": 4105
+    },
+    {
+      "code": "6993",
+      "name": "大黒屋ホールディングス",
+      "market": "スタンダード",
+      "mcap_oku": 629,
+      "mcap_flag": "",
+      "pct": 4.94,
+      "pts": 89.2,
+      "close": 85.0,
+      "volume": 249500,
+      "turnover_yen": 22255400,
+      "turnover_m": 22.3,
+      "shoutfy_jq": 739896570,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:30",
+          "code": "6993",
+          "name": "大黒屋",
+          "title": "第21回新株予約権の行使完了に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586969.pdf"
+        },
+        {
+          "time": "16:30",
+          "code": "6993",
+          "name": "大黒屋",
+          "title": "主要株主の異動に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586976.pdf"
+        }
+      ],
+      "factor": "16:30に第21回MSワラントの行使完了と主要株主の異動を同時開示。MSワラントの行使完了により潜在的な株式希薄化が一区切りとなった。SBIホールディングスとの業務提携基本合意（2026年3月31日開示済み）に基づく再建の具体化も意識された模様。",
+      "factor_kind": "開示",
+      "rank": 5
+    },
+    {
+      "code": "3549",
+      "name": "クスリのアオキホールディングス",
+      "market": "スタンダード",
+      "mcap_oku": 3528,
+      "mcap_flag": "",
+      "pct": 3.52,
+      "pts": 3820.0,
+      "close": 3690.0,
+      "volume": 5400,
+      "turnover_yen": 20628000,
+      "turnover_m": 20.6,
+      "shoutfy_jq": 95616980,
+      "cur_end": "2026-05-20",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "3549",
+          "name": "クスリのアオキＨＤ",
+          "title": "2026年5月期 決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586782.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3549",
+          "name": "クスリのアオキＨＤ",
+          "title": "2026年6月度 月次営業速報に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586871.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3549",
+          "name": "クスリのアオキＨＤ",
+          "title": "自己株式の取得状況に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586880.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3549",
+          "name": "クスリのアオキＨＤ",
+          "title": "剰余金の配当(期末配当)に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586908.pdf"
+        }
+      ],
+      "factor": "2026年5月期通期決算（売上高5,669億円・経常利益277億円・前期比+0.8%）を15:30に発表。経常利益はアナリスト予想を1.7%上回る着地で、2027年5月期見通しは経常利益308億円（+11.1%）と市場予想を5.8%上回る水準。同時に2026年6月度月次速報（前年比+4.2%）、期末配当予告、自己株式取得状況も開示。",
+      "factor_kind": "開示",
+      "rank": 6
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "504A",
+      "name": "イノバセル",
+      "pct": 17.28,
+      "turnover_m": 1.1,
+      "volume": 2000
+    },
+    {
+      "code": "9332",
+      "name": "ＮＩＳＳＯホールディングス",
+      "pct": 17.15,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "6136",
+      "name": "オーエスジー",
+      "pct": 12.82,
+      "turnover_m": 6.7,
+      "volume": 1600
+    },
+    {
+      "code": "7291",
+      "name": "日本プラスト",
+      "pct": 12.8,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "2492",
+      "name": "インフォマート",
+      "pct": 12.5,
+      "turnover_m": 6.0,
+      "volume": 13300
+    },
+    {
+      "code": "5133",
+      "name": "テリロジーホールディングス",
+      "pct": 10.04,
+      "turnover_m": 3.7,
+      "volume": 12000
+    },
+    {
+      "code": "8198",
+      "name": "マックスバリュ東海",
+      "pct": 8.63,
+      "turnover_m": 0.3,
+      "volume": 100
+    },
+    {
+      "code": "3668",
+      "name": "コロプラ",
+      "pct": 7.65,
+      "turnover_m": 0.1,
+      "volume": 300
+    },
+    {
+      "code": "6047",
+      "name": "Ｇｕｎｏｓｙ",
+      "pct": 7.25,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "7068",
+      "name": "フィードフォースグループ",
+      "pct": 7.04,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "3691",
+      "name": "デジタルプラス",
+      "pct": 7.01,
+      "turnover_m": 0.3,
+      "volume": 200
+    },
+    {
+      "code": "6864",
+      "name": "エヌエフホールディングス",
+      "pct": 6.64,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "2493",
+      "name": "イーサポートリンク",
+      "pct": 6.33,
+      "turnover_m": 6.8,
+      "volume": 6900
+    },
+    {
+      "code": "4890",
+      "name": "坪田ラボ",
+      "pct": 6.2,
+      "turnover_m": 0.6,
+      "volume": 2500
+    },
+    {
+      "code": "4390",
+      "name": "アイ・ピー・エス",
+      "pct": 6.16,
+      "turnover_m": 6.4,
+      "volume": 1700
+    },
+    {
+      "code": "3192",
+      "name": "白鳩",
+      "pct": 6.15,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "6955",
+      "name": "ＦＤＫ",
+      "pct": 5.82,
+      "turnover_m": 0.4,
+      "volume": 700
+    },
+    {
+      "code": "7683",
+      "name": "ダブルエー",
+      "pct": 5.62,
+      "turnover_m": 0.5,
+      "volume": 300
+    },
+    {
+      "code": "190A",
+      "name": "Ｃｈｏｒｄｉａ　Ｔｈｅｒａｐｅｕｔｉｃｓ",
+      "pct": 5.26,
+      "turnover_m": 0.2,
+      "volume": 2200
+    },
+    {
+      "code": "5578",
+      "name": "ＡＲアドバンストテクノロジ",
+      "pct": 5.21,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "2345",
+      "name": "ＨＯＤＬ１",
+      "pct": 4.38,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "5707",
+      "name": "東邦亜鉛",
+      "pct": 4.33,
+      "turnover_m": 1.2,
+      "volume": 1400
+    },
+    {
+      "code": "4568",
+      "name": "第一三共",
+      "pct": 4.17,
+      "turnover_m": 7.2,
+      "volume": 2600
+    },
+    {
+      "code": "4583",
+      "name": "カイオム・バイオサイエンス",
+      "pct": 3.82,
+      "turnover_m": 0.0,
+      "volume": 600
+    },
+    {
+      "code": "3896",
+      "name": "阿波製紙",
+      "pct": 3.79,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "332A",
+      "name": "ミーク",
+      "pct": 3.51,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "6327",
+      "name": "北川精機",
+      "pct": 3.48,
+      "turnover_m": 9.6,
+      "volume": 1200
+    },
+    {
+      "code": "5721",
+      "name": "エスクリプトエナジー",
+      "pct": 3.33,
+      "turnover_m": 8.4,
+      "volume": 135400
+    },
+    {
+      "code": "9425",
+      "name": "ＲｅＹｕｕ　Ｊａｐａｎ",
+      "pct": 3.29,
+      "turnover_m": 1.5,
+      "volume": 7000
+    },
+    {
+      "code": "8836",
+      "name": "ＲＩＳＥ",
+      "pct": 3.08,
+      "turnover_m": 0.3,
+      "volume": 10000
+    },
+    {
+      "code": "147A",
+      "name": "ソラコム",
+      "pct": 3.02,
+      "turnover_m": 2.3,
+      "volume": 2000
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4596",
+      "name": "窪田製薬ホールディングス",
+      "pct": 52.63,
+      "turnover_m": 63.6,
+      "mcap_oku": 79
+    },
+    {
+      "code": "7602",
+      "name": "レダックス",
+      "pct": 20.42,
+      "turnover_m": 83.5,
+      "mcap_oku": 46
+    },
+    {
+      "code": "2370",
+      "name": "メディネット",
+      "pct": 11.25,
+      "turnover_m": 26.0,
+      "mcap_oku": 67
+    },
+    {
+      "code": "3664",
+      "name": "ＷＩＺＥ",
+      "pct": 10.8,
+      "turnover_m": 13.5,
+      "mcap_oku": 21
+    },
+    {
+      "code": "6166",
+      "name": "中村超硬",
+      "pct": 8.64,
+      "turnover_m": 86.0,
+      "mcap_oku": 88
+    }
+  ]
+}
