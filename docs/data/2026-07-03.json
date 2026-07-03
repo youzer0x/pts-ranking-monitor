@@ -1,0 +1,291 @@
+{
+  "session_date": "2026-07-03",
+  "next_date": "2026-07-04",
+  "session_window": "2026-07-03 17:00 → 2026-07-04 06:00 JST",
+  "generated_at": "2026-07-04 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 3,
+    "dropped_turnover": 19,
+    "dropped_mcap": 3
+  },
+  "rows": [
+    {
+      "code": "4596",
+      "name": "窪田製薬ホールディングス",
+      "market": "グロース",
+      "mcap_oku": 120,
+      "mcap_flag": "†",
+      "pct": 34.48,
+      "pts": 117.0,
+      "close": 87.0,
+      "volume": 133600,
+      "turnover_yen": 15631200,
+      "turnover_m": 15.6,
+      "shoutfy_jq": 138504288,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "前営業日（7/2）15:30適時開示「エミクススタト塩酸塩の製造に係るマイルストーン対価受領のお知らせ」を受け日中ストップ高で価格発見未了。子会社Kubota Visionが仏KÔL社との供給ライセンス契約に基づき、スターガルト病コンパッショネートユース向け製造関連資料提供完了による第1マイルストーン対価を受領（金額非開示）。財経新聞（フィスコ 7/3 10:10配信）が継続上昇を報道。ナイトセッションで価格発見が継続。",
+      "factor_kind": "報道",
+      "rank": 1,
+      "shares_kabutan": 148794288,
+      "mcap_kabutan_oku": 129
+    },
+    {
+      "code": "4935",
+      "name": "リベルタ",
+      "market": "スタンダード",
+      "mcap_oku": 109,
+      "mcap_flag": "†",
+      "pct": 10.0,
+      "pts": 396.0,
+      "close": 360.0,
+      "volume": 385400,
+      "turnover_yen": 152618400,
+      "turnover_m": 152.6,
+      "shoutfy_jq": 30262600,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:00",
+          "code": "4935",
+          "name": "リベルタ",
+          "title": "第７回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587824.pdf"
+        },
+        {
+          "time": "17:30",
+          "code": "4935",
+          "name": "リベルタ",
+          "title": "（訂正）「第７回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ」の一部訂正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587828.pdf"
+        }
+      ],
+      "factor": "17:00付TDnet開示で第7回MSワラント（行使価額修正条項付、当初行使価額352円・下限212円・最大希薄化率24.79%・SMBC日興証券割当）の大量行使を公表（17:30に月間行使状況の一部訂正開示も）。",
+      "factor_kind": "開示",
+      "rank": 2,
+      "shares_kabutan": 31207700,
+      "mcap_kabutan_oku": 112
+    },
+    {
+      "code": "2678",
+      "name": "アスクル",
+      "market": "プライム",
+      "mcap_oku": 1101,
+      "mcap_flag": "",
+      "pct": 3.9,
+      "pts": 1273.8,
+      "close": 1226.0,
+      "volume": 25000,
+      "turnover_yen": 31845000,
+      "turnover_m": 31.8,
+      "shoutfy_jq": 89771300,
+      "cur_end": "2026-05-20",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "2678",
+          "name": "アスクル",
+          "title": "2026年５月期決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587650.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2678",
+          "name": "アスクル",
+          "title": "「2026年5月期 決算概要」のお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587655.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2678",
+          "name": "アスクル",
+          "title": "2026年5月期通期連結業績予想値と実績値との差異に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587660.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2678",
+          "name": "アスクル",
+          "title": "2026年5月期個別業績の前期実績値との差異に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587661.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2678",
+          "name": "アスクル",
+          "title": "特別損失（減損損失）の計上に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587664.pdf"
+        }
+      ],
+      "factor": "2026年5月期本決算（15:30開示）。ランサムウェア攻撃影響下で経常損失▲191億円（売上高前期比▲16.8%、4,002億円）となったが、IFISアナリスト予想（▲207億円）を約8%上回った。FY2027経常黒字転換（会社予想+63億円、売上高+22.4%予想）を発表し来期回復見通しが材料視。特別損失（減損損失）計上も同時開示。",
+      "factor_kind": "開示",
+      "rank": 3
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "504A",
+      "name": "イノバセル",
+      "pct": 18.42,
+      "turnover_m": 6.3,
+      "volume": 9800
+    },
+    {
+      "code": "4113",
+      "name": "田岡化学工業",
+      "pct": 18.36,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "7709",
+      "name": "クボテック",
+      "pct": 13.39,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "4883",
+      "name": "モダリス",
+      "pct": 12.12,
+      "turnover_m": 1.8,
+      "volume": 49300
+    },
+    {
+      "code": "153A",
+      "name": "カウリス",
+      "pct": 11.2,
+      "turnover_m": 0.3,
+      "volume": 200
+    },
+    {
+      "code": "8746",
+      "name": "ｕｎｂａｎｋｅｄ",
+      "pct": 6.51,
+      "turnover_m": 0.8,
+      "volume": 7300
+    },
+    {
+      "code": "6634",
+      "name": "ＪＮグループ",
+      "pct": 6.02,
+      "turnover_m": 3.7,
+      "volume": 42200
+    },
+    {
+      "code": "3647",
+      "name": "アスリナ",
+      "pct": 5.86,
+      "turnover_m": 0.1,
+      "volume": 800
+    },
+    {
+      "code": "4186",
+      "name": "東京応化工業",
+      "pct": 5.43,
+      "turnover_m": 1.1,
+      "volume": 100
+    },
+    {
+      "code": "2385",
+      "name": "総医研ホールディングス",
+      "pct": 5.17,
+      "turnover_m": 0.6,
+      "volume": 2800
+    },
+    {
+      "code": "166A",
+      "name": "タスキホールディングス",
+      "pct": 5.07,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "6054",
+      "name": "リブセンス",
+      "pct": 4.46,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "4293",
+      "name": "セプテーニ・ホールディングス",
+      "pct": 4.4,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "5282",
+      "name": "ジオスター",
+      "pct": 4.31,
+      "turnover_m": 0.3,
+      "volume": 700
+    },
+    {
+      "code": "6284",
+      "name": "日精エー・エス・ビー機械",
+      "pct": 4.23,
+      "turnover_m": 2.9,
+      "volume": 300
+    },
+    {
+      "code": "1514",
+      "name": "住石ホールディングス",
+      "pct": 4.21,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "3083",
+      "name": "スターシーズ",
+      "pct": 3.94,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "4667",
+      "name": "アイサンテクノロジー",
+      "pct": 3.55,
+      "turnover_m": 0.9,
+      "volume": 400
+    },
+    {
+      "code": "5820",
+      "name": "三ッ星",
+      "pct": 3.01,
+      "turnover_m": 0.3,
+      "volume": 400
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4394",
+      "name": "エクスモーション",
+      "pct": 17.78,
+      "turnover_m": 39.6,
+      "mcap_oku": 27
+    },
+    {
+      "code": "7602",
+      "name": "レダックス",
+      "pct": 9.04,
+      "turnover_m": 35.3,
+      "mcap_oku": 40
+    },
+    {
+      "code": "3133",
+      "name": "海帆",
+      "pct": 5.88,
+      "turnover_m": 97.0,
+      "mcap_oku": 60
+    }
+  ]
+}
