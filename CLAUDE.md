@@ -20,12 +20,15 @@
 
 ## SOT（単一の真実源）との同期
 
-`business_day.py` / `html_generator.py` 等は、`news-financial-market/skills/pts-ranking-digest/scripts/`
-を真実源として `cp` で取り込んだ共有スクリプト。
+データ取得系の共有スクリプト（`jquants.py` / `business_day.py` / `kabutan_pts.py` / `tdnet.py`）は、
+共有リポ **`market-scripts-common`** を単一の真実源とするベンダリング。`scripts/vendor.lock.json` に
+バージョン・コミット・ファイル別 sha256 が刻印される。`build_ranking.py` / `html_generator.py` /
+`publish.py` / `gmail_sender.py` / `check_gate.py` 等は本リポ固有（ベンダリング対象外）。
 
-- 共有スクリプトを本リポジトリで変更したら、真実源側と diff を取り、**双方向に同期**する。
-- 真実源側を更新して `cp` で取り込んだ直後も、必ず `python -m pytest` を実行して回帰が
-  無いことを確認する（テストは cp のドリフト検知も兼ねる）。
+- **ベンダリング済みファイルは本リポで直接編集しない**。CI の `python scripts/check_vendor.py`
+  が lock との不一致を検知して fail する。変更フロー：market-scripts-common 側の `src/` を修正
+  → 同リポでテスト → VERSION 更新・tag → `python sync.py` で全消費リポへ再配布 → 本リポでコミット。
+- 同期を取り込んだ直後は、必ず `python -m pytest` を実行して回帰が無いことを確認する。
 
 ## テストの実行
 

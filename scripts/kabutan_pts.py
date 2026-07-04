@@ -1,21 +1,28 @@
-"""株探（かぶたん）PTS ナイトタイムセッション 値上がり率ランキングの取得・パース。
+# vendored-from: market-scripts-common — このファイルは共有リポジトリの正本のコピーです。
+# 消費リポジトリでは編集禁止。変更は market-scripts-common で行い sync.py で配布すること。
+"""株探（かぶたん）取得モジュール（PTS ナイトランキング／発行済株式数／個別ニュース）。
 
-ソース: https://kabutan.jp/warning/pts_night_price_increase
+PTS ナイトランキング（pts 系が使用）:
+  ソース: https://kabutan.jp/warning/pts_night_price_increase
   - ナイトタイムセッション（17:00〜翌06:00）の「通常取引終値比（=上昇率）」降順ランキング。
   - 1ページ30件・ページャ `?market=0&capitalization=-1&dispmode=normal&stc=&stm=0&page=N`（最終 page=33 程度）。
   - 行の列構成（実地確認 2026-06-16）:
       コード / 銘柄名 / 市場 / [概要アイコン] / [チャートアイコン]
       / 通常取引終値 / PTS気配 / 前日比(差) / 上昇率% / 出来高 / PER / PBR / 利回り
   - 株探は「売買代金」を直接提供しないため、売買代金 ≒ PTS気配 × 夜間出来高 で概算する。
+  - デスクトップ版が AWS WAF にブロックされた場合はモバイル版（s.kabutan.jp）に自動フォールバックする。
+
+発行済株式数 kabutan_shares() と個別ニュース kabutan_news()（tse 系が使用）:
+  - kabutan_shares: J-Quants の ShOutFY（期末）とのクロスチェック（「†」注記）用。
+  - kabutan_news: 変動要因リサーチの起点データ（見出しの索引であり権威ではない）。
 
 stdlib のみ（urllib）。ネット取得 or 保存済みHTML（argv）から再パースの両対応。
-デスクトップ版が AWS WAF にブロックされた場合はモバイル版（s.kabutan.jp）に自動フォールバックする。
 
 usage:
   python kabutan_pts.py                # ライブ取得して上昇率≥3%を表示
   python kabutan_pts.py page1.html ... # 保存済みHTMLから再パース
 """
-import sys, re, json, time, subprocess, urllib.request, urllib.parse
+import sys, re, json, time, subprocess, html as _html, urllib.request, urllib.parse
 
 BASE = "https://kabutan.jp/warning/pts_night_price_increase"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -37,6 +44,14 @@ _ROW_NUM = re.compile(
     r'<td>([\d,]+)</td>',                           # 4 出来高
     re.S,
 )
+
+_SHARES = re.compile(r'発行済株式数.{0,40}?>([\d,]+)', re.S)
+_NEWS_TABLE = re.compile(r'<table class="s_news_list[^"]*">(.*?)</table>', re.S)
+_NEWS_TIME = re.compile(r'<time[^>]*datetime="([^"]+)"')
+_NEWS_LINK = re.compile(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', re.S)
+_NEWS_CTG = re.compile(r'newslist_ctg[^>]*>(.*?)</div>', re.S)
+# 株探ニュースの定型テクニカル指標見出し（均衡表・GC/DC・パラボリック等）はノイズとして除外する
+_NEWS_DROP_CTG = {"テク"}
 
 
 def _num(s):
@@ -158,9 +173,6 @@ def fetch_page(page):
     return ""
 
 
-_SHARES = re.compile(r'発行済株式数.{0,40}?>([\d,]+)', re.S)
-
-
 def kabutan_shares(code):
     """株探の個別銘柄ページから最新の発行済株式数（int）を取得。失敗時 None。
 
@@ -181,6 +193,53 @@ def kabutan_shares(code):
         return int(m.group(1).replace(",", ""))
     except ValueError:
         return None
+
+
+def kabutan_news(code, max_items=12):
+    """株探 個別銘柄ニュース（材料・特集〔レーティング日報含む〕・開示・5%ルール等）の
+    直近見出しと配信時刻を返す。各要素は {datetime, category, title, url}。失敗時 []。
+
+    変動要因リサーチ（手順B item 2/4）の起点データ：これを各行に事前充填しておくと、
+    「材料未確認」へ落とす前に株探の材料/レーティング/大量保有見出しを必ず確認できる。
+    なお株探ニュースは §4① 拡張 whitelist だが、本関数は**見出しの索引**であり権威ではない。
+    採用時は Claude が配信時刻の当日窓整合と3層ソース規律を必ず適用すること。
+    best-effort：取得・パース失敗時は [] を返し、パイプラインを止めない（レイアウト変更時は
+    従来挙動に degrade）。定型テクニカル指標見出し（category="テク"）はノイズとして除外する。
+    """
+    url = f"https://kabutan.jp/stock/news?code={code}"
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            page = r.read().decode("utf-8", "replace")
+    except Exception:
+        return []
+    try:
+        mtbl = _NEWS_TABLE.search(page)
+        if not mtbl:
+            return []
+        out = []
+        for tr in re.split(r'<tr[ >]', mtbl.group(1)):
+            mt = _NEWS_TIME.search(tr)
+            ma = _NEWS_LINK.search(tr)
+            if not mt or not ma:
+                continue
+            mc = _NEWS_CTG.search(tr)
+            cat = re.sub(r"<.*?>", "", mc.group(1)).strip() if mc else ""
+            if cat in _NEWS_DROP_CTG:
+                continue
+            href, title = ma.groups()
+            title = _html.unescape(re.sub(r"<.*?>", "", title)).strip()
+            out.append({
+                "datetime": mt.group(1).strip(),
+                "category": cat,
+                "title": title,
+                "url": href if href.startswith("http") else f"https://kabutan.jp{href}",
+            })
+            if len(out) >= max_items:
+                break
+        return out
+    except Exception:
+        return []
 
 
 def fetch_gainers(min_pct=DEFAULT_MIN_PCT, max_pages=MAX_PAGES, verbose=True):

@@ -6,6 +6,9 @@
 
 > 方法論の単一の真実源は本 `AGENTS.md`。対話版スキル
 > `news-financial-market/skills/pts-ranking-digest/SKILL.md` と同一の抽出条件・品質ゲートを用いる。
+> データ取得系の共有スクリプト（`jquants.py`・`business_day.py`・`kabutan_pts.py`・`tdnet.py`）の
+> **コード**は共有リポ `market-scripts-common` が単一の真実源（`scripts/` へベンダリング。
+> `scripts/vendor.lock.json` 参照・直接編集禁止）。
 
 ---
 
