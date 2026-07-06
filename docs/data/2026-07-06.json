@@ -1,0 +1,336 @@
+{
+  "session_date": "2026-07-06",
+  "next_date": "2026-07-07",
+  "session_window": "2026-07-06 17:00 → 2026-07-07 06:00 JST",
+  "generated_at": "2026-07-07 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 7,
+    "dropped_turnover": 17,
+    "dropped_mcap": 4
+  },
+  "rows": [
+    {
+      "code": "4596",
+      "name": "窪田製薬ホールディングス",
+      "market": "グロース",
+      "mcap_oku": 162,
+      "mcap_flag": "†",
+      "pct": 29.91,
+      "pts": 152.0,
+      "close": 117.0,
+      "volume": 10730700,
+      "turnover_yen": 1631066400,
+      "turnover_m": 1631.1,
+      "shoutfy_jq": 138504288,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年7月2日15時30分（東証引け後）にTDnet開示された連結子会社Kubota Vision Inc.によるエミクススタト塩酸塩（スターガルト病治療候補薬）の原薬製造工程対応第1マイルストーン対価受領（フランスKÔL社との供給・ライセンス契約に基づく。金額は非開示）を材料に、翌7月3日（金）は東証でストップ高87円に買い気配が殺到し終値もストップ高となった。週明け7月6日（月）も特別買い気配から2日連続ストップ高117円（+34.48%）で引け、2日間で消化しきれなかった累積買い注文が同日夜間PTSへ流入し29.91%の上昇となった。",
+      "factor_kind": "開示",
+      "rank": 1,
+      "shares_kabutan": 148794288,
+      "mcap_kabutan_oku": 174
+    },
+    {
+      "code": "6522",
+      "name": "アスタリスク",
+      "market": "グロース",
+      "mcap_oku": 132,
+      "mcap_flag": "†",
+      "pct": 23.58,
+      "pts": 2096.0,
+      "close": 1696.0,
+      "volume": 72400,
+      "turnover_yen": 151750400,
+      "turnover_m": 151.8,
+      "shoutfy_jq": 7796800,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "7月6日21:00、米国子会社AsReader, Inc.を通じ「AsReader RFID Reading TUB」（バスケットをレジに置くだけで複数商品を一括会計するシステム）の北米商用展開開始と米国新特許取得を発表（IRサイト公式リリース）。引け後の発表であったため日中の株価（終値1,696円、前日比−13.03%）には反映されず、PTSで買いが集まった。6月30日正午に国内スーパー向け「全商品RFID化ソリューション」本格展開を公表しており、米国への横展開として評価された。",
+      "factor_kind": "報道",
+      "rank": 2,
+      "shares_kabutan": 8046800,
+      "mcap_kabutan_oku": 136
+    },
+    {
+      "code": "504A",
+      "name": "イノバセル",
+      "market": "グロース",
+      "mcap_oku": 290,
+      "mcap_flag": "",
+      "pct": 13.22,
+      "pts": 728.0,
+      "close": 643.0,
+      "volume": 63400,
+      "turnover_yen": 46155200,
+      "turnover_m": 46.2,
+      "shoutfy_jq": 45098744,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。2026年7月2日16時30分に同社がICEF15国際共同第Ⅲ相治験（Fidelia試験）の米国FDA IND審査完了および米国組入れ承認取得を開示して以降、7月3日（ストップ高買い気配）・4日（ストップ高543円）・6日（ストップ高643円）と連続して値幅上限に張り付き、引け後のPTSに買い需要が持ち越された。",
+      "factor_kind": "テーマ",
+      "rank": 3
+    },
+    {
+      "code": "6203",
+      "name": "豊和工業",
+      "market": "スタンダード",
+      "mcap_oku": 211,
+      "mcap_flag": "",
+      "pct": 8.46,
+      "pts": 1820.0,
+      "close": 1678.0,
+      "volume": 12500,
+      "turnover_yen": 22750000,
+      "turnover_m": 22.8,
+      "shoutfy_jq": 12548134,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "日本経済新聞が2026年7月4日2時（4日付朝刊）に「防衛装備の工場『国有民営』　政府、法改正へ調整　有事の緊急増産に備え」と報じた。政府が防衛装備品製造工場を国有化（国が施設保有・民間が運営）する法案を2027年にも国会提出する調整に入ったとする内容で、週末をまたいで伝わり、週明け7月6日の東証で三菱重工業・川崎重工業・IHI等と並び国内唯一の自衛隊向け小銃（20式5.56mm小銃）製造企業として資金が流入した。",
+      "factor_kind": "報道",
+      "rank": 4
+    },
+    {
+      "code": "5246",
+      "name": "ＥＬＥＭＥＮＴＳ",
+      "market": "グロース",
+      "mcap_oku": 180,
+      "mcap_flag": "",
+      "pct": 8.13,
+      "pts": 718.0,
+      "close": 664.0,
+      "volume": 37200,
+      "turnover_yen": 26709600,
+      "turnover_m": 26.7,
+      "shoutfy_jq": 27170514,
+      "cur_end": "2026-11-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:00",
+          "code": "5246",
+          "name": "Ｇ－ＥＬＥＭＥＮＴＳ",
+          "title": "経済産業省およびNEDOの公募「データエコシステムの構築等に関する研究開発（GENIAC）」に採択に関する発表",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588513.pdf"
+        }
+      ],
+      "factor": "経済産業省・NEDOの「データエコシステムの構築等に関する研究開発（GENIAC）」に採択されたと発表（7月6日17:00 TDnet開示）。同プログラムは複数企業間のデータ連携・生成AI活用のエコシステム構築を支援する国家プロジェクトで、2026〜2028年度の最大2年間が事業期間となる。",
+      "factor_kind": "開示",
+      "rank": 5
+    },
+    {
+      "code": "3186",
+      "name": "ネクステージ",
+      "market": "プライム",
+      "mcap_oku": 3341,
+      "mcap_flag": "",
+      "pct": 6.3,
+      "pts": 4390.0,
+      "close": 4130.0,
+      "volume": 16000,
+      "turnover_yen": 70240000,
+      "turnover_m": 70.2,
+      "shoutfy_jq": 80905100,
+      "cur_end": "2026-11-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "3186",
+          "name": "ネクステージ",
+          "title": "2026年11月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587371.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3186",
+          "name": "ネクステージ",
+          "title": "第２四半期（中間期）業績予想と実績の差異及び通期業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587432.pdf"
+        }
+      ],
+      "factor": "2026年11月期第2四半期（中間期）決算を発表。中間経常利益は131.98億円（通期進捗率51.8%・IFISコンセンサス超）と好調で、通期業績予想を上方修正（売上高7,460億円・前期比+14.4%、営業利益276億円・前期比+40.8%）した。",
+      "factor_kind": "開示",
+      "rank": 6
+    },
+    {
+      "code": "3110",
+      "name": "日東紡績",
+      "market": "プライム",
+      "mcap_oku": 6630,
+      "mcap_flag": "",
+      "pct": 3.53,
+      "pts": 3639.0,
+      "close": 3515.0,
+      "volume": 14900,
+      "turnover_yen": 54221100,
+      "turnover_m": 54.2,
+      "shoutfy_jq": 37723012,
+      "cur_end": "2026-03-31",
+      "corr": 5.0,
+      "disclosures": [],
+      "factor": "2026年7月6日、JPモルガン証券が投資判断「Overweight（強気）」の継続を確認し、7月1日施行の1株→5株株式分割に伴う分割調整後の目標株価5,800円（終値3,515円比約65%上値余地）を公表した。直前の7月2日にはモルガンMUFGも「Overweight継続・目標株価6,000円」を公表しており、複数の主要証券会社による強気評価の相次ぐ確認が引け後に材料視された。",
+      "factor_kind": "報道",
+      "rank": 7
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "3750",
+      "name": "ＡＤＲバイオメディカルホールディングス",
+      "pct": 11.53,
+      "turnover_m": 0.8,
+      "volume": 900
+    },
+    {
+      "code": "9651",
+      "name": "日本プロセス",
+      "pct": 11.11,
+      "turnover_m": 0.6,
+      "volume": 300
+    },
+    {
+      "code": "9417",
+      "name": "スマートバリュー",
+      "pct": 7.32,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "2501",
+      "name": "サッポロビール",
+      "pct": 6.83,
+      "turnover_m": 9.5,
+      "volume": 4700
+    },
+    {
+      "code": "1443",
+      "name": "技研ホールディングス",
+      "pct": 5.47,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "6093",
+      "name": "ミトラグループ",
+      "pct": 5.18,
+      "turnover_m": 5.7,
+      "volume": 32800
+    },
+    {
+      "code": "8393",
+      "name": "宮崎銀行",
+      "pct": 5.09,
+      "turnover_m": 1.2,
+      "volume": 500
+    },
+    {
+      "code": "177A",
+      "name": "コージンバイオ",
+      "pct": 4.62,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "7810",
+      "name": "クロスフォー",
+      "pct": 4.29,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "6469",
+      "name": "放電精密加工研究所",
+      "pct": 4.03,
+      "turnover_m": 1.7,
+      "volume": 600
+    },
+    {
+      "code": "6663",
+      "name": "太洋テクノレックス",
+      "pct": 3.81,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "6085",
+      "name": "アーキテクツ・スタジオ・ジャパン",
+      "pct": 3.67,
+      "turnover_m": 6.4,
+      "volume": 25300
+    },
+    {
+      "code": "2721",
+      "name": "ジェイホールディングス",
+      "pct": 3.23,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "6237",
+      "name": "イワキ",
+      "pct": 3.18,
+      "turnover_m": 1.8,
+      "volume": 400
+    },
+    {
+      "code": "6046",
+      "name": "リンクバル",
+      "pct": 3.12,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "7352",
+      "name": "ＴＷＯＳＴＯＮＥ＆Ｓｏｎｓ",
+      "pct": 3.1,
+      "turnover_m": 0.6,
+      "volume": 1500
+    },
+    {
+      "code": "2673",
+      "name": "夢みつけ隊",
+      "pct": 3.0,
+      "turnover_m": 0.0,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4591",
+      "name": "リボミック",
+      "pct": 40.88,
+      "turnover_m": 168.0,
+      "mcap_oku": 37
+    },
+    {
+      "code": "9972",
+      "name": "アルテック",
+      "pct": 27.37,
+      "turnover_m": 31.1,
+      "mcap_oku": 42
+    },
+    {
+      "code": "4394",
+      "name": "エクスモーション",
+      "pct": 14.53,
+      "turnover_m": 59.7,
+      "mcap_oku": 32
+    },
+    {
+      "code": "584A",
+      "name": "ＬｉＮＫＸ",
+      "pct": 6.78,
+      "turnover_m": 257.8,
+      "mcap_oku": null
+    }
+  ]
+}
