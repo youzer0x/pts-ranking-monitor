@@ -1,0 +1,353 @@
+{
+  "session_date": "2026-07-08",
+  "next_date": "2026-07-09",
+  "session_window": "2026-07-08 17:00 → 2026-07-09 06:00 JST",
+  "generated_at": "2026-07-09 06:08 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 9,
+    "dropped_turnover": 17,
+    "dropped_mcap": 2
+  },
+  "rows": [
+    {
+      "code": "9348",
+      "name": "ｉｓｐａｃｅ",
+      "market": "グロース",
+      "mcap_oku": 626,
+      "mcap_flag": "",
+      "pct": 18.69,
+      "pts": 508.0,
+      "close": 428.0,
+      "volume": 247600,
+      "turnover_yen": 125780800,
+      "turnover_m": 125.8,
+      "shoutfy_jq": 146209683,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:50",
+          "code": "9348",
+          "name": "Ｇ－ｉｓｐａｃｅ",
+          "title": "SpaceX「スターシップ」のペイロード搭載枠を活用した月輸送サービスの提供開始に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586839.pdf"
+        }
+      ],
+      "factor": "SpaceX「スターシップ」のペイロード搭載枠を活用した月面輸送サービスの提供開始を15:50に適時開示した。月探査プラットフォームの商業化に向けて具体的なサービス展開に踏み切ったことが評価され、PTS夜間で急騰した。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "market": "プライム",
+      "mcap_oku": 201629,
+      "mcap_flag": "",
+      "pct": 4.74,
+      "pts": 28850.0,
+      "close": 27545.0,
+      "volume": 30200,
+      "turnover_yen": 871270000,
+      "turnover_m": 871.3,
+      "shoutfy_jq": 732000000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年7月8日（米国時間）、The Information の報道としてBloombergおよびロイターが「中国当局がアリババ・バイトダンス・DeepSeekなど主要AI企業に対しエヌビディアのH200チップの限定購入（上限20万枚未満）を承認する方針」を報じた（[Bloomberg](https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says)、[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/china-plans-to-let-top-ai-firms-buy-limited-amount-of-nvidia-h200-chips-the-information-reports-4782000)）。これを受けて同日の米国市場でエヌビディア（NVDA）が3.66%高と急伸した。アドバンテストはエヌビディアのAI向けSoCおよびHBM統合チップの半導体試験装置における主要サプライヤーであり、H200の中国向け出荷拡大は同社の試験装置受注増に直結するとみられ、PTSナイトセッションで買いを集めた。",
+      "factor_kind": "報道",
+      "rank": 2
+    },
+    {
+      "code": "1662",
+      "name": "石油資源開発",
+      "market": "プライム",
+      "mcap_oku": 4292,
+      "mcap_flag": "",
+      "pct": 4.43,
+      "pts": 1744.0,
+      "close": 1670.0,
+      "volume": 15300,
+      "turnover_yen": 26683200,
+      "turnover_m": 26.7,
+      "shoutfy_jq": 257000380,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年7月7日にイランがホルムズ海峡を航行中のカタール籍LNGタンカーとサウジアラビア籍原油タンカーをミサイルで攻撃し（[時事通信](https://news.yahoo.co.jp/articles/2ae6a43c33c638a37bd5aa8cc2eb9170cd7bf21f)）、原油供給途絶リスクが急浮上した。米財務省も同日、イラン産原油・石油化学品の販売ライセンスを取り消したと発表し、ニューヨーク原油先物（WTI 8月限）はPTSナイトセッション中の取引で前日比+2.8%の1バレル70.44ドルで引けた（[日本経済新聞](https://www.nikkei.com/article/DGXZQOFL07C460X00C26A7000000/)、2026年7月8日5時08分配信）。原油・天然ガスの探鉱・生産を主事業とし収益が資源価格に連動する石油資源開発は、引け後の原油急伸を受けてPTSナイトセッションで買いを集めた。",
+      "factor_kind": "テーマ",
+      "rank": 3
+    },
+    {
+      "code": "285A",
+      "name": "キオクシアホールディングス",
+      "market": "プライム",
+      "mcap_oku": 392472,
+      "mcap_flag": "",
+      "pct": 4.06,
+      "pts": 74790.0,
+      "close": 71870.0,
+      "volume": 124800,
+      "turnover_yen": 9333792000,
+      "turnover_m": 9333.8,
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "7月8日（米国時間午前11時05分、日本時間9日未明）、The Information の報道をBloombergおよびロイターが配信し、中国当局がアリババ・バイトダンス・DeepSeekなど主要AI企業によるNvidiaのH200チップ購入（合計20万個未満）を条件付きで承認する方針と判明した（[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/china-plans-to-let-top-ai-firms-buy-limited-amount-of-nvidia-h200-chips-the-information-reports-4782000)、[Bloomberg](https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says)）。これを受けてNvidiaが3.6%超上昇し、iShares半導体ETF（SOXX）は前日比+1.8%と切り返した。前日7月7日の米市場ではサムスン電子2026年4〜6月期暫定決算発表後に「材料出尽くし」売りが先行しSOXXが約5%下落した後の急反発であり、中国AIインフラ向けH200導入拡大はNANDストレージ需要の追い風とみなされ、NAND大手のキオクシアにも買いが波及した。",
+      "factor_kind": "報道",
+      "rank": 4
+    },
+    {
+      "code": "6958",
+      "name": "日本シイエムケイ",
+      "market": "プライム",
+      "mcap_oku": 430,
+      "mcap_flag": "",
+      "pct": 3.65,
+      "pts": 625.0,
+      "close": 603.0,
+      "volume": 20800,
+      "turnover_yen": 13000000,
+      "turnover_m": 13.0,
+      "shoutfy_jq": 71298100,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "車載向けプリント配線板専業大手の同社は、2026年7月8日の東証通常取引で日経平均が韓国半導体株連鎖安を受けて急落する中、終値603円と相対的に小幅な下落にとどまった。同日引け後（17時台）、株探「反騰期待【ＲＳＩ(20％以下)】低PBR 15社選出 ＜テクニカル特集＞ 7月8日版」が配信され、同社がＲＳＩ14.11（14日線、3営業日連続で20%以下の超売られ過ぎ圏）・ＰＢＲ0.51倍の割安反騰候補15銘柄の一つとして選出された（[株探テクニカル特集](https://s.kabutan.jp/news/n202607080990/)）。引け後に広く読まれる同特集への掲載がナイトPTSでの反騰買いを誘引したとみられる。",
+      "factor_kind": "報道",
+      "rank": 5
+    },
+    {
+      "code": "254A",
+      "name": "ＡＩフュージョンキャピタルグループ",
+      "market": "スタンダード",
+      "mcap_oku": 110,
+      "mcap_flag": "",
+      "pct": 3.35,
+      "pts": 1172.0,
+      "close": 1134.0,
+      "volume": 19600,
+      "turnover_yen": 22971200,
+      "turnover_m": 23.0,
+      "shoutfy_jq": 9702600,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。同日12:00のTDnet適時開示「株主優待制度に関するお知らせ」にて、連結子会社「鰻の成瀬」のうな重引換券を株主優待として新設（2026年7月末時点に100株以上保有の株主へ特別優待券4枚を贈呈）したことが好感され通常取引は前日比+12.28%と急伸したが、これは材料窓（15:30以降）より前の開示であり、引け後15:30以降に新たなTDnet開示・レーティング変更・報道は確認されなかった。PTSナイトでの上昇は通常取引急騰の余勢とみられる。",
+      "factor_kind": "テーマ",
+      "rank": 6
+    },
+    {
+      "code": "3391",
+      "name": "ツルハホールディングス",
+      "market": "プライム",
+      "mcap_oku": 10425,
+      "mcap_flag": "",
+      "pct": 3.33,
+      "pts": 2371.0,
+      "close": 2294.5,
+      "volume": 26800,
+      "turnover_yen": 63542800,
+      "turnover_m": 63.5,
+      "shoutfy_jq": 454365490,
+      "cur_end": "2027-02-28",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "3391",
+          "name": "ツルハＨＤ",
+          "title": "2027年２月期 第１四半期決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589226.pdf"
+        }
+      ],
+      "factor": "2027年2月期第1四半期（2026年3〜5月）の連結決算を2026年7月7日15:30にTDnetで開示した（[ツルハHD 2027年2月期第1四半期決算短信](https://www.release.tdnet.info/inbs/140120260707589226.pdf)）。営業利益は242億円・経常利益は244億円でいずれも前年同期比86.8%増となり、IFISコンセンサス（経常利益208億円）を17.3%上回る大幅な上振れ着地となった。四半期純利益134億円もコンセンサス比33.4%超過。通期の経常利益予想981億円（前期比55.5%増）は据え置きながらもコンセンサスを8.6%上回る水準であり、引け後に判明した大幅なコンセンサス超過がナイトセッション上昇の主因とみられる。",
+      "factor_kind": "開示",
+      "rank": 7
+    },
+    {
+      "code": "278A",
+      "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+      "market": "グロース",
+      "mcap_oku": 853,
+      "mcap_flag": "",
+      "pct": 3.09,
+      "pts": 9020.0,
+      "close": 8750.0,
+      "volume": 4800,
+      "turnover_yen": 43296000,
+      "turnover_m": 43.3,
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "7月7日16時29分、日本経済新聞電子版が「NATO首脳会議が7日アンカラで開幕し、ウクライナへ700億ユーロ（約13兆円）規模の支援で合意調整」と報じた（[日本経済新聞](https://www.nikkei.com/article/DGXZQOGR069J40W6A700C2000000/)）。この報道はPTSナイト材料窓内（15:30以降）に発信され、防衛ドローン関連株全般を押し上げた。テラドローンは2026年5月に防衛装備庁から国産モジュール型UAV300機・1.15億円を初受注し（[terra-drone.net](https://terra-drone.net/26566)）、防衛装備庁が6月末から公募を開始した迎撃ドローン早期取得プログラムの有力候補として位置づけられており、NATO首脳会議での大規模防衛支援合意報道を契機に連想買いが入ったとみられる。",
+      "factor_kind": "テーマ",
+      "rank": 8
+    },
+    {
+      "code": "5016",
+      "name": "ＪＸ金属",
+      "market": "プライム",
+      "mcap_oku": 34177,
+      "mcap_flag": "†",
+      "pct": 3.02,
+      "pts": 3792.0,
+      "close": 3681.0,
+      "volume": 207800,
+      "turnover_yen": 787977600,
+      "turnover_m": 788.0,
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "7月8日15:30の引け後、IFISがレーティング情報として「日系大手証券がＪＸ金属のレーティングを強気に引き上げ、目標株価を4,800円に設定」と配信した。引け値3,681円に対し目標株価は約30%の上方余地を示す内容であり、この格上げ情報がPTSナイトセッション中に広まり買いが優勢となった結果、同社株は前引け比3.02%高の3,792円まで上昇した。",
+      "factor_kind": "報道",
+      "rank": 9,
+      "shares_kabutan": 953183210,
+      "mcap_kabutan_oku": 35087
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "4381",
+      "name": "ビープラッツ",
+      "pct": 27.47,
+      "turnover_m": 0.1,
+      "volume": 300
+    },
+    {
+      "code": "7709",
+      "name": "クボテック",
+      "pct": 10.0,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "3490",
+      "name": "アズ企画設計",
+      "pct": 7.21,
+      "turnover_m": 5.1,
+      "volume": 1500
+    },
+    {
+      "code": "2338",
+      "name": "クオンタムソリューションズ",
+      "pct": 7.02,
+      "turnover_m": 5.3,
+      "volume": 43100
+    },
+    {
+      "code": "6941",
+      "name": "山一電機",
+      "pct": 6.23,
+      "turnover_m": 1.8,
+      "volume": 200
+    },
+    {
+      "code": "7138",
+      "name": "ＴＯＲＩＣＯ",
+      "pct": 6.12,
+      "turnover_m": 0.2,
+      "volume": 1700
+    },
+    {
+      "code": "3358",
+      "name": "Ｔｒａｉｌｈｅａｄ　Ｇｌｏｂａｌ　Ｈｏｌｄｉｎｇｓ",
+      "pct": 5.96,
+      "turnover_m": 0.2,
+      "volume": 2200
+    },
+    {
+      "code": "4597",
+      "name": "ソレイジア・ファーマ",
+      "pct": 5.42,
+      "turnover_m": 5.6,
+      "volume": 221200
+    },
+    {
+      "code": "5103",
+      "name": "昭和ホールディングス",
+      "pct": 5.29,
+      "turnover_m": 0.1,
+      "volume": 2600
+    },
+    {
+      "code": "4564",
+      "name": "オンコセラピー・サイエンス",
+      "pct": 4.74,
+      "turnover_m": 2.4,
+      "volume": 122100
+    },
+    {
+      "code": "6838",
+      "name": "多摩川ホールディングス",
+      "pct": 4.33,
+      "turnover_m": 1.6,
+      "volume": 1000
+    },
+    {
+      "code": "9973",
+      "name": "ＫＯＺＯホールディングス",
+      "pct": 4.21,
+      "turnover_m": 2.2,
+      "volume": 112200
+    },
+    {
+      "code": "4599",
+      "name": "ステムリム",
+      "pct": 3.62,
+      "turnover_m": 0.3,
+      "volume": 1100
+    },
+    {
+      "code": "280A",
+      "name": "ＴＭＨ",
+      "pct": 3.58,
+      "turnover_m": 0.8,
+      "volume": 400
+    },
+    {
+      "code": "5282",
+      "name": "ジオスター",
+      "pct": 3.3,
+      "turnover_m": 0.2,
+      "volume": 400
+    },
+    {
+      "code": "2488",
+      "name": "ＪＴＰ",
+      "pct": 3.17,
+      "turnover_m": 0.3,
+      "volume": 200
+    },
+    {
+      "code": "4772",
+      "name": "ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ",
+      "pct": 3.07,
+      "turnover_m": 0.0,
+      "volume": 300
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4833",
+      "name": "Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ",
+      "pct": 21.57,
+      "turnover_m": 253.1,
+      "mcap_oku": 37
+    },
+    {
+      "code": "3133",
+      "name": "海帆",
+      "pct": 5.34,
+      "turnover_m": 21.5,
+      "mcap_oku": 60
+    }
+  ]
+}
