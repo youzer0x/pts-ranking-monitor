@@ -99,6 +99,7 @@ function fmtMcapCell(o,f){if(o==null)return '—';o=Number(o);var s=o>=10000?(o/
 function riseYen(r){if(r==null||r.pts==null||r.close==null)return null;return Math.round(Number(r.pts)-Number(r.close));}
 function fmtSigned(v){if(v==null)return '—';var n=Number(v);return (n>=0?'+':'')+n.toLocaleString('ja-JP');}
 function esc(s){const d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+function linkifyFactor(s){var t=esc(s==null?'':s);return t.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)/g,function(_,label,url){return '<a href="'+url.replace(/"/g,'&quot;')+'" target="_blank" rel="noopener noreferrer">'+label+'</a>';});}
 function kindBadge(k){k=(k||'').replace(/[\[\]]/g,'');if(!k)return '';return '<span class="kind k'+k+'">'+k+'</span>';}
 async function init(){
   try{
@@ -126,7 +127,7 @@ function render(){
     '抽出条件：PTS上昇率≥+'+(c.min_pct??3)+'% かつ 売買代金≥'+((c.min_turnover_yen??10e6)/1e6)+'百万円／東証個別株のみ・時価総額≥'+(c.min_mcap_oku??100)+'億円。時価総額は当日終値×発行済株式数（億円・四捨五入）。† は増資・自己株で株探最新株数と>1%乖離。';
   let h='<table><thead><tr><th class="r">#</th><th>コード</th><th>銘柄</th><th>市場</th><th class="r">上昇率</th><th class="r">上昇幅<br>(円)</th><th class="r">PTS気配<br>(円)</th><th class="r">東証終値<br>(円)</th><th class="r">売買代金<br>(百万円)</th><th>変動要因</th></tr></thead><tbody>';
   rows.forEach(r=>{
-    let factor=esc(r.factor||'（材料未確認）');
+    let factor=linkifyFactor(r.factor||'（材料未確認）');
     const fk=(r.factor_kind||'').replace(/[\[\]]/g,'');
     if(fk==='開示'&&r.disclosures&&r.disclosures.length&&r.disclosures[0].pdf_url){factor=factor+' <a href="'+esc(r.disclosures[0].pdf_url)+'" target="_blank">[開示PDF]</a>';}
     const code=fmtCode(r.code);
