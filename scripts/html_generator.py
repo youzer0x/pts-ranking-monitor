@@ -10,7 +10,23 @@ factor_kind）を埋めたもの。Pages は manifest.json から日付一覧を
   - 市場区分は英語表記（Prime / Standard / Growth）。
   - 変動要因の根拠が適時開示（factor_kind="開示"）で PDF がある場合のみ [開示PDF] リンクを添付する。
 """
+import html
+import re
 from datetime import date
+
+_MD_LINK_RE = re.compile(r'\[([^\[\]]+)\]\((https?://[^\s()]+)\)')
+
+
+def linkify_factor(text):
+    """factor 本文の [出典名](URL) を <a> タグへ変換する。
+    それ以外の文字は HTML エスケープする（factor は LLM 生成の自由文のため）。"""
+    escaped = html.escape(text)
+
+    def _repl(m):
+        label, url = m.group(1), m.group(2)
+        return f'<a href="{url}" target="_blank" rel="noopener noreferrer">{label}</a>'
+
+    return _MD_LINK_RE.sub(_repl, escaped)
 
 
 def fmt_mcap(oku, flag=""):
@@ -42,7 +58,7 @@ def generate_email_html(data, pages_url, max_items=25):
     date_str = data.get("session_date", "")
     trs = []
     for r in display:
-        factor = (r.get("factor") or "（材料未確認）").strip()
+        factor = linkify_factor((r.get("factor") or "（材料未確認）").strip())
         badge = _kind_badge(r.get("factor_kind"))
         trs.append(f"""<tr>
           <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;font-family:Arial,sans-serif;">{r.get('rank','')}</td>
@@ -192,6 +208,7 @@ function fmtMcapCell(o,f){if(o==null)return '—';o=Number(o);var s=o>=10000?(o/
 function riseYen(r){if(r==null||r.pts==null||r.close==null)return null;return Math.round(Number(r.pts)-Number(r.close));}
 function fmtSigned(v){if(v==null)return '—';var n=Number(v);return (n>=0?'+':'')+n.toLocaleString('ja-JP');}
 function esc(s){const d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+function linkifyFactor(s){var t=esc(s==null?'':s);return t.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)/g,function(_,label,url){return '<a href="'+url.replace(/"/g,'&quot;')+'" target="_blank" rel="noopener noreferrer">'+label+'</a>';});}
 function kindBadge(k){k=(k||'').replace(/[\[\]]/g,'');if(!k)return '';return '<span class="kind k'+k+'">'+k+'</span>';}
 async function init(){
   try{
@@ -219,7 +236,7 @@ function render(){
     '抽出条件：PTS上昇率≥+'+(c.min_pct??3)+'% かつ 売買代金≥'+((c.min_turnover_yen??10e6)/1e6)+'百万円／東証個別株のみ・時価総額≥'+(c.min_mcap_oku??100)+'億円。時価総額は当日終値×発行済株式数（億円・四捨五入）。† は増資・自己株で株探最新株数と>1%乖離。';
   let h='<table><thead><tr><th class="r">#</th><th>コード</th><th>銘柄</th><th>市場</th><th class="r">上昇率</th><th class="r">上昇幅<br>(円)</th><th class="r">PTS気配<br>(円)</th><th class="r">東証終値<br>(円)</th><th class="r">売買代金<br>(百万円)</th><th>変動要因</th></tr></thead><tbody>';
   rows.forEach(r=>{
-    let factor=esc(r.factor||'（材料未確認）');
+    let factor=linkifyFactor(r.factor||'（材料未確認）');
     const fk=(r.factor_kind||'').replace(/[\[\]]/g,'');
     if(fk==='開示'&&r.disclosures&&r.disclosures.length&&r.disclosures[0].pdf_url){factor=factor+' <a href="'+esc(r.disclosures[0].pdf_url)+'" target="_blank">[開示PDF]</a>';}
     const code=fmtCode(r.code);

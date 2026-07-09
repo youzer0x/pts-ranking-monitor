@@ -15,6 +15,32 @@ def test_fmt_pct():
     assert hg.fmt_pct(3.0) == "+3.00%"
 
 
+# ── linkify_factor ────────────────────────────────────────
+def test_linkify_factor_converts_markdown_link():
+    out = hg.linkify_factor("材料は[日経新聞](https://www.nikkei.com/article/123)による報道。")
+    assert '<a href="https://www.nikkei.com/article/123" target="_blank" rel="noopener noreferrer">日経新聞</a>' in out
+    assert "[日経新聞]" not in out
+    assert "](https://www.nikkei.com/article/123)" not in out
+
+
+def test_linkify_factor_handles_multiple_links():
+    out = hg.linkify_factor("（[Bloomberg](https://a.example/x)、[Reuters via Investing.com](https://b.example/y)）。")
+    assert out.count("<a href=") == 2
+    assert "[Bloomberg]" not in out and "[Reuters via Investing.com]" not in out
+    assert "https://a.example/x)" not in out  # 生URLが本文側に露出していない
+
+
+def test_linkify_factor_escapes_plain_text():
+    out = hg.linkify_factor("A<b>&テスト</b>")
+    assert "<b>" not in out
+    assert "&lt;b&gt;" in out
+
+
+def test_linkify_factor_ignores_non_http_scheme():
+    out = hg.linkify_factor("[悪意](javascript:alert(1))")
+    assert "<a href=" not in out
+
+
 # ── generate_email_html ──────────────────────────────────────
 def _data(n_rows):
     return {
@@ -45,3 +71,11 @@ def test_generate_email_html_respects_max_items():
 def test_generate_email_html_handles_empty_rows():
     html = hg.generate_email_html(_data(0), "https://x/")
     assert "PTS 夜間 値上がり率ランキング" in html
+
+
+def test_generate_email_html_linkifies_factor_sources():
+    data = _data(1)
+    data["rows"][0]["factor"] = "材料は[日経新聞](https://www.nikkei.com/article/123)による。"
+    html = hg.generate_email_html(data, "https://x/")
+    assert '<a href="https://www.nikkei.com/article/123"' in html
+    assert "[日経新聞](https://www.nikkei.com/article/123)" not in html
