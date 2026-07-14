@@ -121,6 +121,8 @@ def test_generate_pages_html_meta_moved_into_info_modal():
     assert 'chip">生成 ' not in html             # 生成日時チップを廃止
     assert "session_window" in html              # モーダル側で継続表示
     assert "社該当" in html                      # 該当社数チップは維持
+    # 画面中央に表示（CSSリセット *{margin:0} が dialog の margin:auto を打ち消すため明示指定）
+    assert "dialog.info{position:fixed;inset:0;margin:auto;" in html
 
 
 def test_generate_pages_html_has_no_market_view():
