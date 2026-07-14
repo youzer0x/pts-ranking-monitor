@@ -79,3 +79,31 @@ def test_generate_email_html_linkifies_factor_sources():
     html = hg.generate_email_html(data, "https://x/")
     assert '<a href="https://www.nikkei.com/article/123"' in html
     assert "[日経新聞](https://www.nikkei.com/article/123)" not in html
+
+
+# ── generate_pages_html ──────────────────────────────────────
+def test_generate_pages_html_uses_editorial_design():
+    """東証版（tse-ranking-monitor）と統一した金融紙エディトリアルデザインであること。"""
+    html = hg.generate_pages_html()
+    assert "--bg:#f5f2ea" in html            # 生成りの紙面風背景
+    assert "Noto+Serif+JP" in html           # 明朝見出しフォント
+    assert "tabular-nums" in html
+    assert "https://youzer0x.github.io/tse-ranking-monitor/" in html  # 東証版への相互リンク
+
+
+def test_generate_pages_html_keeps_spa_shell():
+    """SPA の要（manifest 取得・日付セレクタ・描画先）が維持されていること。"""
+    html = hg.generate_pages_html()
+    assert "data/manifest.json" in html
+    assert 'id="dateSelect"' in html
+    assert 'id="tableArea"' in html
+    assert 'id="droppedArea"' in html
+    assert 'id="viewRanking"' in html        # レスポンシブ CSS のスコープ用ラッパー
+
+
+def test_generate_pages_html_has_no_market_view():
+    """市場分析ビューは東証版のみ（PTS にはデータが無い）。誤移植を検知する。"""
+    html = hg.generate_pages_html()
+    assert "viewMarket" not in html
+    assert "renderMarket" not in html
+    assert "pct5" not in html                # 5営業日騰落も PTS データに無い

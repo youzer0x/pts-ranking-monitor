@@ -4,25 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PTS 夜間 値上がり率ランキング</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#eef1f5;--card:#fff;--primary:#11243f;--accent:#c0392b;--text:#222;--sub:#6b7785;--border:#e2e6ea;--hover:#f5f8ff;}
+:root{--bg:#f5f2ea;--card:#fefcf7;--primary:#11243f;--accent:#ae2b23;--down:#186a3b;--text:#262420;--sub:#6b6558;--border:#e2e6ea;--hairline:#ddd6c7;--rule:#11243f;--hover:#f5f8ff;--wash:#f3efe4;--serif:'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;--sans:'Noto Sans JP',sans-serif;--numfont:'Helvetica Neue',Arial,'Noto Sans JP',sans-serif;}
 *{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
-.header{background:linear-gradient(135deg,#11243f,#24507f);color:#fff;padding:24px 28px 18px;}
-.header-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;}
-.header h1{font-size:21px;font-weight:700;}
-.tabs{display:inline-flex;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:10px;padding:3px;gap:3px;flex-wrap:wrap;}
-.tabs .tab{margin:0;padding:7px 15px;border-radius:8px;font-size:15px;font-weight:700;line-height:1.35;text-decoration:none;color:#fff;white-space:nowrap;}
-.tabs .tab.active{background:var(--card);color:var(--primary);}
-.tabs a.tab:hover{background:rgba(255,255,255,.2);}
-.date-selector{display:flex;align-items:center;gap:8px;}
-.date-selector label{font-size:13px;opacity:.9;}
-.date-selector select{padding:7px 30px 7px 12px;font-size:14px;font-family:Arial,sans-serif;border:1px solid rgba(255,255,255,.3);border-radius:6px;background:rgba(255,255,255,.15);color:#fff;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' stroke='white' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;}
-.date-selector select option{background:#11243f;color:#fff;}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.6;}
+.header{background:var(--card);color:var(--text);border-top:4px solid var(--primary);border-bottom:1px solid var(--rule);padding:20px 28px 0;position:relative;}
+.header-inner{max-width:1280px;margin:0 auto;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:14px;}
+.tabs{display:inline-flex;align-items:flex-end;flex-wrap:wrap;}
+.tabs .tab{margin:0 26px 0 0;padding:6px 2px 12px;border-bottom:3px solid transparent;font-size:15px;font-weight:500;line-height:1.35;text-decoration:none;color:var(--sub);white-space:nowrap;}
+.tabs h1.tab{font-family:var(--serif);font-size:20px;font-weight:700;letter-spacing:.01em;color:var(--primary);}
+.tabs .tab.active{color:var(--primary);border-bottom-color:var(--primary);}
+.tabs a.tab:hover{color:var(--primary);}
+.date-selector{display:flex;align-items:center;gap:8px;margin-bottom:12px;}
+.date-selector label{font-size:12px;color:var(--sub);letter-spacing:.04em;}
+.date-selector select{padding:7px 30px 7px 12px;font-size:13.5px;font-family:var(--numfont);border:1px solid var(--hairline);border-radius:3px;background:var(--card);color:var(--primary);cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' stroke='%2311243f' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;}
+.date-selector select option{background:var(--card);color:var(--text);}
 .summary{max-width:1280px;margin:16px auto 0;padding:0 16px;display:flex;gap:10px;flex-wrap:wrap;}
-.chip{background:var(--card);border-radius:8px;padding:8px 14px;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
-.chip .num{font-family:Arial,sans-serif;font-weight:700;font-size:16px;color:var(--primary);}
+.chip{background:var(--card);border:1px solid var(--hairline);border-radius:3px;padding:8px 14px;font-size:13px;}
+.chip .num{font-family:var(--numfont);font-weight:700;font-size:16px;color:var(--primary);}
 .container{max-width:1280px;margin:14px auto 28px;padding:0 16px;}
 .card{background:var(--card);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06);overflow:hidden;}
 .note{padding:10px 8px 12px;font-size:12px;color:var(--sub);}
@@ -47,16 +47,20 @@ tbody tr:hover td{background:var(--hover);}
 .factor a{color:#1a6fd0;text-decoration:none;} .factor a:hover{text-decoration:underline;}
 .dropped{margin-top:18px;}
 .dropped summary{cursor:pointer;font-size:13px;color:var(--sub);padding:8px 4px;}
-.footer{text-align:center;padding:18px;font-size:11px;color:var(--sub);}
+.footer{max-width:1280px;margin:12px auto 0;text-align:center;padding:16px 16px 24px;font-size:11px;color:var(--sub);border-top:1px solid var(--hairline);letter-spacing:.02em;}
 .loading,.empty{text-align:center;padding:50px 20px;color:var(--sub);}
+.num,.pct,.rank,.code,.chip .num,#dateSelect{font-variant-numeric:tabular-nums lining-nums;}
 @media(max-width:820px){
- .header{padding:18px 14px;} .header-inner{flex-direction:column;align-items:flex-start;}
- .header h1{font-size:18px;}
- table,thead,tbody,tr,td{display:block;width:100%;}
- thead{display:none;}
- .card{background:transparent;box-shadow:none;border-radius:0;overflow:visible;}
- tbody tr{background:var(--card);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin:0 0 12px;padding:12px 14px;border:none;}
- tbody td{padding:0;border:none;text-align:left!important;}
+ .header{padding:14px 14px 0;} .header-inner{flex-direction:column;align-items:stretch;gap:0;}
+ .tabs{width:100%;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;}
+ .tabs .tab{margin-right:18px;padding-bottom:10px;}
+ .tabs h1.tab{font-size:17px;}
+ .date-selector{width:100%;margin:10px 0 12px;} .date-selector select{flex:1;}
+ #viewRanking table,#viewRanking thead,#viewRanking tbody,#viewRanking tr,#viewRanking td{display:block;width:100%;}
+ #viewRanking thead{display:none;}
+ #viewRanking .card{background:transparent;box-shadow:none;border-radius:0;overflow:visible;}
+ #viewRanking tbody tr{background:var(--card);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin:0 0 12px;padding:12px 14px;border:none;}
+ #viewRanking tbody td{padding:0;border:none;text-align:left!important;}
  #tableArea td.rank{display:block;font-size:13px;color:var(--sub);font-family:Arial,sans-serif;}
  #tableArea td.rank::before{content:'#';}
  #tableArea td.code{display:none;}
@@ -64,20 +68,21 @@ tbody tr:hover td{background:var(--hover);}
  #tableArea td.name .code-inline{display:inline;font-weight:700;}
  #tableArea td.name .mcap{font-size:12px;}
  #tableArea td.mkt{display:block;font-size:12px;color:var(--sub);}
- td.pct,td.num{display:inline-block;width:49%;font-size:14px;margin-top:8px;text-align:left;vertical-align:top;}
- td.pct::before,td.num::before{content:attr(data-label)'\00a0';display:block;color:var(--sub);font-size:11px;font-weight:400;font-family:'Noto Sans JP';}
- td.factor{min-width:0;margin-top:10px;padding-top:9px;border-top:1px solid var(--border)!important;}
+ #viewRanking td.pct,#viewRanking td.num{display:inline-block;width:49%;font-size:14px;margin-top:8px;text-align:left;vertical-align:top;}
+ #viewRanking td.pct::before,#viewRanking td.num::before{content:attr(data-label)'\00a0';display:block;color:var(--sub);font-size:11px;font-weight:400;font-family:'Noto Sans JP';}
+ #viewRanking td.factor{min-width:0;margin-top:10px;padding-top:9px;border-top:1px solid var(--border)!important;}
 }
 </style></head>
 <body>
 <div class="header"><div class="header-inner">
   <nav class="tabs">
-    <a class="tab" href="https://youzer0x.github.io/tse-ranking-monitor/">📈 東証 値上がり率ランキング</a>
-    <h1 class="tab active">📈 PTS 夜間 値上がり率ランキング</h1>
+    <h1 class="tab active">PTS 夜間 値上がり率ランキング</h1>
+    <a class="tab" href="https://youzer0x.github.io/tse-ranking-monitor/">東証 値上がり率ランキング</a>
   </nav>
   <div class="date-selector"><label for="dateSelect">セッション日:</label>
   <select id="dateSelect" onchange="loadDate(this.value)"><option>読み込み中...</option></select></div>
 </div></div>
+<div id="viewRanking">
 <div class="summary" id="summary"></div>
 <div class="container">
   <div class="note" id="note"></div>
@@ -85,6 +90,7 @@ tbody tr:hover td{background:var(--hover);}
   <div id="tableArea"><div class="loading">データを読み込んでいます…</div></div>
   </div>
 <div class="container" style="margin-top:0;"><div id="droppedArea"></div></div>
+</div>
 </div>
 <div class="footer">PTS ランキング・モニター｜Claude 定期実行で自動生成｜時価総額・終値・株数＝J-Quants V2／PTS＝株探(J-Market)／開示＝TDnet｜本情報は参考であり投資助言ではない</div>
 <script>
