@@ -189,8 +189,9 @@ tbody tr:hover td{background:var(--hover);}
 <body>
 <div class="header"><div class="header-inner">
   <nav class="tabs">
-    <h1 class="tab active">PTS 夜間 値上がり率ランキング</h1>
     <a class="tab" href="https://youzer0x.github.io/tse-ranking-monitor/">東証 値上がり率ランキング</a>
+    <a class="tab" href="https://youzer0x.github.io/tse-ranking-monitor/#market">市場分析</a>
+    <h1 class="tab active">PTS 夜間 値上がり率ランキング</h1>
   </nav>
   <div class="date-selector"><label for="dateSelect">セッション日:</label>
   <select id="dateSelect" onchange="loadDate(this.value)"><option>読み込み中...</option></select></div>
