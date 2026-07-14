@@ -111,6 +111,18 @@ def test_generate_pages_html_keeps_spa_shell():
     assert 'id="viewRanking"' in html        # レスポンシブ CSS のスコープ用ラッパー
 
 
+def test_generate_pages_html_meta_moved_into_info_modal():
+    """対象日時・生成日時・抽出条件はファーストビューから撤去し、
+    該当社数横の「データ情報」ボタンからモーダルで表示する。"""
+    html = hg.generate_pages_html()
+    assert 'id="infoModal"' in html and 'id="infoBody"' in html
+    assert "openInfo" in html and "showModal" in html
+    assert 'id="note"' not in html               # 抽出条件の常時表示を廃止
+    assert 'chip">生成 ' not in html             # 生成日時チップを廃止
+    assert "session_window" in html              # モーダル側で継続表示
+    assert "社該当" in html                      # 該当社数チップは維持
+
+
 def test_generate_pages_html_has_no_market_view():
     """市場分析ビューは東証版のみ（PTS にはデータが無い）。誤移植を検知する。"""
     html = hg.generate_pages_html()
