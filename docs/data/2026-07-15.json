@@ -1,0 +1,681 @@
+{
+  "session_date": "2026-07-15",
+  "next_date": "2026-07-16",
+  "session_window": "2026-07-15 17:00 → 2026-07-16 06:00 JST",
+  "generated_at": "2026-07-16 06:08 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 10,
+    "dropped_turnover": 26,
+    "dropped_mcap": 8
+  },
+  "rows": [
+    {
+      "code": "4412",
+      "name": "サイエンスアーツ",
+      "market": "グロース",
+      "mcap_oku": 108,
+      "mcap_flag": "",
+      "pct": 22.85,
+      "pts": 1613.0,
+      "close": 1313.0,
+      "volume": 16100,
+      "turnover_yen": 25969300,
+      "turnover_m": 26.0,
+      "shoutfy_jq": 8230000,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "4412",
+          "name": "Ｇ－サイエンスアーツ",
+          "title": "通期業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594329.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "4412",
+          "name": "Ｇ－サイエンスアーツ",
+          "title": "2026年８月期　第３四半期決算短信〔日本基準〕（非連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593441.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "4412",
+          "name": "Ｇ－サイエンスアーツ",
+          "title": "2026年８月期　第３四半期決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594438.pdf"
+        }
+      ],
+      "factor": "2026年7月15日15:30、サイエンスアーツは2026年8月期第3四半期決算（[TDnet開示](https://www.release.tdnet.info/inbs/140120260714593441.pdf)）と通期業績予想の上方修正（[TDnet開示](https://www.release.tdnet.info/inbs/140120260715594329.pdf)）を同時に開示した。第3四半期累計（9カ月）の実績は売上高15.64億円（前年同期比+34.9%）・営業利益1.49億円（同+160.6%）・経常利益1.47億円（同+253.5%）・純利益1.25億円（同+268.7%）と大幅増益となった。主力のライブコミュニケーションプラットフォーム「Buddycom」が順調に拡大し、ARRは12.65億円、契約社数は1,828社に達した。通期予想は売上高21.3億円・営業利益2.20億円（前期比+105.6%）・経常利益2.18億円（同+137.0%）・純利益1.88億円（同+67.9%）へ引き上げられ、当初計画（営業利益1.50億円・経常利益1.48億円）からそれぞれ約47%の増額修正となった。この大幅上方修正を受けてPTSナイトセッションで+22.85%上昇した。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "6505",
+      "name": "東洋電機製造",
+      "market": "スタンダード",
+      "mcap_oku": 196,
+      "mcap_flag": "",
+      "pct": 21.43,
+      "pts": 2448.0,
+      "close": 2016.0,
+      "volume": 20500,
+      "turnover_yen": 50184000,
+      "turnover_m": 50.2,
+      "shoutfy_jq": 9735000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "2026年５月期　決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593677.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "2026年５月期 通期連結業績予想と実績との差異および剰余金の配当に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593680.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "中期経営計画の策定に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593681.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "配当方針の変更に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593682.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "取締役、監査役および補欠監査役の候補者選任に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594038.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "執行役員の異動に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594607.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "当社株式等の大規模買付行為に関する対応策（買収への対応方針）の継続について",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594036.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6505",
+          "name": "東洋電",
+          "title": "第三者割当による自己株式の処分及びその他の関係会社の異動に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593683.pdf"
+        }
+      ],
+      "factor": "東洋電機製造は2026年7月14日16:00にTDnetへ複数の重要開示を行い、PTS急騰を招いた。まず2026年5月期通期の連結経常利益は35億2,000万円（前期比36.2%増）となり、会社当初予想25億円を約41%上回るとともにIFISコンセンサスも超過した（[TDnet 決算短信](https://www.release.tdnet.info/inbs/140120260714593677.pdf)）。純利益も29億7,600万円（前期比39.8%増）と実績修正予想を大幅上振れ、EPS329.76円を達成した。同時に2026年5月期の年間配当を100円（前期70円比+30円、当初予想75円比+25円増額）に決定し、2027年5月期も116円への増配（前期比+16円）を予定する積極的な株主還元を発表した（[TDnet 業績予想差異・配当開示](https://www.release.tdnet.info/inbs/140120260714593680.pdf)）。加えて配当方針を変更し、1株当たり年間配当額の下限を30円に設定する新方針を公表した（[TDnet 配当方針変更開示](https://www.release.tdnet.info/inbs/140120260714593682.pdf)）。さらに第三者割当による自己株式の処分を実施し、JR東日本（9020）が追加出資することで保有比率が20%超となり「その他の関係会社」（持分法適用関連会社）に異動したことも同時開示された（[TDnet 第三者割当開示](https://www.release.tdnet.info/inbs/140120260714593683.pdf)）。新中期経営計画の策定も発表した（[TDnet 中計開示](https://www.release.tdnet.info/inbs/140120260714593681.pdf)）。決算の大幅上振れ・前期比30円増配の実績・来期116円への継続増配・JR東日本との資本関係深化の複合材料がPTSでの21%超の急騰を牽引したとみられる。",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "5574",
+      "name": "ＡＢＥＪＡ",
+      "market": "グロース",
+      "mcap_oku": 234,
+      "mcap_flag": "",
+      "pct": 13.57,
+      "pts": 2669.0,
+      "close": 2350.0,
+      "volume": 14200,
+      "turnover_yen": 37899800,
+      "turnover_m": 37.9,
+      "shoutfy_jq": 9973957,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "5574",
+          "name": "Ｇ－ＡＢＥＪＡ",
+          "title": "2026年８月期  第３四半期決算短信〔日本基準〕（非連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594171.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "5574",
+          "name": "Ｇ－ＡＢＥＪＡ",
+          "title": "繰延税金資産の計上及び通期業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594176.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "5574",
+          "name": "Ｇ－ＡＢＥＪＡ",
+          "title": "株式会社 MONO BRAIN の株式取得及び吸収合併（簡易吸収合併）に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594180.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "5574",
+          "name": "Ｇ－ＡＢＥＪＡ",
+          "title": "2026年8月期 第3四半期 決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594186.pdf"
+        }
+      ],
+      "factor": "2026年8月期第3四半期決算の開示と同時に繰延税金資産の計上を伴う通期業績予想の修正（上方修正）を発表し（[TDnet 業績予想修正開示](https://www.release.tdnet.info/inbs/140120260715594176.pdf)）、また画像認識AI企業MONO BRAINの株式取得および簡易吸収合併（子会社化・合併）を開示した（[TDnet 合併開示](https://www.release.tdnet.info/inbs/140120260715594180.pdf)）。",
+      "factor_kind": "開示",
+      "rank": 3
+    },
+    {
+      "code": "7581",
+      "name": "サイゼリヤ",
+      "market": "プライム",
+      "mcap_oku": 3021,
+      "mcap_flag": "",
+      "pct": 9.86,
+      "pts": 6350.0,
+      "close": 5780.0,
+      "volume": 24400,
+      "turnover_yen": 154940000,
+      "turnover_m": 154.9,
+      "shoutfy_jq": 52272342,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "7581",
+          "name": "サイゼリヤ",
+          "title": "2026年8月期 第3四半期決算短信[日本基準](連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260630585220.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "7581",
+          "name": "サイゼリヤ",
+          "title": "配当予想の修正(増配)に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260630585216.pdf"
+        }
+      ],
+      "factor": "2026年8月期第3四半期連結決算の開示とともに配当予想の修正（増配）を発表した（[TDnet 配当予想修正開示](https://www.release.tdnet.info/inbs/140120260630585216.pdf)）。",
+      "factor_kind": "開示",
+      "rank": 4
+    },
+    {
+      "code": "3558",
+      "name": "ジェイドグループ",
+      "market": "グロース",
+      "mcap_oku": 186,
+      "mcap_flag": "",
+      "pct": 8.27,
+      "pts": 1755.0,
+      "close": 1621.0,
+      "volume": 6300,
+      "turnover_yen": 11056500,
+      "turnover_m": 11.1,
+      "shoutfy_jq": 11487360,
+      "cur_end": "2027-02-28",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "3558",
+          "name": "Ｇ－ジェイドグループ",
+          "title": "2027年2月期 第1四半期決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593363.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3558",
+          "name": "Ｇ－ジェイドグループ",
+          "title": "2027年2月期 第1四半期決算説明会資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593373.pdf"
+        }
+      ],
+      "factor": "2027年2月期第1四半期（3〜5月）の連結決算を15:30に開示し（[TDnet・2027年2月期第1四半期決算短信](https://www.release.tdnet.info/inbs/140120260714593363.pdf)）、売上高57億3,490万円（前年同期比26.1％増）・営業利益8億9,790万円（同61.2％増）・経常利益9億6,190万円（同62.1％増）・純利益5億8,130万円（同61.5％増）と大幅増益で着地した。通期営業利益予想25億円（前期比4.0％増）に対するQ1進捗率は35.9％に達しており、年間計画を大幅に上回るペースで推移している。ブランド事業がReebokや新規連結したロイヤル等の寄与で取扱高・売上高ともに約9割増と急伸したことが増益の主因で、引け後開示の好決算がPTSでの急騰を招いたとみられる。",
+      "factor_kind": "開示",
+      "rank": 5
+    },
+    {
+      "code": "6866",
+      "name": "日置電機",
+      "market": "プライム",
+      "mcap_oku": 1641,
+      "mcap_flag": "",
+      "pct": 7.69,
+      "pts": 12600.0,
+      "close": 11700.0,
+      "volume": 2400,
+      "turnover_yen": 30240000,
+      "turnover_m": 30.2,
+      "shoutfy_jq": 14024365,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "6866",
+          "name": "日置電",
+          "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594249.pdf"
+        }
+      ],
+      "factor": "日置電機（HIOKI）は2026年7月15日15:30、[2026年12月期第2四半期（累計）決算短信](https://www.release.tdnet.info/inbs/140120260715594249.pdf)をTDnetに開示した。連結業績は売上高241億2,900万円（前年同期比+23.5%）、営業利益50億5,300万円（同+53.4%）、当期純利益39億9,000万円（同+73.6%）と大幅増収増益を達成した。6月5日に修正済みの通期予想（営業利益95億円・前期比+39.9%）に対し、上半期時点の進捗率は営業利益53.2%・純利益52.9%と計画を上回るペースで推移しており、通期のさらなる上振れ期待が高まった結果、PTSナイトセッションで株価は11,700円から12,600円へ7.69%上昇した。",
+      "factor_kind": "開示",
+      "rank": 6
+    },
+    {
+      "code": "372A",
+      "name": "レント",
+      "market": "スタンダード",
+      "mcap_oku": 198,
+      "mcap_flag": "",
+      "pct": 6.94,
+      "pts": 5454.0,
+      "close": 5100.0,
+      "volume": 3200,
+      "turnover_yen": 17452800,
+      "turnover_m": 17.5,
+      "shoutfy_jq": 3886000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "372A",
+          "name": "レント",
+          "title": "2026年５月期 決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260713592297.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "372A",
+          "name": "レント",
+          "title": "剰余金の配当（増配）及び中間配当実施に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260713592321.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "372A",
+          "name": "レント",
+          "title": "投資単位の引下げに関する考え方及び方針等について",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260713592296.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "372A",
+          "name": "レント",
+          "title": "2026年５月期 決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260713592328.pdf"
+        },
+        {
+          "time": "16:30",
+          "code": "372A",
+          "name": "レント",
+          "title": "社員持株会を通じた株式付与としての自己株式の処分に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260713592323.pdf"
+        }
+      ],
+      "factor": "2026年5月期通期連結決算の開示とともに剰余金の配当増配および中間配当の新設を発表した（[TDnet 増配・中間配当開示](https://www.release.tdnet.info/inbs/140120260713592321.pdf)）。",
+      "factor_kind": "開示",
+      "rank": 7
+    },
+    {
+      "code": "7610",
+      "name": "テイツー",
+      "market": "スタンダード",
+      "mcap_oku": 102,
+      "mcap_flag": "",
+      "pct": 6.76,
+      "pts": 158.0,
+      "close": 148.0,
+      "volume": 230200,
+      "turnover_yen": 36371600,
+      "turnover_m": 36.4,
+      "shoutfy_jq": 68664338,
+      "cur_end": "2027-02-28",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "7610",
+          "name": "テイツー",
+          "title": "2027年２月期第１四半期決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260714593621.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "7610",
+          "name": "テイツー",
+          "title": "2027年２月期第１四半期決算説明会資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260715594355.pdf"
+        }
+      ],
+      "factor": "2026年7月15日16:00に開示された2027年2月期第1四半期決算短信（[TDnet](https://www.release.tdnet.info/inbs/140120260714593621.pdf)）が強い内容であったことが上昇要因である。売上高117.2億円（前年同期比約37%増）は第1四半期として過去最高を更新し、経常利益8.16億円（前年同期1.99億円から約4.1倍増）は通期会社予想16億円（前期比18.1%増）に対する進捗率51%に達した。中古トレーディングカードおよび中古ホビーの需要拡大と相場安定化による販売単価の上昇が主因とされており、第1四半期1社単独で通期予想の過半を達成したことがナイトセッションで買いを集めた。",
+      "factor_kind": "開示",
+      "rank": 8
+    },
+    {
+      "code": "9602",
+      "name": "東宝",
+      "market": "プライム",
+      "mcap_oku": 11432,
+      "mcap_flag": "",
+      "pct": 4.31,
+      "pts": 1403.0,
+      "close": 1345.0,
+      "volume": 44300,
+      "turnover_yen": 62152900,
+      "turnover_m": 62.2,
+      "shoutfy_jq": 850000000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "9602",
+          "name": "東宝",
+          "title": "2027年２月期　第１四半期決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260713592616.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "9602",
+          "name": "東宝",
+          "title": "政策保有株式の縮減方針の策定に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260710591355.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "9602",
+          "name": "東宝",
+          "title": "2027年2月期　第1四半期決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260710591351.pdf"
+        }
+      ],
+      "factor": "東宝は2026年7月15日引け後（15:30）の適時開示「政策保有株式の縮減方針の策定に関するお知らせ」（[TDnet開示](https://www.release.tdnet.info/inbs/140120260710591355.pdf)）において、2026年2月期末時点で10社・簿価1,092億円を保有する政策保有株式を2030年2月期末までに500億円超縮減し、連結純資産比率を10%未満へ引き下げる方針を明示した。2027年2月期末には同比率を20%未満とする中間目標も設定し、売却資金は成長投資を優先しつつ株主還元の原資に充てる計画である。同時に発表した2027年2月期第1四半期（3〜5月）連結決算（[TDnet開示](https://www.release.tdnet.info/inbs/140120260713592616.pdf)）は、前年の「劇場版ハイキュー!!」・「変な家」高稼働および「ゴジラ-1.0」配信権収入の反動から、売上高849億円（前年同期比1.3%減）・営業利益193億円（同21.3%減）・経常利益137億円（同27.4%減）となったが、「名探偵コナン 隻眼の残像」がシリーズ3作連続で興行収入100億円超を達成し、IP・アニメ事業売上高は11.3%増・不動産事業営業利益は25.8%増と堅調で、通期業績予想（経常利益670億円）を据え置いた。資本効率改善を示す政策保有株縮減・株主還元強化の方針が引け後に好感された。",
+      "factor_kind": "開示",
+      "rank": 9
+    },
+    {
+      "code": "6460",
+      "name": "セガサミーホールディングス",
+      "market": "プライム",
+      "mcap_oku": 5384,
+      "mcap_flag": "†",
+      "pct": 3.97,
+      "pts": 2530.0,
+      "close": 2433.5,
+      "volume": 10400,
+      "turnover_yen": 26312000,
+      "turnover_m": 26.3,
+      "shoutfy_jq": 221229476,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年5月21日のジェンスン・フアンCEOによるカーネギーメロン大学卒業式スピーチにて「1990年代のNVIDIA経営危機をセガが約500万ドルの出資で救済した」経緯が詳述され（[Business+IT、2026年5月21日](https://www.sbbit.jp/article/cont1/185456)）、セガを「NVIDIAの恩人企業」とみなす認識がテック・投資家層に浸透した。2026年7月9日にはNVIDIAがフアンCEO来日のもと7月15日に東京・秋葉原GiGOで30周年記念ゲリライベントを開催すると告知し（[エルミタージュ秋葉原、2026年7月9日](https://www.gdm.or.jp/pressrelease/2026/0709/642914)）、イベント前夜の材料窓内（日本時間7月14日深夜〜15日早朝）には米国市場でNVIDIA株が+4.1%急伸した（[MarketBeat、2026年7月14日](https://www.marketbeat.com/instant-alerts/nvidia-nasdaqnvda-stock-price-up-41-whats-next-2026-07-14/)）。フアン氏は翌15日のイベントで実際に「セガなくしてNVIDIAは存在しなかった」とセガへの謝意を表明したと時事通信が報じている（[時事通信、2026年7月15日](https://www.jiji.com/jc/article?k=2026071501101&g=eco)）。NVIDIAの株高とイベント期待がセガサミーへの連想買いをPTSで促したとみられ、直接受注・業績寄与は未確認である。",
+      "factor_kind": "テーマ",
+      "rank": 10,
+      "shares_kabutan": 213545376,
+      "mcap_kabutan_oku": 5197
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "150A",
+      "name": "ＪＳＨ",
+      "pct": 20.94,
+      "turnover_m": 0.3,
+      "volume": 700
+    },
+    {
+      "code": "205A",
+      "name": "ロゴスホールディングス",
+      "pct": 13.02,
+      "turnover_m": 7.1,
+      "volume": 3400
+    },
+    {
+      "code": "6572",
+      "name": "オープングループ",
+      "pct": 12.27,
+      "turnover_m": 3.3,
+      "volume": 13400
+    },
+    {
+      "code": "2962",
+      "name": "テクニスコ",
+      "pct": 11.28,
+      "turnover_m": 2.0,
+      "volume": 1400
+    },
+    {
+      "code": "3067",
+      "name": "東京一番フーズ",
+      "pct": 10.62,
+      "turnover_m": 0.2,
+      "volume": 500
+    },
+    {
+      "code": "478A",
+      "name": "フツパー",
+      "pct": 8.86,
+      "turnover_m": 1.2,
+      "volume": 1500
+    },
+    {
+      "code": "4075",
+      "name": "ブレインズテクノロジー",
+      "pct": 8.35,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "4490",
+      "name": "ビザスク",
+      "pct": 8.24,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "4884",
+      "name": "クリングルファーマ",
+      "pct": 7.84,
+      "turnover_m": 0.9,
+      "volume": 2400
+    },
+    {
+      "code": "7138",
+      "name": "ＴＯＲＩＣＯ",
+      "pct": 6.94,
+      "turnover_m": 1.8,
+      "volume": 11900
+    },
+    {
+      "code": "157A",
+      "name": "グリーンモンスター",
+      "pct": 6.94,
+      "turnover_m": 1.2,
+      "volume": 1300
+    },
+    {
+      "code": "9252",
+      "name": "ラストワンマイル",
+      "pct": 5.98,
+      "turnover_m": 5.5,
+      "volume": 1400
+    },
+    {
+      "code": "3547",
+      "name": "ユニシアホールディングス",
+      "pct": 5.87,
+      "turnover_m": 3.4,
+      "volume": 2000
+    },
+    {
+      "code": "4014",
+      "name": "カラダノート",
+      "pct": 5.36,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "9425",
+      "name": "ＲｅＹｕｕ　Ｊａｐａｎ",
+      "pct": 5.11,
+      "turnover_m": 0.7,
+      "volume": 2700
+    },
+    {
+      "code": "1436",
+      "name": "グリーンエナジー＆カンパニー",
+      "pct": 4.34,
+      "turnover_m": 0.9,
+      "volume": 600
+    },
+    {
+      "code": "3469",
+      "name": "デュアルタップ",
+      "pct": 4.33,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "3645",
+      "name": "メディカルネット",
+      "pct": 4.16,
+      "turnover_m": 0.5,
+      "volume": 2000
+    },
+    {
+      "code": "2934",
+      "name": "ジェイフロンティア",
+      "pct": 4.16,
+      "turnover_m": 0.6,
+      "volume": 300
+    },
+    {
+      "code": "4174",
+      "name": "アピリッツ",
+      "pct": 4.0,
+      "turnover_m": 0.9,
+      "volume": 1000
+    },
+    {
+      "code": "7859",
+      "name": "アルメディオ",
+      "pct": 3.86,
+      "turnover_m": 0.3,
+      "volume": 1100
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラス",
+      "pct": 3.45,
+      "turnover_m": 0.0,
+      "volume": 800
+    },
+    {
+      "code": "197A",
+      "name": "タウンズ",
+      "pct": 3.4,
+      "turnover_m": 3.6,
+      "volume": 7400
+    },
+    {
+      "code": "3479",
+      "name": "ＴＫＰ",
+      "pct": 3.3,
+      "turnover_m": 8.6,
+      "volume": 4600
+    },
+    {
+      "code": "8887",
+      "name": "シーラホールディングス",
+      "pct": 3.27,
+      "turnover_m": 3.3,
+      "volume": 8700
+    },
+    {
+      "code": "3192",
+      "name": "白鳩",
+      "pct": 3.17,
+      "turnover_m": 0.0,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "5817",
+      "name": "ＪＭＡＣＳ",
+      "pct": 18.21,
+      "turnover_m": 92.9,
+      "mcap_oku": 58
+    },
+    {
+      "code": "1418",
+      "name": "インターライフホールディングス",
+      "pct": 13.16,
+      "turnover_m": 12.2,
+      "mcap_oku": 90
+    },
+    {
+      "code": "9326",
+      "name": "関通ホールディングス",
+      "pct": 9.33,
+      "turnover_m": 100.1,
+      "mcap_oku": 53
+    },
+    {
+      "code": "5575",
+      "name": "Ｇｌｏｂｅｅ",
+      "pct": 9.11,
+      "turnover_m": 22.3,
+      "mcap_oku": 45
+    },
+    {
+      "code": "7719",
+      "name": "東京衡機",
+      "pct": 8.99,
+      "turnover_m": 75.4,
+      "mcap_oku": 37
+    },
+    {
+      "code": "3133",
+      "name": "海帆",
+      "pct": 6.93,
+      "turnover_m": 123.2,
+      "mcap_oku": 67
+    },
+    {
+      "code": "4381",
+      "name": "ビープラッツ",
+      "pct": 4.53,
+      "turnover_m": 35.3,
+      "mcap_oku": 17
+    },
+    {
+      "code": "9978",
+      "name": "文教堂グループホールディングス",
+      "pct": 4.35,
+      "turnover_m": 12.9,
+      "mcap_oku": 20
+    }
+  ]
+}
