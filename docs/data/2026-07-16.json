@@ -1,0 +1,295 @@
+{
+  "session_date": "2026-07-16",
+  "next_date": "2026-07-17",
+  "session_window": "2026-07-16 17:00 → 2026-07-17 06:00 JST",
+  "generated_at": "2026-07-17 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 5,
+    "dropped_turnover": 18,
+    "dropped_mcap": 2
+  },
+  "rows": [
+    {
+      "code": "2354",
+      "name": "ＹＥ　ＤＩＧＩＴＡＬ",
+      "market": "スタンダード",
+      "mcap_oku": 181,
+      "mcap_flag": "",
+      "pct": 15.34,
+      "pts": 1128.0,
+      "close": 978.0,
+      "volume": 26200,
+      "turnover_yen": 29553600,
+      "turnover_m": 29.6,
+      "shoutfy_jq": 18519100,
+      "cur_end": "2027-02-28",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年7月16日12時40分、NVIDIAとのフィジカルAI分野での協業を発表した。倉庫自動化システム（WES）「MMLogiStation」とNVIDIA Omniverse librariesを連携させ、物流・工場内搬送工程のデジタルツイン構築期間を従来の数年から数カ月規模へ短縮することを目指す内容で、2025年11月から協議を開始し国内工場での実証も進めているとしている。同日東証通常取引では後場にストップ高カイ気配（978円）となり、売り手不在のまま引けた。デイリー値幅制限によって当日中に消化しきれなかった買い需要が夜間PTS取引に持ち越され、制限のないPTS市場でさらに上値を探り1128円（終値比＋15.3%）まで上昇した。",
+      "factor_kind": "報道",
+      "rank": 1
+    },
+    {
+      "code": "3946",
+      "name": "トーモク",
+      "market": "プライム",
+      "mcap_oku": 821,
+      "mcap_flag": "",
+      "pct": 8.43,
+      "pts": 4603.0,
+      "close": 4245.0,
+      "volume": 5100,
+      "turnover_yen": 23475300,
+      "turnover_m": 23.5,
+      "shoutfy_jq": 19341568,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "17:00",
+          "code": "3946",
+          "name": "トーモク",
+          "title": "株主優待制度の新設及び特別記念優待に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590684.pdf"
+        }
+      ],
+      "factor": "株主優待制度を新設するとともに特別記念優待の実施を発表。引け後の開示が個人投資家の買いを誘い大幅高となった。",
+      "factor_kind": "開示",
+      "rank": 2
+    },
+    {
+      "code": "7581",
+      "name": "サイゼリヤ",
+      "market": "プライム",
+      "mcap_oku": 3544,
+      "mcap_flag": "",
+      "pct": 6.06,
+      "pts": 7191.0,
+      "close": 6780.0,
+      "volume": 79200,
+      "turnover_yen": 569527200,
+      "turnover_m": 569.5,
+      "shoutfy_jq": 52272342,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年7月15日18時39分、サイゼリヤは2026年8月期第3四半期（2025年9月〜2026年5月）の連結決算を適時開示した。純利益は前年同期比12%増の87億円と同期間として過去最高を更新し、営業利益は同25.6%増の133億円、売上高は同17.5%増の2,213億円といずれも市場予想を上回った。期末配当予想も5円増額の35円に修正した。加えて松谷秀治社長が決算会見で「消費者物価指数の動向を見ながら価格改定を視野に入れている」と述べ、9月以降の値上げを示唆した。これは2020年7月以来約6年ぶりの値上げ検討表明であり、コスト上昇の自助努力限界を認めた上での収益性改善期待から買い注文が殺到した。翌7月16日通常取引では全日ストップ高気配となりストップ高配分（6,780円、前日比+17.3%）で引けたが、日中に約定できなかった大量の買い需要がPTSに持ち越され、夜間セッションで7,191円（+6.06%）へ続伸した。",
+      "factor_kind": "報道",
+      "rank": 3
+    },
+    {
+      "code": "278A",
+      "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+      "market": "グロース",
+      "mcap_oku": 1181,
+      "mcap_flag": "",
+      "pct": 4.37,
+      "pts": 12650.0,
+      "close": 12120.0,
+      "volume": 25300,
+      "turnover_yen": 320045000,
+      "turnover_m": 320.0,
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "第19回新株予約権（行使価額修正条項付）の 大量行使、行使の完了及び月間行使状況に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260716595268.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "278A",
+          "name": "Ｇ－テラドローン",
+          "title": "第24回新株予約権（行使価額固定型）の行使に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260716595259.pdf"
+        }
+      ],
+      "factor": "第19回新株予約権（行使価額修正条項付き）の大量行使が完了し、MS新株予約権による希薄化懸念が解消されたことが買い材料となった。あわせて第24回新株予約権（行使価額固定型）の行使状況も開示された。",
+      "factor_kind": "開示",
+      "rank": 4
+    },
+    {
+      "code": "4392",
+      "name": "ＦＩＧ",
+      "market": "プライム",
+      "mcap_oku": 352,
+      "mcap_flag": "†",
+      "pct": 3.95,
+      "pts": 1159.0,
+      "close": 1115.0,
+      "volume": 40300,
+      "turnover_yen": 46707700,
+      "turnover_m": 46.7,
+      "shoutfy_jq": 31593115,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "4392",
+          "name": "ＦＩＧ",
+          "title": "プライム市場上場維持基準への適合に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260716595274.pdf"
+        }
+      ],
+      "factor": "プライム市場の上場維持基準への適合を開示。市場変更・上場廃止リスクの払拭が好感された。",
+      "factor_kind": "開示",
+      "rank": 5,
+      "shares_kabutan": 35167729,
+      "mcap_kabutan_oku": 392
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "9439",
+      "name": "エム・エイチ・グループ",
+      "pct": 33.76,
+      "turnover_m": 2.9,
+      "volume": 9200
+    },
+    {
+      "code": "150A",
+      "name": "ＪＳＨ",
+      "pct": 17.32,
+      "turnover_m": 0.8,
+      "volume": 1500
+    },
+    {
+      "code": "9042",
+      "name": "阪急阪神ホールディングス",
+      "pct": 14.82,
+      "turnover_m": 0.5,
+      "volume": 100
+    },
+    {
+      "code": "542A",
+      "name": "ビタブリッドジャパン",
+      "pct": 11.91,
+      "turnover_m": 8.3,
+      "volume": 7100
+    },
+    {
+      "code": "7640",
+      "name": "トップカルチャー",
+      "pct": 10.12,
+      "turnover_m": 9.6,
+      "volume": 51700
+    },
+    {
+      "code": "4829",
+      "name": "日本エンタープライズ",
+      "pct": 9.72,
+      "turnover_m": 8.5,
+      "volume": 71700
+    },
+    {
+      "code": "4069",
+      "name": "ＢｌｕｅＭｅｍｅ",
+      "pct": 7.44,
+      "turnover_m": 0.2,
+      "volume": 300
+    },
+    {
+      "code": "7373",
+      "name": "アイドマ・ホールディングス",
+      "pct": 5.11,
+      "turnover_m": 0.4,
+      "volume": 400
+    },
+    {
+      "code": "4174",
+      "name": "アピリッツ",
+      "pct": 4.88,
+      "turnover_m": 0.4,
+      "volume": 500
+    },
+    {
+      "code": "6648",
+      "name": "かわでん",
+      "pct": 4.86,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "7808",
+      "name": "シー・エス・ランバー",
+      "pct": 4.62,
+      "turnover_m": 1.1,
+      "volume": 400
+    },
+    {
+      "code": "4412",
+      "name": "サイエンスアーツ",
+      "pct": 4.15,
+      "turnover_m": 2.2,
+      "volume": 1600
+    },
+    {
+      "code": "2884",
+      "name": "ヨシムラ・フード・ホールディングス",
+      "pct": 3.9,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "6573",
+      "name": "ＣＲＡＶＩＡ",
+      "pct": 3.6,
+      "turnover_m": 0.3,
+      "volume": 12500
+    },
+    {
+      "code": "3598",
+      "name": "山喜",
+      "pct": 3.6,
+      "turnover_m": 0.1,
+      "volume": 600
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラス",
+      "pct": 3.21,
+      "turnover_m": 0.1,
+      "volume": 5100
+    },
+    {
+      "code": "5384",
+      "name": "フジミインコーポレーテッド",
+      "pct": 3.14,
+      "turnover_m": 5.9,
+      "volume": 1400
+    },
+    {
+      "code": "9941",
+      "name": "太洋物産",
+      "pct": 3.05,
+      "turnover_m": 1.0,
+      "volume": 700
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "9238",
+      "name": "バリュークリエーション",
+      "pct": 3.52,
+      "turnover_m": 19.4,
+      "mcap_oku": 11
+    },
+    {
+      "code": "598A",
+      "name": "チャットプラス",
+      "pct": 3.45,
+      "turnover_m": 975.2,
+      "mcap_oku": null
+    }
+  ]
+}
