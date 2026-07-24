@@ -1,0 +1,182 @@
+{
+  "session_date": "2026-07-24",
+  "next_date": "2026-07-25",
+  "session_window": "2026-07-24 17:00 → 2026-07-25 06:00 JST",
+  "generated_at": "2026-07-25 06:09 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 3,
+    "dropped_turnover": 8,
+    "dropped_mcap": 2
+  },
+  "rows": [
+    {
+      "code": "9107",
+      "name": "川崎汽船",
+      "market": "プライム",
+      "mcap_oku": 17935,
+      "mcap_flag": "",
+      "pct": 5.31,
+      "pts": 2955.1,
+      "close": 2806.0,
+      "volume": 21200,
+      "turnover_yen": 62648120,
+      "turnover_m": 62.6,
+      "shoutfy_jq": 639172067,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "9107",
+          "name": "川崎船",
+          "title": "2027年３月期 業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260724599046.pdf"
+        }
+      ],
+      "factor": "2027年3月期連結業績予想を大幅上方修正。当期純利益を従来予想比42.1%増の1,350億円（EPS 220.8円）に引き上げ、前期比23.7%増益見通しへ転換。上期（4-9月期）経常利益も従来予想350億円から800億円（2.3倍）へ修正。ドライバルク市況の堅調推移と持分法適用会社オーシャン・ネットワーク・エクスプレスのコンテナ船事業が当初予想を上回る好調を背景とする。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "9104",
+      "name": "商船三井",
+      "market": "プライム",
+      "mcap_oku": 21210,
+      "mcap_flag": "",
+      "pct": 3.37,
+      "pts": 6040.0,
+      "close": 5843.0,
+      "volume": 9100,
+      "turnover_yen": 54964000,
+      "turnover_m": 55.0,
+      "shoutfy_jq": 363001827,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "フーシ派が7月23日（ロイター配信07:02 JST）および7月24日にサウジアラビア関連タンカー計4隻を紅海でミサイル・ドローン攻撃。2月28日に始まったホルムズ海峡危機と合わせ、紅海・バブエルマンデブ海峡でも通航が急減（月曜比30%減）し二正面のチョークポイント封鎖が鮮明化。ブレント原油先物は7月23日に1バレル100.65ドルへ急騰（前日比+6.96%、2ヶ月ぶり高値）し、湾岸〜中国間タンカー運賃は5年平均比4倍超、戦争保険料も船価の7.5〜10%（従来1〜3%）へ上昇。大型タンカー・LNG船を多数運航する商船三井の収益改善期待が高まったとみられる。",
+      "factor_kind": "報道",
+      "rank": 2
+    },
+    {
+      "code": "6629",
+      "name": "テクノホライゾン",
+      "market": "スタンダード",
+      "mcap_oku": 217,
+      "mcap_flag": "",
+      "pct": 3.01,
+      "pts": 1062.0,
+      "close": 1031.0,
+      "volume": 75400,
+      "turnover_yen": 80074800,
+      "turnover_m": 80.1,
+      "shoutfy_jq": 21063240,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "6629",
+          "name": "テクノホライゾン",
+          "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260716595094.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6629",
+          "name": "テクノホライゾン",
+          "title": "2027年３月期　第１四半期決算説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260721596678.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "6629",
+          "name": "テクノホライゾン",
+          "title": "Vital Vision Technology Pte. Ltd.及びEI3D Pte. Ltd.の株式取得（完全子会社化）に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260721596680.pdf"
+        }
+      ],
+      "factor": "2027年3月期第1四半期（4-6月期）決算を発表。売上高133.3億円（前年同期比+27.4%）、営業利益5.0億円（前年同期0.2億円）と大幅増益。映像＆IT事業（売上+36.4%、営業利益+198.9%）が牽引し、当期純利益は前年同期1.4億円損失から4.4億円へ黒字転換。同時にシンガポールの映像機器ディストリビューターVital Vision Technology Pte. Ltd.及び産業用3Dシステム会社EI3D Pte. Ltd.を完全子会社化すると発表し、ASEAN・インド市場での海外展開加速を材料視。",
+      "factor_kind": "開示",
+      "rank": 3
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "6496",
+      "name": "中北製作所",
+      "pct": 19.42,
+      "turnover_m": 0.6,
+      "volume": 100
+    },
+    {
+      "code": "3386",
+      "name": "コスモ・バイオ",
+      "pct": 6.45,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "1850",
+      "name": "南海辰村建設",
+      "pct": 6.0,
+      "turnover_m": 0.3,
+      "volume": 700
+    },
+    {
+      "code": "2459",
+      "name": "アウンコンサルティング",
+      "pct": 4.59,
+      "turnover_m": 5.1,
+      "volume": 26400
+    },
+    {
+      "code": "1852",
+      "name": "淺沼組",
+      "pct": 4.51,
+      "turnover_m": 1.0,
+      "volume": 1100
+    },
+    {
+      "code": "3625",
+      "name": "テックファームホールディングス",
+      "pct": 4.36,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "8894",
+      "name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "pct": 3.33,
+      "turnover_m": 0.3,
+      "volume": 13200
+    },
+    {
+      "code": "6574",
+      "name": "コンヴァノ",
+      "pct": 3.1,
+      "turnover_m": 0.2,
+      "volume": 2200
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "2656",
+      "name": "ベクターホールディングス",
+      "pct": 5.66,
+      "turnover_m": 22.6,
+      "mcap_oku": 48
+    },
+    {
+      "code": "4833",
+      "name": "Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ",
+      "pct": 3.49,
+      "turnover_m": 40.3,
+      "mcap_oku": 31
+    }
+  ]
+}
