@@ -1,0 +1,196 @@
+{
+  "session_date": "2026-07-27",
+  "next_date": "2026-07-28",
+  "session_window": "2026-07-27 17:00 → 2026-07-28 06:00 JST",
+  "generated_at": "2026-07-28 06:09 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100
+  },
+  "counts": {
+    "qualifying": 2,
+    "dropped_turnover": 14,
+    "dropped_mcap": 2
+  },
+  "rows": [
+    {
+      "code": "2767",
+      "name": "円谷フィールズホールディングス",
+      "market": "プライム",
+      "mcap_oku": 1001,
+      "mcap_flag": "",
+      "pct": 26.14,
+      "pts": 1930.0,
+      "close": 1530.0,
+      "volume": 69200,
+      "turnover_yen": 133556000,
+      "turnover_m": 133.6,
+      "shoutfy_jq": 65429150,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "2767",
+          "name": "円谷フィールズＨＤ",
+          "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260727599995.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2767",
+          "name": "円谷フィールズＨＤ",
+          "title": "業績予想及び中期経営計画の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260727599762.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2767",
+          "name": "円谷フィールズＨＤ",
+          "title": "剰余金の配当（特別配当）の実施に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260727599764.pdf"
+        }
+      ],
+      "factor": "2027年3月期通期業績予想を大幅上方修正（営業利益190億円→225億円、+18.4%／純利益135億円→150億円、+11.1%）し、「グループ中期経営計画 FY2026-2028」も同時に上方修正。あわせてウルトラマン60周年記念の特別配当（1株当たり70円、創業以来最大）を決議した。",
+      "factor_kind": "開示",
+      "rank": 1
+    },
+    {
+      "code": "464A",
+      "name": "ＱＰＳホールディングス",
+      "market": "グロース",
+      "mcap_oku": 806,
+      "mcap_flag": "",
+      "pct": 3.4,
+      "pts": 1492.0,
+      "close": 1443.0,
+      "volume": 31500,
+      "turnover_yen": 46998000,
+      "turnover_m": 47.0,
+      "shoutfy_jq": 55860500,
+      "cur_end": "2026-05-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "引け後にモルガン・スタンレー証券が新規カバレッジを開始し、投資判断「強気（Overweight）」・目標株価2,700円（当日終値比+87%）を付与したとのレーティング情報が伝わり、PTSで買いが入った。",
+      "factor_kind": "報道",
+      "rank": 2
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "3386",
+      "name": "コスモ・バイオ",
+      "pct": 21.4,
+      "turnover_m": 0.3,
+      "volume": 200
+    },
+    {
+      "code": "2305",
+      "name": "スタジオアリス",
+      "pct": 20.27,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "8818",
+      "name": "京阪神ビルディング",
+      "pct": 18.04,
+      "turnover_m": 0.4,
+      "volume": 300
+    },
+    {
+      "code": "4031",
+      "name": "片倉コープアグリ",
+      "pct": 8.66,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "6656",
+      "name": "インスペック",
+      "pct": 6.55,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "6177",
+      "name": "ＡｐｐＢａｎｋ",
+      "pct": 4.25,
+      "turnover_m": 1.3,
+      "volume": 16000
+    },
+    {
+      "code": "198A",
+      "name": "ＰｏｓｔＰｒｉｍｅ",
+      "pct": 3.75,
+      "turnover_m": 1.1,
+      "volume": 6500
+    },
+    {
+      "code": "3174",
+      "name": "ハピネス・アンド・ディ",
+      "pct": 3.52,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "7299",
+      "name": "フジオーゼックス",
+      "pct": 3.48,
+      "turnover_m": 1.9,
+      "volume": 1000
+    },
+    {
+      "code": "6955",
+      "name": "ＦＤＫ",
+      "pct": 3.45,
+      "turnover_m": 0.2,
+      "volume": 400
+    },
+    {
+      "code": "2311",
+      "name": "エプコ",
+      "pct": 3.25,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "7962",
+      "name": "キングジム",
+      "pct": 3.21,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "4978",
+      "name": "リプロセル",
+      "pct": 3.15,
+      "turnover_m": 1.7,
+      "volume": 12600
+    },
+    {
+      "code": "8894",
+      "name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "pct": 3.04,
+      "turnover_m": 0.2,
+      "volume": 9500
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "8995",
+      "name": "誠建設工業",
+      "pct": 15.91,
+      "turnover_m": 29.1,
+      "mcap_oku": 19
+    },
+    {
+      "code": "5242",
+      "name": "アイズ",
+      "pct": 4.73,
+      "turnover_m": 25.5,
+      "mcap_oku": 28
+    }
+  ]
+}
