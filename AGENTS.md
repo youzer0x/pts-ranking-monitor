@@ -18,7 +18,7 @@
 ```
 1. 営業日ゲート     python scripts/check_gate.py        → SKIP なら何もせず終了
 2. 素データ生成      python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
-3. 変動要因の裏取り   各 row の factor / factor_kind を埋める（★中核作業＝サブエージェント並列委譲＋merge_factors.py・後述 §3）
+3. 変動要因の裏取り   各 row の factor / factor_kind を埋める（★中核作業＝バッチ委譲＋merge_factors.py・後述 §3）
 4. 公開ファイル生成   python scripts/publish.py docs/tmp/ranking.json --no-email（メールはまだ送らない）
 5. commit & push    docs/ を main にコミットし git push origin HEAD:main（claude/ ブランチ不可）
 6. メール通知        python scripts/publish.py docs/tmp/ranking.json --notify（Pages 反映を待って Gmail 送信）
@@ -44,48 +44,60 @@ python scripts/check_gate.py
 python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 ```
 - 株探 PTS ナイト値上がり＋J-Quants 時価総額＋TDnet 開示突合を結合し、抽出条件を満たす銘柄を JSON 化する。
-- 抽出条件（確定）：**東証個別株のみ**（J-Quants `ProdCat=011`＋`Mkt∈{0111,0112,0113}`／ETF・REIT・地方単独上場は除外）、**PTS上昇率≥+3% かつ 売買代金(=PTS気配×夜間出来高)≥¥10,000,000**、**時価総額≥100億円**。
+- 抽出条件（確定）：**東証個別株のみ**（J-Quants `ProdCat=011`＋`Mkt∈{0111,0112,0113}`／ETF・REIT・地方単独上場は除外）、**PTS上昇率≥+3% かつ 売買代金(=PTS気配×夜間出来高)≥¥10,000,000**、**時価総額≥100億円**、**掲載は上昇率上位20銘柄**（`--max-rows`。日次のトークンと通信量が行数の急増で跳ねないための安全弁。実測32営業日中の発動は3日＝2026-07-09の28行・07-28の23行・07-30の67行）。
 - 時価総額＝**J-Quants 当日終値×発行済株式数×分割/併合補正**（億円・四捨五入。1兆円以上も億円表示）。増資/自己株で株探最新株数と>1%乖離する銘柄は `mcap_flag="†"` が付き、`mcap_kabutan_oku`・`shares_kabutan` も入る。
 - 銘柄名は **J-Quants 正式名称（`CoName`・「株式会社」は付けない）** を用いる。**略称は使わない**（例：9984＝ソフトバンクグループ、6981＝村田製作所、6920＝レーザーテック）。
-- 出力 JSON：`rows`（採用銘柄）、`dropped_turnover`（≥+3%だが薄商い）、`dropped_mcap`（<100億）。各 row の `disclosures` には**当日15:30以降の TDnet 開示**が入っている。**この段階に変動要因は無い**（`factor`・`factor_kind` は空）。
+- 出力 JSON：`rows`（採用銘柄）、`dropped_turnover`（≥+3%だが薄商い）、`dropped_mcap`（<100億）。各 row の `disclosures` には**当日15:30以降の TDnet 開示**が、`kabutan_news` には**株探の個別ニュース見出し**が入っている（Stage2 の起点データ。best-effort で取得失敗時は空配列。見出しの索引であり権威ではないので、採用時は §3.2 の規律で一次記事に当たる）。**この段階に変動要因は無い**（`factor`・`factor_kind` は空）。
 - 株探は次のナイト開始（17:00）まで当該セッションを表示する。06:06 実行なら確定済み。
 
-## 3. 変動要因の裏取り（★Claude の中核作業＝サブエージェント並列委譲）
+## 3. 変動要因の裏取り（★Claude の中核作業＝バッチ委譲）
 
 `docs/tmp/ranking.json` の **各 row** について「**なぜ PTS ナイトで上昇したか**」を特定し、
 `factor`（日本語の説明文）と `factor_kind`（`開示`/`報道`/`テーマ` のいずれか）を埋める。
-調査は **1銘柄=1サブエージェント（`stock-factor-researcher`・`.claude/agents/` 配布・編集禁止）の
-並列委譲**を基本とし、`ranking.json` への書き込みは**必ず `merge_factors.py` 経由**で行う（手編集しない）。
+`ranking.json` への書き込みは**必ず `merge_factors.py` 経由**で行う（手編集しない）。
+
+> **旧方式（1銘柄=1タスク・row の JSON 全体を貼付・起動数の上限なし）は利用上限に到達したため
+> 廃止した。** 現在は決定的な前処理で最大5銘柄のバッチを作り、親はタスクへ `batch_id` と
+> `batch_path` だけを渡す。経緯・予算値・受入基準は `specs/PIPELINE_ARCHITECTURE.md`。
+> 日次の無人実行が読む実行契約は `runbook/RUNTIME_CONTRACT.md`（本節は方法論の正本）。
+> ベンダリング済みの `stock-factor-researcher` は SOT 整合のため残すが、本ルーチンでは使わない。
 
 ### 3.1 実行手順
 
-1. **ハイブリッド判定（親が直接書く行）**：rows を一巡し、`row.disclosures`（当日15:30以降の TDnet 開示）の
-   タイトルだけで上昇が明快に説明できる行（決算・上方/下方修正・TOB・新株予約権・子会社化・大型受注等）は、
-   親が §3.2 の優先順1の要領で `factor`（具体的に・である調）/`factor_kind="開示"` を直接起こす（委譲しない）。
-2. **委譲**：残りの行を **1銘柄=1タスク・約10並列のバッチ**で `stock-factor-researcher` に委譲する。
-   タスクプロンプト＝下の**【調査パラメータ】雛形**（`<SESSION>` を置換）＋**当該 row の JSON 全体**。
-   サブエージェントは `{code, status, factor, factor_kind, sources}` の JSON 1個を返す。
-3. **収集とマージ**：親が直接書いた行のエントリとサブエージェントの返却 JSON をあわせて
-   **JSON 配列**として `docs/tmp/factors.json` に保存し、次を実行する：
+1. **調査計画（決定的）**：
    ```bash
+   python scripts/build_research_plan.py --ranking docs/tmp/ranking.json --research-dir .work/<SESSION>/research
+   ```
+   材料窓（SESSION 15:30〜翌06:00）の外のニュース・TDnet と重複する株探見出し・古い継続テーマ見出し
+   （`prior` は2件まで）を LLM に渡す前に落とし、残りを最大5銘柄（高リスク・深掘りは3銘柄）の
+   バッチにまとめる。`dropped_turnover`/`dropped_mcap` はバッチに含めない。exit 2 なら停止する。
+
+2. **インライン分（委譲しない）**：`.work/<SESSION>/research/inline.json` に載る行は、開示タイトル
+   だけで上昇が説明できる行（高リスクは EDINET 確認のため除外され委譲側に回る）。親が §3.2 の
+   優先順1の要領で `factor`（具体的に・である調）/`factor_kind="開示"` を起こし、
+   `docs/tmp/inline_factors.json` に `[{"code","factor","factor_kind","sources"}]` の配列で保存する。
+
+3. **バッチ委譲**：`manifest.json` の `status=="pending"` のバッチだけを `pts-factor-batch-researcher`
+   に並列委譲する。**委譲直前に必ず**次を実行し、exit 0 以外なら委譲せず停止する（3＝予算枯渇）：
+   ```bash
+   python scripts/reserve_dispatch.py --research-dir .work/<SESSION>/research --batch <batch_id>
+   ```
+   **1タスクに渡すのは `batch_id` と `batch_path` だけ**とし、ranking row・plan 本文・長文仕様を
+   貼らない。返却 JSON はそのまま `.work/<SESSION>/research/results/<batch_id>.json` に保存する。
+
+4. **集約とマージ（決定的）**：
+   ```bash
+   python scripts/compile_research_results.py --research-dir .work/<SESSION>/research \
+       --out docs/tmp/factors.json --inline docs/tmp/inline_factors.json
    python scripts/merge_factors.py --ranking docs/tmp/ranking.json --factors docs/tmp/factors.json
    ```
    `factor`/`factor_kind` 以外のフィールドと `rows` の順序はスクリプトが保全する（`name` の上書き等は
-   構造的に起きない）。
-4. **フォールバック**：`MISSING`/`REJECTED` と報告された行は**親が §3.2 の優先順でインライン調査**し、
-   `factors.json` を更新して merge_factors.py を**再実行**する（同一 code は後勝ち。factor が空の row を
-   残さない）。サブエージェントが返せなかった行が配信から欠けることはこの手順で防ぐ。
+   構造的に起きない）。検証に通ったバッチは manifest で `complete` になり再委譲されない。
 
-**【調査パラメータ】雛形**（委譲タスクプロンプトの先頭に貼る）：
-
-```
-【調査パラメータ】
-- SESSION: <SESSION>（PTS ナイトタイムセッション＝前営業日17:00→当日06:00）
-- 材料窓: SESSION 15:30 以降〜翌06:00（東証通常取引の引けは15:30。それより前の材料は日中に織り込み済み＝ナイト要因にしない）
-- [開示]の定義: row.disclosures（当日15:30以降の TDnet 開示）が窓内材料
-- レーティング確認: disclosures が空なら株探 https://kabutan.jp/stock/news?code=<4桁>（ブラウザUA）の「レーティング日報」「材料」を必ず確認。引け後に伝わった格上げ・目標株価引き上げはナイトの有力材料（factor_kind=報道）
-- 文体: である調。「開示なし」等の定型注記は書かない
-```
+5. **フォールバック**：compile が exit 3（`MISSING`）なら**該当バッチだけ** 3 からやり直す
+   （予約は毎回必要。`per_batch_limit=3` を超えると予約できず停止）。`UNRESOLVED` は材料未確認として
+   許容する（`factor` は埋まっている）。merge の `MISSING`/`REJECTED` が残る行は親が §3.2 の優先順で
+   インライン調査し、`inline_factors.json` を更新して 4 を再実行する（factor が空の row を残さない）。
 
 ### 3.2 調査の優先順とソース規律（親のインライン調査・直接記入にも適用）
 

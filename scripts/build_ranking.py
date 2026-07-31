@@ -8,6 +8,12 @@
   - PTS上昇率 ≥ min_pct（既定 +3%）かつ PTS売買代金 ≥ min_turnover（既定 ¥10,000,000）。
   - 時価総額 ≥ min_mcap 億円（既定 100）。時価総額＝J-Quants 終値×発行済株式数×分割/併合補正。
   - 期中の増資・自己株で J-Quants 株数と株探最新株数が >1% 乖離する銘柄は mcap_flag="†"。
+  - 掲載は上昇率降順で上位 max_rows 行（既定 20）。日次ルーチンのトークンと通信量が
+    行数の急増（実測最大 67 行）で跳ねないための上限で、超過分は counts に件数だけ残す。
+
+各 row には TDnet 開示（15:30以降）に加えて株探の個別ニュース見出しも事前充填する（kabutan_news）。
+Stage2 のサブエージェントが銘柄ごとに同じページを取得し直さずに済ませるための起点データで、
+best-effort（取得失敗時は空リスト）。判断・出典採否は後段の Claude が行う。
 
 usage:
   python build_ranking.py [--date YYYY-MM-DD] [--out ranking.json]
@@ -19,9 +25,14 @@ from datetime import date
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import kabutan_pts, jquants, tdnet, business_day
 
+# 掲載上限。実測（公開済み32営業日・387行）は中央値 9.5 行で通常日は発動しないが、
+# 最大は 67 行（2026-07-30）に達する。突出して多い日を機械的に抑える安全弁として効く。
+DEFAULT_MAX_ROWS = 20
+
 
 def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
-          from_files=None, do_kabutan_shares=True, verbose=True):
+          from_files=None, do_kabutan_shares=True, max_rows=DEFAULT_MAX_ROWS,
+          do_kabutan_news=True, verbose=True):
     def log(*a):
         if verbose:
             print(*a, file=sys.stderr)
@@ -73,9 +84,16 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
             disclosures=[], factor="", factor_kind=""))
 
     qualifying.sort(key=lambda x: -x["pct"])
+    # 掲載上限は TDnet 突合・株探アクセスより前に適用する。以降の通信も採用行だけに絞られる。
+    n_qualifying = len(qualifying)
+    n_capped = 0
+    if max_rows is not None and n_qualifying > max_rows:
+        n_capped = n_qualifying - max_rows
+        qualifying = qualifying[:max_rows]
     for i, row in enumerate(qualifying, 1):
         row["rank"] = i
-    log(f"# qualifying={len(qualifying)}  dropped_turnover={len(dropped_turnover)}  "
+    log(f"# qualifying={n_qualifying} published={len(qualifying)} capped={n_capped}  "
+        f"dropped_turnover={len(dropped_turnover)}  "
         f"dropped_mcap={len(dropped_mcap)}  excluded={len(excluded)}")
 
     # 3) TDnet 15:30以降の開示を突合（一次情報の変動要因候補）
@@ -101,14 +119,28 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
                 if row["close"]:
                     row["mcap_kabutan_oku"] = round(row["close"] * shk / 1e8)
 
+    # 5) 株探 個別ニュース見出しの事前充填（Stage2 の起点データ）
+    #    実測で disclosures が空の行は約 69%。そこを埋めるための株探ページ取得を
+    #    サブエージェント側の WebFetch から Python 側の1回に寄せる。
+    if do_kabutan_news:
+        log(f"# kabutan news prefill for {len(qualifying)} names ...")
+        for row in qualifying:
+            row["kabutan_news"] = kabutan_pts.kabutan_news(row["code"])
+            time.sleep(0.2)
+    else:
+        for row in qualifying:
+            row["kabutan_news"] = []
+
     sd = date.fromisoformat(session_iso)
     return {
         "session_date": session_iso,
         "next_date": (sd + datetime.timedelta(days=1)).isoformat(),
         "session_window": f"{session_iso} 17:00 → {(sd + datetime.timedelta(days=1)).isoformat()} 06:00 JST",
         "generated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M JST"),
-        "criteria": {"min_pct": min_pct, "min_turnover_yen": min_turnover, "min_mcap_oku": min_mcap},
-        "counts": {"qualifying": len(qualifying), "dropped_turnover": len(dropped_turnover),
+        "criteria": {"min_pct": min_pct, "min_turnover_yen": min_turnover, "min_mcap_oku": min_mcap,
+                     "max_rows": max_rows},
+        "counts": {"qualifying": n_qualifying, "published": len(qualifying), "capped": n_capped,
+                   "dropped_turnover": len(dropped_turnover),
                    "dropped_mcap": len(dropped_mcap)},
         "rows": qualifying,
         "dropped_turnover": sorted(dropped_turnover, key=lambda x: -x["pct"]),
@@ -122,8 +154,11 @@ def main():
     ap.add_argument("--min-pct", type=float, default=3.0)
     ap.add_argument("--min-turnover", type=float, default=10_000_000)
     ap.add_argument("--min-mcap", type=float, default=100)
+    ap.add_argument("--max-rows", type=int, default=DEFAULT_MAX_ROWS,
+                    help=f"掲載上限（既定 {DEFAULT_MAX_ROWS}）。0 で無制限")
     ap.add_argument("--out", help="JSON 出力先パス（省略時は stdout）")
     ap.add_argument("--no-kabutan-shares", action="store_true")
+    ap.add_argument("--no-kabutan-news", action="store_true")
     ap.add_argument("--files", nargs="*", help="保存済み株探HTML（--date 必須）")
     args = ap.parse_args()
 
@@ -131,14 +166,17 @@ def main():
     session_iso = args.date or business_day.prev_business_day(date.today()).isoformat()
     data = build(session_iso, min_pct=args.min_pct, min_turnover=args.min_turnover,
                  min_mcap=args.min_mcap, from_files=args.files,
-                 do_kabutan_shares=not args.no_kabutan_shares)
+                 do_kabutan_shares=not args.no_kabutan_shares,
+                 do_kabutan_news=not args.no_kabutan_news,
+                 max_rows=args.max_rows or None)
     text = json.dumps(data, ensure_ascii=False, indent=2)
     if args.out:
         d = os.path.dirname(os.path.abspath(args.out))
         os.makedirs(d, exist_ok=True)
         with open(args.out, "w", encoding="utf-8") as f:
             f.write(text)
-        print(f"# wrote {args.out} ({data['counts']['qualifying']} qualifying)", file=sys.stderr)
+        print(f"# wrote {args.out} ({data['counts']['published']} published"
+              f" / {data['counts']['qualifying']} qualifying)", file=sys.stderr)
     else:
         print(text)
 

@@ -2,7 +2,7 @@
 
 日本株の **PTS ナイトタイムセッション（前営業日 17:00 → 当日 06:00）の株価上昇率ランキング（値上がり専用）** を、**東証の営業日ベースで毎朝・無人**に生成し、**Web ページ（GitHub Pages）と Gmail 通知**で配信するシステムです。各銘柄の**変動要因**（なぜ上がったか）を適時開示・主要メディアの一次情報で裏取りして付けます。
 
-- 抽出条件：**東証個別株のみ**（ETF・REIT・地方単独上場は除外）／**PTS上昇率 ≥ +3% かつ 売買代金 ≥ ¥10,000,000**／**時価総額 ≥ 100億円**
+- 抽出条件：**東証個別株のみ**（ETF・REIT・地方単独上場は除外）／**PTS上昇率 ≥ +3% かつ 売買代金 ≥ ¥10,000,000**／**時価総額 ≥ 100億円**／**掲載は上昇率上位20銘柄**
 - 時価総額＝**当日終値 × 発行済株式数**（J-Quants V2 API・億円・四捨五入。1兆円以上も億円表示）
 - データ：PTS＝株探(J-Market)／時価総額・終値・株数・市場区分＝J-Quants V2／適時開示＝TDnet／報道＝主要メディア
 
@@ -185,6 +185,14 @@ cd /c/Users/YujiroOkawa/project-private/pts-ranking-monitor
 python scripts/check_gate.py                                   # 営業日ゲート確認
 python scripts/build_ranking.py --date 2026-06-15 --out docs/tmp/ranking.json
 # （必要なら docs/tmp/ranking.json の各 row の factor/factor_kind を編集）
+
+# Stage2 を無人ルーチンと同じ機械経路で回す場合（詳細は runbook/RUNTIME_CONTRACT.md）
+R=.work/2026-06-15/research
+python scripts/build_research_plan.py --ranking docs/tmp/ranking.json --research-dir $R
+python scripts/reserve_dispatch.py --research-dir $R --batch batch-001   # 委譲の直前に必ず実行
+# → pts-factor-batch-researcher に batch_id と batch_path だけを渡し、返却を $R/results/ へ保存
+python scripts/compile_research_results.py --research-dir $R --out docs/tmp/factors.json --inline docs/tmp/inline_factors.json
+python scripts/merge_factors.py --ranking docs/tmp/ranking.json --factors docs/tmp/factors.json
 python scripts/publish.py docs/tmp/ranking.json --no-email     # 生成のみ（メールを送らず Pages だけ更新）
 git add docs/index.html docs/data && git commit -m "Update PTS ..." && git push origin HEAD:main  # Pages へ反映
 python scripts/publish.py docs/tmp/ranking.json --notify       # push 後: Pages 反映を待って Gmail 送信（推奨）
