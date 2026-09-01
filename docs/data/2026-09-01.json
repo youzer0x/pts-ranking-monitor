@@ -1,0 +1,327 @@
+{
+  "session_date": "2026-09-01",
+  "next_date": "2026-09-02",
+  "session_window": "2026-09-01 17:00 → 2026-09-02 06:00 JST",
+  "generated_at": "2026-09-02 06:09 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20
+  },
+  "counts": {
+    "qualifying": 2,
+    "published": 2,
+    "capped": 0,
+    "dropped_turnover": 10,
+    "dropped_mcap": 3
+  },
+  "rows": [
+    {
+      "code": "2593",
+      "name": "伊藤園",
+      "market": "プライム",
+      "mcap_oku": 2566,
+      "mcap_flag": "",
+      "pct": 7.37,
+      "pts": 3233.0,
+      "close": 3011.0,
+      "volume": 20500,
+      "turnover_yen": 66276500,
+      "turnover_m": 66.3,
+      "shoutfy_jq": 85212380,
+      "cur_end": "2027-04-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "2593",
+          "name": "伊藤園",
+          "title": "2027年４月期 第１四半期決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260831528591.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "2593",
+          "name": "伊藤園",
+          "title": "2027年4月期 第1四半期決算補足説明資料",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260831528575.pdf"
+        }
+      ],
+      "factor": "2027年4月期第1四半期（5〜7月）決算を発表し、リーフ・ドリンク関連事業の大幅増益により営業利益が前年同期比22%増、経常利益が同13%増で着地した。",
+      "factor_kind": "開示",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-01T19:05:35+09:00",
+          "category": "注目",
+          "title": "★本日の【イチオシ決算】 伊藤園、マクアケ (9月1日)",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=n202609011081"
+        },
+        {
+          "datetime": "2026-09-01T17:06:55+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】速報 (09月01日)",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=n202609010957"
+        },
+        {
+          "datetime": "2026-09-01T16:22:00+09:00",
+          "category": "材料",
+          "title": "伊藤園、５～７月営業益は２２％増　主力のリーフ・ドリンク関連事業が大幅増益",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=n202609010901"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "決算",
+          "title": "伊藤園、5-7月期(1Q)経常は13％増益で着地",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=k202609010002"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "Consolidated Financial Results Under Japanese Standards for the First Quarter of the fiscal year ending April 30, 2027 (Unaudited)",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260831528593/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "2027年４月期 第１四半期決算短信〔日本基準〕（連結）",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260831528591/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "Financial Results Presentation for FY2026 1Q",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260831528577/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "2027年4月期 第1四半期決算補足説明資料",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260831528575/"
+        },
+        {
+          "datetime": "2026-08-31T19:08:04+09:00",
+          "category": "注目",
+          "title": "★本日の【イチオシ決算】 トリケミカル、ラクーンＨＤ、トライアイズ (8月31日)",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=n202608310984"
+        },
+        {
+          "datetime": "2026-08-31T17:05:04+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】速報 (08月31日)",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=n202608310885"
+        },
+        {
+          "datetime": "2026-08-28T17:45:00+09:00",
+          "category": "市況",
+          "title": "来週の株式相場に向けて＝９月は物色転機となるか、グロース株含め新潮流強まる",
+          "url": "https://kabutan.jp/stock/news?code=2593&b=n202608281037"
+        },
+        {
+          "datetime": "2026-08-27T16:00:00+09:00",
+          "category": "開示",
+          "title": "Notice of Company Split with Consolidated Subsidiary (Simplified Absorption-type Split)",
+          "url": "https://kabutan.jp/disclosures/pdf/20260827/140120260826526551/"
+        }
+      ]
+    },
+    {
+      "code": "4479",
+      "name": "マクアケ",
+      "market": "グロース",
+      "mcap_oku": 123,
+      "mcap_flag": "",
+      "pct": 4.45,
+      "pts": 1010.0,
+      "close": 967.0,
+      "volume": 10500,
+      "turnover_yen": 10605000,
+      "turnover_m": 10.6,
+      "shoutfy_jq": 12748700,
+      "cur_end": "2026-09-30",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "4479",
+          "name": "Ｇ－マクアケ",
+          "title": "通期業績予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260827526910.pdf"
+        }
+      ],
+      "factor": "2026年9月期の通期業績予想を上方修正し、経常利益を8.6億円に引き上げた。",
+      "factor_kind": "開示",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-01T19:05:35+09:00",
+          "category": "注目",
+          "title": "★本日の【イチオシ決算】 伊藤園、マクアケ (9月1日)",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=n202609011081"
+        },
+        {
+          "datetime": "2026-09-01T16:04:00+09:00",
+          "category": "材料",
+          "title": "マクアケが２６年９月期業績予想を上方修正",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=n202609010872"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "修正",
+          "title": "マクアケ、今期経常を8.6億円に上方修正",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=k202609010004"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice of Revisions to Full-Year Financial Forecasts",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260828527770/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "通期業績予想の修正に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260827526910/"
+        },
+        {
+          "datetime": "2026-08-07T18:00:00+09:00",
+          "category": "開示",
+          "title": "［Delayed］Notice of Release of Earnings Presentation Video (English) for Q3 FY2026/9",
+          "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260716595351/"
+        },
+        {
+          "datetime": "2026-08-03T18:00:00+09:00",
+          "category": "開示",
+          "title": "2026年９月期 第３四半期 決算説明動画公開のお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260803/140120260716595349/"
+        },
+        {
+          "datetime": "2026-07-31T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2テセック、テクノフレックス、シリコンスタジオなど",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=n202607310233"
+        },
+        {
+          "datetime": "2026-07-30T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2東京エレクトロン、キオクシアHD、シリコンスタジオなど",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=n202607300292"
+        },
+        {
+          "datetime": "2026-07-29T15:39:46+09:00",
+          "category": "材料",
+          "title": "新興市場銘柄ダイジェスト:マイクロ波化学が大幅反発、マクアケが大幅反落",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=n202607291085"
+        },
+        {
+          "datetime": "2026-07-29T13:55:58+09:00",
+          "category": "材料",
+          "title": "マクアケ---大幅反落、26年9月期第3四半期の営業利益倍増も上期から伸び率縮小で売り先行",
+          "url": "https://kabutan.jp/stock/news?code=4479&b=n202607290946"
+        },
+        {
+          "datetime": "2026-07-29T09:00:00+09:00",
+          "category": "開示",
+          "title": "Notice Regarding Publication of an Analyst Report on Makuake, Inc. by Envalith, Inc.",
+          "url": "https://kabutan.jp/disclosures/pdf/20260729/140120260727599726/"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "2612",
+      "name": "かどや製油",
+      "pct": 22.31,
+      "turnover_m": 2.4,
+      "volume": 1100
+    },
+    {
+      "code": "8860",
+      "name": "フジ住宅",
+      "pct": 11.39,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "9972",
+      "name": "アルテック",
+      "pct": 7.12,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "2315",
+      "name": "ＣＡＩＣＡ　ＤＩＧＩＴＡＬ",
+      "pct": 6.76,
+      "turnover_m": 8.2,
+      "volume": 113000
+    },
+    {
+      "code": "146A",
+      "name": "コロンビア・ワークス",
+      "pct": 4.14,
+      "turnover_m": 0.4,
+      "volume": 100
+    },
+    {
+      "code": "6347",
+      "name": "プラコー",
+      "pct": 3.86,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "436A",
+      "name": "サイバーソリューションズ",
+      "pct": 3.25,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "9401",
+      "name": "ＴＢＳホールディングス",
+      "pct": 3.25,
+      "turnover_m": 1.3,
+      "volume": 200
+    },
+    {
+      "code": "8912",
+      "name": "エリアクエスト",
+      "pct": 3.21,
+      "turnover_m": 1.0,
+      "volume": 6000
+    },
+    {
+      "code": "2134",
+      "name": "北浜キャピタルパートナーズ",
+      "pct": 3.0,
+      "turnover_m": 6.9,
+      "volume": 335300
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4075",
+      "name": "ブレインズテクノロジー",
+      "pct": 28.33,
+      "turnover_m": 193.8,
+      "mcap_oku": 83
+    },
+    {
+      "code": "7709",
+      "name": "クボテック",
+      "pct": 9.56,
+      "turnover_m": 18.7,
+      "mcap_oku": 9
+    },
+    {
+      "code": "6897",
+      "name": "ツインバード",
+      "pct": 4.25,
+      "turnover_m": 15.9,
+      "mcap_oku": 73
+    }
+  ]
+}
