@@ -1,0 +1,528 @@
+{
+  "session_date": "2026-09-03",
+  "next_date": "2026-09-04",
+  "session_window": "2026-09-03 17:00 → 2026-09-04 06:00 JST",
+  "generated_at": "2026-09-04 06:09 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20
+  },
+  "counts": {
+    "qualifying": 4,
+    "published": 4,
+    "capped": 0,
+    "dropped_turnover": 21,
+    "dropped_mcap": 6
+  },
+  "rows": [
+    {
+      "code": "603A",
+      "name": "アイ・グリッド・ソリューションズ",
+      "market": "グロース",
+      "mcap_oku": 369,
+      "mcap_flag": "†",
+      "pct": 12.27,
+      "pts": 1290.0,
+      "close": 1149.0,
+      "volume": 208400,
+      "turnover_yen": 268836000,
+      "turnover_m": 268.8,
+      "shoutfy_jq": 32110000,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。背景として、2026年7月29日に東証グロース市場へIPO（公開価格770円）した同社は、8月14日発表のFY2026（6月期）決算でGXソリューション事業売上高が前期比+54.5%と急拡大しており、省エネ法改正（2026年4月施行）による屋根上太陽光設置義務化の政策追い風を受けた上昇基調が続いている。なお8月28日付でコミットメントラインに基づく借入の開示があり、8月18日付スパークス・アセットの5%超保有報告も確認されているが、これらは材料窓外である。",
+      "factor_kind": "テーマ",
+      "rank": 1,
+      "shares_kabutan": 36380000,
+      "mcap_kabutan_oku": 418,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-03T15:40:05+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 12 銘柄　　S安＝ 0 銘柄　(9月3日)",
+          "url": "https://kabutan.jp/stock/news?code=603A&b=n202609030814"
+        },
+        {
+          "datetime": "2026-09-03T08:00:00+09:00",
+          "category": "開示",
+          "title": "2026年（第23期）定時株主総会招集通知及び株主総会資料",
+          "url": "https://kabutan.jp/disclosures/pdf/20260903/140120260826526693/"
+        },
+        {
+          "datetime": "2026-09-02T16:00:00+09:00",
+          "category": "開示",
+          "title": "定款の一部変更について",
+          "url": "https://kabutan.jp/disclosures/pdf/20260902/140120260902530600/"
+        },
+        {
+          "datetime": "2026-09-02T15:30:00+09:00",
+          "category": "開示",
+          "title": "[Delayed]Notice Regarding Drawdown of Loan under Existing Commitment Line Agreement With Financial Covenants",
+          "url": "https://kabutan.jp/disclosures/pdf/20260902/140120260902530670/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "[Delayed]Notice Concerning Release of Transcript and Q&A of Financial Results Briefing   for the Fiscal Year Ended June 30, 2026",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901529985/"
+        },
+        {
+          "datetime": "2026-08-28T18:00:00+09:00",
+          "category": "開示",
+          "title": "財務上の特約が付された金銭消費貸借契約の締結について",
+          "url": "https://kabutan.jp/disclosures/pdf/20260828/140120260827527295/"
+        },
+        {
+          "datetime": "2026-08-28T15:40:05+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 14 銘柄　　S安＝ 0 銘柄　(8月28日)",
+          "url": "https://kabutan.jp/stock/news?code=603A&b=n202608280843"
+        },
+        {
+          "datetime": "2026-08-21T19:00:00+09:00",
+          "category": "開示",
+          "title": "2026年6月期通期決算説明会の書き起こし公開 及び よくある質問と回答について",
+          "url": "https://kabutan.jp/disclosures/pdf/20260821/140120260821524708/"
+        },
+        {
+          "datetime": "2026-08-21T17:00:00+09:00",
+          "category": "開示",
+          "title": "第三者割当増資の結果に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260821/140120260821524639/"
+        },
+        {
+          "datetime": "2026-08-18T16:15:02+09:00",
+          "category": "５％",
+          "title": "アイグリッドについて、スパークス・アセットは保有割合が5％を超えたと報告 [大量保有報告書]",
+          "url": "https://kabutan.jp/stock/news?code=603A&b=n202608180941"
+        },
+        {
+          "datetime": "2026-08-17T11:00:00+09:00",
+          "category": "開示",
+          "title": "ＪＡ全農ラドファ、初のオンサイトＰＰＡ導入  ～サーキュラーグリーンエナジーと連携し、本社・東北工場の再エネ活用比率を最大化～",
+          "url": "https://kabutan.jp/disclosures/pdf/20260817/140120260817521574/"
+        },
+        {
+          "datetime": "2026-08-14T18:05:09+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】続報 (08月14日)",
+          "url": "https://kabutan.jp/stock/news?code=603A&b=n202608141313"
+        }
+      ]
+    },
+    {
+      "code": "3350",
+      "name": "メタプラネット",
+      "market": "スタンダード",
+      "mcap_oku": 3575,
+      "mcap_flag": "",
+      "pct": 8.6,
+      "pts": 303.0,
+      "close": 279.0,
+      "volume": 2665000,
+      "turnover_yen": 807495000,
+      "turnover_m": 807.5,
+      "shoutfy_jq": 1281283624,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "9月3日の米国市場時間帯（日本時間夜間＝材料窓内）にビットコイン価格が前日比で約4.7%上昇したことが主因である。[Yahoo Finance](https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-3-2026-crypto-prices-lift-this-morning-despite-oil-costs-gaining-steam-113526770.html)（配信：9月3日 6:35 CDT＝20:35 JST）は「空爆が短期的との大統領発言でエネルギー価格急騰への懸念が和らぎリスクオンとなった」とし、[Fortune](https://fortune.com/article/price-of-bitcoin-09-03-2026/)（配信：9月3日 8:00 AM ET＝21:00 JST）は同時点のBTC価格を前日比＋$1,262の$77,934と確認。その後1:30 PM EDT（JST翌4日 2:30）には$80,974付近まで上昇が続き、1日で約4〜5%の値上がりを記録した。メタプラネットは2026年6月末時点でBTC 43,000枚超を保有する国内最大のビットコイン特化型企業であり、BTC価格の大幅上昇がPTS株価上昇（＋8.6%）に直結した。",
+      "factor_kind": "報道",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Regarding Monthly Exercise Status of the 27th Series of Stock Acquisition Rights Issued through Third-Party Allotment (with Exercise Price Adju",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901530024/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "第三者割当により発行された第27回新株予約権（行使価額修正条項、mNAV条項、下限行使価額修正条項及び行使停止条項付）の月間行使状況に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901530015/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Regarding the Status of Share Repurchases",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901530010/"
+        },
+        {
+          "datetime": "2026-09-01T15:30:00+09:00",
+          "category": "開示",
+          "title": "自己株式の取得状況に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901530005/"
+        },
+        {
+          "datetime": "2026-08-31T16:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Regarding the Partial Exercise of the 10th Series of Stock Acquisition Rights",
+          "url": "https://kabutan.jp/disclosures/pdf/20260831/140120260831528941/"
+        },
+        {
+          "datetime": "2026-08-31T16:30:00+09:00",
+          "category": "開示",
+          "title": "第10回新株予約権の一部行使に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260831/140120260831528852/"
+        },
+        {
+          "datetime": "2026-08-28T11:25:00+09:00",
+          "category": "材料",
+          "title": "＜みんかぶ・個人投資家の予想から＞＝「買い予想数上昇」４位にメタプラ",
+          "url": "https://kabutan.jp/stock/news?code=3350&b=n202608280473"
+        },
+        {
+          "datetime": "2026-08-26T13:29:06+09:00",
+          "category": "５％",
+          "title": "メタプラについて、米キャピタル・リサーチは保有割合が減少したと報告 [変更報告書No.29]",
+          "url": "https://kabutan.jp/stock/news?code=3350&b=n202608260606"
+        },
+        {
+          "datetime": "2026-08-26T13:19:19+09:00",
+          "category": "５％",
+          "title": "メタプラについて、ゲロヴィッチ・サイモン氏は保有割合が減少したと報告 [変更報告書No.8]",
+          "url": "https://kabutan.jp/stock/news?code=3350&b=n202608260599"
+        },
+        {
+          "datetime": "2026-08-22T08:50:00+09:00",
+          "category": "注目",
+          "title": "今週の【話題株ダイジェスト】 ＴＯＲＩＣＯ、ハイパー、エニマインド (8月17日～21日)",
+          "url": "https://kabutan.jp/stock/news?code=3350&b=n202608220125"
+        }
+      ]
+    },
+    {
+      "code": "3038",
+      "name": "神戸物産",
+      "market": "プライム",
+      "mcap_oku": 7934,
+      "mcap_flag": "",
+      "pct": 3.1,
+      "pts": 2990.0,
+      "close": 2900.0,
+      "volume": 23900,
+      "turnover_yen": 71461000,
+      "turnover_m": 71.5,
+      "shoutfy_jq": 273600000,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。9月11日に予定する2026年10月期第3四半期決算の発表を8日後に控えており、2026年6月12日発表の第2四半期（売上高2,861億円・前期比5.1%増、営業利益210億円・同10.2%増、純利益165億円・同16%増）では3期連続で同期間最高益を更新している。",
+      "factor_kind": "テーマ",
+      "rank": 3,
+      "kabutan_news": [
+        {
+          "datetime": "2026-08-19T15:30:00+09:00",
+          "category": "開示",
+          "title": "2026年７月度　月次IRニュース",
+          "url": "https://kabutan.jp/disclosures/pdf/20260819/140120260818522526/"
+        },
+        {
+          "datetime": "2026-08-19T15:30:00+09:00",
+          "category": "開示",
+          "title": "Monthly Performance for July 2026",
+          "url": "https://kabutan.jp/disclosures/pdf/20260819/140120260818522515/"
+        },
+        {
+          "datetime": "2026-08-05T19:30:00+09:00",
+          "category": "特集",
+          "title": "インフレ大転換で新章突入、「消費関連」S級プレミア株・爆誕の宴へ ＜株探トップ特集＞",
+          "url": "https://kabutan.jp/stock/news?code=3038&b=n202608051487"
+        },
+        {
+          "datetime": "2026-08-03T17:33:00+09:00",
+          "category": "市況",
+          "title": "明日の株式相場に向けて＝ＡＩ革命の理想とメモリー市況の現実",
+          "url": "https://kabutan.jp/stock/news?code=3038&b=n202608030969"
+        },
+        {
+          "datetime": "2026-07-29T07:15:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part1ベルパーク、キオクシアHD、円谷フィHDなど",
+          "url": "https://kabutan.jp/stock/news?code=3038&b=n202607290186"
+        }
+      ]
+    },
+    {
+      "code": "8309",
+      "name": "三井住友トラストグループ",
+      "market": "プライム",
+      "mcap_oku": 12488,
+      "mcap_flag": "†",
+      "pct": 3.08,
+      "pts": 1842.0,
+      "close": 1787.0,
+      "volume": 8300,
+      "turnover_yen": 15288600,
+      "turnover_m": 15.3,
+      "shoutfy_jq": 698812980,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "Bloombergが9月3日に「日銀が9月17〜18日の金融政策決定会合で政策金利を現行1.00%から1.25%へ引き上げる方向で検討している」と報じた（配信：2026-09-03 07:56 UTC＝16:56 JST）。この報道を受け、市場の9月会合での利上げ確率織り込みは約80%に達した。日銀の追加利上げは貸出・運用利鞘の拡大を通じ信託銀行の収益改善を促すため、2027年3月期第1四半期に経常利益が前年同期比108.5%増を達成した三井住友トラストグループ株に連想買いが入り、PTS価格が前日比3.08%上昇したとみられる。",
+      "factor_kind": "報道",
+      "rank": 4,
+      "shares_kabutan": 2795251920,
+      "mcap_kabutan_oku": 49951,
+      "kabutan_news": [
+        {
+          "datetime": "2026-08-27T09:39:00+09:00",
+          "category": "開示",
+          "title": "コーポレート・ガバナンスに関する報告書 2026/08/27",
+          "url": "https://kabutan.jp/disclosures/pdf/20260827/140120260820523959/"
+        },
+        {
+          "datetime": "2026-08-23T19:30:00+09:00",
+          "category": "特集",
+          "title": "26年4-6月期【利益倍増】企業はこれだ！〔第1弾〕 35社選出 ＜成長株特集＞",
+          "url": "https://kabutan.jp/stock/news?code=8309&b=n202608230056"
+        },
+        {
+          "datetime": "2026-08-17T17:00:05+09:00",
+          "category": "特集",
+          "title": "レーティング日報【最上位を継続＋目標株価を増額】　(8月17日)",
+          "url": "https://kabutan.jp/stock/news?code=8309&b=n202608170941"
+        },
+        {
+          "datetime": "2026-08-13T16:00:00+09:00",
+          "category": "開示",
+          "title": "Capital Adequacy Ratio as of June 30, 2026",
+          "url": "https://kabutan.jp/disclosures/pdf/20260813/140120260813518818/"
+        },
+        {
+          "datetime": "2026-08-13T16:00:00+09:00",
+          "category": "開示",
+          "title": "2027年3月期第1四半期 自己資本比率について",
+          "url": "https://kabutan.jp/disclosures/pdf/20260813/140120260813518809/"
+        },
+        {
+          "datetime": "2026-08-03T10:42:00+09:00",
+          "category": "開示",
+          "title": "定款 2026/08/01",
+          "url": "https://kabutan.jp/disclosures/pdf/20260803/140120260730503724/"
+        },
+        {
+          "datetime": "2026-07-31T17:00:34+09:00",
+          "category": "特集",
+          "title": "レーティング日報【最上位を継続＋目標株価を増額】　(7月31日)",
+          "url": "https://kabutan.jp/stock/news?code=8309&b=n202607311294"
+        },
+        {
+          "datetime": "2026-07-31T13:46:05+09:00",
+          "category": "材料",
+          "title": "芙蓉総合リース---三井住友トラスト・パナソニックファイナンスを共同事業化、社名変更へ",
+          "url": "https://kabutan.jp/stock/news?code=8309&b=n202607310890"
+        },
+        {
+          "datetime": "2026-07-30T18:04:12+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】続報 (07月30日)",
+          "url": "https://kabutan.jp/stock/news?code=8309&b=n202607301387"
+        },
+        {
+          "datetime": "2026-07-30T16:00:00+09:00",
+          "category": "決算",
+          "title": "三井住友トラ、4-6月期(1Q)経常は2.1倍増益で着地",
+          "url": "https://kabutan.jp/stock/news?code=8309&b=k202607300124"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "6176",
+      "name": "ブランジスタ",
+      "pct": 15.2,
+      "turnover_m": 8.5,
+      "volume": 7500
+    },
+    {
+      "code": "7138",
+      "name": "ＴＯＲＩＣＯ",
+      "pct": 10.81,
+      "turnover_m": 2.7,
+      "volume": 16500
+    },
+    {
+      "code": "6578",
+      "name": "コレックホールディングス",
+      "pct": 8.92,
+      "turnover_m": 0.7,
+      "volume": 1300
+    },
+    {
+      "code": "4418",
+      "name": "ＪＤＳＣ",
+      "pct": 7.39,
+      "turnover_m": 0.8,
+      "volume": 700
+    },
+    {
+      "code": "3825",
+      "name": "リミックスポイント",
+      "pct": 5.24,
+      "turnover_m": 3.3,
+      "volume": 13600
+    },
+    {
+      "code": "3645",
+      "name": "メディカルネット",
+      "pct": 5.18,
+      "turnover_m": 1.3,
+      "volume": 5000
+    },
+    {
+      "code": "5574",
+      "name": "ＡＢＥＪＡ",
+      "pct": 5.15,
+      "turnover_m": 6.1,
+      "volume": 2000
+    },
+    {
+      "code": "4833",
+      "name": "Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ",
+      "pct": 5.1,
+      "turnover_m": 5.3,
+      "volume": 98700
+    },
+    {
+      "code": "3994",
+      "name": "マネーフォワード",
+      "pct": 4.5,
+      "turnover_m": 3.2,
+      "volume": 500
+    },
+    {
+      "code": "9610",
+      "name": "ウィルソン・ラーニング　ワールドワイド",
+      "pct": 4.28,
+      "turnover_m": 6.8,
+      "volume": 47400
+    },
+    {
+      "code": "2930",
+      "name": "北の達人コーポレーション",
+      "pct": 3.85,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "6869",
+      "name": "シスメックス",
+      "pct": 3.84,
+      "turnover_m": 5.3,
+      "volume": 2700
+    },
+    {
+      "code": "5707",
+      "name": "東邦亜鉛",
+      "pct": 3.78,
+      "turnover_m": 2.1,
+      "volume": 1900
+    },
+    {
+      "code": "7716",
+      "name": "ナカニシ",
+      "pct": 3.78,
+      "turnover_m": 2.5,
+      "volume": 800
+    },
+    {
+      "code": "7694",
+      "name": "いつも",
+      "pct": 3.65,
+      "turnover_m": 1.4,
+      "volume": 2300
+    },
+    {
+      "code": "3807",
+      "name": "フィスコ",
+      "pct": 3.49,
+      "turnover_m": 0.1,
+      "volume": 800
+    },
+    {
+      "code": "7356",
+      "name": "Ｒｅｔｔｙ",
+      "pct": 3.48,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "9229",
+      "name": "サンウェルズ",
+      "pct": 3.48,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "6363",
+      "name": "酉島製作所",
+      "pct": 3.18,
+      "turnover_m": 6.2,
+      "volume": 2100
+    },
+    {
+      "code": "4776",
+      "name": "サイボウズ",
+      "pct": 3.16,
+      "turnover_m": 1.2,
+      "volume": 400
+    },
+    {
+      "code": "5034",
+      "name": "ｕｎｅｒｒｙ",
+      "pct": 3.01,
+      "turnover_m": 0.2,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "3653",
+      "name": "モルフォ",
+      "pct": 22.81,
+      "turnover_m": 475.8,
+      "mcap_oku": 72
+    },
+    {
+      "code": "4583",
+      "name": "カイオム・バイオサイエンス",
+      "pct": 14.76,
+      "turnover_m": 32.8,
+      "mcap_oku": 65
+    },
+    {
+      "code": "4370",
+      "name": "モビルス",
+      "pct": 10.14,
+      "turnover_m": 34.3,
+      "mcap_oku": 27
+    },
+    {
+      "code": "4576",
+      "name": "デ・ウエスタン・セラピテクス研究所",
+      "pct": 9.41,
+      "turnover_m": 23.1,
+      "mcap_oku": 49
+    },
+    {
+      "code": "4052",
+      "name": "フィーチャ",
+      "pct": 7.05,
+      "turnover_m": 191.9,
+      "mcap_oku": 51
+    },
+    {
+      "code": "3664",
+      "name": "ＷＩＺＥ",
+      "pct": 3.33,
+      "turnover_m": 11.5,
+      "mcap_oku": 22
+    }
+  ]
+}
