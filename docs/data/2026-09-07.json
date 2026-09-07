@@ -1,0 +1,473 @@
+{
+  "session_date": "2026-09-07",
+  "next_date": "2026-09-08",
+  "session_window": "2026-09-07 17:00 → 2026-09-08 06:00 JST",
+  "generated_at": "2026-09-08 06:08 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20
+  },
+  "counts": {
+    "qualifying": 4,
+    "published": 4,
+    "capped": 0,
+    "dropped_turnover": 7,
+    "dropped_mcap": 4
+  },
+  "rows": [
+    {
+      "code": "446A",
+      "name": "ノースサンド",
+      "market": "グロース",
+      "mcap_oku": 1479,
+      "mcap_flag": "",
+      "pct": 7.51,
+      "pts": 2305.0,
+      "close": 2144.0,
+      "volume": 7900,
+      "turnover_yen": 18209500,
+      "turnover_m": 18.2,
+      "shoutfy_jq": 69000000,
+      "cur_end": "2027-01-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "446A",
+          "name": "Ｇ－ノースサンド",
+          "title": "東京証券取引所プライム市場への市場区分変更申請に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260907532404.pdf"
+        }
+      ],
+      "factor": "東証グロース市場からプライム市場への市場区分変更申請を東京証券取引所に提出（同日15:30付TDnet開示）。区分変更が実現すれば指数組み入れ期待や機関投資家層の拡大につながるとして買いが集まった。",
+      "factor_kind": "開示",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-07T16:04:00+09:00",
+          "category": "材料",
+          "title": "ノースサンド、東証プライムへの市場区分変更を申請",
+          "url": "https://kabutan.jp/stock/news?code=446A&b=n202609070910"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Concerning Application to Change the Market Segment to Tokyo Stock Exchange Prime Market",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532425/"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "東京証券取引所プライム市場への市場区分変更申請に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532404/"
+        },
+        {
+          "datetime": "2026-09-06T09:15:00+09:00",
+          "category": "市況",
+          "title": "【杉村富生の短期相場観測】 ─波乱相場に打ち勝つ厳選9銘柄！",
+          "url": "https://kabutan.jp/stock/news?code=446A&b=n202609060020"
+        },
+        {
+          "datetime": "2026-08-30T09:15:00+09:00",
+          "category": "市況",
+          "title": "【杉村富生の短期相場観測】 ─個別物色に対応する特選7銘柄！",
+          "url": "https://kabutan.jp/stock/news?code=446A&b=n202608300022"
+        },
+        {
+          "datetime": "2026-08-03T15:30:00+09:00",
+          "category": "開示",
+          "title": "Corporate Governance Report August 3,2026",
+          "url": "https://kabutan.jp/disclosures/pdf/20260803/140120260803506862/"
+        },
+        {
+          "datetime": "2026-08-03T15:05:00+09:00",
+          "category": "開示",
+          "title": "コーポレート・ガバナンスに関する報告書 2026/08/03",
+          "url": "https://kabutan.jp/disclosures/pdf/20260803/140120260724599594/"
+        },
+        {
+          "datetime": "2026-08-03T12:20:02+09:00",
+          "category": "５％",
+          "title": "ノースサンドについて、ニューバーガー・バーマンは保有割合が増加したと報告 [変更報告書No.1]",
+          "url": "https://kabutan.jp/stock/news?code=446A&b=n202608030466"
+        }
+      ]
+    },
+    {
+      "code": "6085",
+      "name": "アーキテクツ・スタジオ・ジャパン",
+      "market": "グロース",
+      "mcap_oku": 222,
+      "mcap_flag": "",
+      "pct": 4.66,
+      "pts": 202.0,
+      "close": 193.0,
+      "volume": 359300,
+      "turnover_yen": 72578600,
+      "turnover_m": 72.6,
+      "shoutfy_jq": 114860220,
+      "cur_end": "2027-02-28",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。8月25日〜28日の急騰後、8月31日〜9月4日の4営業日続落（225円→162円、約−28%）を経た反発局面にあり、9月7日通常取引で前日比+31円（+19.14%）と193円引け。材料窓（15:30以降）に新たな適時開示・報道は確認されず。夜間PTSの+4.66%は日中上昇の勢いの継続とみられる。",
+      "factor_kind": "テーマ",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-07T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2ブランジスタ、ビーエイブル、ジェイファーマなど",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202609070018"
+        },
+        {
+          "datetime": "2026-09-05T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2ブランジスタ、ビーエイブル、ジェイファーマなど",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202609050088"
+        },
+        {
+          "datetime": "2026-09-04T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2アイサンテクノ、ダイナミクマップ、ティアフォーなど",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202609040117"
+        },
+        {
+          "datetime": "2026-08-26T15:40:04+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 10 銘柄　　S安＝ 1 銘柄　(8月26日)",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202608260809"
+        },
+        {
+          "datetime": "2026-08-25T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2キオクシアHD、ソフトバンクグループ、サンコールなど",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202608250096"
+        },
+        {
+          "datetime": "2026-08-24T15:40:04+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 4 銘柄　　S安＝ 1 銘柄　(8月24日)",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202608240737"
+        },
+        {
+          "datetime": "2026-08-24T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2アーキテクツSJ、TORICO、オンコリスなど",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202608240019"
+        },
+        {
+          "datetime": "2026-08-22T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2アーキテクツSJ、TORICO、オンコリスなど",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202608220090"
+        },
+        {
+          "datetime": "2026-08-14T15:10:00+09:00",
+          "category": "開示",
+          "title": "資金の借入に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260814/140120260814521244/"
+        },
+        {
+          "datetime": "2026-08-03T09:23:02+09:00",
+          "category": "５％",
+          "title": "アーキテクツについて、T.MAKEは保有割合が減少したと報告 [変更報告書]",
+          "url": "https://kabutan.jp/stock/news?code=6085&b=n202608030178"
+        }
+      ]
+    },
+    {
+      "code": "7856",
+      "name": "萩原工業",
+      "market": "プライム",
+      "mcap_oku": 283,
+      "mcap_flag": "",
+      "pct": 4.41,
+      "pts": 1984.8,
+      "close": 1901.0,
+      "volume": 27700,
+      "turnover_yen": 54978960,
+      "turnover_m": 55.0,
+      "shoutfy_jq": 14897600,
+      "cur_end": "2026-10-31",
+      "corr": 1.0,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "7856",
+          "name": "萩原工業",
+          "title": "2026年10月期 第３四半期決算短信〔日本基準〕（連結）",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260904532067.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "7856",
+          "name": "萩原工業",
+          "title": "株主優待内容の決定に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260907532388.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "7856",
+          "name": "萩原工業",
+          "title": "株主優待制度の再開に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260907532392.pdf"
+        },
+        {
+          "time": "16:00",
+          "code": "7856",
+          "name": "萩原工業",
+          "title": "資本業務提携契約の締結、第三者割当による自己株式の処分並びに主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120260904532079.pdf"
+        }
+      ],
+      "factor": "2026年10月期第3四半期決算短信で3Q累計経常利益が45%増益・直近3ヵ月（5-7月期）が97%増益と大幅増益で着地（15:30付TDnet開示）。日本政策投資銀行（DBJ）との資本業務提携契約の締結および第三者割当による自己株式処分も16:00に開示。株主優待制度の再開と優待内容の確定も同日発表され、複数の好材料が重なった。",
+      "factor_kind": "開示",
+      "rank": 3,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-07T19:50:00+09:00",
+          "category": "市況",
+          "title": "本日の【株主優待】情報 (7日引け後 発表分)",
+          "url": "https://kabutan.jp/stock/news?code=7856&b=n202609071122"
+        },
+        {
+          "datetime": "2026-09-07T19:11:06+09:00",
+          "category": "注目",
+          "title": "★本日の【イチオシ決算】 萩原工業 (9月7日)",
+          "url": "https://kabutan.jp/stock/news?code=7856&b=n202609071115"
+        },
+        {
+          "datetime": "2026-09-07T17:23:00+09:00",
+          "category": "材料",
+          "title": "萩原工業、第３四半期累計営業益３８％増　日本政策投資銀行との資本・業務提携も発表",
+          "url": "https://kabutan.jp/stock/news?code=7856&b=n202609071018"
+        },
+        {
+          "datetime": "2026-09-07T17:04:08+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】速報 (09月07日)",
+          "url": "https://kabutan.jp/stock/news?code=7856&b=n202609071001"
+        },
+        {
+          "datetime": "2026-09-07T16:00:00+09:00",
+          "category": "開示",
+          "title": "Notice Concerning Capital and Business Alliance, Disposal of Treasury Shares through Third-Party Allotment",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532348/"
+        },
+        {
+          "datetime": "2026-09-07T16:00:00+09:00",
+          "category": "開示",
+          "title": "資本業務提携契約の締結、第三者割当による自己株式の処分並びに主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260904532079/"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "決算",
+          "title": "萩原工業、11-7月期(3Q累計)経常が45％増益で着地・5-7月期も97％増益",
+          "url": "https://kabutan.jp/stock/news?code=7856&b=k202609070002"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Concerning Resumption of Shareholder Benefit Program",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532393/"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "株主優待制度の再開に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532392/"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Concerning Determination of Details of Shareholder Benefits",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532390/"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "株主優待内容の決定に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532388/"
+        },
+        {
+          "datetime": "2026-09-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "[Summary]Consolidated Financial Results for the Nine Months Ended July 31, 2026 (Under Japanese GAAP)",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260904532071/"
+        }
+      ]
+    },
+    {
+      "code": "6203",
+      "name": "豊和工業",
+      "market": "スタンダード",
+      "mcap_oku": 240,
+      "mcap_flag": "",
+      "pct": 3.66,
+      "pts": 1982.0,
+      "close": 1912.0,
+      "volume": 638800,
+      "turnover_yen": 1266101600,
+      "turnover_m": 1266.1,
+      "shoutfy_jq": 12548134,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "disclosures": [],
+      "factor": "2026年9月7日11時にTDnet開示された「株式会社Prodroneとのドローン開発・製造連携について」を起点とするドローン・防衛テーマが継続している。同開示ではProdroneが豊和工業の名古屋拠点内に初の量産工場を新設するとともに豊和工業を引受先とする第三者割当増資を実施すること、および迎撃ドローンを含む防衛・産業用ドローン事業への本格参入が明らかになった。同開示は材料窓（15:30）前に実施されたため日中セッションでストップ高に達したとみられ、PTSでは日中の積み残し需要の消化が続いた。",
+      "factor_kind": "テーマ",
+      "rank": 4,
+      "kabutan_news": [
+        {
+          "datetime": "2026-09-07T15:40:04+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 7 銘柄　　S安＝ 0 銘柄　(9月7日)",
+          "url": "https://kabutan.jp/stock/news?code=6203&b=n202609070840"
+        },
+        {
+          "datetime": "2026-09-07T15:31:00+09:00",
+          "category": "材料",
+          "title": "＜動意株・７日＞（大引け）＝豊和工、メガチップス、名村造など",
+          "url": "https://kabutan.jp/stock/news?code=6203&b=n202609070815"
+        },
+        {
+          "datetime": "2026-09-07T11:16:00+09:00",
+          "category": "材料",
+          "title": "豊和工が３連騰、産業用ドローン開発のＰｒｏｄｒｏｎｅとの開発・製造連携を強化",
+          "url": "https://kabutan.jp/stock/news?code=6203&b=n202609070433"
+        },
+        {
+          "datetime": "2026-09-07T11:00:00+09:00",
+          "category": "開示",
+          "title": "株式会社Prodroneとのドローン開発・製造連携について",
+          "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532284/"
+        },
+        {
+          "datetime": "2026-08-31T19:30:00+09:00",
+          "category": "特集",
+          "title": "膨張する防衛費、「三羽烏」から「AI・ドローン」に広がる関連株 ＜株探トップ特集＞",
+          "url": "https://kabutan.jp/stock/news?code=6203&b=n202608310987"
+        },
+        {
+          "datetime": "2026-08-27T17:42:00+09:00",
+          "category": "市況",
+          "title": "明日の株式相場に向けて＝「防御本能」が誘発する中小型株物色の勝ち筋",
+          "url": "https://kabutan.jp/stock/news?code=6203&b=n202608271010"
+        },
+        {
+          "datetime": "2026-08-07T09:30:00+09:00",
+          "category": "開示",
+          "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260807513721/"
+        },
+        {
+          "datetime": "2026-08-06T18:02:44+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】続報 (08月06日)",
+          "url": "https://kabutan.jp/stock/news?code=6203&b=n202608061555"
+        },
+        {
+          "datetime": "2026-08-06T16:30:00+09:00",
+          "category": "開示",
+          "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260806512801/"
+        },
+        {
+          "datetime": "2026-08-06T16:30:00+09:00",
+          "category": "開示",
+          "title": "[Summary] Financial Results for the Three Months Ended June 30, 2026",
+          "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260806512288/"
+        },
+        {
+          "datetime": "2026-08-06T16:30:00+09:00",
+          "category": "開示",
+          "title": "株式給付信託（J-ESOP）に係る追加拠出に伴う第三者割当による自己株式の処分に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260806511632/"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "5026",
+      "name": "トリプルアイズ",
+      "pct": 6.75,
+      "turnover_m": 0.6,
+      "volume": 900
+    },
+    {
+      "code": "212A",
+      "name": "フィットイージー",
+      "pct": 4.96,
+      "turnover_m": 0.6,
+      "volume": 200
+    },
+    {
+      "code": "6177",
+      "name": "ＡｐｐＢａｎｋ",
+      "pct": 4.65,
+      "turnover_m": 0.7,
+      "volume": 8100
+    },
+    {
+      "code": "3645",
+      "name": "メディカルネット",
+      "pct": 4.38,
+      "turnover_m": 0.4,
+      "volume": 1400
+    },
+    {
+      "code": "5301",
+      "name": "東海カーボン",
+      "pct": 3.44,
+      "turnover_m": 1.2,
+      "volume": 600
+    },
+    {
+      "code": "4381",
+      "name": "ビープラッツ",
+      "pct": 3.24,
+      "turnover_m": 6.1,
+      "volume": 21200
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラス",
+      "pct": 3.21,
+      "turnover_m": 0.0,
+      "volume": 400
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "2338",
+      "name": "クオンタムソリューションズ",
+      "pct": 13.49,
+      "turnover_m": 61.1,
+      "mcap_oku": 62
+    },
+    {
+      "code": "2330",
+      "name": "フォーサイド",
+      "pct": 12.64,
+      "turnover_m": 37.6,
+      "mcap_oku": 48
+    },
+    {
+      "code": "8995",
+      "name": "誠建設工業",
+      "pct": 7.42,
+      "turnover_m": 111.3,
+      "mcap_oku": 41
+    },
+    {
+      "code": "520A",
+      "name": "ジェイファーマ",
+      "pct": 4.13,
+      "turnover_m": 28.2,
+      "mcap_oku": 85
+    }
+  ]
+}
