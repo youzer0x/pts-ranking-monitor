@@ -6,7 +6,8 @@
   "criteria": {
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
-    "min_mcap_oku": 100
+    "min_mcap_oku": 100,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 7,
@@ -18,57 +19,47 @@
       "code": "2354",
       "name": "ＹＥ　ＤＩＧＩＴＡＬ",
       "market": "スタンダード",
-      "mcap_oku": 196,
-      "mcap_flag": "",
+      "mcap_oku": 191,
       "pct": 14.26,
       "pts": 1210.0,
       "close": 1059.0,
       "volume": 163100,
       "turnover_yen": 197351000,
       "turnover_m": 197.4,
-      "shoutfy_jq": 18519100,
-      "cur_end": "2027-02-28",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月16日12時40分、YEデジタルが倉庫自動化システム（WES）「MMLogiStation」とNVIDIA Omniverse librariesを連携させ、物流センターや工場内搬送工程のデジタルツイン構築をフィジカルAI分野で推進する協業を発表した（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000254.000065567.html)、[lnews.jp](https://www.lnews.jp/2026/07/s0716503.html)）。同日は富士通・ファナック・安川電機・川崎重工などとNVIDIAとの協業発表が相次いだ「フィジカルAI一色」の日となり、YEデジタルは安川電機の持ち分法適用関連会社という点も注目を集めた。後場に急伸してストップ高気配となり通常セッション終値は1,059円（前日比18%超）に上昇したが、ストップ高気配のまま引けて大量の未成立買い注文が残存したため、PTSナイトセッションでもその需要が持ち越され1,210円（+14.26%）まで続伸した。",
       "factor_kind": "報道",
-      "rank": 1
+      "rank": 1,
+      "mcap_source": "jquants"
     },
     {
       "code": "285A",
       "name": "キオクシアホールディングス",
       "market": "プライム",
-      "mcap_oku": 284566,
-      "mcap_flag": "",
+      "mcap_oku": 285571,
       "pct": 10.34,
       "pts": 57500.0,
       "close": 52110.0,
       "volume": 488400,
       "turnover_yen": 28083000000,
       "turnover_m": 28083.0,
-      "shoutfy_jq": 546086290,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "7月17日の通常取引では、米テキサス州ウェーコの連邦陪審がビアサット（Viasat）の特許侵害訴訟においてキオクシアに約2億2,900万ドル（約371億円）の損害賠償を命じたことが嫌気され、一時ストップ安（前日比16.1%安の52,110円）まで売り込まれた（[日本経済新聞 2026/7/17](https://www.nikkei.com/article/DGXZQOUC1745C0X10C26A7000000/)）。引け後のPTS夜間取引では、野村証券が同日付で投資判断「Buy」を継続しつつ目標株価を115,000円から126,000円に引き上げたことが株探レーティング日報で確認でき、賠償額が同社の2026年3月期連結純利益5,544億円の約7%にとどまると算定され市場が過剰反応と再評価した。キオクシアも評決を「到底容認できるものではない」として控訴を含むあらゆる法的手段を追求する方針を示しており（[日本経済新聞 2026/7/17](https://www.nikkei.com/article/DGXZQOUC1745C0X10C26A7000000/)）、目標株価126,000円に対する大幅な乖離を背景に値ごろ感の買いが流入し約10%反発した。",
       "factor_kind": "報道",
-      "rank": 2
+      "rank": 2,
+      "mcap_source": "jquants"
     },
     {
       "code": "5074",
       "name": "テスホールディングス",
       "market": "プライム",
       "mcap_oku": 527,
-      "mcap_flag": "",
       "pct": 8.45,
       "pts": 809.0,
       "close": 746.0,
       "volume": 66000,
       "turnover_yen": 53394000,
       "turnover_m": 53.4,
-      "shoutfy_jq": 70649130,
-      "cur_end": "2026-06-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -80,89 +71,76 @@
       ],
       "factor": "子会社が大口受注を発表した（16:00付TDnet開示「子会社による大口受注に関するお知らせ」）。",
       "factor_kind": "開示",
-      "rank": 3
+      "rank": 3,
+      "mcap_source": "jquants"
     },
     {
       "code": "278A",
       "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
       "market": "グロース",
-      "mcap_oku": 1342,
-      "mcap_flag": "",
+      "mcap_oku": 1353,
       "pct": 6.01,
       "pts": 14598.0,
       "close": 13770.0,
       "volume": 23600,
       "turnover_yen": 344512800,
       "turnover_m": 344.5,
-      "shoutfy_jq": 9745300,
-      "cur_end": "2027-01-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月17日15時30分、Terra Droneは「7月27日開催 防衛事業戦略発表会のお知らせ」をTDnetに開示し（[日経会社情報DIGITAL](https://www.nikkei.com/nkd/disclosure/tdnr/20260717595753/)）、防衛事業における新たな進展を7月27日にオンラインで発表すると告知した。同社は2026年3月に防衛市場へ本格参入し、7月15日には防衛装備庁の「迎撃ドローン早期取得プログラム」（38社提案中）で迎撃ドローン「TerraB1」が供試器材に採択されたと発表済みであったが、当日の引け時刻と同時に開示された7月27日発表会の予告が「新たな進展」を示唆したとして、PTSセッションで好感買いが入り6.01%上昇した。",
       "factor_kind": "開示",
-      "rank": 4
+      "rank": 4,
+      "mcap_source": "jquants"
     },
     {
       "code": "5016",
       "name": "ＪＸ金属",
       "market": "プライム",
-      "mcap_oku": 33035,
-      "mcap_flag": "†",
+      "mcap_oku": 33829,
       "pct": 4.58,
       "pts": 3721.0,
       "close": 3558.0,
       "volume": 155600,
       "turnover_yen": 578987600,
       "turnover_m": 579.0,
-      "shoutfy_jq": 928463102,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。同社は半導体向けインジウムリン（InP）基板の増産投資（2026年6月16日発表、約120億円・4カ年投資）とAI・データセンター需要を背景に業績好調が続いており、野村証券が2026年7月8日付でNeutral→Buyに格上げ（目標株価4,500→4,800円）するなど強気評価が定着していた中、7月17日の東証通常取引では半導体セクターの地合い悪に伴い7.63%急落し、PTSではその反動が出た。",
       "factor_kind": "テーマ",
       "rank": 5,
-      "shares_kabutan": 953183210,
-      "mcap_kabutan_oku": 33914
+      "mcap_source": "jquants"
     },
     {
       "code": "3110",
       "name": "日東紡績",
       "market": "プライム",
-      "mcap_oku": 5724,
-      "mcap_flag": "",
+      "mcap_oku": 5524,
       "pct": 4.12,
       "pts": 3160.0,
       "close": 3035.0,
       "volume": 12000,
       "turnover_yen": 37920000,
       "turnover_m": 37.9,
-      "shoutfy_jq": 37723012,
-      "cur_end": "2026-03-31",
-      "corr": 5.0,
       "disclosures": [],
       "factor": "Tガラス（低熱膨張スペシャルガラス）でAI半導体パッケージ基板市場の世界シェア約90%を独占するとみられる同社株は、7月16日（現地時間）のTSMC第2四半期決算（売上高前年同期比33%増・AI向けHPC売上構成比66%・通期成長率見通し40%超に上方修正）を巡る半導体セクター全体の調整売りに連動して東証通常取引で7.47%安と急落した。その後の米国市場でフィラデルフィア半導体株指数（SOX）が安値から切り返したことで、AIチップ向けパッケージ基板材料を供給する同社がPTSで連れ高となった（[Yahoo Finance 2026/7/17](https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html)）。",
       "factor_kind": "テーマ",
-      "rank": 6
+      "rank": 6,
+      "mcap_source": "jquants"
     },
     {
       "code": "9984",
       "name": "ソフトバンクグループ",
       "market": "プライム",
-      "mcap_oku": 309811,
-      "mcap_flag": "",
+      "mcap_oku": 309110,
       "pct": 3.87,
       "pts": 5634.0,
       "close": 5424.0,
       "volume": 210400,
       "turnover_yen": 1185393600,
       "turnover_m": 1185.4,
-      "shoutfy_jq": 5711848120,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "S&Pグローバル・レーティングは2026年7月16日21時15分（東証通常取引の引け後）、ソフトバンクグループの長期発行体格付け「BB+」を据え置きつつ、格付け見通しをネガティブから安定的に引き上げた（[日本経済新聞 2026年7月16日21:15配信](https://www.nikkei.com/article/DGXZQOUB16BBO0W6A710C2000000/)）。S&Pは引き上げ理由として、傘下の英アーム・ホールディングスの株価急騰を背景に、保有株に対する純負債の割合（LTV）が従来の想定を上回るペースで改善し財務健全性が高まったことを挙げた。同アウトルックは2026年3月にOpenAIへの追加出資（約300億ドル）を理由にネガティブへ引き下げられていたが、その懸念が払拭された格好となり、引け後のPTSで3.87%高に買われた。",
       "factor_kind": "報道",
-      "rank": 7
+      "rank": 7,
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -300,5 +278,10 @@
       "volume": 100
     }
   ],
-  "dropped_mcap": []
+  "dropped_mcap": [],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-07-17",
+    "original_selection_preserved": true
+  }
 }

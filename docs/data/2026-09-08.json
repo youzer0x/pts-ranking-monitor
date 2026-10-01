@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 11,
@@ -21,17 +22,13 @@
       "code": "1436",
       "name": "グリーンエナジー＆カンパニー",
       "market": "グロース",
-      "mcap_oku": 247,
-      "mcap_flag": "",
+      "mcap_oku": 238,
       "pct": 11.23,
       "pts": 2139.0,
       "close": 1923.0,
       "volume": 14600,
       "turnover_yen": 31229400,
       "turnover_m": 31.2,
-      "shoutfy_jq": 12857400,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -131,23 +128,20 @@
           "title": "（開示事項の経過）東証グロース市場上場の株式会社クラダシとの合弁事業にかかる進捗状況に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260812/140120260812518379/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3687",
       "name": "フィックスターズ",
       "market": "プライム",
-      "mcap_oku": 752,
-      "mcap_flag": "",
+      "mcap_oku": 722,
       "pct": 8.5,
       "pts": 2425.0,
       "close": 2235.0,
       "volume": 27100,
       "turnover_yen": 65717500,
       "turnover_m": 65.7,
-      "shoutfy_jq": 33635000,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "15:45にTDnetへ「機密データを自社環境で活用できるAI基盤『水冷GPUコンテナDC-PKG』を提供開始」を開示し好感された。NVIDIA HGX B300搭載の水冷コンテナ型データセンターをNTTPCコミュニケーションズ・ゲットワークスと3社協業で提供するもので、機密データをオンプレミスで処理できるAI基盤として初期費用3億円〜・月額75万円〜の価格体系も公表した。",
       "factor_kind": "開示",
@@ -201,29 +195,24 @@
           "title": "Fixstars to Support Innovation through the Qualcomm Japan Robotics Center as a Participating Partner from Its Launch",
           "url": "https://kabutan.jp/disclosures/pdf/20260825/140120260825525482/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6834",
       "name": "精工技研",
       "market": "スタンダード",
-      "mcap_oku": 476,
-      "mcap_flag": "†",
+      "mcap_oku": 2280,
       "pct": 5.49,
       "pts": 5380.0,
       "close": 5100.0,
       "volume": 2100,
       "turnover_yen": 11298000,
       "turnover_m": 11.3,
-      "shoutfy_jq": 9333654,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月8日の米国取引時間（日本時間材料窓内）にQualcommとAmazon（AWS）が複数世代にわたるAI推論シリコンおよび最大1.6Tbpsの光インターコネクト共同開発を含む戦略提携を発表し、QCOM株が最大9.5%急伸した。光コネクタ・光コネクタ研磨機・光機能部品を主力とする精工技研への連想買いが夜間PTSで入ったとみられる。2027年3月期第1四半期は売上高+55.5%・営業利益+131.3%と過去最高業績を達成しており、2026年8月31日の1対5株式分割後も個人投資家の参戦が継続していた。",
       "factor_kind": "報道",
       "rank": 3,
-      "shares_kabutan": 46668270,
-      "mcap_kabutan_oku": 2380,
       "kabutan_news": [
         {
           "datetime": "2026-08-31T13:22:00+09:00",
@@ -261,23 +250,20 @@
           "title": "＜動意株・１２日＞（大引け）＝京写、精工技研、ソリトンなど",
           "url": "https://kabutan.jp/stock/news?code=6834&b=n202608120982"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6203",
       "name": "豊和工業",
       "market": "スタンダード",
-      "mcap_oku": 270,
-      "mcap_flag": "",
+      "mcap_oku": 259,
       "pct": 4.84,
       "pts": 2252.0,
       "close": 2148.0,
       "volume": 69800,
       "turnover_yen": 157189600,
       "turnover_m": 157.2,
-      "shoutfy_jq": 12548134,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月7日付の適時開示「株式会社Prodroneとのドローン開発・製造連携について」（TDnet開示 2026-09-07）を起点とする防衛・ドローン関連テーマの継続。同開示では豊和工業敷地内へのProdrone第1量産工場新設と第三者割当増資の実施を発表し、迎撃用ドローンの実用化を共同で目指すとした。9月8日の通常セッションではストップ高（2,148円）を付け、PTSでも買いが継続。",
       "factor_kind": "テーマ",
@@ -343,23 +329,20 @@
           "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260807513721/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6779",
       "name": "日本電波工業",
       "market": "プライム",
-      "mcap_oku": 583,
-      "mcap_flag": "",
+      "mcap_oku": 578,
       "pct": 4.8,
       "pts": 2640.0,
       "close": 2519.0,
       "volume": 8600,
       "turnover_yen": 22704000,
       "turnover_m": 22.7,
-      "shoutfy_jq": 23128605,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月8日の米国取引時間（日本時間材料窓内）にQualcommとAmazonが最大1.6Tbpsの高速光インターコネクト開発を含むAIデータセンター向け複合提携を発表し、米国半導体セクターが上昇した。NDKはAIデータセンター向け光トランシーバに搭載される差動出力SPXO等の精密タイミングデバイスを手がけており、2027年3月期第1四半期（2026年8月7日開示）でもAIデータセンター向け製品が業績を牽引したと公表済みであることから、高速光インターコネクト需要拡大への連れ高とみられる。",
       "factor_kind": "報道",
@@ -437,23 +420,20 @@
           "title": "2027年３月期　第１四半期決算短信〔ＩＦＲＳ〕（連結）",
           "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260806512443/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6613",
       "name": "ＱＤレーザ",
       "market": "グロース",
-      "mcap_oku": 812,
-      "mcap_flag": "",
+      "mcap_oku": 814,
       "pct": 4.5,
       "pts": 2020.0,
       "close": 1933.0,
       "volume": 37300,
       "turnover_yen": 75346000,
       "turnover_m": 75.3,
-      "shoutfy_jq": 41995075,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "15:30の引けと同時にTDnetへ「結晶成長装置（MBE装置）生産稼働再開に関するお知らせ」が開示され好感されたとみられる。同社は本社移転に伴うMBE装置移設後の稼働再開遅れが量子ドット供給能力への懸念材料として市場に認識されていたため、同開示は供給制約の解消を示す内容として材料視された。",
       "factor_kind": "開示",
@@ -513,23 +493,20 @@
           "title": "前日に動いた銘柄 part2内外テック、QDレーザー、ダイジェットなど",
           "url": "https://kabutan.jp/stock/news?code=6613&b=n202608120190"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6997",
       "name": "日本ケミコン",
       "market": "プライム",
-      "mcap_oku": 736,
-      "mcap_flag": "",
+      "mcap_oku": 720,
       "pct": 3.84,
       "pts": 2729.0,
       "close": 2628.0,
       "volume": 12300,
       "turnover_yen": 33566700,
       "turnover_m": 33.6,
-      "shoutfy_jq": 27992541,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2027年3月期第1四半期決算短信（2026年8月7日開示）ではICT・産機向けアルミ電解コンデンサ需要の増加が確認されており、AIデータセンター向け大容量コンデンサ需要拡大を背景とした継続テーマとして買いが入ったとみられる。",
       "factor_kind": "テーマ",
@@ -607,23 +584,20 @@
           "title": "前日に動いた銘柄 part2日本タングステン、東京インキ、フィーチャなど",
           "url": "https://kabutan.jp/stock/news?code=6997&b=n202608070408"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5801",
       "name": "古河電気工業",
       "market": "プライム",
-      "mcap_oku": 25906,
-      "mcap_flag": "",
+      "mcap_oku": 25790,
       "pct": 3.66,
       "pts": 3800.0,
       "close": 3666.0,
       "volume": 64300,
       "turnover_yen": 244340000,
       "turnover_m": 244.3,
-      "shoutfy_jq": 706669170,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。9月2日付アナリスト日報で大手証券が最上位レーティング継続・目標株価増額を伝えており（材料窓より前）、AIデータセンター向け光ファイバー・光ケーブルの大規模増産計画（2026年8月4日発表、日米等4カ国で総額約1,000億円投資）を背景とした継続テーマとみられる。",
       "factor_kind": "テーマ",
@@ -689,23 +663,20 @@
           "title": "[Delayed] Annual Securities Report For the 204th Fiscal Year (April 1, 2025 through March 31, 2026)",
           "url": "https://kabutan.jp/disclosures/pdf/20260820/140120260819523247/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5802",
       "name": "住友電気工業",
       "market": "プライム",
-      "mcap_oku": 65770,
-      "mcap_flag": "",
+      "mcap_oku": 64608,
       "pct": 3.24,
       "pts": 2138.0,
       "close": 2071.0,
       "volume": 88600,
       "turnover_yen": 189426800,
       "turnover_m": 189.4,
-      "shoutfy_jq": 3175762284,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月8日（火曜）のLME公式取引で銅3ヶ月先物が前日比1.3%高の1トン当たり1万4,703ドルへ上昇し、史上最高値を更新（前日9月7日の米レイバーデー休場中に1万4,533ドルの旧最高値を記録）。LME公式取引（日本時間20時30分頃以降）での更新が材料窓内（9月8日15:30〜翌6:00）と重なり、電線・ケーブルの主要原材料に銅を持つ同社への連想買いが波及したとみられる。LME在庫の5ヶ月ぶり低水準、米関税前の買い急ぎ、AIデータセンター向け電線需要の拡大が銅高騰を後押しした。",
       "factor_kind": "テーマ",
@@ -759,23 +730,20 @@
           "title": "前日に動いた銘柄 part2フィーチャ、菱友システムズ、 Abalanceなど",
           "url": "https://kabutan.jp/stock/news?code=5802&b=n202608040185"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5016",
       "name": "ＪＸ金属",
       "market": "プライム",
-      "mcap_oku": 35516,
-      "mcap_flag": "",
+      "mcap_oku": 35367,
       "pct": 3.11,
       "pts": 3842.0,
       "close": 3726.0,
       "volume": 69600,
       "turnover_yen": 267403200,
       "turnover_m": 267.4,
-      "shoutfy_jq": 953183210,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月8日のLME公式取引で銅3ヶ月先物が1トン当たり1万4,703ドルの史上最高値を更新。JX金属は電気銅製錬・リサイクルを中核とするほか、AIサーバー向け半導体製造に不可欠なスパッタリングターゲット（世界シェア約6割）や圧延銅箔を主力製品に持ち、銅高騰と半導体材料需要拡大の双方を追い風として材料窓内に連想買いが入ったとみられる。",
       "factor_kind": "テーマ",
@@ -847,23 +815,20 @@
           "title": "レーティング日報【最上位を継続】　(8月17日)",
           "url": "https://kabutan.jp/stock/news?code=5016&b=n202608170938"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5803",
       "name": "フジクラ",
       "market": "プライム",
-      "mcap_oku": 90232,
-      "mcap_flag": "",
+      "mcap_oku": 84183,
       "pct": 3.11,
       "pts": 5241.0,
       "close": 5083.0,
       "volume": 160700,
       "turnover_yen": 842228700,
       "turnover_m": 842.2,
-      "shoutfy_jq": 1775180526,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月8日のLME公式取引で銅3ヶ月先物が1トン当たり1万4,703ドルの史上最高値を更新し、電線・ケーブルセクター全体に連想買いが波及。フジクラはAIデータセンター向け高速光配線（光インターコネクト）の主要サプライヤーとして市場の注目を集めており、銅価格急騰と生成AI向けケーブル需要拡大の双方への期待からPTSでの買いが膨らんだとみられる。",
       "factor_kind": "テーマ",
@@ -935,7 +900,8 @@
           "title": "前日に動いた銘柄 part1キオクシアHD、弁護士ドットコム、大井電気など",
           "url": "https://kabutan.jp/stock/news?code=5803&b=n202608200122"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -1100,35 +1066,45 @@
       "name": "ソフトフロントホールディングス",
       "pct": 20.79,
       "turnover_m": 173.1,
-      "mcap_oku": 72
+      "mcap_oku": 72,
+      "mcap_source": "jquants"
     },
     {
       "code": "4440",
       "name": "ヴィッツ",
       "pct": 13.01,
       "turnover_m": 344.4,
-      "mcap_oku": 84
+      "mcap_oku": 80,
+      "mcap_source": "jquants"
     },
     {
       "code": "2330",
       "name": "フォーサイド",
       "pct": 10.77,
       "turnover_m": 54.8,
-      "mcap_oku": 57
+      "mcap_oku": 57,
+      "mcap_source": "jquants"
     },
     {
       "code": "3113",
       "name": "ＵＮＩＶＡ・Ｏａｋホールディングス",
       "pct": 6.14,
       "turnover_m": 10.8,
-      "mcap_oku": 77
+      "mcap_oku": 77,
+      "mcap_source": "jquants"
     },
     {
       "code": "8995",
       "name": "誠建設工業",
       "pct": 4.0,
       "turnover_m": 135.9,
-      "mcap_oku": 51
+      "mcap_oku": 51,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-08",
+    "original_selection_preserved": true
+  }
 }

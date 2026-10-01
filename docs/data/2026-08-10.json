@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 14,
@@ -21,17 +22,13 @@
       "code": "6862",
       "name": "ミナトホールディングス",
       "market": "スタンダード",
-      "mcap_oku": 194,
-      "mcap_flag": "",
+      "mcap_oku": 182,
       "pct": 20.42,
       "pts": 2948.0,
       "close": 2448.0,
       "volume": 5000,
       "turnover_yen": 14740000,
       "turnover_m": 14.7,
-      "shoutfy_jq": 7925714,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -131,23 +128,20 @@
           "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260722/140120260722597611/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6266",
       "name": "タツモ",
       "market": "プライム",
-      "mcap_oku": 518,
-      "mcap_flag": "",
+      "mcap_oku": 505,
       "pct": 20.06,
       "pts": 4190.0,
       "close": 3490.0,
       "volume": 6400,
       "turnover_yen": 26816000,
       "turnover_m": 26.8,
-      "shoutfy_jq": 14842354,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -240,23 +234,20 @@
           "title": "タツモはＳ安、出荷済み装置の検収遅れ６月中間期業績が下振れ着地",
           "url": "https://kabutan.jp/stock/news?code=6266&b=n202608060624"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3131",
       "name": "シンデン・ハイテックス",
       "market": "スタンダード",
-      "mcap_oku": 109,
-      "mcap_flag": "",
+      "mcap_oku": 97,
       "pct": 19.38,
       "pts": 6160.0,
       "close": 5160.0,
       "volume": 9600,
       "turnover_yen": 59136000,
       "turnover_m": 59.1,
-      "shoutfy_jq": 2110200,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月10日15時頃、2027年3月期第1四半期決算短信の開示とともに通期の経常利益予想を従来比2.5倍（4期ぶり最高益）に上方修正し、年間配当を100円増額する方針が公表された。株探掲載時刻が15時00分であり、TDnet開示は大引け前に行われたとみられる。この開示が引け間際に反応し、株価は日中のストップ高（5,160円）で引けた。PTS相場での+19.38%（6,160円）は、日中のストップ高で積み残された未消化の買い需要がナイトセッションへ持ち越されたものとみられる。",
       "factor_kind": "開示",
@@ -334,23 +325,20 @@
           "title": "取締役及び監査役の異動に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260522/140120260519540417/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "1960",
       "name": "サンテック",
       "market": "スタンダード",
-      "mcap_oku": 232,
-      "mcap_flag": "",
+      "mcap_oku": 223,
       "pct": 16.13,
       "pts": 1685.0,
       "close": 1451.0,
       "volume": 10300,
       "turnover_yen": 17355500,
       "turnover_m": 17.4,
-      "shoutfy_jq": 16000000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -430,23 +418,20 @@
           "title": "新任取締役候補者の選任に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260513/140120260513528291/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6834",
       "name": "精工技研",
       "market": "スタンダード",
-      "mcap_oku": 1967,
-      "mcap_flag": "",
+      "mcap_oku": 1884,
       "pct": 12.96,
       "pts": 23800.0,
       "close": 21070.0,
       "volume": 7100,
       "turnover_yen": 168980000,
       "turnover_m": 169.0,
-      "shoutfy_jq": 9333654,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -539,23 +524,20 @@
           "title": "＜みんかぶ・個人投資家の予想から＞＝「売り予想数上昇」１位に精工技研",
           "url": "https://kabutan.jp/stock/news?code=6834&b=n202607220542"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3277",
       "name": "サンセイランディック",
       "market": "スタンダード",
-      "mcap_oku": 125,
-      "mcap_flag": "",
+      "mcap_oku": 118,
       "pct": 9.6,
       "pts": 799.0,
       "close": 729.0,
       "volume": 25800,
       "turnover_yen": 20614200,
       "turnover_m": 20.6,
-      "shoutfy_jq": 17169800,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月10日14時頃にTDnetで開示された①2026年12月期通期業績予想の大幅上方修正（今期経常を60.5%上方修正・最高益更新・配当36円→48円増額）および②代表取締役社長・松﨑隆司氏が保有株式（議決権比11.72%）を自身の資産管理会社へ譲渡する計画（金商法第167条1項に基づく「公開買付けに準ずる行為」開示）を受けて、後場に株価が急騰しストップ高（終値729円）まで上昇した。窓内（15:30以降）に固有の新規材料は確認されていないが、ストップ高で積み残された買い需要がナイトPTSへの継続買いにつながったとみられる。",
       "factor_kind": "開示",
@@ -633,23 +615,20 @@
           "title": "サンセイラン、1-3月期(1Q)経常は10％増益で着地、株式分割に伴い配当予想を修正",
           "url": "https://kabutan.jp/stock/news?code=3277&b=k202605150128"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7906",
       "name": "ヨネックス",
       "market": "スタンダード",
-      "mcap_oku": 2443,
-      "mcap_flag": "",
+      "mcap_oku": 2250,
       "pct": 8.97,
       "pts": 2866.0,
       "close": 2630.0,
       "volume": 8300,
       "turnover_yen": 23787800,
       "turnover_m": 23.8,
-      "shoutfy_jq": 92870800,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -749,23 +728,20 @@
           "title": "台湾子会社における不正アクセスの発生に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260807515056/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9684",
       "name": "スクウェア・エニックス・ホールディングス",
       "market": "プライム",
-      "mcap_oku": 10554,
-      "mcap_flag": "",
+      "mcap_oku": 10353,
       "pct": 7.63,
       "pts": 3090.0,
       "close": 2871.0,
       "volume": 19900,
       "turnover_yen": 61491000,
       "turnover_m": 61.5,
-      "shoutfy_jq": 367594788,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -840,23 +816,20 @@
           "title": "前日に動いた銘柄 part1カプコン、円谷フィHD、コメリなど",
           "url": "https://kabutan.jp/stock/news?code=9684&b=n202607300258"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "2413",
       "name": "エムスリー",
       "market": "プライム",
-      "mcap_oku": 10445,
-      "mcap_flag": "",
+      "mcap_oku": 10265,
       "pct": 6.24,
       "pts": 1634.0,
       "close": 1538.0,
       "volume": 45400,
       "turnover_yen": 74183600,
       "turnover_m": 74.2,
-      "shoutfy_jq": 679124800,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "香港系アクティビストファンド Oasis Management Company Ltd.が2026年8月10日に大量保有報告書を関東財務局へ提出し、エムスリー株の保有割合が5.03%（5%閾値超え）に達したことが引け後16:17頃に伝わった（取得総額約559億円）。保有目的には中長期的なガバナンス改善・役員変更・配当方針変更・資本政策変更等を12か月以内に提案する可能性が明示されており、アクティビスト参入の思惑がPTS上昇を主導したとみられる。",
       "factor_kind": "報道",
@@ -934,23 +907,20 @@
           "title": "ストックオプション（新株予約権）の付与に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260806511473/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4665",
       "name": "ダスキン",
       "market": "プライム",
-      "mcap_oku": 2157,
-      "mcap_flag": "",
+      "mcap_oku": 2116,
       "pct": 4.58,
       "pts": 4700.0,
       "close": 4494.0,
       "volume": 3300,
       "turnover_yen": 15510000,
       "turnover_m": 15.5,
-      "shoutfy_jq": 48000000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1043,23 +1013,20 @@
           "title": "海外子会社の解散に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260723/140120260723598143/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6407",
       "name": "ＣＫＤ",
       "market": "プライム",
-      "mcap_oku": 4095,
-      "mcap_flag": "",
+      "mcap_oku": 4030,
       "pct": 3.81,
       "pts": 6260.0,
       "close": 6030.0,
       "volume": 4100,
       "turnover_yen": 25666000,
       "turnover_m": 25.7,
-      "shoutfy_jq": 67909449,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1152,23 +1119,20 @@
           "title": "Notice Regarding Completion of the Disposal of Treasury Stock as Restricted Stock Compensation to Directors",
           "url": "https://kabutan.jp/disclosures/pdf/20260724/140120260724599368/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3156",
       "name": "レスター",
       "market": "プライム",
-      "mcap_oku": 1540,
-      "mcap_flag": "",
+      "mcap_oku": 1440,
       "pct": 3.42,
       "pts": 5295.0,
       "close": 5120.0,
       "volume": 3000,
       "turnover_yen": 15885000,
       "turnover_m": 15.9,
-      "shoutfy_jq": 30072643,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月7日（金）引け後にTDnetで開示された2027年3月期通期業績予想の大幅上方修正（今期経常を約45%上方修正・最高益更新・配当増額）および第1四半期連結経常利益の大幅増益が、2026年8月10日（月）の通常取引で初めて市場に織り込まれストップ高まで上昇した。窓内（8月10日15:30以降）に固有の新規材料は確認されていないが、ストップ高で積み残された買い需要がナイトPTSへの継続買いにつながったとみられる。",
       "factor_kind": "開示",
@@ -1246,23 +1210,20 @@
           "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
           "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260806512436/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6072",
       "name": "地盤ネットホールディングス",
       "market": "スタンダード",
-      "mcap_oku": 249,
-      "mcap_flag": "",
+      "mcap_oku": 241,
       "pct": 3.35,
       "pts": 1110.0,
       "close": 1074.0,
       "volume": 84500,
       "turnover_yen": 93795000,
       "turnover_m": 93.8,
-      "shoutfy_jq": 23148000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年2月に株式会社Kaihou（井村俊哉氏代表）が同社株の議決権31.18%を取得し投資に関する基本方針を示したことが継続テーマとなっているが、2026年8月7日引け後に開示された2027年3月期第1四半期の連結経常損益は赤字拡大・通期も赤字転落見通しであり、材料窓（2026年8月10日15:30〜翌06:00）内の固有新規材料は確認できない。",
       "factor_kind": "テーマ",
@@ -1334,23 +1295,20 @@
           "title": "前日に動いた銘柄 part2三井金属、古河電気工業、ディスコなど",
           "url": "https://kabutan.jp/stock/news?code=6072&b=n202606270082"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4062",
       "name": "イビデン",
       "market": "プライム",
-      "mcap_oku": 56050,
-      "mcap_flag": "",
+      "mcap_oku": 56188,
       "pct": 3.12,
       "pts": 20500.0,
       "close": 19880.0,
       "volume": 16200,
       "turnover_yen": 332100000,
       "turnover_m": 332.1,
-      "shoutfy_jq": 281944019,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "TSMCが8月10日に発表した2026年7月の月次売上高（前年同月比44.7%増・4675億8000万台湾ドル、単月過去最高）を日本経済新聞が同日17時ごろ報道し、AI半導体需要の堅調さを示す材料として市場に受け取られた。イビデンはFC-BGA等ICパッケージ基板の主要サプライヤーであり、TSMCとガラスコア基板（CoPoS）の共同バリデーションを進めるなどAI半導体向け次世代パッケージング基板での協業関係にある。また、8月4日引け後に公表した2027年3月期第1四半期決算（営業利益前年同期比52.4%増）と通期営業利益予想の大幅引き上げ（900億円→1270億円）が下地となっており、TSMCの月次売上高過去最高を受けたAI半導体関連の連想買いが一因とみられる。",
       "factor_kind": "報道",
@@ -1428,7 +1386,8 @@
           "title": "イビデンはＰＴＳで急伸、ＩＣパッケージ基板需要が想定上回り今期業績予想を引き上げ",
           "url": "https://kabutan.jp/stock/news?code=4062&b=n202608041145"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -1614,49 +1573,61 @@
       "name": "Ｃｏｍｉｎｉｘ",
       "pct": 23.83,
       "turnover_m": 20.1,
-      "mcap_oku": 86
+      "mcap_oku": 86,
+      "mcap_source": "jquants"
     },
     {
       "code": "6495",
       "name": "宮入バルブ製作所",
       "pct": 23.0,
       "turnover_m": 16.9,
-      "mcap_oku": 59
+      "mcap_oku": 58,
+      "mcap_source": "jquants"
     },
     {
       "code": "4381",
       "name": "ビープラッツ",
       "pct": 20.3,
       "turnover_m": 18.0,
-      "mcap_oku": 12
+      "mcap_oku": 13,
+      "mcap_source": "jquants"
     },
     {
       "code": "6138",
       "name": "ダイジェット工業",
       "pct": 19.59,
       "turnover_m": 118.1,
-      "mcap_oku": 47
+      "mcap_oku": 47,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 11.99,
       "turnover_m": 20.8,
-      "mcap_oku": 37
+      "mcap_oku": 37,
+      "mcap_source": "jquants"
     },
     {
       "code": "4937",
       "name": "Ｗａｑｏｏ",
       "pct": 10.01,
       "turnover_m": 25.1,
-      "mcap_oku": 72
+      "mcap_oku": 70,
+      "mcap_source": "jquants"
     },
     {
       "code": "3907",
       "name": "シリコンスタジオ",
       "pct": 4.91,
       "turnover_m": 16.4,
-      "mcap_oku": 48
+      "mcap_oku": 45,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-08-10",
+    "original_selection_preserved": true
+  }
 }

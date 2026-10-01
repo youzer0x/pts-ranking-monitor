@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 6,
@@ -21,17 +22,13 @@
       "code": "6533",
       "name": "Ｏｒｃｈｅｓｔｒａ　Ｈｏｌｄｉｎｇｓ",
       "market": "プライム",
-      "mcap_oku": 153,
-      "mcap_flag": "",
+      "mcap_oku": 143,
       "pct": 21.86,
       "pts": 1862.0,
       "close": 1528.0,
       "volume": 72000,
       "turnover_yen": 134064000,
       "turnover_m": 134.1,
-      "shoutfy_jq": 10034200,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月25日18:15にTDnetで開示した「株主優待制度の拡充及び配当予想の修正（増配）に関するお知らせ」への継続した買いがPTS高値をもたらした。今期（2026年12月期）年間配当を従来の30円から50円（前期12円比で38円増・9期連続増配）へ修正し、株主優待は継続保有条件（1年以上）を廃止してデジタルギフト15,000円分の受給要件を緩和するとともに、上場10周年記念優待としてデジタルギフト10,000円分を追加実施する内容である。9月28日の通常取引ではストップ高（1528円）の買い気配のまま引けており、PTSはその買い継続とみられる。",
       "factor_kind": "開示",
@@ -109,23 +106,20 @@
           "title": "FY2026.Q2決算説明会質疑応答書き起こし公開のお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532357/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6904",
       "name": "原田工業",
       "market": "スタンダード",
-      "mcap_oku": 225,
-      "mcap_flag": "",
+      "mcap_oku": 219,
       "pct": 15.75,
       "pts": 1198.0,
       "close": 1035.0,
       "volume": 92500,
       "turnover_yen": 110815000,
       "turnover_m": 110.8,
-      "shoutfy_jq": 21758000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月15日にGO株式会社・Waymo（Alphabet傘下）・日本交通の3社が公表した「2027年中に東京でレベル4完全無人タクシーを商用運行・段階的に100台規模」という合意を受けた自動運転関連テーマの連想買いが継続した。同社は車載アンテナ専業メーカーとして自動運転車のリアルタイム通信に不可欠な高性能アンテナの需要増加の恩恵を受けるとして位置付けられており、9月28日の通常取引でもストップ高買い気配のまま引けた。",
       "factor_kind": "報道",
@@ -203,23 +197,20 @@
           "title": "明日の株式相場に向けて＝アンソロピック新潮流で生まれる勝機",
           "url": "https://kabutan.jp/stock/news?code=6904&b=n202609151057"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7552",
       "name": "ハピネット",
       "market": "プライム",
-      "mcap_oku": 2063,
-      "mcap_flag": "",
+      "mcap_oku": 1859,
       "pct": 15.27,
       "pts": 4945.0,
       "close": 4290.0,
       "volume": 9500,
       "turnover_yen": 46977500,
       "turnover_m": 47.0,
-      "shoutfy_jq": 48100000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -305,23 +296,20 @@
           "title": "今週の【上場来高値銘柄】キユーピー、リクルート、日本郵政など84銘柄",
           "url": "https://kabutan.jp/stock/news?code=7552&b=n202609050127"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6227",
       "name": "ＡＩメカテック",
       "market": "スタンダード",
-      "mcap_oku": 1293,
-      "mcap_flag": "",
+      "mcap_oku": 1290,
       "pct": 5.69,
       "pts": 7250.0,
       "close": 6860.0,
       "volume": 15900,
       "turnover_yen": 115275000,
       "turnover_m": 115.3,
-      "shoutfy_jq": 18849000,
-      "cur_end": "2026-06-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:35",
@@ -397,29 +385,24 @@
           "title": "ＡＩメカについて、アローストリート・キャピタル・リミテッド・パートナーシップは保有割合が減少したと報告 [変更報告書No.1]",
           "url": "https://kabutan.jp/stock/news?code=6227&b=n202609070516"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5706",
       "name": "三井金属",
       "market": "プライム",
-      "mcap_oku": 13251,
-      "mcap_flag": "†",
+      "mcap_oku": 13205,
       "pct": 4.42,
       "pts": 2410.0,
       "close": 23080.0,
       "volume": 9700,
       "turnover_yen": 23377000,
       "turnover_m": 23.4,
-      "shoutfy_jq": 57415430,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "翌2026年9月29日が1株→10株の株式分割（基準日2026年9月30日）の権利落ち日にあたり、9月28日が権利付最終日であるため、夜間PTS取引はすでに分割後基準の参照価格（終値23,080円÷10＝2,308円）に対し約4.4%高の2,410円で推移したとみられる。当該株式分割は2026年8月7日にTDnetで開示されたものであり、分割比率1対10・効力発生日2026年10月1日・目的は投資単位引き下げによる投資家層拡大である。並行して、2026年9月18日公表の米Factorial Energyとの硫化物固体電解質「A-SOLiD」を用いた全固体電池セル製造プロセス共同開発契約への注目継続が一因とみられる。",
       "factor_kind": "テーマ",
       "rank": 5,
-      "shares_kabutan": 574203890,
-      "mcap_kabutan_oku": 132526,
       "kabutan_news": [
         {
           "datetime": "2026-09-26T19:30:00+09:00",
@@ -493,23 +476,20 @@
           "title": "今週の【話題株ダイジェスト】 豊和工、ヴィッツ、エアトリ (9月7日～11日)",
           "url": "https://kabutan.jp/stock/news?code=5706&b=n202609120113"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "604A",
       "name": "ビーエイブル",
       "market": "スタンダード",
-      "mcap_oku": 142,
-      "mcap_flag": "†",
+      "mcap_oku": 144,
       "pct": 4.38,
       "pts": 1454.0,
       "close": 1393.0,
       "volume": 24900,
       "turnover_yen": 36204600,
       "turnover_m": 36.2,
-      "shoutfy_jq": 10175000,
-      "cur_end": "2026-07-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -536,8 +516,6 @@
       "factor": "9月28日付で剰余金の配当を発表した。同日、役員体制の変更および定款一部変更も開示されている。",
       "factor_kind": "開示",
       "rank": 6,
-      "shares_kabutan": 10666600,
-      "mcap_kabutan_oku": 149,
       "kabutan_news": [
         {
           "datetime": "2026-09-28T18:00:00+09:00",
@@ -611,7 +589,8 @@
           "title": "ビーエイブルはカイ気配スタート、２７年７月期も増収増益へ",
           "url": "https://kabutan.jp/stock/news?code=604A&b=n202609150232"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -748,28 +727,37 @@
       "name": "レイヤード",
       "pct": 12.22,
       "turnover_m": 442.1,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     },
     {
       "code": "7624",
       "name": "ＮａＩＴＯ",
       "pct": 11.17,
       "turnover_m": 69.9,
-      "mcap_oku": 98
+      "mcap_oku": 98,
+      "mcap_source": "jquants"
     },
     {
       "code": "4073",
       "name": "ジィ・シィ企画",
       "pct": 10.04,
       "turnover_m": 40.0,
-      "mcap_oku": 19
+      "mcap_oku": 19,
+      "mcap_source": "jquants"
     },
     {
       "code": "627A",
       "name": "ａｋｉｐｐａ",
       "pct": 7.51,
       "turnover_m": 680.4,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-28",
+    "original_selection_preserved": true
+  }
 }

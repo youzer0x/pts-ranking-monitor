@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 6,
@@ -22,16 +23,12 @@
       "name": "ダイナミックマッププラットフォーム",
       "market": "グロース",
       "mcap_oku": 350,
-      "mcap_flag": "",
       "pct": 13.66,
       "pts": 1681.1,
       "close": 1479.0,
       "volume": 387100,
       "turnover_yen": 650753810,
       "turnover_m": 650.8,
-      "shoutfy_jq": 23642050,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "三井不動産レジデンシャル株式会社が不動産開発の用地取得前検討に同社の総合3D空間プラットフォーム「3Dmapspocket®」を採用したとのプレスリリース（2026年9月1日公開）を引き続き材料視し、PTSでも買いが継続した。計画中の建物を3D空間上に仮配置し用地取得前の眺望確認・事業検討を支援するもので、大手不動産デベロッパーへの採用拡大が評価されている。",
       "factor_kind": "報道",
@@ -103,23 +100,20 @@
           "title": "ティアフォーはＳ高、トヨタが２８年に「レベル２＋＋」の自動運転車を投入と伝わる",
           "url": "https://kabutan.jp/stock/news?code=336A&b=n202608280591"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "2612",
       "name": "かどや製油",
       "market": "スタンダード",
-      "mcap_oku": 618,
-      "mcap_flag": "",
+      "mcap_oku": 606,
       "pct": 7.62,
       "pts": 2360.0,
       "close": 2193.0,
       "volume": 13600,
       "turnover_yen": 32096000,
       "turnover_m": 32.1,
-      "shoutfy_jq": 28200000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月2日9時57分に日本経済新聞が「かどや製油、株式非公開化を検討 中長期の企業価値向上へ」と報道した。同社は前日（2026年9月1日）付のTDnet開示で、Mergermarketの非公開化報道に対し「企業価値向上に向け、非公開化を含めた様々な経営戦略上の可能性を検討しているが、現時点で決定している事実はない」とコメントを発表していた。9月2日の同報道を材料視した買いが日中ストップ高買い気配を演じ、引け後PTSでも継続買いが入り上昇した。",
       "factor_kind": "報道",
@@ -197,23 +191,20 @@
           "title": "独立役員届出書",
           "url": "https://kabutan.jp/disclosures/pdf/20260611/140120260610567699/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4667",
       "name": "アイサンテクノロジー",
       "market": "スタンダード",
-      "mcap_oku": 175,
-      "mcap_flag": "",
+      "mcap_oku": 166,
       "pct": 6.47,
       "pts": 3348.5,
       "close": 3145.0,
       "volume": 26800,
       "turnover_yen": 89739800,
       "turnover_m": 89.7,
-      "shoutfy_jq": 5548979,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月2日、グループ会社A-Drive株式会社とともに軽井沢町から自動運転バス運行事業を受託・支援すると発表した。高精度3次元地図データを活用した自動運転の社会実装案件の受託が好感され後場でストップ高となり、引け後PTSでも買いが継続した。",
       "factor_kind": "報道",
@@ -291,23 +282,20 @@
           "title": "特許取得のお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260827/140120260827527047/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "402A",
       "name": "アクセルスペースホールディングス",
       "market": "グロース",
       "mcap_oku": 340,
-      "mcap_flag": "",
       "pct": 4.9,
       "pts": 535.0,
       "close": 510.0,
       "volume": 32500,
       "turnover_yen": 17387500,
       "turnover_m": 17.4,
-      "shoutfy_jq": 66640600,
-      "cur_end": "2026-05-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月2日15時42分、航空宇宙大手AIRBUSグループ傘下のAirbus Defence and Space社と、地球観測衛星「GRUS」（4機体制コンステレーション）が撮影する中分解能光学衛星画像の販売に関するパートナーシップ契約を締結したと発表した。農業・環境・インフラ等幅広い分野での衛星画像販売拡大が見込まれる欧州大手との提携を好感した買いが引け後PTSに入った。",
       "factor_kind": "報道",
@@ -385,23 +373,20 @@
           "title": "「第７回定時株主総会招集ご通知」の一部訂正について",
           "url": "https://kabutan.jp/disclosures/pdf/20260819/140120260818522548/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "1515",
       "name": "日鉄鉱業",
       "market": "プライム",
-      "mcap_oku": 2688,
-      "mcap_flag": "",
+      "mcap_oku": 2603,
       "pct": 4.14,
       "pts": 3499.0,
       "close": 3360.0,
       "volume": 3800,
       "turnover_yen": 13296200,
       "turnover_m": 13.3,
-      "shoutfy_jq": 80000000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年9月2日にTDnetへ自己株式の取得状況（2026年8月31日現在、301,200株・取得総額約10.5億円）を開示したが、月次進捗報告にとどまり株価変動を説明する材料とは判断しがたい。同社の2027年3月期1Q（2026年4-6月）は電気銅・電気金価格上昇を主因に売上高が前年同期比24.4%増・営業利益が同40.5%増と大幅増益となっており（2026年8月6日開示）、国内銅建値も9月1日時点でJX金属が240万円/トンと高水準を継続する中、非鉄金属セクターへの継続的な見直し買いが背景にある。",
       "factor_kind": "テーマ",
@@ -467,29 +452,24 @@
           "title": "2026年度（2027年3月期）第1四半期 決算説明資料",
           "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260806512016/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "593A",
       "name": "ティアフォー",
       "market": "グロース",
-      "mcap_oku": 1401,
-      "mcap_flag": "†",
+      "mcap_oku": 1931,
       "pct": 3.26,
       "pts": 3139.0,
       "close": 3040.0,
       "volume": 754100,
       "turnover_yen": 2367119900,
       "turnover_m": 2367.1,
-      "shoutfy_jq": 46074490,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年10月に初回実施予定のTOPIX定期見直しで東証グロース市場銘柄からも新規採用が行われる見通しが報じられるなか、直近IPO銘柄である同社のTOPIX採用思惑が市場で意識された。直近IPO銘柄としての需給妙味も相まって日中独歩高となり、引け後PTSでも上昇が継続した。",
       "factor_kind": "テーマ",
       "rank": 6,
-      "shares_kabutan": 63524090,
-      "mcap_kabutan_oku": 1931,
       "kabutan_news": [
         {
           "datetime": "2026-09-02T15:40:09+09:00",
@@ -563,7 +543,8 @@
           "title": "アイサンテクは連日のＳ高パフォーマンス、自動運転関連テーマ物色の波に乗る",
           "url": "https://kabutan.jp/stock/news?code=593A&b=n202608310256"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -672,35 +653,45 @@
       "name": "モルフォ",
       "pct": 26.6,
       "turnover_m": 346.6,
-      "mcap_oku": 56
+      "mcap_oku": 52,
+      "mcap_source": "jquants"
     },
     {
       "code": "8746",
       "name": "ｕｎｂａｎｋｅｄ",
       "pct": 23.78,
       "turnover_m": 143.0,
-      "mcap_oku": 23
+      "mcap_oku": 23,
+      "mcap_source": "jquants"
     },
     {
       "code": "6177",
       "name": "ＡｐｐＢａｎｋ",
       "pct": 20.12,
       "turnover_m": 21.1,
-      "mcap_oku": 21
+      "mcap_oku": 21,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 6.29,
       "turnover_m": 48.9,
-      "mcap_oku": 42
+      "mcap_oku": 42,
+      "mcap_source": "jquants"
     },
     {
       "code": "4440",
       "name": "ヴィッツ",
       "pct": 4.73,
       "turnover_m": 83.4,
-      "mcap_oku": 77
+      "mcap_oku": 74,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-02",
+    "original_selection_preserved": true
+  }
 }

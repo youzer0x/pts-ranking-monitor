@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 12,
@@ -22,16 +23,12 @@
       "name": "テイクアンドギヴ・ニーズ",
       "market": "プライム",
       "mcap_oku": 108,
-      "mcap_flag": "",
       "pct": 19.73,
       "pts": 886.0,
       "close": 740.0,
       "volume": 65500,
       "turnover_yen": 58033000,
       "turnover_m": 58.0,
-      "shoutfy_jq": 14619330,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -117,23 +114,20 @@
           "title": "Medium-Term Management Plan EVOL2030 Final Stage Toward 2035 Vision",
           "url": "https://kabutan.jp/disclosures/pdf/20260813/140120260813519758/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6730",
       "name": "アクセル",
       "market": "スタンダード",
-      "mcap_oku": 171,
-      "mcap_flag": "",
+      "mcap_oku": 164,
       "pct": 18.81,
       "pts": 1813.0,
       "close": 1526.0,
       "volume": 101800,
       "turnover_yen": 184563400,
       "turnover_m": 184.6,
-      "shoutfy_jq": 11211989,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月28日付TDnet開示（[TDnet開示](https://www.release.tdnet.info/inbs/140120260928540999.pdf)）による今期（2027年3月期）連結経常利益の大幅上方修正（前期比+31.1%増益に一転）および年間配当予想の41円から79円への大幅増額（+38円増額）が起点となった。翌9月29日の通常セッションではストップ高水準（1526円、前日比+300円/+24.47%）で引けており（[財経新聞](https://www.zaikei.co.jp/article/20260929/871534.html)）、引け後PTSで1813円まで上昇した。上方修正の背景はパチンコ・パチスロ機向けグラフィックスLSIおよびメモリモジュール等の販売が計画を上回る見通しとされる。材料窓内（15:30以降）の15:34・15:40・15:58付各市況記事はストップ高の事実を追認する要約に留まり、新規の開示・報道は確認されていない。",
       "factor_kind": "テーマ",
@@ -211,29 +205,24 @@
           "title": "完全準同型暗号（TFHE）高速化の論文が「CHES 2026」に採録決定",
           "url": "https://kabutan.jp/disclosures/pdf/20260928/140120260928541038/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4894",
       "name": "クオリプス",
       "market": "グロース",
-      "mcap_oku": 467,
-      "mcap_flag": "†",
+      "mcap_oku": 501,
       "pct": 17.02,
       "pts": 6600.0,
       "close": 5640.0,
       "volume": 25600,
       "turnover_yen": 168960000,
       "turnover_m": 169.0,
-      "shoutfy_jq": 8274576,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月29日夕刻に同社が発表した再生医療等製品「リハート」（iPS細胞由来心筋細胞シート）の第1例目移植実施をPTSで材料視した（[日本経済新聞 18:33配信](https://www.nikkei.com/article/DGXZQOUC298F70Z20C26A9000000/)、[時事通信 19:56配信](https://www.jiji.com/jc/article?k=2026092901051&g=soc)、[東京新聞 18:56配信](https://www.tokyo-np.co.jp/article/518521)）。大阪けいさつ病院において虚血性心筋症の50代女性に移植手術を実施（午前11時15分ごろ、約50分で完了）し、同製品の保険適用（2026年9月1日開始）後初の臨床使用事例となった。臨床試験では8例全員で症状が改善しており、iPSC由来製品の実臨床使用は世界初とされる。同製品は2026年3月に厚生労働省より条件・期限付き製造販売承認を取得済み。なお日中セッションの軟調（-1.57%）は、9月28日付TDnet開示（[TDnet開示](https://www.release.tdnet.info/inbs/140120260928540874.pdf)）による第三者割当新株式の払込完了（JICVGIオポチュニティファンド1号向け、総額40億円の資金調達の一部）への希薄化懸念が一因とみられる。",
       "factor_kind": "報道",
       "rank": 3,
-      "shares_kabutan": 8896416,
-      "mcap_kabutan_oku": 502,
       "kabutan_news": [
         {
           "datetime": "2026-09-29T16:30:00+09:00",
@@ -307,23 +296,20 @@
           "title": "★本日の【イチオシ決算】 日本マイクロ、ＡＲＣＨＩＯ、ＴＯＰＰＡＮ (8月12日)",
           "url": "https://kabutan.jp/stock/news?code=4894&b=n202608121311"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3776",
       "name": "ブロードバンドタワー",
       "market": "スタンダード",
-      "mcap_oku": 156,
-      "mcap_flag": "",
+      "mcap_oku": 155,
       "pct": 13.1,
       "pts": 285.0,
       "close": 252.0,
       "volume": 810100,
       "turnover_yen": 230878500,
       "turnover_m": 230.9,
-      "shoutfy_jq": 61905500,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -397,29 +383,24 @@
           "title": "2026年12月期第２四半期(中間期)および通期業績予想の修正に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260722/140120260722597454/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4978",
       "name": "リプロセル",
       "market": "グロース",
-      "mcap_oku": 134,
-      "mcap_flag": "†",
+      "mcap_oku": 142,
       "pct": 7.88,
       "pts": 147.8,
       "close": 137.0,
       "volume": 84000,
       "turnover_yen": 12415200,
       "turnover_m": 12.4,
-      "shoutfy_jq": 98079891,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月29日15時30分、幹細胞製品「Stemchymal®」の国内流通を担う基本合意書の締結について東邦ホールディングスとのプレスリリース（[リプロセル公式プレスリリース](https://www.dreamnews.jp/press/0000363852)）を配信した（合意書の締結日は2026年9月17日付）。同製品は同年6月24日付でTDnetに製造販売承認申請を開示済みであり、東邦ホールディングスグループが持つ全国規模の医薬品流通ネットワークを活用した市販後供給体制の構築に向けた協議の開始が材料視されたとみられる。引け中（同日13時49分時点）ではPolyphron社とのiPS細胞AI研究協業材料に対して株価は「もみ合い」と伝えられており（[財経新聞](https://www.zaikei.co.jp/article/20260929/871575.html)）、引け後15時30分配信のプレスリリースが夜間PTSでの買いを誘った材料と判断する。",
       "factor_kind": "開示",
       "rank": 5,
-      "shares_kabutan": 103943891,
-      "mcap_kabutan_oku": 142,
       "kabutan_news": [
         {
           "datetime": "2026-09-29T15:40:38+09:00",
@@ -493,23 +474,20 @@
           "title": "第三者割当に係る株式譲渡報告書（新株式）",
           "url": "https://kabutan.jp/disclosures/pdf/20260911/140120260911534921/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9984",
       "name": "ソフトバンクグループ",
       "market": "プライム",
-      "mcap_oku": 344710,
-      "mcap_flag": "",
+      "mcap_oku": 343938,
       "pct": 7.71,
       "pts": 6500.0,
       "close": 6035.0,
       "volume": 635800,
       "turnover_yen": 4132700000,
       "turnover_m": 4132.7,
-      "shoutfy_jq": 5711848120,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月29日の東証通常取引ではアーム・ホールディングス（NASDAQ: ARM）の前日（9月28日米市場）急落を受け、筆頭株主であるソフトバンクグループ株が3.35%安の6,035円で引けた（[日本経済新聞「ソフトバンクG株価下落 アーム株安やAI開発巡る懸念で」](https://www.nikkei.com/article/DGXZQOFL290KT0Z20C26A9000000/)）。材料窓内にあたる9月29日米国市場では、アームがCFOの自社株売却を契機とした過大な売りの巻き戻しにより5%超急反発したことで（[247 Wall St.「Arm Jumps 5% as Chip Selloff Unwinds」](https://247wallst.com/investing/2026/09/29/arm-jumps-5-as-chip-selloff-unwinds-marvell-climbs-4-qualcomm-inches-higher/)）、筆頭株主であるSBGのPTSが連れ高し+7.71%（6,500円）まで上昇したとみられる。SBGはアームを約90%保有するため、アーム株の変動がSBGの主要変動要因となっている。また同社は9月24日に約111億ドルの外貨建てハイイールド社債（単一案件として史上最大規模のHY発行）を発行してOpenAIへの追加出資（最終トランシェ約100億ドル）の資金を確保しており（[Reuters via Investing.com「SoftBank issues $11.1 billion in bonds in OpenAI financing push」](https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266)）、AI投資テーマとアーム株の連動がSBGの変動を規定している。",
       "factor_kind": "報道",
@@ -575,23 +553,20 @@
           "title": "クラレ、ソフトバンクＧ◆今日のフィスコ注目銘柄◆",
           "url": "https://kabutan.jp/stock/news?code=9984&b=n202609160213"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6787",
       "name": "メイコー",
       "market": "プライム",
-      "mcap_oku": 6041,
-      "mcap_flag": "",
+      "mcap_oku": 5785,
       "pct": 6.58,
       "pts": 24024.0,
       "close": 22540.0,
       "volume": 700,
       "turnover_yen": 16816800,
       "turnover_m": 16.8,
-      "shoutfy_jq": 26803320,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月29日17時に配信された株探「レーティング日報【格上げ↑】」において、モルガン・スタンレー証券がメイコーへの投資判断を「Equal-weight（中立）」から「Overweight（強気）」に格上げし、目標株価を3万9200円から3万9600円に引き上げたと伝えられた（[IFIS株予報 6787](https://kabuyoho.ifis.co.jp/index.php?action=tp1&sa=report_pbr&bcode=6787)）。引け後の格上げを材料に夜間PTSで6.58%上昇した。2026年9月28日発表済みの1対2株式分割（基準日2026年11月1日）は需給改善期待として引き続き株価を下支えする一因として並走しているとみられる。",
       "factor_kind": "報道",
@@ -657,29 +632,24 @@
           "title": "前日に動いた銘柄 part1 川上塗料、スクエニHD、フルヤ金属など",
           "url": "https://kabutan.jp/stock/news?code=6787&b=n202609020088"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6834",
       "name": "精工技研",
       "market": "スタンダード",
-      "mcap_oku": 577,
-      "mcap_flag": "†",
+      "mcap_oku": 2762,
       "pct": 5.18,
       "pts": 6500.0,
       "close": 6180.0,
       "volume": 1700,
       "turnover_yen": 11050000,
       "turnover_m": 11.1,
-      "shoutfy_jq": 9333654,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。同社は光コネクターおよびコネクター研磨機の主力サプライヤーとして、生成AI普及を背景とするデータセンター需要拡大という継続テーマを背景に株価水準を切り上げている。2026年8月10日の第1四半期決算では2桁増収・大幅増益と通期業績の上方修正・増配を発表しており、AIデータセンター向け光デバイス銘柄として断続的に注目を集めている状況である。",
       "factor_kind": "テーマ",
       "rank": 8,
-      "shares_kabutan": 46668270,
-      "mcap_kabutan_oku": 2884,
       "kabutan_news": [
         {
           "datetime": "2026-09-19T07:32:00+09:00",
@@ -693,29 +663,24 @@
           "title": "精工技研は一時１０％超の急騰演じる、分割後で個人の参戦誘発し自動運転分野での活躍期待も",
           "url": "https://kabutan.jp/stock/news?code=6834&b=n202608310515"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8035",
       "name": "東京エレクトロン",
       "market": "プライム",
-      "mcap_oku": 53847,
-      "mcap_flag": "†",
+      "mcap_oku": 261538,
       "pct": 4.74,
       "pts": 12050.0,
       "close": 11505.0,
       "volume": 42900,
       "turnover_yen": 516945000,
       "turnover_m": 516.9,
-      "shoutfy_jq": 468032733,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月29日17時に配信された株探「レーティング日報【最上位を継続】」において、証券会社が東京エレクトロンへの最上位格付け（強気）を維持した（[同記事](https://kabutan.jp/stock/news?code=8035&b=n202609290996)）。前日（9月28日）のレーティング日報でも「最上位を継続＋目標株価を増額」として目標株価の引き上げが伝えられており、アナリスト支持の積み上がりが株価上昇の一因となっている。加えて、米マイクロン・テクノロジーのFY2026 Q4決算（米国時間2026年9月30日発表予定、[Forbes JAPAN](https://forbesjapan.com/articles/detail/105437)）への期待感から半導体製造装置セクター全般に買いが波及しており、国内最大手の東京エレクトロンにも連れ高したとみられる。",
       "factor_kind": "報道",
       "rank": 9,
-      "shares_kabutan": 2340163665,
-      "mcap_kabutan_oku": 269236,
       "kabutan_news": [
         {
           "datetime": "2026-09-29T17:00:32+09:00",
@@ -783,23 +748,20 @@
           "title": "レーティング日報【最上位を継続＋目標株価を増額】　(9月15日)",
           "url": "https://kabutan.jp/stock/news?code=8035&b=n202609151016"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "1963",
       "name": "日揮ホールディングス",
       "market": "プライム",
-      "mcap_oku": 5404,
-      "mcap_flag": "",
+      "mcap_oku": 5350,
       "pct": 4.57,
       "pts": 2313.0,
       "close": 2212.0,
       "volume": 6100,
       "turnover_yen": 14109300,
       "turnover_m": 14.1,
-      "shoutfy_jq": 244293008,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "日揮グローバル（子会社）とフルーア・コーポレーションの合弁JGCフルーア・ジョイントベンチャーが9月29日、カナダ・ブリティッシュコロンビア州キティマット拠点のLNG Canada第2期拡張計画のEPC（設計・調達・建設）契約の正式発効（着工通知受領）を発表した（[日揮ホールディングス プレスリリース 2026年9月29日](https://www.jgc.com/jp/news/2026/20260929_01.html)）。日揮グローバルが負担する契約額は約75億米ドルで完工予定は2032年上半期。Phase 2では年間液化能力をPhase 1の約1,400万トンから約2,800万トンへ倍増させる計画である。LNG Canada（Shell・Petronas・CNPC・三菱商事・韓国ガス公社が参加するJV）が9月28日に最終投資決定（FID）を行い翌9月29日にEPC契約が正式発効したもので（[Fluor Corporation プレスリリース 2026年9月29日](https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Joint-Venture-Selected-for-LNG-Canada-Phase-2-Expansion-Following-Final-Investment-Decision/default.aspx)）、大型EPC受注の確定が材料視されたとみられる。",
       "factor_kind": "報道",
@@ -823,23 +785,20 @@
           "title": "26年4-6月期【利益倍増】企業はこれだ！〔第2弾〕 36社選出 ＜成長株特集＞",
           "url": "https://kabutan.jp/stock/news?code=1963&b=n202608271110"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3436",
       "name": "ＳＵＭＣＯ",
       "market": "プライム",
-      "mcap_oku": 10645,
-      "mcap_flag": "",
+      "mcap_oku": 10632,
       "pct": 3.88,
       "pts": 3158.0,
       "close": 3040.0,
       "volume": 10900,
       "turnover_yen": 34422200,
       "turnover_m": 34.4,
-      "shoutfy_jq": 350175139,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "AnthropicのIPO目論見書をReutersが2026年9月29日に報道し、同社が今後数年間で518億ドルのクラウド・インフラ投資を計画していることが判明した。AIサービス向け半導体需要の継続拡大を裏付ける材料として市場が受け止め、材料窓内に欧州テック株が約2.4%・米国半導体株指数が約1.5%それぞれ上昇した。SUMCOはAI半導体製造に不可欠な300mmシリコンウェーハの大手供給者であり、この海外市場の動きがPTSに連想買いとして波及したとみられる（[Anthropic's IPO Prospectus Sharpens Focus on AI Valuations — Reuters/Investing.com](https://www.investing.com/news/stock-market-news/anthropics-ipo-prospectus-sharpens-focus-on-ai-valuations-4923003)）。なお、材料窓の前日となる9月28日にモルガン・スタンレーが投資判断を「弱気」から「中立」（目標株価3,000円）へ格上げしており（[IFIS株予報 SUMCO(3436)レーティング](https://kabuyoho.ifis.co.jp/index.php?action=tp1&sa=report_per&bcode=3436)）、この格上げ効果が買い地合いの下地として並走していた可能性も一因と考えられる。",
       "factor_kind": "報道",
@@ -917,23 +876,20 @@
           "title": "レーティング日報【最上位を継続＋目標株価を増額】　(8月28日)",
           "url": "https://kabutan.jp/stock/news?code=3436&b=n202608281004"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6920",
       "name": "レーザーテック",
       "market": "プライム",
-      "mcap_oku": 38657,
-      "mcap_flag": "",
+      "mcap_oku": 36749,
       "pct": 3.34,
       "pts": 42370.0,
       "close": 41000.0,
       "volume": 5300,
       "turnover_yen": 224561000,
       "turnover_m": 224.6,
-      "shoutfy_jq": 94286400,
-      "cur_end": "2026-06-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月29日17時30分に配信された株探「明日の株式相場に向けて＝マイクロン決算通過後の世界を読む」（[同記事](https://kabutan.jp/stock/news?code=6920&b=n202609291026)）が、米マイクロン・テクノロジーのFY2026 Q4決算（米国時間2026年9月30日発表予定）通過後の半導体関連株の展開を論じた。マイクロンはFY2026 Q3（3〜5月期）において純利益が前年同期比約15倍・株価が時間外取引で16%急騰する好決算を計上しており（[日本経済新聞](https://www.nikkei.com/article/DGXZQOGN22AKA0S6A620C2000000/)）、Q4への高い期待がAI向けデータセンター投資拡大を背景にした半導体セクター全般への買いを誘った（[Forbes JAPAN](https://forbesjapan.com/articles/detail/105437)）。レーザーテックは半導体検査装置メーカーとして同セクターの代表的な銘柄であり、セクター全体への連想買いで夜間PTSが上昇したとみられる。前日（9月28日）のレーティング日報では弱気継続の格付けが伝わっていたが、今回の上昇は個社固有の材料ではなくセクター全体への連れ高と判断する。",
       "factor_kind": "報道",
@@ -1011,7 +967,8 @@
           "title": "アドテストなど半導体関連が軒並み高、米ＳＯＸ３％高で買い戻し優勢に",
           "url": "https://kabutan.jp/stock/news?code=6920&b=n202609180317"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -1197,56 +1154,69 @@
       "name": "アクリート",
       "pct": 20.14,
       "turnover_m": 57.8,
-      "mcap_oku": 54
+      "mcap_oku": 53,
+      "mcap_source": "jquants"
     },
     {
       "code": "4178",
       "name": "Ｓｈａｒｉｎｇ　Ｉｎｎｏｖａｔｉｏｎｓ",
       "pct": 13.98,
       "turnover_m": 27.2,
-      "mcap_oku": 28
+      "mcap_oku": 28,
+      "mcap_source": "jquants"
     },
     {
       "code": "646A",
       "name": "クラサスケミカル",
       "pct": 12.08,
       "turnover_m": 85.4,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     },
     {
       "code": "625A",
       "name": "Ｓｋｙｆａｌｌ",
       "pct": 11.92,
       "turnover_m": 868.3,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     },
     {
       "code": "634A",
       "name": "レイヤード",
       "pct": 9.79,
       "turnover_m": 322.2,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     },
     {
       "code": "2667",
       "name": "イメージ　ワン",
       "pct": 9.71,
       "turnover_m": 14.4,
-      "mcap_oku": 16
+      "mcap_oku": 16,
+      "mcap_source": "jquants"
     },
     {
       "code": "7035",
       "name": "ａｎｄ　ｆａｃｔｏｒｙ",
       "pct": 8.54,
       "turnover_m": 43.9,
-      "mcap_oku": 27
+      "mcap_oku": 27,
+      "mcap_source": "jquants"
     },
     {
       "code": "8105",
       "name": "Ｂｉｔｃｏｉｎ　Ｊａｐａｎ",
       "pct": 4.67,
       "turnover_m": 17.4,
-      "mcap_oku": 55
+      "mcap_oku": 56,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-29",
+    "original_selection_preserved": true
+  }
 }

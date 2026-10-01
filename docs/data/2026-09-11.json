@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 8,
@@ -21,17 +22,13 @@
       "code": "6191",
       "name": "エアトリ",
       "market": "プライム",
-      "mcap_oku": 244,
-      "mcap_flag": "",
+      "mcap_oku": 237,
       "pct": 57.97,
       "pts": 1695.0,
       "close": 1073.0,
       "volume": 302200,
       "turnover_yen": 512229000,
       "turnover_m": 512.2,
-      "shoutfy_jq": 22772065,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月10日8時50分付けのTDnet適時開示が起点となり、9月11日夜間PTSで続伸した。エアトリは同開示において、2026年9月期連結最終利益を従来予想の6億円から19.5億円へ約3.3倍に大幅上方修正し、未定としていた期末配当を1株160円（前期比150円増配・前期実績10円から16倍）に決定したと発表した（[業績予想の修正及び配当予想に関するお知らせ＝TDnet](https://www.release.tdnet.info/inbs/140120260909533690.pdf)）。同時に「上場10周年記念 3期間株主還元方針」として2026〜2028年9月期の3期間にわたり税引後営業利益の100%を年間配当額とする方針を開示し（[3期間株主還元方針説明資料＝TDnet](https://www.release.tdnet.info/inbs/140120260909533746.pdf)）、同日の東証通常取引では前日終値773円から923円（+19.40%）でストップ高引けとなった。翌9月11日も東証通常取引で1,073円（前日比+150円）と2営業日連続ストップ高となり、値幅制限のため大量の買い残注文が消化できない状態が続いた。9月11日15:30〜翌6:00の材料窓内に新たな適時開示および報道は確認されておらず、夜間PTS1,695円（+57.97%）は同TDnet開示内容に対する価格発見が東証の値幅制限なしに進行した継続的な需給の反映とみられる。",
       "factor_kind": "開示",
@@ -109,23 +106,20 @@
           "title": "2026年9月期 上場10周年記念 ３期間株主還元方針に関する説明資料",
           "url": "https://kabutan.jp/disclosures/pdf/20260910/140120260909533746/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3444",
       "name": "菊池製作所",
       "market": "スタンダード",
-      "mcap_oku": 125,
-      "mcap_flag": "",
+      "mcap_oku": 123,
       "pct": 14.29,
       "pts": 1160.0,
       "close": 1015.0,
       "volume": 30000,
       "turnover_yen": 34800000,
       "turnover_m": 34.8,
-      "shoutfy_jq": 12337700,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -211,23 +205,20 @@
           "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 9 銘柄　　S安＝ 2 銘柄　(6月23日)",
           "url": "https://kabutan.jp/stock/news?code=3444&b=n202606230972"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6203",
       "name": "豊和工業",
       "market": "スタンダード",
-      "mcap_oku": 357,
-      "mcap_flag": "",
+      "mcap_oku": 343,
       "pct": 13.22,
       "pts": 3220.0,
       "close": 2844.0,
       "volume": 323400,
       "turnover_yen": 1041348000,
       "turnover_m": 1041.3,
-      "shoutfy_jq": 12548134,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "夜間PTS（3,220円、終値2,844円比+13.22%）の上昇は、材料窓内に相次いだ2件の報道が主因とみられる。第一に、[日本経済新聞（9月11日18時配信）](https://www.nikkei.com/article/DGXZQOUA097CB0Z00C26A9000000/)が「防衛省が防衛生産基盤強化法の改正を検討し、弾薬やドローンの有事増産向けに設備投資費の一部を助成する新制度を2027年度から新設する方針」と報道した。豊和工業は自衛隊向け小銃の国内唯一のメーカーであり、2026年9月7日付のTDnet開示でProdroneとの迎撃用ドローン共同開発・量産工場の自社敷地内新設・豊和工業を引受先とする第三者割当増資を公表済みであり、弾薬・ドローン増産助成策の恩恵銘柄として連想買いを集めたとみられる。第二に、[時事通信（9月11日19時57分配信）](https://www.jiji.com/jc/article?k=2026091101059&g=int)がAFP通信電として「フーシ派がバベルマンデブ海峡のペリム島を掌握した」と報道した。前日（9月10日）のモカ港制圧に続く地政学リスクの一段高を示すもので、中小型防衛株への短期資金流入が夜間PTSにも継続した。なお日中のストップ高終値（2,844円）は、同日朝のモカ港制圧報道と9月7日開示のProdrone連携テーマが日中に重なった結果であり、PTSでの追加上昇分は上記2件の引け後新報道によって説明される。",
       "factor_kind": "報道",
@@ -293,23 +284,20 @@
           "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 7 銘柄　　S安＝ 0 銘柄　(9月7日)",
           "url": "https://kabutan.jp/stock/news?code=6203&b=n202609070840"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "1783",
       "name": "ｆａｎｔａｓｉｓｔａ",
       "market": "スタンダード",
       "mcap_oku": 151,
-      "mcap_flag": "",
       "pct": 10.26,
       "pts": 86.0,
       "close": 78.0,
       "volume": 4990500,
       "turnover_yen": 429183000,
       "turnover_m": 429.2,
-      "shoutfy_jq": 193308851,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -383,23 +371,20 @@
           "title": "子ども向けサプリメントブランド「ぞうさんのおみせ」の開始及び新製品発売に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260713/140120260713592338/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "456A",
       "name": "ＨＵＭＡＮ　ＭＡＤＥ",
       "market": "グロース",
       "mcap_oku": 1262,
-      "mcap_flag": "",
       "pct": 7.84,
       "pts": 1485.0,
       "close": 1377.0,
       "volume": 13000,
       "turnover_yen": 19305000,
       "turnover_m": 19.3,
-      "shoutfy_jq": 91666322,
-      "cur_end": "2027-01-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -513,23 +498,20 @@
           "title": "Summary of Consolidated Financial Results for the Six Months Ended July 31, 2026 (Under Japanese GAAP)",
           "url": "https://kabutan.jp/disclosures/pdf/20260911/140120260911535056/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3350",
       "name": "メタプラネット",
       "market": "スタンダード",
-      "mcap_oku": 3190,
-      "mcap_flag": "",
+      "mcap_oku": 3350,
       "pct": 3.82,
       "pts": 258.5,
       "close": 249.0,
       "volume": 1635500,
       "turnover_yen": 422776750,
       "turnover_m": 422.8,
-      "shoutfy_jq": 1281283624,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "20:45",
@@ -630,23 +612,20 @@
           "title": "Notice Regarding Monthly Exercise Status of the 27th Series of Stock Acquisition Rights Issued through Third-Party Allotment (with Exercise Price Adju",
           "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901530024/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4667",
       "name": "アイサンテクノロジー",
       "market": "スタンダード",
-      "mcap_oku": 202,
-      "mcap_flag": "",
+      "mcap_oku": 192,
       "pct": 3.22,
       "pts": 3752.0,
       "close": 3635.0,
       "volume": 4500,
       "turnover_yen": 16884000,
       "turnover_m": 16.9,
-      "shoutfy_jq": 5548979,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月9日14時15分に[レスポンス](https://response.jp/article/2026/09/09/416358.html)が報じた「アイサンテクノロジーとグループ会社A-Driveが長野県軽井沢町の自動運転バス運行事業を受託・支援する」との報道を好感した買いの継続が主因とみられる。同事業は国土交通省「交通空白解消タイプ」プロジェクトの採択案件として軽井沢町・JR東日本・西武ホールディングスを主体に2026年9月6日より自動運転レベル4社会実装を見据えた運行を開始したと伝えられており、同社は高精度3次元地図データの作成・提供と技術支援を担う。9月9日に東証通常取引でストップ高を記録した後も上昇が続き、PTSへの上昇継続はそのモメンタムの持続とみられる。なお2026年9月4日14時30分には最新版測量CADソフト「ANIST® Version1.6.0」（点群データ活用による図面・図形作成を1アプリで完結、2026年12月発売予定）の発表（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000273.000050415.html)）も公表されており、事業拡張への期待が並走していた。",
       "factor_kind": "テーマ",
@@ -724,29 +703,24 @@
           "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 8 銘柄　　S安＝ 1 銘柄　(9月2日)",
           "url": "https://kabutan.jp/stock/news?code=4667&b=n202609020811"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "593A",
       "name": "ティアフォー",
       "market": "グロース",
-      "mcap_oku": 983,
-      "mcap_flag": "†",
+      "mcap_oku": 1356,
       "pct": 3.09,
       "pts": 2200.0,
       "close": 2134.0,
       "volume": 52600,
       "turnover_yen": 115720000,
       "turnover_m": 115.7,
-      "shoutfy_jq": 46074490,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月27日にトヨタ自動車が「レベル2++」高度運転支援機能（2028年市販化目途）の導入計画を発表した（[Car Watch](https://car.watch.impress.co.jp/docs/news/2136234.html)）ことを起点に自動運転テーマ株として連想買いを集めたモメンタムが継続している。同社は同月20日にルネサスエレクトロニクスとAutoware×R-Car Gen5によるSDV向けオープンAIネイティブ・コンピューティングプラットフォーム構築の協業を発表し（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000133.000040119.html)）、9月9〜11日開催の「Automotive World 2026」（幕張メッセ）では最終日（9月11日）までR-Car X5H上でのAutowareデモを実施した（[ティアフォーIRリリース](https://tier4.co.jp/updates/press-release/20260826-tieriv-showcases-integrated-ai-data-computing-solution-for-sdvs)）。一方、東証は9月8日引け後に委託保証金率50%以上（うち現金20%以上）とする信用取引臨時規制を発動しており、9月9日以降は売りが先行していた（[財経新聞](https://www.zaikei.co.jp/article/20260909/869242.html)）。9月11日PTSの上昇はAutomotive World 2026最終日の展示デモへの注目継続と信用規制売りからの自律反発が重なった動きとみられる。",
       "factor_kind": "テーマ",
       "rank": 8,
-      "shares_kabutan": 63524090,
-      "mcap_kabutan_oku": 1356,
       "kabutan_news": [
         {
           "datetime": "2026-09-09T15:45:55+09:00",
@@ -820,7 +794,8 @@
           "title": "前日に動いた銘柄 part2アイサンテクノ、ダイナミクマップ、ティアフォーなど",
           "url": "https://kabutan.jp/stock/news?code=593A&b=n202609040117"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -1111,35 +1086,45 @@
       "name": "リンカーズ",
       "pct": 44.25,
       "turnover_m": 49.1,
-      "mcap_oku": 16
+      "mcap_oku": 16,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 11.32,
       "turnover_m": 169.8,
-      "mcap_oku": 65
+      "mcap_oku": 65,
+      "mcap_source": "jquants"
     },
     {
       "code": "4833",
       "name": "Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ",
       "pct": 7.69,
       "turnover_m": 12.7,
-      "mcap_oku": 38
+      "mcap_oku": 38,
+      "mcap_source": "jquants"
     },
     {
       "code": "4891",
       "name": "ティムス",
       "pct": 5.51,
       "turnover_m": 10.4,
-      "mcap_oku": 54
+      "mcap_oku": 56,
+      "mcap_source": "jquants"
     },
     {
       "code": "4274",
       "name": "細谷火工",
       "pct": 4.95,
       "turnover_m": 33.2,
-      "mcap_oku": 47
+      "mcap_oku": 47,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-11",
+    "original_selection_preserved": true
+  }
 }

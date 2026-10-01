@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 6,
@@ -21,17 +22,13 @@
       "code": "9082",
       "name": "大和自動車交通",
       "market": "スタンダード",
-      "mcap_oku": 133,
-      "mcap_flag": "",
+      "mcap_oku": 113,
       "pct": 19.71,
       "pts": 3037.0,
       "close": 2537.0,
       "volume": 4400,
       "turnover_yen": 13362800,
       "turnover_m": 13.4,
-      "shoutfy_jq": 5250000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "大和自動車交通は2026年9月9日の引け後、大和ハウス工業（1925）との資本業務提携契約締結および第三者割当増資（普通株式49万100株、発行価格2040円、払込総額約9億9980万円）をTDnetに開示した。同増資により大和ハウス工業の持株比率は9.76%となり筆頭株主に就く見通しで、大和自動車交通が保有する賃貸収益用不動産の改修・設備更新（2026年10月〜2030年6月）を通じた資産価値向上が目的である。翌9月10日の通常取引では同開示を好感してストップ高（2537円、前日比約24%高）まで上昇したが、多数の未約定買い注文が引けまで残存し、値幅制限のないPTSで引け値比19.71%高の3037円まで価格発見が継続した。",
       "factor_kind": "開示",
@@ -109,23 +106,20 @@
           "title": "当社取締役及び従業員並びに当社子会社取締役及び従業員に対する譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260708/140120260708589365/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4440",
       "name": "ヴィッツ",
       "market": "スタンダード",
-      "mcap_oku": 107,
-      "mcap_flag": "",
+      "mcap_oku": 103,
       "pct": 14.98,
       "pts": 2955.0,
       "close": 2570.0,
       "volume": 136000,
       "turnover_yen": 401880000,
       "turnover_m": 401.9,
-      "shoutfy_jq": 4176000,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "ヴィッツは2026年9月10日12時30分、パナソニック コネクト株式会社との協業強化により製造DXおよびフィジカルAI向けロボット統合ソリューションの提供開始をTDnetに開示した。同日の通常取引では同開示を好感してストップ高（2570円）まで上昇したが、未消化の買い需要が引けまで残存。値幅制限のないPTSで引け比14.98%高（2955円）まで続伸した。同社は2026年9月8日にも中小企業庁Go-Tech事業への研究テーマ採択でストップ高を演じており、連続する好材料が上昇の背景にある。",
       "factor_kind": "開示",
@@ -203,23 +197,20 @@
           "title": "＜動意株・８日＞（大引け）＝ペルセウス、東洋エンジなど",
           "url": "https://kabutan.jp/stock/news?code=4440&b=n202609080717"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7777",
       "name": "スリー・ディー・マトリックス",
       "market": "グロース",
       "mcap_oku": 438,
-      "mcap_flag": "",
       "pct": 5.85,
       "pts": 362.0,
       "close": 342.0,
       "volume": 298200,
       "turnover_yen": 107948400,
       "turnover_m": 107.9,
-      "shoutfy_jq": 127981481,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -293,23 +284,20 @@
           "title": "2026年定時株主総会招集通知及び株主総会資料",
           "url": "https://kabutan.jp/disclosures/pdf/20260701/140120260630584362/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6740",
       "name": "ジャパンディスプレイ",
       "market": "プライム",
-      "mcap_oku": 2095,
-      "mcap_flag": "",
+      "mcap_oku": 2150,
       "pct": 4.47,
       "pts": 49.1,
       "close": 47.0,
       "volume": 821200,
       "turnover_yen": 40320920,
       "turnover_m": 40.3,
-      "shoutfy_jq": 4458260222,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。継続するテーマとして、2025年2月に米OLEDWorksと資本業務提携を締結したeLEAP OLEDファブ建設計画（ニューヨーク州、総投資約2兆円規模）が2026年6月25日から正式審査段階にあり、最終決定待ちの状況が投機的な関心を集めているとみられる。また日本経済新聞（2026年9月4日）は石川工場での生命科学向けガラス基板の量産開始と米スタートアップCyteSiへの供給計画を報じており、「BEYOND DISPLAY」戦略の具体化が一因とみられるが、直接の寄与は未確認である。",
       "factor_kind": "テーマ",
@@ -387,23 +375,20 @@
           "title": "営業外費用、特別利益及び特別損失の計上のお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260810/140120260729501938/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "1783",
       "name": "ｆａｎｔａｓｉｓｔａ",
       "market": "スタンダード",
       "mcap_oku": 137,
-      "mcap_flag": "",
       "pct": 4.23,
       "pts": 74.0,
       "close": 71.0,
       "volume": 559000,
       "turnover_yen": 41366000,
       "turnover_m": 41.4,
-      "shoutfy_jq": 193308851,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月9日16時23分配信の適時開示「宮城県仙台市青葉区の販売用不動産におけるAIデータセンター開発の方針決定に関するお知らせ」への好感が当日夜間PTSに継続した。連結子会社NC MAX WORLD株式会社が仙台市青葉区に保有する約71,787㎡の土地（東北電力ネットワークによる200MW受電の技術的成立性を確認済み）を活用しAIデータセンターを開発する方針を取締役会で決定したもので、第Ⅰ期プロジェクトの事業予算は約4,000億円、2028年度中の開発許可取得を目指す。同開示は材料窓より前の配信で9月10日通常セッションでも好感されたが、夜間PTSでは生成AI需要を背景とする国内大規模データセンター開発計画への関心から+4.23%へ続伸した。",
       "factor_kind": "開示",
@@ -469,23 +454,20 @@
           "title": "不動産事業に関するフォレストガーデン株式会社との業務提携契約締結のお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260624/140120260624578080/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "2983",
       "name": "アールプランナー",
       "market": "グロース",
-      "mcap_oku": 188,
-      "mcap_flag": "",
+      "mcap_oku": 185,
       "pct": 3.22,
       "pts": 1793.0,
       "close": 1737.0,
       "volume": 42500,
       "turnover_yen": 76202500,
       "turnover_m": 76.2,
-      "shoutfy_jq": 10798960,
-      "cur_end": "2027-01-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -592,7 +574,8 @@
           "title": "アールプランナー---全社規模で「AIエージェント」の運用を開始",
           "url": "https://kabutan.jp/stock/news?code=2983&b=n202609040659"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -722,42 +705,53 @@
       "name": "ａｂｃ",
       "pct": 12.45,
       "turnover_m": 31.4,
-      "mcap_oku": 21
+      "mcap_oku": 26,
+      "mcap_source": "jquants"
     },
     {
       "code": "8995",
       "name": "誠建設工業",
       "pct": 10.87,
       "turnover_m": 35.6,
-      "mcap_oku": 51
+      "mcap_oku": 51,
+      "mcap_source": "jquants"
     },
     {
       "code": "7709",
       "name": "クボテック",
       "pct": 9.03,
       "turnover_m": 11.5,
-      "mcap_oku": 10
+      "mcap_oku": 10,
+      "mcap_source": "jquants"
     },
     {
       "code": "3823",
       "name": "ＴＨＥ　ＷＨＹ　ＨＯＷ　ＤＯ　ＣＯＭＰＡＮＹ",
       "pct": 5.81,
       "turnover_m": 42.6,
-      "mcap_oku": 45
+      "mcap_oku": 46,
+      "mcap_source": "jquants"
     },
     {
       "code": "4883",
       "name": "モダリス",
       "pct": 4.65,
       "turnover_m": 18.3,
-      "mcap_oku": 42
+      "mcap_oku": 46,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 4.4,
       "turnover_m": 433.8,
-      "mcap_oku": 78
+      "mcap_oku": 78,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-10",
+    "original_selection_preserved": true
+  }
 }

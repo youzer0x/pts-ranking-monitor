@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 4,
@@ -22,16 +23,12 @@
       "name": "ノースサンド",
       "market": "グロース",
       "mcap_oku": 1479,
-      "mcap_flag": "",
       "pct": 7.51,
       "pts": 2305.0,
       "close": 2144.0,
       "volume": 7900,
       "turnover_yen": 18209500,
       "turnover_m": 18.2,
-      "shoutfy_jq": 69000000,
-      "cur_end": "2027-01-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -93,23 +90,20 @@
           "title": "ノースサンドについて、ニューバーガー・バーマンは保有割合が増加したと報告 [変更報告書No.1]",
           "url": "https://kabutan.jp/stock/news?code=446A&b=n202608030466"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6085",
       "name": "アーキテクツ・スタジオ・ジャパン",
       "market": "グロース",
-      "mcap_oku": 222,
-      "mcap_flag": "",
+      "mcap_oku": 221,
       "pct": 4.66,
       "pts": 202.0,
       "close": 193.0,
       "volume": 359300,
       "turnover_yen": 72578600,
       "turnover_m": 72.6,
-      "shoutfy_jq": 114860220,
-      "cur_end": "2027-02-28",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。8月25日〜28日の急騰後、8月31日〜9月4日の4営業日続落（225円→162円、約−28%）を経た反発局面にあり、9月7日通常取引で前日比+31円（+19.14%）と193円引け。材料窓（15:30以降）に新たな適時開示・報道は確認されず。夜間PTSの+4.66%は日中上昇の勢いの継続とみられる。",
       "factor_kind": "テーマ",
@@ -175,23 +169,20 @@
           "title": "アーキテクツについて、T.MAKEは保有割合が減少したと報告 [変更報告書]",
           "url": "https://kabutan.jp/stock/news?code=6085&b=n202608030178"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7856",
       "name": "萩原工業",
       "market": "プライム",
-      "mcap_oku": 283,
-      "mcap_flag": "",
+      "mcap_oku": 268,
       "pct": 4.41,
       "pts": 1984.8,
       "close": 1901.0,
       "volume": 27700,
       "turnover_yen": 54978960,
       "turnover_m": 55.0,
-      "shoutfy_jq": 14897600,
-      "cur_end": "2026-10-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -298,23 +289,20 @@
           "title": "[Summary]Consolidated Financial Results for the Nine Months Ended July 31, 2026 (Under Japanese GAAP)",
           "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260904532071/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6203",
       "name": "豊和工業",
       "market": "スタンダード",
-      "mcap_oku": 240,
-      "mcap_flag": "",
+      "mcap_oku": 231,
       "pct": 3.66,
       "pts": 1982.0,
       "close": 1912.0,
       "volume": 638800,
       "turnover_yen": 1266101600,
       "turnover_m": 1266.1,
-      "shoutfy_jq": 12548134,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月7日11時にTDnet開示された「株式会社Prodroneとのドローン開発・製造連携について」を起点とするドローン・防衛テーマが継続している。同開示ではProdroneが豊和工業の名古屋拠点内に初の量産工場を新設するとともに豊和工業を引受先とする第三者割当増資を実施すること、および迎撃ドローンを含む防衛・産業用ドローン事業への本格参入が明らかになった。同開示は材料窓（15:30）前に実施されたため日中セッションでストップ高に達したとみられ、PTSでは日中の積み残し需要の消化が続いた。",
       "factor_kind": "テーマ",
@@ -386,7 +374,8 @@
           "title": "株式給付信託（J-ESOP）に係る追加拠出に伴う第三者割当による自己株式の処分に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260806511632/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -446,28 +435,37 @@
       "name": "クオンタムソリューションズ",
       "pct": 13.49,
       "turnover_m": 61.1,
-      "mcap_oku": 62
+      "mcap_oku": 67,
+      "mcap_source": "jquants"
     },
     {
       "code": "2330",
       "name": "フォーサイド",
       "pct": 12.64,
       "turnover_m": 37.6,
-      "mcap_oku": 48
+      "mcap_oku": 48,
+      "mcap_source": "jquants"
     },
     {
       "code": "8995",
       "name": "誠建設工業",
       "pct": 7.42,
       "turnover_m": 111.3,
-      "mcap_oku": 41
+      "mcap_oku": 41,
+      "mcap_source": "jquants"
     },
     {
       "code": "520A",
       "name": "ジェイファーマ",
       "pct": 4.13,
       "turnover_m": 28.2,
-      "mcap_oku": 85
+      "mcap_oku": 85,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-07",
+    "original_selection_preserved": true
+  }
 }

@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 2,
@@ -21,17 +22,13 @@
       "code": "2593",
       "name": "伊藤園",
       "market": "プライム",
-      "mcap_oku": 2566,
-      "mcap_flag": "",
+      "mcap_oku": 2539,
       "pct": 7.37,
       "pts": 3233.0,
       "close": 3011.0,
       "volume": 20500,
       "turnover_yen": 66276500,
       "turnover_m": 66.3,
-      "shoutfy_jq": 85212380,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -124,23 +121,20 @@
           "title": "Notice of Company Split with Consolidated Subsidiary (Simplified Absorption-type Split)",
           "url": "https://kabutan.jp/disclosures/pdf/20260827/140120260826526551/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4479",
       "name": "マクアケ",
       "market": "グロース",
-      "mcap_oku": 123,
-      "mcap_flag": "",
+      "mcap_oku": 124,
       "pct": 4.45,
       "pts": 1010.0,
       "close": 967.0,
       "volume": 10500,
       "turnover_yen": 10605000,
       "turnover_m": 10.6,
-      "shoutfy_jq": 12748700,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -226,7 +220,8 @@
           "title": "Notice Regarding Publication of an Analyst Report on Makuake, Inc. by Envalith, Inc.",
           "url": "https://kabutan.jp/disclosures/pdf/20260729/140120260727599726/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -307,21 +302,29 @@
       "name": "ブレインズテクノロジー",
       "pct": 28.33,
       "turnover_m": 193.8,
-      "mcap_oku": 83
+      "mcap_oku": 81,
+      "mcap_source": "jquants"
     },
     {
       "code": "7709",
       "name": "クボテック",
       "pct": 9.56,
       "turnover_m": 18.7,
-      "mcap_oku": 9
+      "mcap_oku": 9,
+      "mcap_source": "jquants"
     },
     {
       "code": "6897",
       "name": "ツインバード",
       "pct": 4.25,
       "turnover_m": 15.9,
-      "mcap_oku": 73
+      "mcap_oku": 72,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-01",
+    "original_selection_preserved": true
+  }
 }

@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 7,
@@ -21,23 +22,17 @@
       "code": "6232",
       "name": "ＡＣＳＬ",
       "market": "グロース",
-      "mcap_oku": 238,
-      "mcap_flag": "†",
+      "mcap_oku": 291,
       "pct": 12.75,
       "pts": 1380.0,
       "close": 1224.0,
       "volume": 26900,
       "turnover_yen": 37122000,
       "turnover_m": 37.1,
-      "shoutfy_jq": 19472474,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年9月15日、航空自衛隊三沢基地所属のRQ-4B「グローバルホーク」無人偵察機が鳥取県沖で通信途絶後に墜落し、NHKが同日15時23分に速報した（[NHK](https://news.web.nhk/newsweb/na/nd-20260915de50355)）。日経電子版は「日本に3機のみ 警戒・監視に穴」と報じ（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUA156IQ0V10C26A9000000/)）、国産防衛ドローンの供給拡大を求める声が高まったことへのACSLへの連想買いが9月16日夜間PTSで続いたとみられる。ただし同墜落報道は材料窓（9月16日15:30以降）に先行して出回っており、窓内固有の開示や新規記事は確認できなかった。8月24日発表の海外新株発行（最大24.5%希薄化）以降の株価下落局面からの短期リバウンドが並走したとみられる。",
       "factor_kind": "テーマ",
       "rank": 1,
-      "shares_kabutan": 23652474,
-      "mcap_kabutan_oku": 290,
       "kabutan_news": [
         {
           "datetime": "2026-09-10T10:00:00+09:00",
@@ -111,23 +106,20 @@
           "title": "Notice of Issuance of New Shares through an International Offering",
           "url": "https://kabutan.jp/disclosures/pdf/20260824/140120260824525274/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3321",
       "name": "ミタチ産業",
       "market": "スタンダード",
       "mcap_oku": 134,
-      "mcap_flag": "",
       "pct": 11.58,
       "pts": 1879.0,
       "close": 1684.0,
       "volume": 10500,
       "turnover_yen": 19729500,
       "turnover_m": 19.7,
-      "shoutfy_jq": 7971853,
-      "cur_end": "2026-05-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -213,23 +205,20 @@
           "title": "役員の異動に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260717/140120260717595894/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6203",
       "name": "豊和工業",
       "market": "スタンダード",
-      "mcap_oku": 268,
-      "mcap_flag": "",
+      "mcap_oku": 258,
       "pct": 7.12,
       "pts": 2287.0,
       "close": 2135.0,
       "volume": 172900,
       "turnover_yen": 395422300,
       "turnover_m": 395.4,
-      "shoutfy_jq": 12548134,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月7日11時にTDnetへ適時開示された「株式会社Prodroneとのドローン開発・製造連携について」（[日経会社情報DIGITAL](https://www.nikkei.com/nkd/disclosure/tdnr/20260907532284/)）が主要材料である。同開示では豊和工業の敷地内にProdrone第1量産工場を新設し同社を引受先とする第三者割当増資を実施すること、および迎撃用ドローンの共同開発を行うことが示され（[日本経済新聞](https://www.nikkei.com/article/DGXZQOFD04APH0U6A900C2000000/)）、防衛・ドローンテーマとして材料視されて同日ストップ高を含む急騰となった。過熱警戒から東証は2026年9月16日に信用取引規制（新規建て証拠金率50%以上）を発動し（[株探](https://kabutan.jp/stock/news?code=6203&b=n202609160269)）、通常取引は同日-13.77%の大幅反落となった。しかし夜間PTSでは信用規制に伴う売り一巡後にProdroneとの防衛ドローン連携テーマへの評価が継続し、買い戻しが優勢となったとみられる。",
       "factor_kind": "テーマ",
@@ -301,23 +290,20 @@
           "title": "＜みんかぶ・個人投資家の予想から＞＝「買い予想数上昇」４位に豊和工",
           "url": "https://kabutan.jp/stock/news?code=6203&b=n202609090724"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8848",
       "name": "レオパレス２１",
       "market": "プライム",
-      "mcap_oku": 3147,
-      "mcap_flag": "",
+      "mcap_oku": 2990,
       "pct": 5.98,
       "pts": 997.3,
       "close": 941.0,
       "volume": 383600,
       "turnover_yen": 382564280,
       "turnover_m": 382.6,
-      "shoutfy_jq": 334415678,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月14日、光通信（9435）がMBKパートナーズ・NECキャピタルソリューション系ファンドと設立した買収主体・株式会社K891が、レオパレス21（8848）を完全子会社化・非公開化する目的で1株1,000円・総額最大約2,676億円のTOBを発表した（[日本経済新聞 2026年9月14日](https://www.nikkei.com/article/DGXZQOUC1496P0U6A910C2000000/)・[ITmedia BUILT 2026年9月15日](https://built.itmedia.co.jp/bt/articles/2609/15/news071.html)）。同社取締役会もTOBに賛同し株主への応募を推奨。TOB買付期間は2026年9月15日〜10月30日、買付価格1,000円に対し9月16日通常取引終値は941円。同日夜間PTSでは997.3円まで上昇しており、TOB価格1,000円への裁定取引（TOBアービトラージ）の継続による収斂とみられる。",
       "factor_kind": "テーマ",
@@ -395,23 +381,20 @@
           "title": "Notice Concerning Revision of Interim and Year-End Dividend Forecast for the Fiscal Year Ending March 31, 2027 (No Dividend)",
           "url": "https://kabutan.jp/disclosures/pdf/20260914/140120260914536100/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4593",
       "name": "ヘリオス",
       "market": "グロース",
-      "mcap_oku": 389,
-      "mcap_flag": "",
+      "mcap_oku": 390,
       "pct": 4.17,
       "pts": 300.0,
       "close": 288.0,
       "volume": 38100,
       "turnover_yen": 11430000,
       "turnover_m": 11.4,
-      "shoutfy_jq": 135002200,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。直近の主要材料は2026年8月31日のTDnet適時開示「再生医療等製品製造販売業許可証」の兵庫県知事からの再取得で、体性幹細胞再生医薬品HLCM051を用いたARDS（急性呼吸窮迫症候群）治療薬の製造販売承認後の商業化基盤を整えたと報じられた（[財経新聞](https://www.zaikei.co.jp/article/20260901/868109.html)）。また2026年2月3日付でREVIVE-ARDS第3相試験の日本国内での治験が開始されており（[日経バイオテク](https://bio.nikkeibp.co.jp/atcl/release/26/02/03/27058/)）、再生医療テーマへの継続的な関心が背景にある可能性はあるが、9月16日材料窓（15:30以降）内の固有の開示や新規報道は確認できなかった。",
       "factor_kind": "テーマ",
@@ -483,23 +466,20 @@
           "title": "新興市場銘柄ダイジェスト:オキサイドが急伸、ミライロが大幅反落",
           "url": "https://kabutan.jp/stock/news?code=4593&b=n202608200959"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3444",
       "name": "菊池製作所",
       "market": "スタンダード",
-      "mcap_oku": 136,
-      "mcap_flag": "",
+      "mcap_oku": 133,
       "pct": 3.54,
       "pts": 1140.0,
       "close": 1101.0,
       "volume": 16100,
       "turnover_yen": 18354000,
       "turnover_m": 18.4,
-      "shoutfy_jq": 12337700,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。9月14日に子会社における政府研究開発プロジェクトの過年度助成金受領をTDnet開示（材料窓外）、同日から9月15日にかけて株価が2日連騰（+13.10%、+5.84%）した後、9月16日の通常取引では反落（-9.38%、終値1,101円）しており、夜間PTSでの上昇（+3.54%、1,140円）は通常取引中の急落に対する一時的な戻しとみられる。材料窓（15:30〜翌06:00）内に新たな開示・報道は確認されない。",
       "factor_kind": "テーマ",
@@ -565,23 +545,20 @@
           "title": "★本日の【イチオシ決算】 アールプラン、大盛工業、モイ (9月10日)",
           "url": "https://kabutan.jp/stock/news?code=3444&b=n202609101129"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4523",
       "name": "エーザイ",
       "market": "プライム",
-      "mcap_oku": 13955,
-      "mcap_flag": "",
+      "mcap_oku": 13516,
       "pct": 3.03,
       "pts": 4930.0,
       "close": 4785.0,
       "volume": 39000,
       "turnover_yen": 192270000,
       "turnover_m": 192.3,
-      "shoutfy_jq": 291649149,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "エーザイと米バイオジェンは2026年9月16日16時44分（JST）、アルツハイマー病治療薬「レカネマブ（製品名：レケンビ）」の皮下注射製剤「LEQEMBI Pen」について日本での製造・販売承認を取得したと発表した（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUC161BI0W6A910C2000000/)）。同ペン製剤は週1回2本（計500mg）の皮下注射による在宅投与を可能にするもので、従来の医療機関での2週間ごとの点滴静注に比べて患者・介護者の通院負担を大幅に軽減できる。日本は同製剤の承認国として世界で3か国目となる。引け後の発表が好感され、夜間PTSで前日終値比+3.03%（終値4,785円→PTS4,930円）と上昇した。なお、引け前から株価は水準を切り上げていた（9月9日〜15日に4営業日続伸）ため、レカネマブ関連への期待感が下地となっていた可能性もある（[BioSpace](https://www.biospace.com/press-releases/leqembi-pen-subcutaneous-formulation-of-leqembi-approved-in-japan-for-the-treatment-of-early-alzheimers-disease)）。",
       "factor_kind": "報道",
@@ -641,7 +618,8 @@
           "title": "前日に動いた銘柄 part2フィーチャ、菱友システムズ、 Abalanceなど",
           "url": "https://kabutan.jp/stock/news?code=4523&b=n202608040185"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -841,28 +819,37 @@
       "name": "Ｗｅｌｂｙ",
       "pct": 22.02,
       "turnover_m": 88.4,
-      "mcap_oku": 27
+      "mcap_oku": 28,
+      "mcap_source": "jquants"
     },
     {
       "code": "7602",
       "name": "レダックス",
       "pct": 13.39,
       "turnover_m": 46.2,
-      "mcap_oku": 44
+      "mcap_oku": 38,
+      "mcap_source": "jquants"
     },
     {
       "code": "4263",
       "name": "サスメド",
       "pct": 13.2,
       "turnover_m": 14.5,
-      "mcap_oku": 70
+      "mcap_oku": 70,
+      "mcap_source": "jquants"
     },
     {
       "code": "4884",
       "name": "クリングルファーマ",
       "pct": 10.55,
       "turnover_m": 28.6,
-      "mcap_oku": 37
+      "mcap_oku": 38,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-16",
+    "original_selection_preserved": true
+  }
 }

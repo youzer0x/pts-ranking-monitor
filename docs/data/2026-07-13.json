@@ -6,7 +6,8 @@
   "criteria": {
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
-    "min_mcap_oku": 100
+    "min_mcap_oku": 100,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 5,
@@ -18,17 +19,13 @@
       "code": "7513",
       "name": "コジマ",
       "market": "プライム",
-      "mcap_oku": 995,
-      "mcap_flag": "",
+      "mcap_oku": 990,
       "pct": 9.63,
       "pts": 1400.0,
       "close": 1277.0,
       "volume": 21900,
       "turnover_yen": 30660000,
       "turnover_m": 30.7,
-      "shoutfy_jq": 77912716,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -68,23 +65,20 @@
       ],
       "factor": "2026年8月期第3四半期決算を開示するとともに、配当方針変更を含む期末配当予想の増配修正、株主優待制度の拡充、自己株式取得の決定をセットで発表。株主還元策の大幅強化が材料となった。",
       "factor_kind": "開示",
-      "rank": 1
+      "rank": 1,
+      "mcap_source": "jquants"
     },
     {
       "code": "7725",
       "name": "インターアクション",
       "market": "プライム",
-      "mcap_oku": 205,
-      "mcap_flag": "",
+      "mcap_oku": 180,
       "pct": 8.18,
       "pts": 1924.5,
       "close": 1779.0,
       "volume": 19000,
       "turnover_yen": 36565500,
       "turnover_m": 36.6,
-      "shoutfy_jq": 11510200,
-      "cur_end": "2026-05-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -110,43 +104,37 @@
       ],
       "factor": "2026年7月13日16:00に適時開示された2026年5月期決算短信において、当期（2026年5月期）実績は売上高48億22百万円・営業利益7億02百万円・純利益5億30百万円と前期比で大幅な減収減益となった一方、翌2027年5月期の会社予想は売上高72億12百万円（前期比+49.6%）・営業利益15億99百万円（同+127.7%）・純利益10億49百万円（同+97.8%）と急回復を見込む内容であった。同社は2026年4月に海外主要顧客から過去最大規模となる総額22億78百万円の大口受注を獲得しており、2026年6月〜2027年2月にかけて順次売上計上される見通しが来期V字回復の主因となっている。この大幅増益予想が引け後16時開示でPTSに波及し、8%超の上昇につながった。",
       "factor_kind": "開示",
-      "rank": 2
+      "rank": 2,
+      "mcap_source": "jquants"
     },
     {
       "code": "3778",
       "name": "さくらインターネット",
       "market": "プライム",
-      "mcap_oku": 1187,
-      "mcap_flag": "",
+      "mcap_oku": 1134,
       "pct": 4.45,
       "pts": 2960.0,
       "close": 2834.0,
       "volume": 14500,
       "turnover_yen": 42920000,
       "turnover_m": 42.9,
-      "shoutfy_jq": 41890700,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "引け後、日系大手証券が投資判断を強気に引き上げ、目標株価を3,685円に設定したと伝わった（IFIS株予報集計。証券会社名は非公表）。同社は政府クラウド（ガバメントクラウド）の正式認定事業者として生成AI向けGPU基盤を拡充中であり、これが格上げ背景とみられる。",
       "factor_kind": "報道",
-      "rank": 3
+      "rank": 3,
+      "mcap_source": "jquants"
     },
     {
       "code": "7085",
       "name": "カーブスホールディングス",
       "market": "プライム",
-      "mcap_oku": 854,
-      "mcap_flag": "",
+      "mcap_oku": 838,
       "pct": 4.29,
       "pts": 949.0,
       "close": 910.0,
       "volume": 10700,
       "turnover_yen": 10154300,
       "turnover_m": 10.2,
-      "shoutfy_jq": 93857493,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -179,23 +167,20 @@
       ],
       "factor": "2026年8月期第3四半期決算を開示するとともに、自己株式取得の決定と当日のToSTNeT-3による立会外買付実施を発表。自社株買いの即時実行が好感された。",
       "factor_kind": "開示",
-      "rank": 4
+      "rank": 4,
+      "mcap_source": "jquants"
     },
     {
       "code": "4443",
       "name": "Ｓａｎｓａｎ",
       "market": "プライム",
-      "mcap_oku": 2149,
-      "mcap_flag": "",
+      "mcap_oku": 2147,
       "pct": 3.83,
       "pts": 1759.9,
       "close": 1695.0,
       "volume": 21300,
       "turnover_yen": 37485870,
       "turnover_m": 37.5,
-      "shoutfy_jq": 126800600,
-      "cur_end": "2026-05-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -228,7 +213,8 @@
       ],
       "factor": "2026年7月13日15:30にTDnetを通じて2026年5月期通期決算を開示した。売上高は537.6億円（前期比24.4%増）、営業利益は81.9億円（同192.2%増、前期28.0億円から大幅改善）、当期純利益は67.8億円（同1,498.6%増）と大幅増益を達成した。同時に開示した翌期（2027年5月期）ガイダンスは売上高637〜653億円（前期比18.5〜21.5%増）、調整後営業利益率20.0〜22.5%を目標とし、引き続き高成長と収益性向上を見込む。主力の法人向け名刺管理「Sansan」に加え、請求書受領サービス「Bill One」が前期比28〜32%増の成長を続ける計画であり、収益構造の改善と強い来期ガイダンスがPTS買いを誘った。",
       "factor_kind": "開示",
-      "rank": 5
+      "rank": 5,
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -351,42 +337,53 @@
       "name": "ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ",
       "pct": 24.78,
       "turnover_m": 175.5,
-      "mcap_oku": 28
+      "mcap_oku": 28,
+      "mcap_source": "jquants"
     },
     {
       "code": "5103",
       "name": "昭和ホールディングス",
       "pct": 21.2,
       "turnover_m": 32.1,
-      "mcap_oku": 19
+      "mcap_oku": 19,
+      "mcap_source": "jquants"
     },
     {
       "code": "4381",
       "name": "ビープラッツ",
       "pct": 18.15,
       "turnover_m": 105.9,
-      "mcap_oku": 16
+      "mcap_oku": 16,
+      "mcap_source": "jquants"
     },
     {
       "code": "4199",
       "name": "ワンダープラネット",
       "pct": 16.61,
       "turnover_m": 16.7,
-      "mcap_oku": 23
+      "mcap_oku": 23,
+      "mcap_source": "jquants"
     },
     {
       "code": "2388",
       "name": "ウェッジホールディングス",
       "pct": 6.58,
       "turnover_m": 15.4,
-      "mcap_oku": 16
+      "mcap_oku": 16,
+      "mcap_source": "jquants"
     },
     {
       "code": "7063",
       "name": "Ｂｉｒｄｍａｎ",
       "pct": 3.0,
       "turnover_m": 24.5,
-      "mcap_oku": 30
+      "mcap_oku": 30,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-07-13",
+    "original_selection_preserved": true
+  }
 }

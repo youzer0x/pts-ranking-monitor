@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 8,
@@ -21,17 +22,13 @@
       "code": "3075",
       "name": "銚子丸",
       "market": "スタンダード",
-      "mcap_oku": 241,
-      "mcap_flag": "",
+      "mcap_oku": 208,
       "pct": 14.46,
       "pts": 1900.0,
       "close": 1660.0,
       "volume": 6700,
       "turnover_yen": 12730000,
       "turnover_m": 12.7,
-      "shoutfy_jq": 14518000,
-      "cur_end": "2027-02-28",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -117,23 +114,20 @@
           "title": "★本日の【サプライズ決算】速報 (07月10日)",
           "url": "https://kabutan.jp/stock/news?code=3075&b=n202607101040"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3395",
       "name": "サンマルクホールディングス",
       "market": "プライム",
-      "mcap_oku": 568,
-      "mcap_flag": "",
+      "mcap_oku": 531,
       "pct": 7.75,
       "pts": 2668.0,
       "close": 2476.0,
       "volume": 14400,
       "turnover_yen": 38419200,
       "turnover_m": 38.4,
-      "shoutfy_jq": 22941111,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -207,23 +201,20 @@
           "title": "サンマルク、4-6月期(1Q)経常は42％減益で着地",
           "url": "https://kabutan.jp/stock/news?code=3395&b=k202608050116"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3498",
       "name": "霞ヶ関キャピタル",
       "market": "プライム",
-      "mcap_oku": 1770,
-      "mcap_flag": "",
+      "mcap_oku": 1769,
       "pct": 7.29,
       "pts": 7725.0,
       "close": 7200.0,
       "volume": 6400,
       "turnover_yen": 49440000,
       "turnover_m": 49.4,
-      "shoutfy_jq": 24587930,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -309,23 +300,20 @@
           "title": "Notice Concerning Launch of Condominium Development Project in Dallas, U.S.A.",
           "url": "https://kabutan.jp/disclosures/pdf/20260831/140120260831528776/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9984",
       "name": "ソフトバンクグループ",
       "market": "プライム",
-      "mcap_oku": 356819,
-      "mcap_flag": "",
+      "mcap_oku": 356020,
       "pct": 5.6,
       "pts": 6597.0,
       "close": 6247.0,
       "volume": 265100,
       "turnover_yen": 1748864700,
       "turnover_m": 1748.9,
-      "shoutfy_jq": 5711848120,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "材料窓内の2026年9月17日（米国セッション）にARM Holdings株が前日比+6.28%高で寄り付き、SBGが保有する傘下アーム株の急騰がPTS上昇を主導した。同日アームCEOが「需要はオフ・ザ・チャーツ（異例の強さ）」と述べ、データセンター・エッジ・車載等の全分野で受注が積み上がっていることを確認したことが材料視された。前日の米FRBによる政策金利25bp引き上げを消化し、半導体セクターが反発したことも一因である。",
       "factor_kind": "報道",
@@ -403,23 +391,20 @@
           "title": "【杉村富生の短期相場観測】 ─波乱局面の対処法？　電力株を攻める！",
           "url": "https://kabutan.jp/stock/news?code=9984&b=n202609130018"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "285A",
       "name": "キオクシアホールディングス",
       "market": "プライム",
-      "mcap_oku": 273350,
-      "mcap_flag": "",
+      "mcap_oku": 273661,
       "pct": 5.55,
       "pts": 52650.0,
       "close": 49880.0,
       "volume": 174400,
       "turnover_yen": 9182160000,
       "turnover_m": 9182.2,
-      "shoutfy_jq": 548015088,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "材料窓内に米国プレマーケットでMicron・SanDisk・SK Hynixなどメモリ株が上昇し、NANDメーカーであるキオクシアへの連想買いがPTSを牽引した。AI推論ワークロードの拡大によるNAND供給逼迫の継続に加え、MicronのインドNAND工場での商業生産開始、SK HynixとIntelの米国内メモリ製造協議が上昇要因として挙げられた。前日の米FRB利上げ消化後のリスクオン地合いも一因とみられる。",
       "factor_kind": "報道",
@@ -497,29 +482,24 @@
           "title": "本日の注目個別銘柄：ビジョナル、レゾナック、ギグワークスなど",
           "url": "https://kabutan.jp/stock/news?code=285A&b=n202609110922"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6232",
       "name": "ＡＣＳＬ",
       "market": "グロース",
-      "mcap_oku": 265,
-      "mcap_flag": "†",
+      "mcap_oku": 323,
       "pct": 4.49,
       "pts": 1420.0,
       "close": 1359.0,
       "volume": 48200,
       "turnover_yen": 68444000,
       "turnover_m": 68.4,
-      "shoutfy_jq": 19472474,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年度防衛予算での国産ドローン重視（前年比約2.5倍の2,773億円）という防衛・ドローン関連テーマが継続しており、8月25日の新株式発行（希薄化懸念）による大幅安後の戻り局面にある。",
       "factor_kind": "テーマ",
       "rank": 6,
-      "shares_kabutan": 23652474,
-      "mcap_kabutan_oku": 321,
       "kabutan_news": [
         {
           "datetime": "2026-09-10T10:00:00+09:00",
@@ -593,23 +573,20 @@
           "title": "Notice of Issuance of New Shares through an International Offering",
           "url": "https://kabutan.jp/disclosures/pdf/20260824/140120260824525274/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8418",
       "name": "山口フィナンシャルグループ",
       "market": "プライム",
-      "mcap_oku": 7644,
-      "mcap_flag": "",
+      "mcap_oku": 6588,
       "pct": 3.21,
       "pts": 3360.6,
       "close": 3256.0,
       "volume": 3100,
       "turnover_yen": 10417860,
       "turnover_m": 10.4,
-      "shoutfy_jq": 234767616,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "引け後に伝わった国内大手証券によるレーティング格上げが材料視された。株探「レーティング日報【格上げ↑】(9月17日)」にて投資判断「強気」への引き上げと目標株価4,000円設定が報じられた（証券会社名はIFIS集計ベースで確認）。",
       "factor_kind": "報道",
@@ -669,23 +646,20 @@
           "title": "Notice Concerning Unrealized Losses on Securities as of the End of the First Quarter of the Fiscal Year Ending March 31, 2027",
           "url": "https://kabutan.jp/disclosures/pdf/20260731/140120260730503618/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4259",
       "name": "エクサウィザーズ",
       "market": "グロース",
-      "mcap_oku": 885,
-      "mcap_flag": "",
+      "mcap_oku": 869,
       "pct": 3.18,
       "pts": 941.0,
       "close": 912.0,
       "volume": 11100,
       "turnover_yen": 10445100,
       "turnover_m": 10.4,
-      "shoutfy_jq": 97005500,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月17日15時30分、エクサウィザーズが住友電装と「グローバルの生産現場で稼働するAIエージェント群」の共同開発を正式発表した。両社は同年8月より開発に着手しており、生産ラインのカメラ・センサー映像から異常予兆をリアルタイムに検知する「監査AI」、現場リーダーへ的確な介入を促す「介入AI」、熟練者との対話を通じて暗黙知を蓄積する「レビューAI」の3種を開発中。今年度内に海外拠点での実証を実施し2027年度のグローバル全面展開を目指す計画で、製造現場向けフィジカルAI技術の実用化進展が引け後に好感された。",
       "factor_kind": "報道",
@@ -751,7 +725,8 @@
           "title": "子会社の認知機能AI診断支援アプリ（SaMD）に係る先駆け総合評価相談の開始に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260820/140120260820523694/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -923,49 +898,61 @@
       "name": "ミンカブ・ジ・インフォノイド",
       "pct": 20.0,
       "turnover_m": 12.5,
-      "mcap_oku": 77
+      "mcap_oku": 77,
+      "mcap_source": "jquants"
     },
     {
       "code": "4073",
       "name": "ジィ・シィ企画",
       "pct": 18.21,
       "turnover_m": 16.2,
-      "mcap_oku": 14
+      "mcap_oku": 14,
+      "mcap_source": "jquants"
     },
     {
       "code": "2788",
       "name": "アップルインターナショナル",
       "pct": 17.86,
       "turnover_m": 35.4,
-      "mcap_oku": 55
+      "mcap_oku": 51,
+      "mcap_source": "jquants"
     },
     {
       "code": "3652",
       "name": "ディジタルメディアプロフェッショナル",
       "pct": 8.27,
       "turnover_m": 122.3,
-      "mcap_oku": 93
+      "mcap_oku": 93,
+      "mcap_source": "jquants"
     },
     {
       "code": "5542",
       "name": "新報国マテリアル",
       "pct": 8.15,
       "turnover_m": 42.2,
-      "mcap_oku": 81
+      "mcap_oku": 76,
+      "mcap_source": "jquants"
     },
     {
       "code": "3823",
       "name": "ＴＨＥ　ＷＨＹ　ＨＯＷ　ＤＯ　ＣＯＭＰＡＮＹ",
       "pct": 6.36,
       "turnover_m": 71.0,
-      "mcap_oku": 66
+      "mcap_oku": 66,
+      "mcap_source": "jquants"
     },
     {
       "code": "7709",
       "name": "クボテック",
       "pct": 4.29,
       "turnover_m": 10.2,
-      "mcap_oku": 10
+      "mcap_oku": 10,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-17",
+    "original_selection_preserved": true
+  }
 }

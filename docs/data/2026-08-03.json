@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 11,
@@ -21,17 +22,13 @@
       "code": "6134",
       "name": "ＦＵＪＩ",
       "market": "プライム",
-      "mcap_oku": 7283,
-      "mcap_flag": "",
+      "mcap_oku": 6545,
       "pct": 18.8,
       "pts": 8845.0,
       "close": 7445.0,
       "volume": 50000,
       "turnover_yen": 442250000,
       "turnover_m": 442.2,
-      "shoutfy_jq": 97823748,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -131,23 +128,20 @@
           "title": "★本日の【イチオシ決算】 カシオ、ダイハツイン、明電舎 (7月31日)",
           "url": "https://kabutan.jp/stock/news?code=6134&b=n202607311437"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9110",
       "name": "ＮＳユナイテッド海運",
       "market": "プライム",
-      "mcap_oku": 2287,
-      "mcap_flag": "",
+      "mcap_oku": 2248,
       "pct": 10.08,
       "pts": 10502.0,
       "close": 9540.0,
       "volume": 20500,
       "turnover_yen": 215291000,
       "turnover_m": 215.3,
-      "shoutfy_jq": 23970679,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "7月31日に日本郵船が持分法適用関連会社のNSユナイテッド海運に対して1株10,600円でTOBを実施予定と発表（非公開化目的、2026年11〜12月開始予定）。同日、NSユナイテッド海運取締役会が賛同・応募推奨を表明した（[日本M&Aニュース](https://www.nihon-ma.co.jp/news/20260731_9101-39/)）。TOB価格（10,600円）へのサヤ寄せが続き、8月3日のPTS夜間取引でも10,502円と買付価格に接近した。",
       "factor_kind": "報道",
@@ -225,23 +219,20 @@
           "title": "ユナイテド海、今期経常を16％上方修正、今期配当を見送り",
           "url": "https://kabutan.jp/stock/news?code=9110&b=k202607310301"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "2737",
       "name": "トーメンデバイス",
       "market": "プライム",
-      "mcap_oku": 1779,
-      "mcap_flag": "",
+      "mcap_oku": 1778,
       "pct": 7.94,
       "pts": 28225.0,
       "close": 26150.0,
       "volume": 20800,
       "turnover_yen": 587080000,
       "turnover_m": 587.1,
-      "shoutfy_jq": 6802000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "7月30日発表の通期連結経常利益予想を145億円→408億円（2.8倍）に大幅上方修正・期末一括配当を600円→1640円（1040円増額）した内容が引き続き評価された。AI向けサーバー需要拡大を背景としたメモリ価格高騰が業績を急押し上げ、7月31日に続く連続ストップ高（値幅制限いっぱい）となりPTSでも上値追いが続いた。当日（8月3日）固有の新規材料は確認できず。",
       "factor_kind": "テーマ",
@@ -313,23 +304,20 @@
           "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 7 銘柄　　S安＝ 2 銘柄　(7月30日)",
           "url": "https://kabutan.jp/stock/news?code=2737&b=n202607301110"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7609",
       "name": "ダイトロン",
       "market": "プライム",
-      "mcap_oku": 761,
-      "mcap_flag": "",
+      "mcap_oku": 754,
       "pct": 6.28,
       "pts": 3805.0,
       "close": 3580.0,
       "volume": 8500,
       "turnover_yen": 32342500,
       "turnover_m": 32.3,
-      "shoutfy_jq": 21266698,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -429,23 +417,20 @@
           "title": "明日の株式相場に向けて＝鉄火場を避け、中小型株で狙う逆転の勝機",
           "url": "https://kabutan.jp/stock/news?code=7609&b=n202607221168"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "485A",
       "name": "パワーエックス",
       "market": "グロース",
-      "mcap_oku": 636,
-      "mcap_flag": "†",
+      "mcap_oku": 1940,
       "pct": 5.8,
       "pts": 1768.0,
       "close": 1671.0,
       "volume": 141400,
       "turnover_yen": 249995200,
       "turnover_m": 250.0,
-      "shoutfy_jq": 38082250,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:30",
@@ -465,8 +450,6 @@
       "factor": "16:30に大規模蓄電所向け高容量蓄電システム「Mega Power 4000」シリーズと、系統接続を効率化する「Grid Connector」シリーズの2製品ラインを同時開示。自社開発パワーコンディショナ搭載による競争力強化を訴求した。",
       "factor_kind": "開示",
       "rank": 5,
-      "shares_kabutan": 114768750,
-      "mcap_kabutan_oku": 1918,
       "kabutan_news": [
         {
           "datetime": "2026-08-03T16:30:00+09:00",
@@ -534,23 +517,20 @@
           "title": "大口受注に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260715/140120260715593735/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4768",
       "name": "大塚商会",
       "market": "プライム",
-      "mcap_oku": 12232,
-      "mcap_flag": "",
+      "mcap_oku": 12206,
       "pct": 5.62,
       "pts": 3400.0,
       "close": 3219.0,
       "volume": 3000,
       "turnover_yen": 10200000,
       "turnover_m": 10.2,
-      "shoutfy_jq": 380004240,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -664,23 +644,20 @@
           "title": "★本日の【イチオシ決算】 カシオ、ダイハツイン、明電舎 (7月31日)",
           "url": "https://kabutan.jp/stock/news?code=4768&b=n202607311437"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7201",
       "name": "日産自動車",
       "market": "プライム",
-      "mcap_oku": 12070,
-      "mcap_flag": "",
+      "mcap_oku": 11363,
       "pct": 4.62,
       "pts": 340.0,
       "close": 325.0,
       "volume": 216500,
       "turnover_yen": 73610000,
       "turnover_m": 73.6,
-      "shoutfy_jq": 3713998612,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "17:25",
@@ -773,23 +750,20 @@
           "title": "Corporate Governance Report",
           "url": "https://kabutan.jp/disclosures/pdf/20260707/140120260707589212/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7564",
       "name": "ワークマン",
       "market": "スタンダード",
-      "mcap_oku": 4796,
-      "mcap_flag": "",
+      "mcap_oku": 4782,
       "pct": 4.56,
       "pts": 6127.0,
       "close": 5860.0,
       "volume": 10900,
       "turnover_yen": 66784300,
       "turnover_m": 66.8,
-      "shoutfy_jq": 81846816,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -903,23 +877,20 @@
           "title": "譲渡制限付株式報酬としての自己株式の処分の割当て及び払込完了に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260724/140120260724598895/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4507",
       "name": "塩野義製薬",
       "market": "プライム",
-      "mcap_oku": 25786,
-      "mcap_flag": "",
+      "mcap_oku": 24666,
       "pct": 4.19,
       "pts": 3020.0,
       "close": 2898.5,
       "volume": 9000,
       "turnover_yen": 27180000,
       "turnover_m": 27.2,
-      "shoutfy_jq": 889632195,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1019,23 +990,20 @@
           "title": "塩野義は一段高、米国で抗新型コロナ薬「ゾコーバ」の販売開始",
           "url": "https://kabutan.jp/stock/news?code=4507&b=n202607290934"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5367",
       "name": "ニッカトー",
       "market": "スタンダード",
-      "mcap_oku": 156,
-      "mcap_flag": "",
+      "mcap_oku": 154,
       "pct": 3.58,
       "pts": 1331.0,
       "close": 1285.0,
       "volume": 45500,
       "turnover_yen": 60560500,
       "turnover_m": 60.6,
-      "shoutfy_jq": 12135695,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1110,23 +1078,20 @@
           "title": "前日に動いた銘柄 part2武蔵精密工業、東京エレクトロン、ツインバードなど",
           "url": "https://kabutan.jp/stock/news?code=5367&b=n202606250115"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9104",
       "name": "商船三井",
       "market": "プライム",
-      "mcap_oku": 21058,
-      "mcap_flag": "",
+      "mcap_oku": 19934,
       "pct": 3.09,
       "pts": 5980.0,
       "close": 5801.0,
       "volume": 11000,
       "turnover_yen": 65780000,
       "turnover_m": 65.8,
-      "shoutfy_jq": 363001827,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1200,7 +1165,8 @@
           "title": "郵船や商船三井など海運株が上昇、ホルムズ海峡再封鎖で運賃上昇の思惑",
           "url": "https://kabutan.jp/stock/news?code=9104&b=n202607170629"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -1288,14 +1254,21 @@
       "name": "ビープラッツ",
       "pct": 18.46,
       "turnover_m": 74.9,
-      "mcap_oku": 11
+      "mcap_oku": 12,
+      "mcap_source": "jquants"
     },
     {
       "code": "8995",
       "name": "誠建設工業",
       "pct": 7.02,
       "turnover_m": 19.4,
-      "mcap_oku": 23
+      "mcap_oku": 23,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-08-03",
+    "original_selection_preserved": true
+  }
 }

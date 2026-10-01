@@ -6,7 +6,8 @@
   "criteria": {
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
-    "min_mcap_oku": 100
+    "min_mcap_oku": 100,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 7,
@@ -18,101 +19,81 @@
       "code": "4596",
       "name": "窪田製薬ホールディングス",
       "market": "グロース",
-      "mcap_oku": 162,
-      "mcap_flag": "†",
+      "mcap_oku": 179,
       "pct": 29.91,
       "pts": 152.0,
       "close": 117.0,
       "volume": 10730700,
       "turnover_yen": 1631066400,
       "turnover_m": 1631.1,
-      "shoutfy_jq": 138504288,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月2日15時30分（東証引け後）にTDnet開示された連結子会社Kubota Vision Inc.によるエミクススタト塩酸塩（スターガルト病治療候補薬）の原薬製造工程対応第1マイルストーン対価受領（フランスKÔL社との供給・ライセンス契約に基づく。金額は非開示）を材料に、翌7月3日（金）は東証でストップ高87円に買い気配が殺到し終値もストップ高となった。週明け7月6日（月）も特別買い気配から2日連続ストップ高117円（+34.48%）で引け、2日間で消化しきれなかった累積買い注文が同日夜間PTSへ流入し29.91%の上昇となった。",
       "factor_kind": "開示",
       "rank": 1,
-      "shares_kabutan": 148794288,
-      "mcap_kabutan_oku": 174
+      "mcap_source": "jquants"
     },
     {
       "code": "6522",
       "name": "アスタリスク",
       "market": "グロース",
-      "mcap_oku": 132,
-      "mcap_flag": "†",
+      "mcap_oku": 136,
       "pct": 23.58,
       "pts": 2096.0,
       "close": 1696.0,
       "volume": 72400,
       "turnover_yen": 151750400,
       "turnover_m": 151.8,
-      "shoutfy_jq": 7796800,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "7月6日21:00、米国子会社AsReader, Inc.を通じ「AsReader RFID Reading TUB」（バスケットをレジに置くだけで複数商品を一括会計するシステム）の北米商用展開開始と米国新特許取得を発表（IRサイト公式リリース）。引け後の発表であったため日中の株価（終値1,696円、前日比−13.03%）には反映されず、PTSで買いが集まった。6月30日正午に国内スーパー向け「全商品RFID化ソリューション」本格展開を公表しており、米国への横展開として評価された。",
       "factor_kind": "報道",
       "rank": 2,
-      "shares_kabutan": 8046800,
-      "mcap_kabutan_oku": 136
+      "mcap_source": "jquants"
     },
     {
       "code": "504A",
       "name": "イノバセル",
       "market": "グロース",
       "mcap_oku": 290,
-      "mcap_flag": "",
       "pct": 13.22,
       "pts": 728.0,
       "close": 643.0,
       "volume": 63400,
       "turnover_yen": 46155200,
       "turnover_m": 46.2,
-      "shoutfy_jq": 45098744,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年7月2日16時30分に同社がICEF15国際共同第Ⅲ相治験（Fidelia試験）の米国FDA IND審査完了および米国組入れ承認取得を開示して以降、7月3日（ストップ高買い気配）・4日（ストップ高543円）・6日（ストップ高643円）と連続して値幅上限に張り付き、引け後のPTSに買い需要が持ち越された。",
       "factor_kind": "テーマ",
-      "rank": 3
+      "rank": 3,
+      "mcap_source": "jquants"
     },
     {
       "code": "6203",
       "name": "豊和工業",
       "market": "スタンダード",
-      "mcap_oku": 211,
-      "mcap_flag": "",
+      "mcap_oku": 203,
       "pct": 8.46,
       "pts": 1820.0,
       "close": 1678.0,
       "volume": 12500,
       "turnover_yen": 22750000,
       "turnover_m": 22.8,
-      "shoutfy_jq": 12548134,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "日本経済新聞が2026年7月4日2時（4日付朝刊）に「防衛装備の工場『国有民営』　政府、法改正へ調整　有事の緊急増産に備え」と報じた。政府が防衛装備品製造工場を国有化（国が施設保有・民間が運営）する法案を2027年にも国会提出する調整に入ったとする内容で、週末をまたいで伝わり、週明け7月6日の東証で三菱重工業・川崎重工業・IHI等と並び国内唯一の自衛隊向け小銃（20式5.56mm小銃）製造企業として資金が流入した。",
       "factor_kind": "報道",
-      "rank": 4
+      "rank": 4,
+      "mcap_source": "jquants"
     },
     {
       "code": "5246",
       "name": "ＥＬＥＭＥＮＴＳ",
       "market": "グロース",
-      "mcap_oku": 180,
-      "mcap_flag": "",
+      "mcap_oku": 181,
       "pct": 8.13,
       "pts": 718.0,
       "close": 664.0,
       "volume": 37200,
       "turnover_yen": 26709600,
       "turnover_m": 26.7,
-      "shoutfy_jq": 27170514,
-      "cur_end": "2026-11-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "17:00",
@@ -124,23 +105,20 @@
       ],
       "factor": "経済産業省・NEDOの「データエコシステムの構築等に関する研究開発（GENIAC）」に採択されたと発表（7月6日17:00 TDnet開示）。同プログラムは複数企業間のデータ連携・生成AI活用のエコシステム構築を支援する国家プロジェクトで、2026〜2028年度の最大2年間が事業期間となる。",
       "factor_kind": "開示",
-      "rank": 5
+      "rank": 5,
+      "mcap_source": "jquants"
     },
     {
       "code": "3186",
       "name": "ネクステージ",
       "market": "プライム",
-      "mcap_oku": 3341,
-      "mcap_flag": "",
+      "mcap_oku": 3235,
       "pct": 6.3,
       "pts": 4390.0,
       "close": 4130.0,
       "volume": 16000,
       "turnover_yen": 70240000,
       "turnover_m": 70.2,
-      "shoutfy_jq": 80905100,
-      "cur_end": "2026-11-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -159,27 +137,25 @@
       ],
       "factor": "2026年11月期第2四半期（中間期）決算を発表。中間経常利益は131.98億円（通期進捗率51.8%・IFISコンセンサス超）と好調で、通期業績予想を上方修正（売上高7,460億円・前期比+14.4%、営業利益276億円・前期比+40.8%）した。",
       "factor_kind": "開示",
-      "rank": 6
+      "rank": 6,
+      "mcap_source": "jquants"
     },
     {
       "code": "3110",
       "name": "日東紡績",
       "market": "プライム",
-      "mcap_oku": 6630,
-      "mcap_flag": "",
+      "mcap_oku": 6398,
       "pct": 3.53,
       "pts": 3639.0,
       "close": 3515.0,
       "volume": 14900,
       "turnover_yen": 54221100,
       "turnover_m": 54.2,
-      "shoutfy_jq": 37723012,
-      "cur_end": "2026-03-31",
-      "corr": 5.0,
       "disclosures": [],
       "factor": "2026年7月6日、JPモルガン証券が投資判断「Overweight（強気）」の継続を確認し、7月1日施行の1株→5株株式分割に伴う分割調整後の目標株価5,800円（終値3,515円比約65%上値余地）を公表した。直前の7月2日にはモルガンMUFGも「Overweight継続・目標株価6,000円」を公表しており、複数の主要証券会社による強気評価の相次ぐ確認が引け後に材料視された。",
       "factor_kind": "報道",
-      "rank": 7
+      "rank": 7,
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -309,28 +285,37 @@
       "name": "リボミック",
       "pct": 40.88,
       "turnover_m": 168.0,
-      "mcap_oku": 37
+      "mcap_oku": 38,
+      "mcap_source": "jquants"
     },
     {
       "code": "9972",
       "name": "アルテック",
       "pct": 27.37,
       "turnover_m": 31.1,
-      "mcap_oku": 42
+      "mcap_oku": 38,
+      "mcap_source": "jquants"
     },
     {
       "code": "4394",
       "name": "エクスモーション",
       "pct": 14.53,
       "turnover_m": 59.7,
-      "mcap_oku": 32
+      "mcap_oku": 32,
+      "mcap_source": "jquants"
     },
     {
       "code": "584A",
       "name": "ＬｉＮＫＸ",
       "pct": 6.78,
       "turnover_m": 257.8,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-07-06",
+    "original_selection_preserved": true
+  }
 }

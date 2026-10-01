@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 18,
@@ -21,17 +22,13 @@
       "code": "6998",
       "name": "日本タングステン",
       "market": "スタンダード",
-      "mcap_oku": 109,
-      "mcap_flag": "",
+      "mcap_oku": 103,
       "pct": 23.61,
       "pts": 2618.0,
       "close": 2118.0,
       "volume": 39100,
       "turnover_yen": 102363800,
       "turnover_m": 102.4,
-      "shoutfy_jq": 5155520,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -124,23 +121,20 @@
           "title": "2026年定時株主総会その他の電子提供措置事項",
           "url": "https://kabutan.jp/disclosures/pdf/20260529/140120260528553017/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5301",
       "name": "東海カーボン",
       "market": "プライム",
-      "mcap_oku": 3649,
-      "mcap_flag": "",
+      "mcap_oku": 3463,
       "pct": 14.37,
       "pts": 1855.0,
       "close": 1622.0,
       "volume": 13500,
       "turnover_yen": 25042500,
       "turnover_m": 25.0,
-      "shoutfy_jq": 224943104,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -240,23 +234,20 @@
           "title": "Notice of the Completion of Ex Post Facto Adjustment for Fully Committed Share Repurchase (FCSR)",
           "url": "https://kabutan.jp/disclosures/pdf/20260804/140120260804508710/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4635",
       "name": "東京インキ",
       "market": "スタンダード",
-      "mcap_oku": 228,
-      "mcap_flag": "",
+      "mcap_oku": 209,
       "pct": 13.57,
       "pts": 1900.0,
       "close": 1673.0,
       "volume": 50100,
       "turnover_yen": 95190000,
       "turnover_m": 95.2,
-      "shoutfy_jq": 13628790,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月5日14:00にTDnetへ通期経常利益を48.7%上方修正・30円増配（65円→95円）・上限80万株の自己株式取得を一括開示し、正規取引でS高気配となった残余買い需要がPTSに継続した。",
       "factor_kind": "開示",
@@ -334,23 +325,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/07/29",
           "url": "https://kabutan.jp/disclosures/pdf/20260729/140120260529555977/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4471",
       "name": "三洋化成工業",
       "market": "プライム",
-      "mcap_oku": 1219,
-      "mcap_flag": "",
+      "mcap_oku": 1146,
       "pct": 13.42,
       "pts": 5875.0,
       "close": 5180.0,
       "volume": 5500,
       "turnover_yen": 32312500,
       "turnover_m": 32.3,
-      "shoutfy_jq": 23534752,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:30",
@@ -457,23 +445,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/07/28",
           "url": "https://kabutan.jp/disclosures/pdf/20260728/140120260728501170/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6645",
       "name": "オムロン",
       "market": "プライム",
-      "mcap_oku": 12232,
-      "mcap_flag": "",
+      "mcap_oku": 11662,
       "pct": 12.12,
       "pts": 6650.0,
       "close": 5931.0,
       "volume": 17100,
       "turnover_yen": 113715000,
       "turnover_m": 113.7,
-      "shoutfy_jq": 206244872,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:35",
@@ -566,23 +551,20 @@
           "title": "レーティング日報【弱気継続】　(7月28日)",
           "url": "https://kabutan.jp/stock/news?code=6645&b=n202607281162"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6481",
       "name": "ＴＨＫ",
       "market": "プライム",
-      "mcap_oku": 8880,
-      "mcap_flag": "",
+      "mcap_oku": 8352,
       "pct": 9.84,
       "pts": 8190.0,
       "close": 7456.0,
       "volume": 12700,
       "turnover_yen": 104013000,
       "turnover_m": 104.0,
-      "shoutfy_jq": 119099803,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -689,23 +671,20 @@
           "title": "2026年12月期 第2四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
           "url": "https://kabutan.jp/disclosures/pdf/20260805/140120260805510207/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4911",
       "name": "資生堂",
       "market": "プライム",
-      "mcap_oku": 13076,
-      "mcap_flag": "",
+      "mcap_oku": 13061,
       "pct": 9.05,
       "pts": 3565.0,
       "close": 3269.0,
       "volume": 12300,
       "turnover_yen": 43849500,
       "turnover_m": 43.8,
-      "shoutfy_jq": 400000000,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -792,23 +771,20 @@
           "title": "前日に動いた銘柄 part1 RS　Technologies、富士フイルム、セイコーエプソンなど",
           "url": "https://kabutan.jp/stock/news?code=4911&b=n202607280139"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6363",
       "name": "酉島製作所",
       "market": "プライム",
-      "mcap_oku": 876,
-      "mcap_flag": "",
+      "mcap_oku": 808,
       "pct": 7.98,
       "pts": 3315.0,
       "close": 3070.0,
       "volume": 10900,
       "turnover_yen": 36133500,
       "turnover_m": 36.1,
-      "shoutfy_jq": 28542679,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -882,23 +858,20 @@
           "title": "今週の【話題株ダイジェスト】 アスタリスク、中村超硬、リンクユーＧ (6月29日～7月3日)",
           "url": "https://kabutan.jp/stock/news?code=6363&b=n202607040057"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6976",
       "name": "太陽誘電",
       "market": "プライム",
-      "mcap_oku": 15120,
-      "mcap_flag": "",
+      "mcap_oku": 14750,
       "pct": 7.9,
       "pts": 12047.0,
       "close": 11165.0,
       "volume": 153400,
       "turnover_yen": 1848009800,
       "turnover_m": 1848.0,
-      "shoutfy_jq": 135422595,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -998,23 +971,20 @@
           "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
           "url": "https://kabutan.jp/disclosures/pdf/20260805/140120260723597997/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4746",
       "name": "東計電算",
       "market": "スタンダード",
-      "mcap_oku": 1240,
-      "mcap_flag": "",
+      "mcap_oku": 1195,
       "pct": 7.21,
       "pts": 7108.0,
       "close": 6630.0,
       "volume": 15900,
       "turnover_yen": 113017200,
       "turnover_m": 113.0,
-      "shoutfy_jq": 18700000,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月3日15:30に保有上場株売却による特別利益4,300百万円を背景とした純利益56.3%上方修正・1→4の株式分割・実質増配を一括開示し、8月4日・5日と2営業日連続S高となった買い需要がPTSにも継続した。",
       "factor_kind": "開示",
@@ -1092,23 +1062,20 @@
           "title": "剰余金の配当（中間配当）に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260803/140120260727500168/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "2484",
       "name": "出前館",
       "market": "スタンダード",
-      "mcap_oku": 163,
-      "mcap_flag": "",
+      "mcap_oku": 162,
       "pct": 6.21,
       "pts": 154.0,
       "close": 145.0,
       "volume": 69400,
       "turnover_yen": 10687600,
       "turnover_m": 10.7,
-      "shoutfy_jq": 112380430,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。直近の動向として2026年7月23日付でSHIN JUNGHO氏が保有割合5.18%の大量保有報告書を提出（報告義務発生日は同年7月16日、保有目的は中長期的な資産保全）しており、また同年7月15日には今期連結最終損益予想を40億円赤字から78億円赤字へ下方修正している。",
       "factor_kind": "テーマ",
@@ -1186,23 +1153,20 @@
           "title": "★本日の【イチオシ決算】 ＡＲアドバン、ＪＥＳＣＯ、カーブスＨＤ (4月13日)",
           "url": "https://kabutan.jp/stock/news?code=2484&b=n202604131027"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3110",
       "name": "日東紡績",
       "market": "プライム",
-      "mcap_oku": 6705,
-      "mcap_flag": "",
+      "mcap_oku": 6471,
       "pct": 5.77,
       "pts": 3760.0,
       "close": 3555.0,
       "volume": 87800,
       "turnover_yen": 330128000,
       "turnover_m": 330.1,
-      "shoutfy_jq": 188615060,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1288,23 +1252,20 @@
           "title": "前日に動いた銘柄 part2アイズ、サーバーワークス、誠建設など",
           "url": "https://kabutan.jp/stock/news?code=3110&b=n202607280143"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4452",
       "name": "花王",
       "market": "プライム",
-      "mcap_oku": 28922,
-      "mcap_flag": "",
+      "mcap_oku": 28840,
       "pct": 5.65,
       "pts": 3368.0,
       "close": 3188.0,
       "volume": 16500,
       "turnover_yen": 55572000,
       "turnover_m": 55.6,
-      "shoutfy_jq": 907200000,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1392,23 +1353,20 @@
           "title": "航空業界の切り札、脱化石燃料ニーズで「SAF」関連株がテイクオフ ＜株探トップ特集＞",
           "url": "https://kabutan.jp/stock/news?code=4452&b=n202607301482"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6724",
       "name": "セイコーエプソン",
       "market": "プライム",
-      "mcap_oku": 11345,
-      "mcap_flag": "",
+      "mcap_oku": 9731,
       "pct": 5.37,
       "pts": 3200.0,
       "close": 3037.0,
       "volume": 5800,
       "turnover_yen": 18560000,
       "turnover_m": 18.6,
-      "shoutfy_jq": 373573152,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1508,23 +1466,20 @@
           "title": "レーティング日報【弱気継続】　(7月27日)",
           "url": "https://kabutan.jp/stock/news?code=6724&b=n202607270932"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7220",
       "name": "武蔵精密工業",
       "market": "プライム",
-      "mcap_oku": 2341,
-      "mcap_flag": "",
+      "mcap_oku": 2340,
       "pct": 5.04,
       "pts": 3750.0,
       "close": 3570.0,
       "volume": 3500,
       "turnover_yen": 13125000,
       "turnover_m": 13.1,
-      "shoutfy_jq": 65581861,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:50",
@@ -1610,23 +1565,20 @@
           "title": "前日に動いた銘柄 part2レーザーテック、野村マイクロ・サイエンス、アドテックプラズマテクノロジーなど",
           "url": "https://kabutan.jp/stock/news?code=7220&b=n202607180088"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4968",
       "name": "荒川化学工業",
       "market": "プライム",
-      "mcap_oku": 483,
-      "mcap_flag": "",
+      "mcap_oku": 464,
       "pct": 4.84,
       "pts": 2450.0,
       "close": 2337.0,
       "volume": 37800,
       "turnover_yen": 92610000,
       "turnover_m": 92.6,
-      "shoutfy_jq": 20652400,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月5日15:00にTDnetへ開示された2027年3月期第1四半期決算短信で経常利益が前年同期比約2.8倍増益・中間期計画超過と判明し、後場終盤にS高気配となった残余買い需要がPTSに引き継がれた。",
       "factor_kind": "開示",
@@ -1692,23 +1644,20 @@
           "title": "前日に動いた銘柄 part1 GO、荒川化学工業、インフロニアHDなど",
           "url": "https://kabutan.jp/stock/news?code=4968&b=n202607090106"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6861",
       "name": "キーエンス",
       "market": "プライム",
-      "mcap_oku": 212515,
-      "mcap_flag": "",
+      "mcap_oku": 211918,
       "pct": 4.14,
       "pts": 91000.0,
       "close": 87380.0,
       "volume": 200,
       "turnover_yen": 18200000,
       "turnover_m": 18.2,
-      "shoutfy_jq": 243207684,
-      "cur_end": "2027-03-20",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月28日発表の2027年3月期第1四半期（4〜6月期）決算で純利益1,391億円（前年同期比+51%）とQUICKコンセンサスを大幅に上回る好業績を計上し、大和証券が2026年8月4日に投資判断を「3（やや弱気）」から「2（やや強気）」へ格上げ・目標株価を80,000円から95,000円へ引き上げた。",
       "factor_kind": "報道",
@@ -1774,23 +1723,20 @@
           "title": "キーエンスは急反発、製造業中心に設備投資続き第１四半期営業益は４５％増",
           "url": "https://kabutan.jp/stock/news?code=6861&b=n202607290366"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5367",
       "name": "ニッカトー",
       "market": "スタンダード",
-      "mcap_oku": 156,
-      "mcap_flag": "",
+      "mcap_oku": 153,
       "pct": 3.35,
       "pts": 1326.0,
       "close": 1283.0,
       "volume": 9200,
       "turnover_yen": 12199200,
       "turnover_m": 12.2,
-      "shoutfy_jq": 12135695,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月3日15:30にTDnet開示された2027年3月期第1四半期（4〜6月期）決算で経常利益が前年同期比2.2倍増益と大幅上振れし、1Q単独でほぼ通期予想に匹敵する実績を計上したことで通期上振れ期待が継続してPTSでも買いが続いた。",
       "factor_kind": "開示",
@@ -1850,7 +1796,8 @@
           "title": "前日に動いた銘柄 part2武蔵精密工業、東京エレクトロン、ツインバードなど",
           "url": "https://kabutan.jp/stock/news?code=5367&b=n202606250115"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -2015,7 +1962,13 @@
       "name": "フィーチャ",
       "pct": 8.82,
       "turnover_m": 18.6,
-      "mcap_oku": 22
+      "mcap_oku": 22,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-08-05",
+    "original_selection_preserved": true
+  }
 }

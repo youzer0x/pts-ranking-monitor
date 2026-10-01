@@ -130,7 +130,9 @@ function mcapDescription(d){
     text='時価総額は J-Quants valuation の MktCap（東証終値×自己株式控除後株式数）。';
     if((d.rows||[]).some(r=>r.mcap_source==='yahoo'))text+='Yahoo参照の行は Yahoo Finance JP の公表値（自己株式控除後とは限らない）。';
   }else{text='時価総額は旧方式の東証終値×発行済株式数×分割・併合補正。† は株探最新株数との1%超の乖離を示す旧注記。';}
-  return text+'表示は1兆円未満が億円の整数、1兆円以上が兆円の小数1桁。';
+    if((d.mcap_revision||{}).original_selection_preserved)text+='過去分の時価総額を当該日の値で訂正済み。掲載銘柄は当初の抽出結果を保持しているため、訂正後に100億円未満となった銘柄も含む。';
+    if((d.mcap_revision||{}).original_selection_preserved&&(d.rows||[]).some(r=>r.mcap_source==='unavailable'))text+='当該日の自己株式控除後の時価総額が取得できない銘柄は「—」表示。';
+    return text+'表示は1兆円未満が億円の整数、1兆円以上が兆円の小数1桁。';
 }
 function esc(s){const d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
 function linkifyFactor(s){var t=esc(s==null?'':s);return t.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)/g,function(_,label,url){return '<a href="'+url.replace(/"/g,'&quot;')+'" target="_blank" rel="noopener noreferrer">'+label+'</a>';});}

@@ -6,7 +6,8 @@
   "criteria": {
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
-    "min_mcap_oku": 100
+    "min_mcap_oku": 100,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 5,
@@ -18,17 +19,13 @@
       "code": "6890",
       "name": "フェローテック",
       "market": "スタンダード",
-      "mcap_oku": 3506,
-      "mcap_flag": "†",
+      "mcap_oku": 3999,
       "pct": 20.16,
       "pts": 8940.0,
       "close": 7440.0,
       "volume": 7700,
       "turnover_yen": 68838000,
       "turnover_m": 68.8,
-      "shoutfy_jq": 47117949,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "18:30",
@@ -48,24 +45,19 @@
       "factor": "2026年12月期（9ヶ月変則決算）の連結経常利益予想を360億円から580億円へ61.1%上方修正。半導体製造装置向けセラミックス・石英・真空シール/金属加工の需要増加と、AIデータセンター向け光トランシーバー用サーモモジュールの需要拡大が寄与。",
       "factor_kind": "開示",
       "rank": 1,
-      "shares_kabutan": 54070536,
-      "mcap_kabutan_oku": 4023
+      "mcap_source": "jquants"
     },
     {
       "code": "9090",
       "name": "ＡＺ−ＣＯＭ丸和ホールディングス",
       "market": "プライム",
-      "mcap_oku": 1196,
-      "mcap_flag": "",
+      "mcap_oku": 1168,
       "pct": 14.76,
       "pts": 995.0,
       "close": 867.0,
       "volume": 20400,
       "turnover_yen": 20298000,
       "turnover_m": 20.3,
-      "shoutfy_jq": 137984520,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -77,23 +69,20 @@
       ],
       "factor": "2026年9月30日現在の株主（400株以上保有）を対象に「プレミアム優待倶楽部」を新設。保有株数に応じたポイントを付与し、約5,000種の商品・サービスから選択できる株主優待制度を初めて導入。",
       "factor_kind": "開示",
-      "rank": 2
+      "rank": 2,
+      "mcap_source": "jquants"
     },
     {
       "code": "3091",
       "name": "ブロンコビリー",
       "market": "プライム",
-      "mcap_oku": 723,
-      "mcap_flag": "",
+      "mcap_oku": 714,
       "pct": 5.71,
       "pts": 2535.0,
       "close": 2398.0,
       "volume": 12200,
       "turnover_yen": 30927000,
       "turnover_m": 30.9,
-      "shoutfy_jq": 30158000,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -119,47 +108,42 @@
       ],
       "factor": "2026年12月期第2四半期決算を発表。売上高164億円（前年同期比+12.9%）・純利益12億円（同+53.3%）と好調推移し、通期純利益予想を26億円（前期比+32%）へ上方修正（従来比+6億円）。中間配当14円→20円・期末配当7円→10円の増配も同時発表（株式分割後ベース）。",
       "factor_kind": "開示",
-      "rank": 3
+      "rank": 3,
+      "mcap_source": "jquants"
     },
     {
       "code": "4894",
       "name": "クオリプス",
       "market": "グロース",
       "mcap_oku": 346,
-      "mcap_flag": "",
       "pct": 5.38,
       "pts": 4410.0,
       "close": 4185.0,
       "volume": 9600,
       "turnover_yen": 42336000,
       "turnover_m": 42.3,
-      "shoutfy_jq": 8273376,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月22日、厚生労働省の中央社会保険医療協議会（中医協）が、クオリプスのiPS細胞由来心筋細胞シート「リハート」の薬価を患者1人あたり5,320万円と決定し、同年9月1日からの公的医療保険適用を了承した。iPS細胞由来の再生医療等製品としては国内2例目の保険適用であり、日本経済新聞が同日15時30分に報道したことがPTSセッションでの上昇材料となった。",
       "factor_kind": "報道",
-      "rank": 4
+      "rank": 4,
+      "mcap_source": "jquants"
     },
     {
       "code": "6200",
       "name": "インソース",
       "market": "プライム",
-      "mcap_oku": 588,
-      "mcap_flag": "",
+      "mcap_oku": 580,
       "pct": 4.2,
       "pts": 719.0,
       "close": 690.0,
       "volume": 15700,
       "turnover_yen": 11288300,
       "turnover_m": 11.3,
-      "shoutfy_jq": 85243000,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月期第3四半期累計決算（売上高115.82億円・前年同期比+8.9%、営業利益44.48億円・同+3.7%、純利益30.77億円・同+6.2%）を開示。同時に東証上場10周年記念配当として1株5.5円の特別配当を実施し、年間配当を前期25円から35円へ10円増配と発表。さらに発行済株式数の3.5%相当300万株・上限20億円の自社株取得（取得期間7月22日〜9月30日）と、発行済みの4.7%相当の自社株消却を開示。増益決算に加え記念増配・自社株買い・消却という三重の株主還元策が買い材料となった。",
       "factor_kind": "開示",
-      "rank": 5
+      "rank": 5,
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -254,42 +238,53 @@
       "name": "アウンコンサルティング",
       "pct": 22.92,
       "turnover_m": 56.0,
-      "mcap_oku": 12
+      "mcap_oku": 12,
+      "mcap_source": "jquants"
     },
     {
       "code": "4424",
       "name": "Ａｍａｚｉａ",
       "pct": 22.41,
       "turnover_m": 29.0,
-      "mcap_oku": 24
+      "mcap_oku": 24,
+      "mcap_source": "jquants"
     },
     {
       "code": "4890",
       "name": "坪田ラボ",
       "pct": 17.17,
       "turnover_m": 16.0,
-      "mcap_oku": 60
+      "mcap_oku": 60,
+      "mcap_source": "jquants"
     },
     {
       "code": "3907",
       "name": "シリコンスタジオ",
       "pct": 16.59,
       "turnover_m": 30.0,
-      "mcap_oku": 27
+      "mcap_oku": 25,
+      "mcap_source": "jquants"
     },
     {
       "code": "4073",
       "name": "ジィ・シィ企画",
       "pct": 9.81,
       "turnover_m": 57.3,
-      "mcap_oku": 13
+      "mcap_oku": 13,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 8.97,
       "turnover_m": 31.7,
-      "mcap_oku": 18
+      "mcap_oku": 18,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-07-22",
+    "original_selection_preserved": true
+  }
 }

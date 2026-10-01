@@ -1,0 +1,8754 @@
+[
+  {
+    "session_date": "2026-07-03",
+    "group": "rows",
+    "code": "4596",
+    "before": {
+      "mcap_oku": 120,
+      "mcap_flag": "†",
+      "shoutfy_jq": 138504288,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 148794288,
+      "mcap_kabutan_oku": 129
+    },
+    "mktcap_million_yen": 13324.0,
+    "after_mcap_oku": 133
+  },
+  {
+    "session_date": "2026-07-03",
+    "group": "rows",
+    "code": "4935",
+    "before": {
+      "mcap_oku": 109,
+      "mcap_flag": "†",
+      "shoutfy_jq": 30262600,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 31207700,
+      "mcap_kabutan_oku": 112
+    },
+    "mktcap_million_yen": 11172.0,
+    "after_mcap_oku": 112
+  },
+  {
+    "session_date": "2026-07-03",
+    "group": "rows",
+    "code": "2678",
+    "before": {
+      "mcap_oku": 1101,
+      "mcap_flag": "",
+      "shoutfy_jq": 89771300,
+      "cur_end": "2026-05-20",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 109774.0,
+    "after_mcap_oku": 1098
+  },
+  {
+    "session_date": "2026-07-03",
+    "group": "dropped_mcap",
+    "code": "4394",
+    "before": {
+      "mcap_oku": 27
+    },
+    "mktcap_million_yen": 2723.0,
+    "after_mcap_oku": 27
+  },
+  {
+    "session_date": "2026-07-03",
+    "group": "dropped_mcap",
+    "code": "7602",
+    "before": {
+      "mcap_oku": 40
+    },
+    "mktcap_million_yen": 3441.0,
+    "after_mcap_oku": 34
+  },
+  {
+    "session_date": "2026-07-03",
+    "group": "dropped_mcap",
+    "code": "3133",
+    "before": {
+      "mcap_oku": 60
+    },
+    "mktcap_million_yen": 6366.0,
+    "after_mcap_oku": 64
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "4596",
+    "before": {
+      "mcap_oku": 162,
+      "mcap_flag": "†",
+      "shoutfy_jq": 138504288,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 148794288,
+      "mcap_kabutan_oku": 174
+    },
+    "mktcap_million_yen": 17918.0,
+    "after_mcap_oku": 179
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "6522",
+    "before": {
+      "mcap_oku": 132,
+      "mcap_flag": "†",
+      "shoutfy_jq": 7796800,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "shares_kabutan": 8046800,
+      "mcap_kabutan_oku": 136
+    },
+    "mktcap_million_yen": 13647.0,
+    "after_mcap_oku": 136
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "504A",
+    "before": {
+      "mcap_oku": 290,
+      "mcap_flag": "",
+      "shoutfy_jq": 45098744,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 29033.0,
+    "after_mcap_oku": 290
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "6203",
+    "before": {
+      "mcap_oku": 211,
+      "mcap_flag": "",
+      "shoutfy_jq": 12548134,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 20256.0,
+    "after_mcap_oku": 203
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "5246",
+    "before": {
+      "mcap_oku": 180,
+      "mcap_flag": "",
+      "shoutfy_jq": 27170514,
+      "cur_end": "2026-11-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18078.0,
+    "after_mcap_oku": 181
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "3186",
+    "before": {
+      "mcap_oku": 3341,
+      "mcap_flag": "",
+      "shoutfy_jq": 80905100,
+      "cur_end": "2026-11-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 323467.0,
+    "after_mcap_oku": 3235
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "rows",
+    "code": "3110",
+    "before": {
+      "mcap_oku": 6630,
+      "mcap_flag": "",
+      "shoutfy_jq": 37723012,
+      "cur_end": "2026-03-31",
+      "corr": 5.0
+    },
+    "mktcap_million_yen": 639820.0,
+    "after_mcap_oku": 6398
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "dropped_mcap",
+    "code": "4591",
+    "before": {
+      "mcap_oku": 37
+    },
+    "mktcap_million_yen": 3845.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "dropped_mcap",
+    "code": "9972",
+    "before": {
+      "mcap_oku": 42
+    },
+    "mktcap_million_yen": 3773.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "dropped_mcap",
+    "code": "4394",
+    "before": {
+      "mcap_oku": 32
+    },
+    "mktcap_million_yen": 3207.0,
+    "after_mcap_oku": 32
+  },
+  {
+    "session_date": "2026-07-06",
+    "group": "dropped_mcap",
+    "code": "584A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "9348",
+    "before": {
+      "mcap_oku": 626,
+      "mcap_flag": "",
+      "shoutfy_jq": 146209683,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 62621.0,
+    "after_mcap_oku": 626
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "6857",
+    "before": {
+      "mcap_oku": 201629,
+      "mcap_flag": "",
+      "shoutfy_jq": 732000000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19984332.0,
+    "after_mcap_oku": 199843
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "1662",
+    "before": {
+      "mcap_oku": 4292,
+      "mcap_flag": "",
+      "shoutfy_jq": 257000380,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 427519.0,
+    "after_mcap_oku": 4275
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 392472,
+      "mcap_flag": "",
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 39385833.0,
+    "after_mcap_oku": 393858
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "6958",
+    "before": {
+      "mcap_oku": 430,
+      "mcap_flag": "",
+      "shoutfy_jq": 71298100,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 42990.0,
+    "after_mcap_oku": 430
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "254A",
+    "before": {
+      "mcap_oku": 110,
+      "mcap_flag": "",
+      "shoutfy_jq": 9702600,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 9869.0,
+    "after_mcap_oku": 99
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "3391",
+    "before": {
+      "mcap_oku": 10425,
+      "mcap_flag": "",
+      "shoutfy_jq": 454365490,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1039499.0,
+    "after_mcap_oku": 10395
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "278A",
+    "before": {
+      "mcap_oku": 853,
+      "mcap_flag": "",
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 85993.0,
+    "after_mcap_oku": 860
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "rows",
+    "code": "5016",
+    "before": {
+      "mcap_oku": 34177,
+      "mcap_flag": "†",
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 953183210,
+      "mcap_kabutan_oku": 35087
+    },
+    "mktcap_million_yen": 3499835.0,
+    "after_mcap_oku": 34998
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "dropped_mcap",
+    "code": "4833",
+    "before": {
+      "mcap_oku": 37
+    },
+    "mktcap_million_yen": 3703.0,
+    "after_mcap_oku": 37
+  },
+  {
+    "session_date": "2026-07-08",
+    "group": "dropped_mcap",
+    "code": "3133",
+    "before": {
+      "mcap_oku": 60
+    },
+    "mktcap_million_yen": 6429.0,
+    "after_mcap_oku": 64
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "5018",
+    "before": {
+      "mcap_oku": 186,
+      "mcap_flag": "",
+      "shoutfy_jq": 9696500,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 17620.0,
+    "after_mcap_oku": 176
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6227",
+    "before": {
+      "mcap_oku": 1091,
+      "mcap_flag": "",
+      "shoutfy_jq": 18849000,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 108919.0,
+    "after_mcap_oku": 1089
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "7211",
+    "before": {
+      "mcap_oku": 4828,
+      "mcap_flag": "",
+      "shoutfy_jq": 1460476846,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 442459.0,
+    "after_mcap_oku": 4425
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "9348",
+    "before": {
+      "mcap_oku": 743,
+      "mcap_flag": "",
+      "shoutfy_jq": 146209683,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 74326.0,
+    "after_mcap_oku": 743
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "4763",
+    "before": {
+      "mcap_oku": 307,
+      "mcap_flag": "",
+      "shoutfy_jq": 23009000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 28248.0,
+    "after_mcap_oku": 282
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6323",
+    "before": {
+      "mcap_oku": 8090,
+      "mcap_flag": "",
+      "shoutfy_jq": 176400000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 795358.0,
+    "after_mcap_oku": 7954
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 425183,
+      "mcap_flag": "",
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 42668442.0,
+    "after_mcap_oku": 426684
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 328831,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 32808704.0,
+    "after_mcap_oku": 328087
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6525",
+    "before": {
+      "mcap_oku": 25740,
+      "mcap_flag": "",
+      "shoutfy_jq": 238115614,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2525383.0,
+    "after_mcap_oku": 25254
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "5802",
+    "before": {
+      "mcap_oku": 76250,
+      "mcap_flag": "",
+      "shoutfy_jq": 793940571,
+      "cur_end": "2026-03-31",
+      "corr": 4.0
+    },
+    "mktcap_million_yen": 7490350.0,
+    "after_mcap_oku": 74904
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "5801",
+    "before": {
+      "mcap_oku": 25037,
+      "mcap_flag": "",
+      "shoutfy_jq": 70666917,
+      "cur_end": "2026-03-31",
+      "corr": 10.0
+    },
+    "mktcap_million_yen": 2492494.0,
+    "after_mcap_oku": 24925
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6327",
+    "before": {
+      "mcap_oku": 433,
+      "mcap_flag": "",
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 41901.0,
+    "after_mcap_oku": 419
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6965",
+    "before": {
+      "mcap_oku": 7731,
+      "mcap_flag": "",
+      "shoutfy_jq": 319257365,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 705055.0,
+    "after_mcap_oku": 7051
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "5803",
+    "before": {
+      "mcap_oku": 87658,
+      "mcap_flag": "",
+      "shoutfy_jq": 1775180526,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 8175646.0,
+    "after_mcap_oku": 81756
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6146",
+    "before": {
+      "mcap_oku": 77573,
+      "mcap_flag": "",
+      "shoutfy_jq": 108478029,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 7756527.0,
+    "after_mcap_oku": 77565
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6590",
+    "before": {
+      "mcap_oku": 3703,
+      "mcap_flag": "",
+      "shoutfy_jq": 69859500,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 347887.0,
+    "after_mcap_oku": 3479
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "4062",
+    "before": {
+      "mcap_oku": 54992,
+      "mcap_flag": "",
+      "shoutfy_jq": 281721114,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 5455186.0,
+    "after_mcap_oku": 54552
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "8035",
+    "before": {
+      "mcap_oku": 335142,
+      "mcap_flag": "",
+      "shoutfy_jq": 471632733,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 32321619.0,
+    "after_mcap_oku": 323216
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6740",
+    "before": {
+      "mcap_oku": 1940,
+      "mcap_flag": "†",
+      "shoutfy_jq": 3880393562,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 4265632462,
+      "mcap_kabutan_oku": 2133
+    },
+    "mktcap_million_yen": 222913.0,
+    "after_mcap_oku": 2229
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "4004",
+    "before": {
+      "mcap_oku": 29122,
+      "mcap_flag": "",
+      "shoutfy_jq": 184901292,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2944815.0,
+    "after_mcap_oku": 29448
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6976",
+    "before": {
+      "mcap_oku": 19116,
+      "mcap_flag": "",
+      "shoutfy_jq": 130218481,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1909107.0,
+    "after_mcap_oku": 19091
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6857",
+    "before": {
+      "mcap_oku": 213451,
+      "mcap_flag": "",
+      "shoutfy_jq": 732000000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21156040.0,
+    "after_mcap_oku": 211560
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6871",
+    "before": {
+      "mcap_oku": 6544,
+      "mcap_flag": "",
+      "shoutfy_jq": 40025316,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 633795.0,
+    "after_mcap_oku": 6338
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "5016",
+    "before": {
+      "mcap_oku": 35932,
+      "mcap_flag": "†",
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 953183210,
+      "mcap_kabutan_oku": 36888
+    },
+    "mktcap_million_yen": 3679533.0,
+    "after_mcap_oku": 36795
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6890",
+    "before": {
+      "mcap_oku": 3925,
+      "mcap_flag": "†",
+      "shoutfy_jq": 47117949,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 52712305,
+      "mcap_kabutan_oku": 4391
+    },
+    "mktcap_million_yen": 447735.0,
+    "after_mcap_oku": 4477
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "9983",
+    "before": {
+      "mcap_oku": 271029,
+      "mcap_flag": "",
+      "shoutfy_jq": 318220968,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 26133541.0,
+    "after_mcap_oku": 261335
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "6315",
+    "before": {
+      "mcap_oku": 2249,
+      "mcap_flag": "",
+      "shoutfy_jq": 75157367,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 224559.0,
+    "after_mcap_oku": 2246
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "rows",
+    "code": "8918",
+    "before": {
+      "mcap_oku": 155,
+      "mcap_flag": "",
+      "shoutfy_jq": 1545140000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15379.0,
+    "after_mcap_oku": 154
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "dropped_mcap",
+    "code": "2997",
+    "before": {
+      "mcap_oku": 20
+    },
+    "mktcap_million_yen": 2038.0,
+    "after_mcap_oku": 20
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "dropped_mcap",
+    "code": "3070",
+    "before": {
+      "mcap_oku": 65
+    },
+    "mktcap_million_yen": 6481.0,
+    "after_mcap_oku": 65
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "dropped_mcap",
+    "code": "2341",
+    "before": {
+      "mcap_oku": 49
+    },
+    "mktcap_million_yen": 3420.0,
+    "after_mcap_oku": 34
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "dropped_mcap",
+    "code": "584A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-07-09",
+    "group": "dropped_mcap",
+    "code": "4935",
+    "before": {
+      "mcap_oku": 97
+    },
+    "mktcap_million_yen": 9993.0,
+    "after_mcap_oku": 100
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "6227",
+    "before": {
+      "mcap_oku": 1280,
+      "mcap_flag": "",
+      "shoutfy_jq": 18849000,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 127731.0,
+    "after_mcap_oku": 1277
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "9270",
+    "before": {
+      "mcap_oku": 272,
+      "mcap_flag": "",
+      "shoutfy_jq": 13932310,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 25700.0,
+    "after_mcap_oku": 257
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "6668",
+    "before": {
+      "mcap_oku": 321,
+      "mcap_flag": "",
+      "shoutfy_jq": 8586000,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 31928.0,
+    "after_mcap_oku": 319
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "6814",
+    "before": {
+      "mcap_oku": 2038,
+      "mcap_flag": "",
+      "shoutfy_jq": 31894554,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 201980.0,
+    "after_mcap_oku": 2020
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "6136",
+    "before": {
+      "mcap_oku": 3631,
+      "mcap_flag": "",
+      "shoutfy_jq": 96145417,
+      "cur_end": "2026-11-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 310276.0,
+    "after_mcap_oku": 3103
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "2157",
+    "before": {
+      "mcap_oku": 817,
+      "mcap_flag": "",
+      "shoutfy_jq": 84225924,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 81365.0,
+    "after_mcap_oku": 814
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "3382",
+    "before": {
+      "mcap_oku": 52651,
+      "mcap_flag": "",
+      "shoutfy_jq": 2604555849,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 4673190.0,
+    "after_mcap_oku": 46732
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "4935",
+    "before": {
+      "mcap_oku": 110,
+      "mcap_flag": "†",
+      "shoutfy_jq": 30262600,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 31207700,
+      "mcap_kabutan_oku": 114
+    },
+    "mktcap_million_yen": 11327.0,
+    "after_mcap_oku": 113
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "7453",
+    "before": {
+      "mcap_oku": 20345,
+      "mcap_flag": "",
+      "shoutfy_jq": 561560000,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1923191.0,
+    "after_mcap_oku": 19232
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "rows",
+    "code": "278A",
+    "before": {
+      "mcap_oku": 1058,
+      "mcap_flag": "",
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 106730.0,
+    "after_mcap_oku": 1067
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "dropped_mcap",
+    "code": "4381",
+    "before": {
+      "mcap_oku": 9
+    },
+    "mktcap_million_yen": 934.0,
+    "after_mcap_oku": 9
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "dropped_mcap",
+    "code": "4424",
+    "before": {
+      "mcap_oku": 27
+    },
+    "mktcap_million_yen": 2605.0,
+    "after_mcap_oku": 26
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "dropped_mcap",
+    "code": "5240",
+    "before": {
+      "mcap_oku": 22
+    },
+    "mktcap_million_yen": 2208.0,
+    "after_mcap_oku": 22
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "dropped_mcap",
+    "code": "7063",
+    "before": {
+      "mcap_oku": 29
+    },
+    "mktcap_million_yen": 2934.0,
+    "after_mcap_oku": 29
+  },
+  {
+    "session_date": "2026-07-10",
+    "group": "dropped_mcap",
+    "code": "472A",
+    "before": {
+      "mcap_oku": 95
+    },
+    "mktcap_million_yen": 9529.0,
+    "after_mcap_oku": 95
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "rows",
+    "code": "7513",
+    "before": {
+      "mcap_oku": 995,
+      "mcap_flag": "",
+      "shoutfy_jq": 77912716,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 99007.0,
+    "after_mcap_oku": 990
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "rows",
+    "code": "7725",
+    "before": {
+      "mcap_oku": 205,
+      "mcap_flag": "",
+      "shoutfy_jq": 11510200,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18049.0,
+    "after_mcap_oku": 180
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "rows",
+    "code": "3778",
+    "before": {
+      "mcap_oku": 1187,
+      "mcap_flag": "",
+      "shoutfy_jq": 41890700,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 113430.0,
+    "after_mcap_oku": 1134
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "rows",
+    "code": "7085",
+    "before": {
+      "mcap_oku": 854,
+      "mcap_flag": "",
+      "shoutfy_jq": 93857493,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 83804.0,
+    "after_mcap_oku": 838
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "rows",
+    "code": "4443",
+    "before": {
+      "mcap_oku": 2149,
+      "mcap_flag": "",
+      "shoutfy_jq": 126800600,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 214685.0,
+    "after_mcap_oku": 2147
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "dropped_mcap",
+    "code": "5240",
+    "before": {
+      "mcap_oku": 28
+    },
+    "mktcap_million_yen": 2821.0,
+    "after_mcap_oku": 28
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "dropped_mcap",
+    "code": "5103",
+    "before": {
+      "mcap_oku": 19
+    },
+    "mktcap_million_yen": 1896.0,
+    "after_mcap_oku": 19
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "dropped_mcap",
+    "code": "4381",
+    "before": {
+      "mcap_oku": 16
+    },
+    "mktcap_million_yen": 1650.0,
+    "after_mcap_oku": 16
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "dropped_mcap",
+    "code": "4199",
+    "before": {
+      "mcap_oku": 23
+    },
+    "mktcap_million_yen": 2302.0,
+    "after_mcap_oku": 23
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "dropped_mcap",
+    "code": "2388",
+    "before": {
+      "mcap_oku": 16
+    },
+    "mktcap_million_yen": 1613.0,
+    "after_mcap_oku": 16
+  },
+  {
+    "session_date": "2026-07-13",
+    "group": "dropped_mcap",
+    "code": "7063",
+    "before": {
+      "mcap_oku": 30
+    },
+    "mktcap_million_yen": 3035.0,
+    "after_mcap_oku": 30
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "581A",
+    "before": {
+      "mcap_oku": 1903,
+      "mcap_flag": "",
+      "shoutfy_jq": 77679600,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "7888",
+    "before": {
+      "mcap_oku": 238,
+      "mcap_flag": "",
+      "shoutfy_jq": 30688569,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 23594.0,
+    "after_mcap_oku": 236
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "4668",
+    "before": {
+      "mcap_oku": 183,
+      "mcap_flag": "",
+      "shoutfy_jq": 25803600,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 17997.0,
+    "after_mcap_oku": 180
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "5246",
+    "before": {
+      "mcap_oku": 180,
+      "mcap_flag": "",
+      "shoutfy_jq": 27225514,
+      "cur_end": "2026-11-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18023.0,
+    "after_mcap_oku": 180
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "505A",
+    "before": {
+      "mcap_oku": 175,
+      "mcap_flag": "",
+      "shoutfy_jq": 12805000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15308.0,
+    "after_mcap_oku": 153
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "446A",
+    "before": {
+      "mcap_oku": 970,
+      "mcap_flag": "",
+      "shoutfy_jq": 69000000,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 97014.0,
+    "after_mcap_oku": 970
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "7011",
+    "before": {
+      "mcap_oku": 126377,
+      "mcap_flag": "",
+      "shoutfy_jq": 3373647810,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12587344.0,
+    "after_mcap_oku": 125873
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "3608",
+    "before": {
+      "mcap_oku": 768,
+      "mcap_flag": "",
+      "shoutfy_jq": 63438793,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 70553.0,
+    "after_mcap_oku": 706
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "6327",
+    "before": {
+      "mcap_oku": 439,
+      "mcap_flag": "",
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 42472.0,
+    "after_mcap_oku": 425
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "rows",
+    "code": "5032",
+    "before": {
+      "mcap_oku": 1474,
+      "mcap_flag": "",
+      "shoutfy_jq": 61128029,
+      "cur_end": "2026-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 144453.0,
+    "after_mcap_oku": 1444
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "4586",
+    "before": {
+      "mcap_oku": 34
+    },
+    "mktcap_million_yen": 3435.0,
+    "after_mcap_oku": 34
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "5575",
+    "before": {
+      "mcap_oku": 38
+    },
+    "mktcap_million_yen": 3747.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "9326",
+    "before": {
+      "mcap_oku": 44
+    },
+    "mktcap_million_yen": 4398.0,
+    "after_mcap_oku": 44
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "4576",
+    "before": {
+      "mcap_oku": 46
+    },
+    "mktcap_million_yen": 4770.0,
+    "after_mcap_oku": 48
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "575A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "4833",
+    "before": {
+      "mcap_oku": 38
+    },
+    "mktcap_million_yen": 3775.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-07-14",
+    "group": "dropped_mcap",
+    "code": "3996",
+    "before": {
+      "mcap_oku": 32
+    },
+    "mktcap_million_yen": 3176.0,
+    "after_mcap_oku": 32
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "4412",
+    "before": {
+      "mcap_oku": 108,
+      "mcap_flag": "",
+      "shoutfy_jq": 8230000,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10652.0,
+    "after_mcap_oku": 106
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "6505",
+    "before": {
+      "mcap_oku": 196,
+      "mcap_flag": "",
+      "shoutfy_jq": 9735000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18179.0,
+    "after_mcap_oku": 182
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "5574",
+    "before": {
+      "mcap_oku": 234,
+      "mcap_flag": "",
+      "shoutfy_jq": 9973957,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 23439.0,
+    "after_mcap_oku": 234
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "7581",
+    "before": {
+      "mcap_oku": 3021,
+      "mcap_flag": "",
+      "shoutfy_jq": 52272342,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 283963.0,
+    "after_mcap_oku": 2840
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "3558",
+    "before": {
+      "mcap_oku": 186,
+      "mcap_flag": "",
+      "shoutfy_jq": 11487360,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 16793.0,
+    "after_mcap_oku": 168
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "6866",
+    "before": {
+      "mcap_oku": 1641,
+      "mcap_flag": "",
+      "shoutfy_jq": 14024365,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 156985.0,
+    "after_mcap_oku": 1570
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "372A",
+    "before": {
+      "mcap_oku": 198,
+      "mcap_flag": "",
+      "shoutfy_jq": 3886000,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19671.0,
+    "after_mcap_oku": 197
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "7610",
+    "before": {
+      "mcap_oku": 102,
+      "mcap_flag": "",
+      "shoutfy_jq": 68664338,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 9437.0,
+    "after_mcap_oku": 94
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "9602",
+    "before": {
+      "mcap_oku": 11432,
+      "mcap_flag": "",
+      "shoutfy_jq": 850000000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1128929.0,
+    "after_mcap_oku": 11289
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "rows",
+    "code": "6460",
+    "before": {
+      "mcap_oku": 5384,
+      "mcap_flag": "†",
+      "shoutfy_jq": 221229476,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 213545376,
+      "mcap_kabutan_oku": 5197
+    },
+    "mktcap_million_yen": 493185.0,
+    "after_mcap_oku": 4932
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "5817",
+    "before": {
+      "mcap_oku": 58
+    },
+    "mktcap_million_yen": 5654.0,
+    "after_mcap_oku": 56
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "1418",
+    "before": {
+      "mcap_oku": 90
+    },
+    "mktcap_million_yen": 8115.0,
+    "after_mcap_oku": 81
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "9326",
+    "before": {
+      "mcap_oku": 53
+    },
+    "mktcap_million_yen": 5178.0,
+    "after_mcap_oku": 52
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "5575",
+    "before": {
+      "mcap_oku": 45
+    },
+    "mktcap_million_yen": 4378.0,
+    "after_mcap_oku": 44
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "7719",
+    "before": {
+      "mcap_oku": 37
+    },
+    "mktcap_million_yen": 3749.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "3133",
+    "before": {
+      "mcap_oku": 67
+    },
+    "mktcap_million_yen": 7115.0,
+    "after_mcap_oku": 71
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "4381",
+    "before": {
+      "mcap_oku": 17
+    },
+    "mktcap_million_yen": 1719.0,
+    "after_mcap_oku": 17
+  },
+  {
+    "session_date": "2026-07-15",
+    "group": "dropped_mcap",
+    "code": "9978",
+    "before": {
+      "mcap_oku": 20
+    },
+    "mktcap_million_yen": 2016.0,
+    "after_mcap_oku": 20
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "rows",
+    "code": "2354",
+    "before": {
+      "mcap_oku": 181,
+      "mcap_flag": "",
+      "shoutfy_jq": 18519100,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 17646.0,
+    "after_mcap_oku": 176
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "rows",
+    "code": "3946",
+    "before": {
+      "mcap_oku": 821,
+      "mcap_flag": "",
+      "shoutfy_jq": 19341568,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 70027.0,
+    "after_mcap_oku": 700
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "rows",
+    "code": "7581",
+    "before": {
+      "mcap_oku": 3544,
+      "mcap_flag": "",
+      "shoutfy_jq": 52272342,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 333244.0,
+    "after_mcap_oku": 3332
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "rows",
+    "code": "278A",
+    "before": {
+      "mcap_oku": 1181,
+      "mcap_flag": "",
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 119113.0,
+    "after_mcap_oku": 1191
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "rows",
+    "code": "4392",
+    "before": {
+      "mcap_oku": 352,
+      "mcap_flag": "†",
+      "shoutfy_jq": 31593115,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 35167729,
+      "mcap_kabutan_oku": 392
+    },
+    "mktcap_million_yen": 37699.0,
+    "after_mcap_oku": 377
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "dropped_mcap",
+    "code": "9238",
+    "before": {
+      "mcap_oku": 11
+    },
+    "mktcap_million_yen": 1044.0,
+    "after_mcap_oku": 10
+  },
+  {
+    "session_date": "2026-07-16",
+    "group": "dropped_mcap",
+    "code": "598A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "2354",
+    "before": {
+      "mcap_oku": 196,
+      "mcap_flag": "",
+      "shoutfy_jq": 18519100,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19107.0,
+    "after_mcap_oku": 191
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 284566,
+      "mcap_flag": "",
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 28557058.0,
+    "after_mcap_oku": 285571
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "5074",
+    "before": {
+      "mcap_oku": 527,
+      "mcap_flag": "",
+      "shoutfy_jq": 70649130,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 52700.0,
+    "after_mcap_oku": 527
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "278A",
+    "before": {
+      "mcap_oku": 1342,
+      "mcap_flag": "",
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 135329.0,
+    "after_mcap_oku": 1353
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "5016",
+    "before": {
+      "mcap_oku": 33035,
+      "mcap_flag": "†",
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 953183210,
+      "mcap_kabutan_oku": 33914
+    },
+    "mktcap_million_yen": 3382889.0,
+    "after_mcap_oku": 33829
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "3110",
+    "before": {
+      "mcap_oku": 5724,
+      "mcap_flag": "",
+      "shoutfy_jq": 37723012,
+      "cur_end": "2026-03-31",
+      "corr": 5.0
+    },
+    "mktcap_million_yen": 552448.0,
+    "after_mcap_oku": 5524
+  },
+  {
+    "session_date": "2026-07-17",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 309811,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 30910962.0,
+    "after_mcap_oku": 309110
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6769",
+    "before": {
+      "mcap_oku": 118,
+      "mcap_flag": "",
+      "shoutfy_jq": 12340100,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10081.0,
+    "after_mcap_oku": 101
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6200",
+    "before": {
+      "mcap_oku": 538,
+      "mcap_flag": "",
+      "shoutfy_jq": 85243000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 52997.0,
+    "after_mcap_oku": 530
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "278A",
+    "before": {
+      "mcap_oku": 1498,
+      "mcap_flag": "",
+      "shoutfy_jq": 9745300,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 151053.0,
+    "after_mcap_oku": 1510
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 333440,
+      "mcap_flag": "",
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 33461791.0,
+    "after_mcap_oku": 334618
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6330",
+    "before": {
+      "mcap_oku": 983,
+      "mcap_flag": "†",
+      "shoutfy_jq": 52588607,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 58828807,
+      "mcap_kabutan_oku": 1100
+    },
+    "mktcap_million_yen": 109526.0,
+    "after_mcap_oku": 1095
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6981",
+    "before": {
+      "mcap_oku": 157060,
+      "mcap_flag": "",
+      "shoutfy_jq": 1963001843,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 14564158.0,
+    "after_mcap_oku": 145642
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6327",
+    "before": {
+      "mcap_oku": 344,
+      "mcap_flag": "",
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 33243.0,
+    "after_mcap_oku": 332
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "4889",
+    "before": {
+      "mcap_oku": 214,
+      "mcap_flag": "",
+      "shoutfy_jq": 13776900,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21354.0,
+    "after_mcap_oku": 214
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 328488,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 32774510.0,
+    "after_mcap_oku": 327745
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "4062",
+    "before": {
+      "mcap_oku": 49062,
+      "mcap_flag": "",
+      "shoutfy_jq": 281721114,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 4866909.0,
+    "after_mcap_oku": 48669
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6857",
+    "before": {
+      "mcap_oku": 216892,
+      "mcap_flag": "",
+      "shoutfy_jq": 732000000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21497032.0,
+    "after_mcap_oku": 214970
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "5803",
+    "before": {
+      "mcap_oku": 82936,
+      "mcap_flag": "",
+      "shoutfy_jq": 1775180526,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 7735240.0,
+    "after_mcap_oku": 77352
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "7746",
+    "before": {
+      "mcap_oku": 225,
+      "mcap_flag": "",
+      "shoutfy_jq": 29121543,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22434.0,
+    "after_mcap_oku": 224
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "9831",
+    "before": {
+      "mcap_oku": 7040,
+      "mcap_flag": "",
+      "shoutfy_jq": 966863199,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 483779.0,
+    "after_mcap_oku": 4838
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "3436",
+    "before": {
+      "mcap_oku": 13657,
+      "mcap_flag": "",
+      "shoutfy_jq": 350175139,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1363882.0,
+    "after_mcap_oku": 13639
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "rows",
+    "code": "6525",
+    "before": {
+      "mcap_oku": 21430,
+      "mcap_flag": "",
+      "shoutfy_jq": 238115614,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2102539.0,
+    "after_mcap_oku": 21025
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "dropped_mcap",
+    "code": "3907",
+    "before": {
+      "mcap_oku": 22
+    },
+    "mktcap_million_yen": 2070.0,
+    "after_mcap_oku": 21
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "dropped_mcap",
+    "code": "7602",
+    "before": {
+      "mcap_oku": 41
+    },
+    "mktcap_million_yen": 3565.0,
+    "after_mcap_oku": 36
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "dropped_mcap",
+    "code": "3667",
+    "before": {
+      "mcap_oku": 13
+    },
+    "mktcap_million_yen": 1476.0,
+    "after_mcap_oku": 15
+  },
+  {
+    "session_date": "2026-07-21",
+    "group": "dropped_mcap",
+    "code": "6659",
+    "before": {
+      "mcap_oku": 41
+    },
+    "mktcap_million_yen": 4248.0,
+    "after_mcap_oku": 42
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "rows",
+    "code": "6890",
+    "before": {
+      "mcap_oku": 3506,
+      "mcap_flag": "†",
+      "shoutfy_jq": 47117949,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 54070536,
+      "mcap_kabutan_oku": 4023
+    },
+    "mktcap_million_yen": 399897.0,
+    "after_mcap_oku": 3999
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "rows",
+    "code": "9090",
+    "before": {
+      "mcap_oku": 1196,
+      "mcap_flag": "",
+      "shoutfy_jq": 137984520,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 116770.0,
+    "after_mcap_oku": 1168
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "rows",
+    "code": "3091",
+    "before": {
+      "mcap_oku": 723,
+      "mcap_flag": "",
+      "shoutfy_jq": 30158000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 71399.0,
+    "after_mcap_oku": 714
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "rows",
+    "code": "4894",
+    "before": {
+      "mcap_oku": 346,
+      "mcap_flag": "",
+      "shoutfy_jq": 8273376,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 34563.0,
+    "after_mcap_oku": 346
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "rows",
+    "code": "6200",
+    "before": {
+      "mcap_oku": 588,
+      "mcap_flag": "",
+      "shoutfy_jq": 85243000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 57983.0,
+    "after_mcap_oku": 580
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "dropped_mcap",
+    "code": "2459",
+    "before": {
+      "mcap_oku": 12
+    },
+    "mktcap_million_yen": 1208.0,
+    "after_mcap_oku": 12
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "dropped_mcap",
+    "code": "4424",
+    "before": {
+      "mcap_oku": 24
+    },
+    "mktcap_million_yen": 2348.0,
+    "after_mcap_oku": 24
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "dropped_mcap",
+    "code": "4890",
+    "before": {
+      "mcap_oku": 60
+    },
+    "mktcap_million_yen": 6051.0,
+    "after_mcap_oku": 60
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "dropped_mcap",
+    "code": "3907",
+    "before": {
+      "mcap_oku": 27
+    },
+    "mktcap_million_yen": 2481.0,
+    "after_mcap_oku": 25
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "dropped_mcap",
+    "code": "4073",
+    "before": {
+      "mcap_oku": 13
+    },
+    "mktcap_million_yen": 1310.0,
+    "after_mcap_oku": 13
+  },
+  {
+    "session_date": "2026-07-22",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 18
+    },
+    "mktcap_million_yen": 1824.0,
+    "after_mcap_oku": 18
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "1518",
+    "before": {
+      "mcap_oku": 1276,
+      "mcap_flag": "",
+      "shoutfy_jq": 65322000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 74791.0,
+    "after_mcap_oku": 748
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "6999",
+    "before": {
+      "mcap_oku": 935,
+      "mcap_flag": "",
+      "shoutfy_jq": 37479724,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 92620.0,
+    "after_mcap_oku": 926
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "4997",
+    "before": {
+      "mcap_oku": 850,
+      "mcap_flag": "",
+      "shoutfy_jq": 81967082,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 81224.0,
+    "after_mcap_oku": 812
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "6993",
+    "before": {
+      "mcap_oku": 570,
+      "mcap_flag": "",
+      "shoutfy_jq": 739896570,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 56971.0,
+    "after_mcap_oku": 570
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "6890",
+    "before": {
+      "mcap_oku": 4212,
+      "mcap_flag": "†",
+      "shoutfy_jq": 47117949,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 54070536,
+      "mcap_kabutan_oku": 4834
+    },
+    "mktcap_million_yen": 480522.0,
+    "after_mcap_oku": 4805
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "4894",
+    "before": {
+      "mcap_oku": 404,
+      "mcap_flag": "",
+      "shoutfy_jq": 8273376,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 40344.0,
+    "after_mcap_oku": 403
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "rows",
+    "code": "2334",
+    "before": {
+      "mcap_oku": 206,
+      "mcap_flag": "†",
+      "shoutfy_jq": 41023920,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 43068920,
+      "mcap_kabutan_oku": 216
+    },
+    "mktcap_million_yen": 21553.0,
+    "after_mcap_oku": 216
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "dropped_mcap",
+    "code": "3624",
+    "before": {
+      "mcap_oku": 15
+    },
+    "mktcap_million_yen": 4833.0,
+    "after_mcap_oku": 48
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "dropped_mcap",
+    "code": "3856",
+    "before": {
+      "mcap_oku": 95
+    },
+    "mktcap_million_yen": 9437.0,
+    "after_mcap_oku": 94
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "dropped_mcap",
+    "code": "5242",
+    "before": {
+      "mcap_oku": 20
+    },
+    "mktcap_million_yen": 2042.0,
+    "after_mcap_oku": 20
+  },
+  {
+    "session_date": "2026-07-23",
+    "group": "dropped_mcap",
+    "code": "4935",
+    "before": {
+      "mcap_oku": 91
+    },
+    "mktcap_million_yen": 9310.0,
+    "after_mcap_oku": 93
+  },
+  {
+    "session_date": "2026-07-24",
+    "group": "rows",
+    "code": "9107",
+    "before": {
+      "mcap_oku": 17935,
+      "mcap_flag": "",
+      "shoutfy_jq": 639172067,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1773658.0,
+    "after_mcap_oku": 17737
+  },
+  {
+    "session_date": "2026-07-24",
+    "group": "rows",
+    "code": "9104",
+    "before": {
+      "mcap_oku": 21210,
+      "mcap_flag": "",
+      "shoutfy_jq": 363001827,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2007775.0,
+    "after_mcap_oku": 20078
+  },
+  {
+    "session_date": "2026-07-24",
+    "group": "rows",
+    "code": "6629",
+    "before": {
+      "mcap_oku": 217,
+      "mcap_flag": "",
+      "shoutfy_jq": 21063240,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13895.0,
+    "after_mcap_oku": 139
+  },
+  {
+    "session_date": "2026-07-24",
+    "group": "dropped_mcap",
+    "code": "2656",
+    "before": {
+      "mcap_oku": 48
+    },
+    "mktcap_million_yen": 5085.0,
+    "after_mcap_oku": 51
+  },
+  {
+    "session_date": "2026-07-24",
+    "group": "dropped_mcap",
+    "code": "4833",
+    "before": {
+      "mcap_oku": 31
+    },
+    "mktcap_million_yen": 3122.0,
+    "after_mcap_oku": 31
+  },
+  {
+    "session_date": "2026-07-27",
+    "group": "rows",
+    "code": "2767",
+    "before": {
+      "mcap_oku": 1001,
+      "mcap_flag": "",
+      "shoutfy_jq": 65429150,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 95246.0,
+    "after_mcap_oku": 952
+  },
+  {
+    "session_date": "2026-07-27",
+    "group": "rows",
+    "code": "464A",
+    "before": {
+      "mcap_oku": 806,
+      "mcap_flag": "",
+      "shoutfy_jq": 55860500,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 80708.0,
+    "after_mcap_oku": 807
+  },
+  {
+    "session_date": "2026-07-27",
+    "group": "dropped_mcap",
+    "code": "8995",
+    "before": {
+      "mcap_oku": 19
+    },
+    "mktcap_million_yen": 1897.0,
+    "after_mcap_oku": 19
+  },
+  {
+    "session_date": "2026-07-27",
+    "group": "dropped_mcap",
+    "code": "5242",
+    "before": {
+      "mcap_oku": 28
+    },
+    "mktcap_million_yen": 2779.0,
+    "after_mcap_oku": 28
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "6337",
+    "before": {
+      "mcap_oku": 122,
+      "mcap_flag": "",
+      "shoutfy_jq": 5578695,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11367.0,
+    "after_mcap_oku": 114
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "5285",
+    "before": {
+      "mcap_oku": 154,
+      "mcap_flag": "",
+      "shoutfy_jq": 11580000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12873.0,
+    "after_mcap_oku": 129
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "5284",
+    "before": {
+      "mcap_oku": 140,
+      "mcap_flag": "",
+      "shoutfy_jq": 6306000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13408.0,
+    "after_mcap_oku": 134
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "4290",
+    "before": {
+      "mcap_oku": 872,
+      "mcap_flag": "",
+      "shoutfy_jq": 127176300,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 85568.0,
+    "after_mcap_oku": 856
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1848",
+    "before": {
+      "mcap_oku": 118,
+      "mcap_flag": "",
+      "shoutfy_jq": 18602244,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11253.0,
+    "after_mcap_oku": 112
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "7856",
+    "before": {
+      "mcap_oku": 268,
+      "mcap_flag": "",
+      "shoutfy_jq": 14897600,
+      "cur_end": "2026-10-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 25389.0,
+    "after_mcap_oku": 254
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "2767",
+    "before": {
+      "mcap_oku": 1263,
+      "mcap_flag": "",
+      "shoutfy_jq": 65429150,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 120148.0,
+    "after_mcap_oku": 1202
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "6861",
+    "before": {
+      "mcap_oku": 172556,
+      "mcap_flag": "",
+      "shoutfy_jq": 243207684,
+      "cur_end": "2027-03-20",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 17207158.0,
+    "after_mcap_oku": 172072
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1929",
+    "before": {
+      "mcap_oku": 476,
+      "mcap_flag": "",
+      "shoutfy_jq": 41774899,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 47599.0,
+    "after_mcap_oku": 476
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1813",
+    "before": {
+      "mcap_oku": 442,
+      "mcap_flag": "",
+      "shoutfy_jq": 16489522,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 40570.0,
+    "after_mcap_oku": 406
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1812",
+    "before": {
+      "mcap_oku": 28997,
+      "mcap_flag": "",
+      "shoutfy_jq": 528656011,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2555698.0,
+    "after_mcap_oku": 25557
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "9697",
+    "before": {
+      "mcap_oku": 18810,
+      "mcap_flag": "",
+      "shoutfy_jq": 533011246,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1476212.0,
+    "after_mcap_oku": 14762
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1926",
+    "before": {
+      "mcap_oku": 1661,
+      "mcap_flag": "",
+      "shoutfy_jq": 42970450,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 162472.0,
+    "after_mcap_oku": 1625
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1414",
+    "before": {
+      "mcap_oku": 2912,
+      "mcap_flag": "",
+      "shoutfy_jq": 218980720,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 267837.0,
+    "after_mcap_oku": 2678
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1801",
+    "before": {
+      "mcap_oku": 21948,
+      "mcap_flag": "",
+      "shoutfy_jq": 163185872,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2192473.0,
+    "after_mcap_oku": 21925
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "7309",
+    "before": {
+      "mcap_oku": 16514,
+      "mcap_flag": "",
+      "shoutfy_jq": 86530000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1641937.0,
+    "after_mcap_oku": 16419
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1803",
+    "before": {
+      "mcap_oku": 17749,
+      "mcap_flag": "",
+      "shoutfy_jq": 716689413,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1682042.0,
+    "after_mcap_oku": 16820
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "4894",
+    "before": {
+      "mcap_oku": 342,
+      "mcap_flag": "",
+      "shoutfy_jq": 8273376,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 34108.0,
+    "after_mcap_oku": 341
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1888",
+    "before": {
+      "mcap_oku": 454,
+      "mcap_flag": "",
+      "shoutfy_jq": 12964993,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 44546.0,
+    "after_mcap_oku": 446
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "5471",
+    "before": {
+      "mcap_oku": 5032,
+      "mcap_flag": "",
+      "shoutfy_jq": 217243845,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 462961.0,
+    "after_mcap_oku": 4630
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "6072",
+    "before": {
+      "mcap_oku": 202,
+      "mcap_flag": "",
+      "shoutfy_jq": 23148000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19559.0,
+    "after_mcap_oku": 196
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "2354",
+    "before": {
+      "mcap_oku": 235,
+      "mcap_flag": "",
+      "shoutfy_jq": 18519100,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22860.0,
+    "after_mcap_oku": 229
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "rows",
+    "code": "1802",
+    "before": {
+      "mcap_oku": 22643,
+      "mcap_flag": "",
+      "shoutfy_jq": 691811346,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2249931.0,
+    "after_mcap_oku": 22499
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "dropped_mcap",
+    "code": "190A",
+    "before": {
+      "mcap_oku": 58
+    },
+    "mktcap_million_yen": 5794.0,
+    "after_mcap_oku": 58
+  },
+  {
+    "session_date": "2026-07-28",
+    "group": "dropped_mcap",
+    "code": "8995",
+    "before": {
+      "mcap_oku": 22
+    },
+    "mktcap_million_yen": 2199.0,
+    "after_mcap_oku": 22
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "7740",
+    "before": {
+      "mcap_oku": 1937,
+      "mcap_flag": "",
+      "shoutfy_jq": 170800000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 182852.0,
+    "after_mcap_oku": 1828
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "4461",
+    "before": {
+      "mcap_oku": 943,
+      "mcap_flag": "",
+      "shoutfy_jq": 10684321,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 93696.0,
+    "after_mcap_oku": 937
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6349",
+    "before": {
+      "mcap_oku": 895,
+      "mcap_flag": "",
+      "shoutfy_jq": 53478840,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 88774.0,
+    "after_mcap_oku": 888
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6524",
+    "before": {
+      "mcap_oku": 1000,
+      "mcap_flag": "",
+      "shoutfy_jq": 26000000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 99607.0,
+    "after_mcap_oku": 996
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6857",
+    "before": {
+      "mcap_oku": 184464,
+      "mcap_flag": "",
+      "shoutfy_jq": 732000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18282998.0,
+    "after_mcap_oku": 182830
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "2760",
+    "before": {
+      "mcap_oku": 1087,
+      "mcap_flag": "",
+      "shoutfy_jq": 31336500,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 102190.0,
+    "after_mcap_oku": 1022
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6327",
+    "before": {
+      "mcap_oku": 226,
+      "mcap_flag": "",
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21882.0,
+    "after_mcap_oku": 219
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "9227",
+    "before": {
+      "mcap_oku": 147,
+      "mcap_flag": "",
+      "shoutfy_jq": 15892500,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 14664.0,
+    "after_mcap_oku": 147
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6701",
+    "before": {
+      "mcap_oku": 62933,
+      "mcap_flag": "",
+      "shoutfy_jq": 1364249315,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 6118425.0,
+    "after_mcap_oku": 61184
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6622",
+    "before": {
+      "mcap_oku": 2963,
+      "mcap_flag": "",
+      "shoutfy_jq": 24903291,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 280921.0,
+    "after_mcap_oku": 2809
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "9166",
+    "before": {
+      "mcap_oku": 1103,
+      "mcap_flag": "",
+      "shoutfy_jq": 187846582,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 108006.0,
+    "after_mcap_oku": 1080
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "1946",
+    "before": {
+      "mcap_oku": 1926,
+      "mcap_flag": "",
+      "shoutfy_jq": 96649950,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 185016.0,
+    "after_mcap_oku": 1850
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6871",
+    "before": {
+      "mcap_oku": 4503,
+      "mcap_flag": "",
+      "shoutfy_jq": 40025316,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 436098.0,
+    "after_mcap_oku": 4361
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "6501",
+    "before": {
+      "mcap_oku": 224828,
+      "mcap_flag": "",
+      "shoutfy_jq": 4535560985,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22305321.0,
+    "after_mcap_oku": 223053
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "9991",
+    "before": {
+      "mcap_oku": 574,
+      "mcap_flag": "",
+      "shoutfy_jq": 33795746,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 57131.0,
+    "after_mcap_oku": 571
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "rows",
+    "code": "1944",
+    "before": {
+      "mcap_oku": 11988,
+      "mcap_flag": "",
+      "shoutfy_jq": 166454180,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1198803.0,
+    "after_mcap_oku": 11988
+  },
+  {
+    "session_date": "2026-07-29",
+    "group": "dropped_mcap",
+    "code": "6573",
+    "before": {
+      "mcap_oku": 9
+    },
+    "mktcap_million_yen": 1655.0,
+    "after_mcap_oku": 17
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "2737",
+    "before": {
+      "mcap_oku": 1167,
+      "mcap_flag": "",
+      "shoutfy_jq": 6802000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 116634.0,
+    "after_mcap_oku": 1166
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 215704,
+      "mcap_flag": "",
+      "shoutfy_jq": 546086290,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21646590.0,
+    "after_mcap_oku": 216466
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6981",
+    "before": {
+      "mcap_oku": 125946,
+      "mcap_flag": "",
+      "shoutfy_jq": 1963001843,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11678994.0,
+    "after_mcap_oku": 116790
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4092",
+    "before": {
+      "mcap_oku": 495,
+      "mcap_flag": "",
+      "shoutfy_jq": 8922775,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 48156.0,
+    "after_mcap_oku": 482
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6752",
+    "before": {
+      "mcap_oku": 87975,
+      "mcap_flag": "",
+      "shoutfy_jq": 2454657997,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 8368280.0,
+    "after_mcap_oku": 83683
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6613",
+    "before": {
+      "mcap_oku": 544,
+      "mcap_flag": "",
+      "shoutfy_jq": 41840875,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 54635.0,
+    "after_mcap_oku": 546
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6327",
+    "before": {
+      "mcap_oku": 238,
+      "mcap_flag": "",
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22960.0,
+    "after_mcap_oku": 230
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "3436",
+    "before": {
+      "mcap_oku": 10003,
+      "mcap_flag": "",
+      "shoutfy_jq": 350175139,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 998956.0,
+    "after_mcap_oku": 9990
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4062",
+    "before": {
+      "mcap_oku": 38455,
+      "mcap_flag": "",
+      "shoutfy_jq": 281721114,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 3814717.0,
+    "after_mcap_oku": 38147
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5698",
+    "before": {
+      "mcap_oku": 227,
+      "mcap_flag": "",
+      "shoutfy_jq": 30317388,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21375.0,
+    "after_mcap_oku": 214
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6971",
+    "before": {
+      "mcap_oku": 50378,
+      "mcap_flag": "",
+      "shoutfy_jq": 1419100820,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 4676791.0,
+    "after_mcap_oku": 46768
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4461",
+    "before": {
+      "mcap_oku": 1104,
+      "mcap_flag": "",
+      "shoutfy_jq": 10684321,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 109610.0,
+    "after_mcap_oku": 1096
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6855",
+    "before": {
+      "mcap_oku": 746,
+      "mcap_flag": "",
+      "shoutfy_jq": 14663510,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 74588.0,
+    "after_mcap_oku": 746
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6723",
+    "before": {
+      "mcap_oku": 59785,
+      "mcap_flag": "",
+      "shoutfy_jq": 1870614885,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 5798486.0,
+    "after_mcap_oku": 57985
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "3905",
+    "before": {
+      "mcap_oku": 558,
+      "mcap_flag": "†",
+      "shoutfy_jq": 29769051,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 32017051,
+      "mcap_kabutan_oku": 601
+    },
+    "mktcap_million_yen": 59786.0,
+    "after_mcap_oku": 598
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6976",
+    "before": {
+      "mcap_oku": 11359,
+      "mcap_flag": "†",
+      "shoutfy_jq": 130218481,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 135422595,
+      "mcap_kabutan_oku": 11813
+    },
+    "mktcap_million_yen": 1134410.0,
+    "after_mcap_oku": 11344
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6912",
+    "before": {
+      "mcap_oku": 164,
+      "mcap_flag": "",
+      "shoutfy_jq": 8800000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15522.0,
+    "after_mcap_oku": 155
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6871",
+    "before": {
+      "mcap_oku": 4775,
+      "mcap_flag": "",
+      "shoutfy_jq": 40025316,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 462457.0,
+    "after_mcap_oku": 4625
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6227",
+    "before": {
+      "mcap_oku": 1069,
+      "mcap_flag": "",
+      "shoutfy_jq": 18849000,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 106662.0,
+    "after_mcap_oku": 1067
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "299A",
+    "before": {
+      "mcap_oku": 458,
+      "mcap_flag": "",
+      "shoutfy_jq": 42882260,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 45841.0,
+    "after_mcap_oku": 458
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6525",
+    "before": {
+      "mcap_oku": 15292,
+      "mcap_flag": "",
+      "shoutfy_jq": 238115614,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1500278.0,
+    "after_mcap_oku": 15003
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6946",
+    "before": {
+      "mcap_oku": 837,
+      "mcap_flag": "",
+      "shoutfy_jq": 16764810,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 73796.0,
+    "after_mcap_oku": 738
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5801",
+    "before": {
+      "mcap_oku": 19628,
+      "mcap_flag": "",
+      "shoutfy_jq": 70666917,
+      "cur_end": "2026-03-31",
+      "corr": 10.0
+    },
+    "mktcap_million_yen": 1953966.0,
+    "after_mcap_oku": 19540
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 264002,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 26340425.0,
+    "after_mcap_oku": 263404
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6471",
+    "before": {
+      "mcap_oku": 5650,
+      "mcap_flag": "",
+      "shoutfy_jq": 500000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 552933.0,
+    "after_mcap_oku": 5529
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6146",
+    "before": {
+      "mcap_oku": 56271,
+      "mcap_flag": "",
+      "shoutfy_jq": 108483729,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 5626221.0,
+    "after_mcap_oku": 56262
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5803",
+    "before": {
+      "mcap_oku": 66037,
+      "mcap_flag": "",
+      "shoutfy_jq": 1775180526,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 6159053.0,
+    "after_mcap_oku": 61590
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "7717",
+    "before": {
+      "mcap_oku": 504,
+      "mcap_flag": "",
+      "shoutfy_jq": 10057600,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 47361.0,
+    "after_mcap_oku": 474
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "7735",
+    "before": {
+      "mcap_oku": 22853,
+      "mcap_flag": "",
+      "shoutfy_jq": 190759972,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2265798.0,
+    "after_mcap_oku": 22658
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6920",
+    "before": {
+      "mcap_oku": 31699,
+      "mcap_flag": "",
+      "shoutfy_jq": 94286400,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 3013383.0,
+    "after_mcap_oku": 30134
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4004",
+    "before": {
+      "mcap_oku": 22419,
+      "mcap_flag": "†",
+      "shoutfy_jq": 184901292,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 191019801,
+      "mcap_kabutan_oku": 23161
+    },
+    "mktcap_million_yen": 2267040.0,
+    "after_mcap_oku": 22670
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6857",
+    "before": {
+      "mcap_oku": 204484,
+      "mcap_flag": "",
+      "shoutfy_jq": 732000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 20224004.0,
+    "after_mcap_oku": 202240
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6862",
+    "before": {
+      "mcap_oku": 145,
+      "mcap_flag": "",
+      "shoutfy_jq": 7925714,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13608.0,
+    "after_mcap_oku": 136
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6323",
+    "before": {
+      "mcap_oku": 6008,
+      "mcap_flag": "",
+      "shoutfy_jq": 176400000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 590709.0,
+    "after_mcap_oku": 5907
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6754",
+    "before": {
+      "mcap_oku": 4827,
+      "mcap_flag": "",
+      "shoutfy_jq": 135870594,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 454755.0,
+    "after_mcap_oku": 4548
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6324",
+    "before": {
+      "mcap_oku": 5297,
+      "mcap_flag": "",
+      "shoutfy_jq": 96315400,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 520667.0,
+    "after_mcap_oku": 5207
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "485A",
+    "before": {
+      "mcap_oku": 554,
+      "mcap_flag": "†",
+      "shoutfy_jq": 38082250,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 114768750,
+      "mcap_kabutan_oku": 1670
+    },
+    "mktcap_million_yen": 166989.0,
+    "after_mcap_oku": 1670
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6890",
+    "before": {
+      "mcap_oku": 3374,
+      "mcap_flag": "†",
+      "shoutfy_jq": 47117949,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 54070536,
+      "mcap_kabutan_oku": 3871
+    },
+    "mktcap_million_yen": 384847.0,
+    "after_mcap_oku": 3848
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6315",
+    "before": {
+      "mcap_oku": 1752,
+      "mcap_flag": "",
+      "shoutfy_jq": 75157367,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 174890.0,
+    "after_mcap_oku": 1749
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "7740",
+    "before": {
+      "mcap_oku": 2449,
+      "mcap_flag": "",
+      "shoutfy_jq": 170800000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 231225.0,
+    "after_mcap_oku": 2312
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6379",
+    "before": {
+      "mcap_oku": 1453,
+      "mcap_flag": "",
+      "shoutfy_jq": 54168053,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 144904.0,
+    "after_mcap_oku": 1449
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6264",
+    "before": {
+      "mcap_oku": 506,
+      "mcap_flag": "†",
+      "shoutfy_jq": 28106000,
+      "cur_end": "2026-08-31",
+      "corr": 1.0,
+      "shares_kabutan": 28423200,
+      "mcap_kabutan_oku": 511
+    },
+    "mktcap_million_yen": 51032.0,
+    "after_mcap_oku": 510
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5016",
+    "before": {
+      "mcap_oku": 31011,
+      "mcap_flag": "†",
+      "shoutfy_jq": 928463102,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 949183210,
+      "mcap_kabutan_oku": 31703
+    },
+    "mktcap_million_yen": 3175618.0,
+    "after_mcap_oku": 31756
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "3110",
+    "before": {
+      "mcap_oku": 4900,
+      "mcap_flag": "",
+      "shoutfy_jq": 37723012,
+      "cur_end": "2026-03-31",
+      "corr": 5.0
+    },
+    "mktcap_million_yen": 472903.0,
+    "after_mcap_oku": 4729
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5802",
+    "before": {
+      "mcap_oku": 66993,
+      "mcap_flag": "",
+      "shoutfy_jq": 793940571,
+      "cur_end": "2026-03-31",
+      "corr": 4.0
+    },
+    "mktcap_million_yen": 6580964.0,
+    "after_mcap_oku": 65810
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6590",
+    "before": {
+      "mcap_oku": 2791,
+      "mcap_flag": "",
+      "shoutfy_jq": 69859500,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 262228.0,
+    "after_mcap_oku": 2622
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "429A",
+    "before": {
+      "mcap_oku": 3611,
+      "mcap_flag": "",
+      "shoutfy_jq": 99329195,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 361159.0,
+    "after_mcap_oku": 3612
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6526",
+    "before": {
+      "mcap_oku": 3408,
+      "mcap_flag": "",
+      "shoutfy_jq": 179989255,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 332100.0,
+    "after_mcap_oku": 3321
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6504",
+    "before": {
+      "mcap_oku": 18953,
+      "mcap_flag": "",
+      "shoutfy_jq": 149296991,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1871201.0,
+    "after_mcap_oku": 18712
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4186",
+    "before": {
+      "mcap_oku": 10731,
+      "mcap_flag": "",
+      "shoutfy_jq": 127800000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1006607.0,
+    "after_mcap_oku": 10066
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6101",
+    "before": {
+      "mcap_oku": 2669,
+      "mcap_flag": "",
+      "shoutfy_jq": 48000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 259027.0,
+    "after_mcap_oku": 2590
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "7826",
+    "before": {
+      "mcap_oku": 1498,
+      "mcap_flag": "",
+      "shoutfy_jq": 25389636,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 145136.0,
+    "after_mcap_oku": 1451
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5706",
+    "before": {
+      "mcap_oku": 15557,
+      "mcap_flag": "",
+      "shoutfy_jq": 57415430,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1550167.0,
+    "after_mcap_oku": 15502
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6368",
+    "before": {
+      "mcap_oku": 6252,
+      "mcap_flag": "",
+      "shoutfy_jq": 46359700,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 620072.0,
+    "after_mcap_oku": 6201
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6963",
+    "before": {
+      "mcap_oku": 15710,
+      "mcap_flag": "",
+      "shoutfy_jq": 403760000,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1502062.0,
+    "after_mcap_oku": 15021
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6762",
+    "before": {
+      "mcap_oku": 54652,
+      "mcap_flag": "",
+      "shoutfy_jq": 1943859885,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 5336660.0,
+    "after_mcap_oku": 53367
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "5333",
+    "before": {
+      "mcap_oku": 15000,
+      "mcap_flag": "",
+      "shoutfy_jq": 285993496,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1500036.0,
+    "after_mcap_oku": 15000
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "3132",
+    "before": {
+      "mcap_oku": 5560,
+      "mcap_flag": "",
+      "shoutfy_jq": 179072146,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 554438.0,
+    "after_mcap_oku": 5544
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6965",
+    "before": {
+      "mcap_oku": 6872,
+      "mcap_flag": "",
+      "shoutfy_jq": 319257365,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 626732.0,
+    "after_mcap_oku": 6267
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4661",
+    "before": {
+      "mcap_oku": 52573,
+      "mcap_flag": "",
+      "shoutfy_jq": 1800450800,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 4787972.0,
+    "after_mcap_oku": 47880
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "6361",
+    "before": {
+      "mcap_oku": 22648,
+      "mcap_flag": "",
+      "shoutfy_jq": 457262685,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2262658.0,
+    "after_mcap_oku": 22627
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "8411",
+    "before": {
+      "mcap_oku": 190981,
+      "mcap_flag": "",
+      "shoutfy_jq": 2442831994,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19064375.0,
+    "after_mcap_oku": 190644
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "2914",
+    "before": {
+      "mcap_oku": 133300,
+      "mcap_flag": "",
+      "shoutfy_jq": 2000000000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11831986.0,
+    "after_mcap_oku": 118320
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "7241",
+    "before": {
+      "mcap_oku": 933,
+      "mcap_flag": "",
+      "shoutfy_jq": 89580827,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 93054.0,
+    "after_mcap_oku": 930
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "3687",
+    "before": {
+      "mcap_oku": 700,
+      "mcap_flag": "",
+      "shoutfy_jq": 33635000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 67255.0,
+    "after_mcap_oku": 672
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "4063",
+    "before": {
+      "mcap_oku": 114256,
+      "mcap_flag": "",
+      "shoutfy_jq": 1984995865,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10704403.0,
+    "after_mcap_oku": 107044
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "rows",
+    "code": "186A",
+    "before": {
+      "mcap_oku": 1298,
+      "mcap_flag": "†",
+      "shoutfy_jq": 135905600,
+      "cur_end": "2026-04-30",
+      "corr": 1.0,
+      "shares_kabutan": 141780800,
+      "mcap_kabutan_oku": 1354
+    },
+    "mktcap_million_yen": 135401.0,
+    "after_mcap_oku": 1354
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "dropped_mcap",
+    "code": "6840",
+    "before": {
+      "mcap_oku": 56
+    },
+    "mktcap_million_yen": 5639.0,
+    "after_mcap_oku": 56
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "dropped_mcap",
+    "code": "6659",
+    "before": {
+      "mcap_oku": 36
+    },
+    "mktcap_million_yen": 3618.0,
+    "after_mcap_oku": 36
+  },
+  {
+    "session_date": "2026-07-30",
+    "group": "dropped_mcap",
+    "code": "3907",
+    "before": {
+      "mcap_oku": 30
+    },
+    "mktcap_million_yen": 2794.0,
+    "after_mcap_oku": 28
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "2737",
+    "before": {
+      "mcap_oku": 1439,
+      "mcap_flag": "",
+      "shoutfy_jq": 6802000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 143837.0,
+    "after_mcap_oku": 1438
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "9110",
+    "before": {
+      "mcap_oku": 1927,
+      "mcap_flag": "",
+      "shoutfy_jq": 23970679,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 189467.0,
+    "after_mcap_oku": 1895
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6952",
+    "before": {
+      "mcap_oku": 4137,
+      "mcap_flag": "",
+      "shoutfy_jq": 234461814,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 396733.0,
+    "after_mcap_oku": 3967
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "3640",
+    "before": {
+      "mcap_oku": 152,
+      "mcap_flag": "",
+      "shoutfy_jq": 5837200,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 14468.0,
+    "after_mcap_oku": 145
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6508",
+    "before": {
+      "mcap_oku": 4380,
+      "mcap_flag": "",
+      "shoutfy_jq": 45527540,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 436401.0,
+    "after_mcap_oku": 4364
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "5821",
+    "before": {
+      "mcap_oku": 563,
+      "mcap_flag": "",
+      "shoutfy_jq": 17627800,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 49668.0,
+    "after_mcap_oku": 497
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "3891",
+    "before": {
+      "mcap_oku": 720,
+      "mcap_flag": "",
+      "shoutfy_jq": 10698482,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 70979.0,
+    "after_mcap_oku": 710
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6993",
+    "before": {
+      "mcap_oku": 666,
+      "mcap_flag": "",
+      "shoutfy_jq": 739896570,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 66774.0,
+    "after_mcap_oku": 668
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "1879",
+    "before": {
+      "mcap_oku": 1296,
+      "mcap_flag": "",
+      "shoutfy_jq": 61360720,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 123530.0,
+    "after_mcap_oku": 1235
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "2354",
+    "before": {
+      "mcap_oku": 229,
+      "mcap_flag": "",
+      "shoutfy_jq": 18519100,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22283.0,
+    "after_mcap_oku": 223
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "2134",
+    "before": {
+      "mcap_oku": 131,
+      "mcap_flag": "",
+      "shoutfy_jq": 547690993,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13235.0,
+    "after_mcap_oku": 132
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6023",
+    "before": {
+      "mcap_oku": 752,
+      "mcap_flag": "",
+      "shoutfy_jq": 27350000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 69937.0,
+    "after_mcap_oku": 699
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6762",
+    "before": {
+      "mcap_oku": 58471,
+      "mcap_flag": "",
+      "shoutfy_jq": 1943859885,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 5709648.0,
+    "after_mcap_oku": 57096
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6912",
+    "before": {
+      "mcap_oku": 199,
+      "mcap_flag": "",
+      "shoutfy_jq": 8800000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18853.0,
+    "after_mcap_oku": 188
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "9743",
+    "before": {
+      "mcap_oku": 673,
+      "mcap_flag": "",
+      "shoutfy_jq": 48424071,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 65747.0,
+    "after_mcap_oku": 658
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "6723",
+    "before": {
+      "mcap_oku": 64387,
+      "mcap_flag": "",
+      "shoutfy_jq": 1870614885,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 6244802.0,
+    "after_mcap_oku": 62448
+  },
+  {
+    "session_date": "2026-07-31",
+    "group": "rows",
+    "code": "9766",
+    "before": {
+      "mcap_oku": 29618,
+      "mcap_flag": "",
+      "shoutfy_jq": 143500000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2797886.0,
+    "after_mcap_oku": 27979
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "6134",
+    "before": {
+      "mcap_oku": 7283,
+      "mcap_flag": "",
+      "shoutfy_jq": 97823748,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 654513.0,
+    "after_mcap_oku": 6545
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "9110",
+    "before": {
+      "mcap_oku": 2287,
+      "mcap_flag": "",
+      "shoutfy_jq": 23970679,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 224815.0,
+    "after_mcap_oku": 2248
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "2737",
+    "before": {
+      "mcap_oku": 1779,
+      "mcap_flag": "",
+      "shoutfy_jq": 6802000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 177841.0,
+    "after_mcap_oku": 1778
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "7609",
+    "before": {
+      "mcap_oku": 761,
+      "mcap_flag": "",
+      "shoutfy_jq": 21266698,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 75411.0,
+    "after_mcap_oku": 754
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "485A",
+    "before": {
+      "mcap_oku": 636,
+      "mcap_flag": "†",
+      "shoutfy_jq": 38082250,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 114768750,
+      "mcap_kabutan_oku": 1918
+    },
+    "mktcap_million_yen": 194024.0,
+    "after_mcap_oku": 1940
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "4768",
+    "before": {
+      "mcap_oku": 12232,
+      "mcap_flag": "",
+      "shoutfy_jq": 380004240,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1220649.0,
+    "after_mcap_oku": 12206
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "7201",
+    "before": {
+      "mcap_oku": 12070,
+      "mcap_flag": "",
+      "shoutfy_jq": 3713998612,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1136324.0,
+    "after_mcap_oku": 11363
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "7564",
+    "before": {
+      "mcap_oku": 4796,
+      "mcap_flag": "",
+      "shoutfy_jq": 81846816,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 478253.0,
+    "after_mcap_oku": 4782
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "4507",
+    "before": {
+      "mcap_oku": 25786,
+      "mcap_flag": "",
+      "shoutfy_jq": 889632195,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2466552.0,
+    "after_mcap_oku": 24666
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "5367",
+    "before": {
+      "mcap_oku": 156,
+      "mcap_flag": "",
+      "shoutfy_jq": 12135695,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15363.0,
+    "after_mcap_oku": 154
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "rows",
+    "code": "9104",
+    "before": {
+      "mcap_oku": 21058,
+      "mcap_flag": "",
+      "shoutfy_jq": 363001827,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1993346.0,
+    "after_mcap_oku": 19934
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "dropped_mcap",
+    "code": "4381",
+    "before": {
+      "mcap_oku": 11
+    },
+    "mktcap_million_yen": 1214.0,
+    "after_mcap_oku": 12
+  },
+  {
+    "session_date": "2026-08-03",
+    "group": "dropped_mcap",
+    "code": "8995",
+    "before": {
+      "mcap_oku": 23
+    },
+    "mktcap_million_yen": 2293.0,
+    "after_mcap_oku": 23
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "4062",
+    "before": {
+      "mcap_oku": 46041,
+      "mcap_flag": "",
+      "shoutfy_jq": 281944019,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 4590026.0,
+    "after_mcap_oku": 45900
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "3964",
+    "before": {
+      "mcap_oku": 1274,
+      "mcap_flag": "",
+      "shoutfy_jq": 96052800,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 120296.0,
+    "after_mcap_oku": 1203
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "4746",
+    "before": {
+      "mcap_oku": 1053,
+      "mcap_flag": "",
+      "shoutfy_jq": 18700000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 101478.0,
+    "after_mcap_oku": 1015
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6327",
+    "before": {
+      "mcap_oku": 265,
+      "mcap_flag": "",
+      "shoutfy_jq": 8449600,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 25606.0,
+    "after_mcap_oku": 256
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6777",
+    "before": {
+      "mcap_oku": 2325,
+      "mcap_flag": "",
+      "shoutfy_jq": 11961100,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 228622.0,
+    "after_mcap_oku": 2286
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6925",
+    "before": {
+      "mcap_oku": 3351,
+      "mcap_flag": "",
+      "shoutfy_jq": 83500000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 320306.0,
+    "after_mcap_oku": 3203
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "7480",
+    "before": {
+      "mcap_oku": 385,
+      "mcap_flag": "",
+      "shoutfy_jq": 13282000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 36786.0,
+    "after_mcap_oku": 368
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "5801",
+    "before": {
+      "mcap_oku": 25200,
+      "mcap_flag": "",
+      "shoutfy_jq": 70666917,
+      "cur_end": "2026-03-31",
+      "corr": 10.0
+    },
+    "mktcap_million_yen": 2508674.0,
+    "after_mcap_oku": 25087
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6613",
+    "before": {
+      "mcap_oku": 680,
+      "mcap_flag": "",
+      "shoutfy_jq": 41840875,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 68283.0,
+    "after_mcap_oku": 683
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "8012",
+    "before": {
+      "mcap_oku": 5093,
+      "mcap_flag": "",
+      "shoutfy_jq": 439633140,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 472474.0,
+    "after_mcap_oku": 4725
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 298615,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 29793973.0,
+    "after_mcap_oku": 297940
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "2737",
+    "before": {
+      "mcap_oku": 2119,
+      "mcap_flag": "",
+      "shoutfy_jq": 6802000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 211846.0,
+    "after_mcap_oku": 2118
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6976",
+    "before": {
+      "mcap_oku": 13399,
+      "mcap_flag": "†",
+      "shoutfy_jq": 130218481,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 135422595,
+      "mcap_kabutan_oku": 13935
+    },
+    "mktcap_million_yen": 1359364.0,
+    "after_mcap_oku": 13594
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "7729",
+    "before": {
+      "mcap_oku": 7637,
+      "mcap_flag": "",
+      "shoutfy_jq": 42284981,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 733048.0,
+    "after_mcap_oku": 7330
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 285461,
+      "mcap_flag": "",
+      "shoutfy_jq": 548015088,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 28566038.0,
+    "after_mcap_oku": 285660
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "5857",
+    "before": {
+      "mcap_oku": 2684,
+      "mcap_flag": "",
+      "shoutfy_jq": 86853534,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 265569.0,
+    "after_mcap_oku": 2656
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "4392",
+    "before": {
+      "mcap_oku": 275,
+      "mcap_flag": "†",
+      "shoutfy_jq": 31593115,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 35167729,
+      "mcap_kabutan_oku": 306
+    },
+    "mktcap_million_yen": 29449.0,
+    "after_mcap_oku": 294
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6525",
+    "before": {
+      "mcap_oku": 19533,
+      "mcap_flag": "",
+      "shoutfy_jq": 238115614,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1916348.0,
+    "after_mcap_oku": 19164
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "4004",
+    "before": {
+      "mcap_oku": 27153,
+      "mcap_flag": "†",
+      "shoutfy_jq": 184901292,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 191019801,
+      "mcap_kabutan_oku": 28051
+    },
+    "mktcap_million_yen": 2747601.0,
+    "after_mcap_oku": 27476
+  },
+  {
+    "session_date": "2026-08-04",
+    "group": "rows",
+    "code": "6871",
+    "before": {
+      "mcap_oku": 5776,
+      "mcap_flag": "",
+      "shoutfy_jq": 40025316,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 559368.0,
+    "after_mcap_oku": 5594
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6998",
+    "before": {
+      "mcap_oku": 109,
+      "mcap_flag": "",
+      "shoutfy_jq": 5155520,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10287.0,
+    "after_mcap_oku": 103
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "5301",
+    "before": {
+      "mcap_oku": 3649,
+      "mcap_flag": "",
+      "shoutfy_jq": 224943104,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 346307.0,
+    "after_mcap_oku": 3463
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "4635",
+    "before": {
+      "mcap_oku": 228,
+      "mcap_flag": "",
+      "shoutfy_jq": 13628790,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 20904.0,
+    "after_mcap_oku": 209
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "4471",
+    "before": {
+      "mcap_oku": 1219,
+      "mcap_flag": "",
+      "shoutfy_jq": 23534752,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 114588.0,
+    "after_mcap_oku": 1146
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6645",
+    "before": {
+      "mcap_oku": 12232,
+      "mcap_flag": "",
+      "shoutfy_jq": 206244872,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1166209.0,
+    "after_mcap_oku": 11662
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6481",
+    "before": {
+      "mcap_oku": 8880,
+      "mcap_flag": "",
+      "shoutfy_jq": 119099803,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 835219.0,
+    "after_mcap_oku": 8352
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "4911",
+    "before": {
+      "mcap_oku": 13076,
+      "mcap_flag": "",
+      "shoutfy_jq": 400000000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1306144.0,
+    "after_mcap_oku": 13061
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6363",
+    "before": {
+      "mcap_oku": 876,
+      "mcap_flag": "",
+      "shoutfy_jq": 28542679,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 80792.0,
+    "after_mcap_oku": 808
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6976",
+    "before": {
+      "mcap_oku": 15120,
+      "mcap_flag": "",
+      "shoutfy_jq": 135422595,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1474956.0,
+    "after_mcap_oku": 14750
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "4746",
+    "before": {
+      "mcap_oku": 1240,
+      "mcap_flag": "",
+      "shoutfy_jq": 18700000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 119503.0,
+    "after_mcap_oku": 1195
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "2484",
+    "before": {
+      "mcap_oku": 163,
+      "mcap_flag": "",
+      "shoutfy_jq": 112380430,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 16146.0,
+    "after_mcap_oku": 162
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "3110",
+    "before": {
+      "mcap_oku": 6705,
+      "mcap_flag": "",
+      "shoutfy_jq": 188615060,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 647101.0,
+    "after_mcap_oku": 6471
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "4452",
+    "before": {
+      "mcap_oku": 28922,
+      "mcap_flag": "",
+      "shoutfy_jq": 907200000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2883998.0,
+    "after_mcap_oku": 28840
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6724",
+    "before": {
+      "mcap_oku": 11345,
+      "mcap_flag": "",
+      "shoutfy_jq": 373573152,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 973139.0,
+    "after_mcap_oku": 9731
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "7220",
+    "before": {
+      "mcap_oku": 2341,
+      "mcap_flag": "",
+      "shoutfy_jq": 65581861,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 234032.0,
+    "after_mcap_oku": 2340
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "4968",
+    "before": {
+      "mcap_oku": 483,
+      "mcap_flag": "",
+      "shoutfy_jq": 20652400,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 46363.0,
+    "after_mcap_oku": 464
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "6861",
+    "before": {
+      "mcap_oku": 212515,
+      "mcap_flag": "",
+      "shoutfy_jq": 243207684,
+      "cur_end": "2027-03-20",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21191842.0,
+    "after_mcap_oku": 211918
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "rows",
+    "code": "5367",
+    "before": {
+      "mcap_oku": 156,
+      "mcap_flag": "",
+      "shoutfy_jq": 12135695,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15338.0,
+    "after_mcap_oku": 153
+  },
+  {
+    "session_date": "2026-08-05",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 22
+    },
+    "mktcap_million_yen": 2222.0,
+    "after_mcap_oku": 22
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "5711",
+    "before": {
+      "mcap_oku": 5860,
+      "mcap_flag": "",
+      "shoutfy_jq": 131489535,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 582429.0,
+    "after_mcap_oku": 5824
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "300A",
+    "before": {
+      "mcap_oku": 218,
+      "mcap_flag": "",
+      "shoutfy_jq": 7103296,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21830.0,
+    "after_mcap_oku": 218
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "6490",
+    "before": {
+      "mcap_oku": 2657,
+      "mcap_flag": "",
+      "shoutfy_jq": 25042406,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 242559.0,
+    "after_mcap_oku": 2426
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "7018",
+    "before": {
+      "mcap_oku": 254,
+      "mcap_flag": "",
+      "shoutfy_jq": 2253000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19134.0,
+    "after_mcap_oku": 191
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "8088",
+    "before": {
+      "mcap_oku": 4811,
+      "mcap_flag": "",
+      "shoutfy_jq": 234246596,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 472782.0,
+    "after_mcap_oku": 4728
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "6998",
+    "before": {
+      "mcap_oku": 135,
+      "mcap_flag": "",
+      "shoutfy_jq": 5155520,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12748.0,
+    "after_mcap_oku": 128
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "7974",
+    "before": {
+      "mcap_oku": 98360,
+      "mcap_flag": "",
+      "shoutfy_jq": 1287260000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 8808764.0,
+    "after_mcap_oku": 88088
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "4004",
+    "before": {
+      "mcap_oku": 28949,
+      "mcap_flag": "",
+      "shoutfy_jq": 191019801,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2835540.0,
+    "after_mcap_oku": 28355
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "2681",
+    "before": {
+      "mcap_oku": 816,
+      "mcap_flag": "",
+      "shoutfy_jq": 39783552,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 81636.0,
+    "after_mcap_oku": 816
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "7014",
+    "before": {
+      "mcap_oku": 3029,
+      "mcap_flag": "",
+      "shoutfy_jq": 69475551,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 303217.0,
+    "after_mcap_oku": 3032
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "5021",
+    "before": {
+      "mcap_oku": 6290,
+      "mcap_flag": "",
+      "shoutfy_jq": 165041722,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 605147.0,
+    "after_mcap_oku": 6052
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "3905",
+    "before": {
+      "mcap_oku": 569,
+      "mcap_flag": "†",
+      "shoutfy_jq": 29769051,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 32017051,
+      "mcap_kabutan_oku": 612
+    },
+    "mktcap_million_yen": 65839.0,
+    "after_mcap_oku": 658
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "7701",
+    "before": {
+      "mcap_oku": 12263,
+      "mcap_flag": "",
+      "shoutfy_jq": 296070227,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1196790.0,
+    "after_mcap_oku": 11968
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "5801",
+    "before": {
+      "mcap_oku": 27624,
+      "mcap_flag": "",
+      "shoutfy_jq": 706669170,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2749974.0,
+    "after_mcap_oku": 27500
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "6855",
+    "before": {
+      "mcap_oku": 985,
+      "mcap_flag": "",
+      "shoutfy_jq": 14663510,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 98474.0,
+    "after_mcap_oku": 985
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "6890",
+    "before": {
+      "mcap_oku": 4184,
+      "mcap_flag": "†",
+      "shoutfy_jq": 47117949,
+      "cur_end": "2026-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 54070536,
+      "mcap_kabutan_oku": 4801
+    },
+    "mktcap_million_yen": 477297.0,
+    "after_mcap_oku": 4773
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "5831",
+    "before": {
+      "mcap_oku": 18953,
+      "mcap_flag": "",
+      "shoutfy_jq": 580129069,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1733309.0,
+    "after_mcap_oku": 17333
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "7826",
+    "before": {
+      "mcap_oku": 1757,
+      "mcap_flag": "",
+      "shoutfy_jq": 25389636,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 170227.0,
+    "after_mcap_oku": 1702
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "4527",
+    "before": {
+      "mcap_oku": 5580,
+      "mcap_flag": "",
+      "shoutfy_jq": 236178310,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 533841.0,
+    "after_mcap_oku": 5338
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "rows",
+    "code": "6871",
+    "before": {
+      "mcap_oku": 5860,
+      "mcap_flag": "",
+      "shoutfy_jq": 40025316,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 567508.0,
+    "after_mcap_oku": 5675
+  },
+  {
+    "session_date": "2026-08-06",
+    "group": "dropped_mcap",
+    "code": "4234",
+    "before": {
+      "mcap_oku": 90
+    },
+    "mktcap_million_yen": 7628.0,
+    "after_mcap_oku": 76
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "3374",
+    "before": {
+      "mcap_oku": 125,
+      "mcap_flag": "",
+      "shoutfy_jq": 3553098,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12299.0,
+    "after_mcap_oku": 123
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "3676",
+    "before": {
+      "mcap_oku": 216,
+      "mcap_flag": "",
+      "shoutfy_jq": 23890800,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 20136.0,
+    "after_mcap_oku": 201
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6098",
+    "before": {
+      "mcap_oku": 193855,
+      "mcap_flag": "",
+      "shoutfy_jq": 1472504149,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18381148.0,
+    "after_mcap_oku": 183812
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6492",
+    "before": {
+      "mcap_oku": 243,
+      "mcap_flag": "",
+      "shoutfy_jq": 1793000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21787.0,
+    "after_mcap_oku": 218
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "5331",
+    "before": {
+      "mcap_oku": 2001,
+      "mcap_flag": "",
+      "shoutfy_jq": 56206996,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 195784.0,
+    "after_mcap_oku": 1958
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6072",
+    "before": {
+      "mcap_oku": 214,
+      "mcap_flag": "",
+      "shoutfy_jq": 23148000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 20726.0,
+    "after_mcap_oku": 207
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "4047",
+    "before": {
+      "mcap_oku": 1638,
+      "mcap_flag": "",
+      "shoutfy_jq": 57546050,
+      "cur_end": "2026-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 163229.0,
+    "after_mcap_oku": 1632
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6855",
+    "before": {
+      "mcap_oku": 946,
+      "mcap_flag": "",
+      "shoutfy_jq": 14663510,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 94518.0,
+    "after_mcap_oku": 945
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6993",
+    "before": {
+      "mcap_oku": 762,
+      "mcap_flag": "",
+      "shoutfy_jq": 739896570,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 76419.0,
+    "after_mcap_oku": 764
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "3989",
+    "before": {
+      "mcap_oku": 341,
+      "mcap_flag": "",
+      "shoutfy_jq": 24429800,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 33408.0,
+    "after_mcap_oku": 334
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "3156",
+    "before": {
+      "mcap_oku": 1328,
+      "mcap_flag": "",
+      "shoutfy_jq": 30072643,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 124140.0,
+    "after_mcap_oku": 1241
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "4169",
+    "before": {
+      "mcap_oku": 107,
+      "mcap_flag": "",
+      "shoutfy_jq": 42917292,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10686.0,
+    "after_mcap_oku": 107
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "4082",
+    "before": {
+      "mcap_oku": 482,
+      "mcap_flag": "",
+      "shoutfy_jq": 24400000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 47717.0,
+    "after_mcap_oku": 477
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "5985",
+    "before": {
+      "mcap_oku": 494,
+      "mcap_flag": "",
+      "shoutfy_jq": 34057923,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 43922.0,
+    "after_mcap_oku": 439
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6258",
+    "before": {
+      "mcap_oku": 1021,
+      "mcap_flag": "",
+      "shoutfy_jq": 32268270,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 96930.0,
+    "after_mcap_oku": 969
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "7456",
+    "before": {
+      "mcap_oku": 1574,
+      "mcap_flag": "",
+      "shoutfy_jq": 26908581,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 151175.0,
+    "after_mcap_oku": 1512
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "8897",
+    "before": {
+      "mcap_oku": 567,
+      "mcap_flag": "",
+      "shoutfy_jq": 137940000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 55887.0,
+    "after_mcap_oku": 559
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "4543",
+    "before": {
+      "mcap_oku": 35134,
+      "mcap_flag": "",
+      "shoutfy_jq": 1480559680,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 3500372.0,
+    "after_mcap_oku": 35004
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "6480",
+    "before": {
+      "mcap_oku": 1343,
+      "mcap_flag": "",
+      "shoutfy_jq": 73501425,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 127493.0,
+    "after_mcap_oku": 1275
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "rows",
+    "code": "7550",
+    "before": {
+      "mcap_oku": 16837,
+      "mcap_flag": "",
+      "shoutfy_jq": 160733225,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1638942.0,
+    "after_mcap_oku": 16389
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "dropped_mcap",
+    "code": "4406",
+    "before": {
+      "mcap_oku": 78
+    },
+    "mktcap_million_yen": 7792.0,
+    "after_mcap_oku": 78
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "dropped_mcap",
+    "code": "7567",
+    "before": {
+      "mcap_oku": 29
+    },
+    "mktcap_million_yen": 2875.0,
+    "after_mcap_oku": 29
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "dropped_mcap",
+    "code": "3422",
+    "before": {
+      "mcap_oku": 71
+    },
+    "mktcap_million_yen": 6922.0,
+    "after_mcap_oku": 69
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "dropped_mcap",
+    "code": "3842",
+    "before": {
+      "mcap_oku": 31
+    },
+    "mktcap_million_yen": 3086.0,
+    "after_mcap_oku": 31
+  },
+  {
+    "session_date": "2026-08-07",
+    "group": "dropped_mcap",
+    "code": "6466",
+    "before": {
+      "mcap_oku": 100
+    },
+    "mktcap_million_yen": 9489.0,
+    "after_mcap_oku": 95
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "6862",
+    "before": {
+      "mcap_oku": 194,
+      "mcap_flag": "",
+      "shoutfy_jq": 7925714,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18214.0,
+    "after_mcap_oku": 182
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "6266",
+    "before": {
+      "mcap_oku": 518,
+      "mcap_flag": "",
+      "shoutfy_jq": 14842354,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 50517.0,
+    "after_mcap_oku": 505
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "3131",
+    "before": {
+      "mcap_oku": 109,
+      "mcap_flag": "",
+      "shoutfy_jq": 2110200,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 9727.0,
+    "after_mcap_oku": 97
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "1960",
+    "before": {
+      "mcap_oku": 232,
+      "mcap_flag": "",
+      "shoutfy_jq": 16000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22279.0,
+    "after_mcap_oku": 223
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "6834",
+    "before": {
+      "mcap_oku": 1967,
+      "mcap_flag": "",
+      "shoutfy_jq": 9333654,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 188350.0,
+    "after_mcap_oku": 1884
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "3277",
+    "before": {
+      "mcap_oku": 125,
+      "mcap_flag": "",
+      "shoutfy_jq": 17169800,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11831.0,
+    "after_mcap_oku": 118
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "7906",
+    "before": {
+      "mcap_oku": 2443,
+      "mcap_flag": "",
+      "shoutfy_jq": 92870800,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 225001.0,
+    "after_mcap_oku": 2250
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "9684",
+    "before": {
+      "mcap_oku": 10554,
+      "mcap_flag": "",
+      "shoutfy_jq": 367594788,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1035337.0,
+    "after_mcap_oku": 10353
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "2413",
+    "before": {
+      "mcap_oku": 10445,
+      "mcap_flag": "",
+      "shoutfy_jq": 679124800,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1026507.0,
+    "after_mcap_oku": 10265
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "4665",
+    "before": {
+      "mcap_oku": 2157,
+      "mcap_flag": "",
+      "shoutfy_jq": 48000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 211572.0,
+    "after_mcap_oku": 2116
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "6407",
+    "before": {
+      "mcap_oku": 4095,
+      "mcap_flag": "",
+      "shoutfy_jq": 67909449,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 403015.0,
+    "after_mcap_oku": 4030
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "3156",
+    "before": {
+      "mcap_oku": 1540,
+      "mcap_flag": "",
+      "shoutfy_jq": 30072643,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 143963.0,
+    "after_mcap_oku": 1440
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "6072",
+    "before": {
+      "mcap_oku": 249,
+      "mcap_flag": "",
+      "shoutfy_jq": 23148000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 24084.0,
+    "after_mcap_oku": 241
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "rows",
+    "code": "4062",
+    "before": {
+      "mcap_oku": 56050,
+      "mcap_flag": "",
+      "shoutfy_jq": 281944019,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 5618754.0,
+    "after_mcap_oku": 56188
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "3173",
+    "before": {
+      "mcap_oku": 86
+    },
+    "mktcap_million_yen": 8646.0,
+    "after_mcap_oku": 86
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "6495",
+    "before": {
+      "mcap_oku": 59
+    },
+    "mktcap_million_yen": 5779.0,
+    "after_mcap_oku": 58
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "4381",
+    "before": {
+      "mcap_oku": 12
+    },
+    "mktcap_million_yen": 1318.0,
+    "after_mcap_oku": 13
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "6138",
+    "before": {
+      "mcap_oku": 47
+    },
+    "mktcap_million_yen": 4671.0,
+    "after_mcap_oku": 47
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 37
+    },
+    "mktcap_million_yen": 3701.0,
+    "after_mcap_oku": 37
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "4937",
+    "before": {
+      "mcap_oku": 72
+    },
+    "mktcap_million_yen": 7012.0,
+    "after_mcap_oku": 70
+  },
+  {
+    "session_date": "2026-08-10",
+    "group": "dropped_mcap",
+    "code": "3907",
+    "before": {
+      "mcap_oku": 48
+    },
+    "mktcap_million_yen": 4474.0,
+    "after_mcap_oku": 45
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "7630",
+    "before": {
+      "mcap_oku": 1742,
+      "mcap_flag": "",
+      "shoutfy_jq": 159630000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 174129.0,
+    "after_mcap_oku": 1741
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "4420",
+    "before": {
+      "mcap_oku": 187,
+      "mcap_flag": "",
+      "shoutfy_jq": 20000000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18438.0,
+    "after_mcap_oku": 184
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "3031",
+    "before": {
+      "mcap_oku": 138,
+      "mcap_flag": "",
+      "shoutfy_jq": 21262043,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12603.0,
+    "after_mcap_oku": 126
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "4667",
+    "before": {
+      "mcap_oku": 176,
+      "mcap_flag": "",
+      "shoutfy_jq": 5548979,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 16712.0,
+    "after_mcap_oku": 167
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "5574",
+    "before": {
+      "mcap_oku": 318,
+      "mcap_flag": "",
+      "shoutfy_jq": 9973957,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 32014.0,
+    "after_mcap_oku": 320
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "593A",
+    "before": {
+      "mcap_oku": 1105,
+      "mcap_flag": "†",
+      "shoutfy_jq": 46074490,
+      "cur_end": "2026-09-30",
+      "corr": 1.0,
+      "shares_kabutan": 63524090,
+      "mcap_kabutan_oku": 1524
+    },
+    "mktcap_million_yen": 152394.0,
+    "after_mcap_oku": 1524
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "rows",
+    "code": "6376",
+    "before": {
+      "mcap_oku": 2604,
+      "mcap_flag": "",
+      "shoutfy_jq": 69175664,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 246055.0,
+    "after_mcap_oku": 2461
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "dropped_mcap",
+    "code": "4840",
+    "before": {
+      "mcap_oku": 77
+    },
+    "mktcap_million_yen": 7477.0,
+    "after_mcap_oku": 75
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "dropped_mcap",
+    "code": "2656",
+    "before": {
+      "mcap_oku": 57
+    },
+    "mktcap_million_yen": 5799.0,
+    "after_mcap_oku": 58
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 44
+    },
+    "mktcap_million_yen": 4356.0,
+    "after_mcap_oku": 44
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "dropped_mcap",
+    "code": "7709",
+    "before": {
+      "mcap_oku": 9
+    },
+    "mktcap_million_yen": 867.0,
+    "after_mcap_oku": 9
+  },
+  {
+    "session_date": "2026-08-31",
+    "group": "dropped_mcap",
+    "code": "9425",
+    "before": {
+      "mcap_oku": 22
+    },
+    "mktcap_million_yen": 2531.0,
+    "after_mcap_oku": 25
+  },
+  {
+    "session_date": "2026-09-01",
+    "group": "rows",
+    "code": "2593",
+    "before": {
+      "mcap_oku": 2566,
+      "mcap_flag": "",
+      "shoutfy_jq": 85212380,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 253895.0,
+    "after_mcap_oku": 2539
+  },
+  {
+    "session_date": "2026-09-01",
+    "group": "rows",
+    "code": "4479",
+    "before": {
+      "mcap_oku": 123,
+      "mcap_flag": "",
+      "shoutfy_jq": 12748700,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12347.0,
+    "after_mcap_oku": 124
+  },
+  {
+    "session_date": "2026-09-01",
+    "group": "dropped_mcap",
+    "code": "4075",
+    "before": {
+      "mcap_oku": 83
+    },
+    "mktcap_million_yen": 8121.0,
+    "after_mcap_oku": 81
+  },
+  {
+    "session_date": "2026-09-01",
+    "group": "dropped_mcap",
+    "code": "7709",
+    "before": {
+      "mcap_oku": 9
+    },
+    "mktcap_million_yen": 936.0,
+    "after_mcap_oku": 9
+  },
+  {
+    "session_date": "2026-09-01",
+    "group": "dropped_mcap",
+    "code": "6897",
+    "before": {
+      "mcap_oku": 73
+    },
+    "mktcap_million_yen": 7146.0,
+    "after_mcap_oku": 72
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "rows",
+    "code": "336A",
+    "before": {
+      "mcap_oku": 350,
+      "mcap_flag": "",
+      "shoutfy_jq": 23642050,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 34967.0,
+    "after_mcap_oku": 350
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "rows",
+    "code": "2612",
+    "before": {
+      "mcap_oku": 618,
+      "mcap_flag": "",
+      "shoutfy_jq": 28200000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 60561.0,
+    "after_mcap_oku": 606
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "rows",
+    "code": "4667",
+    "before": {
+      "mcap_oku": 175,
+      "mcap_flag": "",
+      "shoutfy_jq": 5548979,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 16606.0,
+    "after_mcap_oku": 166
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "rows",
+    "code": "402A",
+    "before": {
+      "mcap_oku": 340,
+      "mcap_flag": "",
+      "shoutfy_jq": 66640600,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 34016.0,
+    "after_mcap_oku": 340
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "rows",
+    "code": "1515",
+    "before": {
+      "mcap_oku": 2688,
+      "mcap_flag": "",
+      "shoutfy_jq": 80000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 260323.0,
+    "after_mcap_oku": 2603
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "rows",
+    "code": "593A",
+    "before": {
+      "mcap_oku": 1401,
+      "mcap_flag": "†",
+      "shoutfy_jq": 46074490,
+      "cur_end": "2026-09-30",
+      "corr": 1.0,
+      "shares_kabutan": 63524090,
+      "mcap_kabutan_oku": 1931
+    },
+    "mktcap_million_yen": 193113.0,
+    "after_mcap_oku": 1931
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "dropped_mcap",
+    "code": "3653",
+    "before": {
+      "mcap_oku": 56
+    },
+    "mktcap_million_yen": 5241.0,
+    "after_mcap_oku": 52
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "dropped_mcap",
+    "code": "8746",
+    "before": {
+      "mcap_oku": 23
+    },
+    "mktcap_million_yen": 2309.0,
+    "after_mcap_oku": 23
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "dropped_mcap",
+    "code": "6177",
+    "before": {
+      "mcap_oku": 21
+    },
+    "mktcap_million_yen": 2119.0,
+    "after_mcap_oku": 21
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 42
+    },
+    "mktcap_million_yen": 4181.0,
+    "after_mcap_oku": 42
+  },
+  {
+    "session_date": "2026-09-02",
+    "group": "dropped_mcap",
+    "code": "4440",
+    "before": {
+      "mcap_oku": 77
+    },
+    "mktcap_million_yen": 7351.0,
+    "after_mcap_oku": 74
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "rows",
+    "code": "603A",
+    "before": {
+      "mcap_oku": 369,
+      "mcap_flag": "†",
+      "shoutfy_jq": 32110000,
+      "cur_end": "2026-06-30",
+      "corr": 1.0,
+      "shares_kabutan": 36380000,
+      "mcap_kabutan_oku": 418
+    },
+    "mktcap_million_yen": 41801.0,
+    "after_mcap_oku": 418
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "rows",
+    "code": "3350",
+    "before": {
+      "mcap_oku": 3575,
+      "mcap_flag": "",
+      "shoutfy_jq": 1281283624,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 375342.0,
+    "after_mcap_oku": 3753
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "rows",
+    "code": "3038",
+    "before": {
+      "mcap_oku": 7934,
+      "mcap_flag": "",
+      "shoutfy_jq": 273600000,
+      "cur_end": "2026-10-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 643252.0,
+    "after_mcap_oku": 6432
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "rows",
+    "code": "8309",
+    "before": {
+      "mcap_oku": 12488,
+      "mcap_flag": "†",
+      "shoutfy_jq": 698812980,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 2795251920,
+      "mcap_kabutan_oku": 49951
+    },
+    "mktcap_million_yen": 4921292.0,
+    "after_mcap_oku": 49213
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "dropped_mcap",
+    "code": "3653",
+    "before": {
+      "mcap_oku": 72
+    },
+    "mktcap_million_yen": 6790.0,
+    "after_mcap_oku": 68
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "dropped_mcap",
+    "code": "4583",
+    "before": {
+      "mcap_oku": 65
+    },
+    "mktcap_million_yen": 6711.0,
+    "after_mcap_oku": 67
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "dropped_mcap",
+    "code": "4370",
+    "before": {
+      "mcap_oku": 27
+    },
+    "mktcap_million_yen": 2648.0,
+    "after_mcap_oku": 26
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "dropped_mcap",
+    "code": "4576",
+    "before": {
+      "mcap_oku": 49
+    },
+    "mktcap_million_yen": 4892.0,
+    "after_mcap_oku": 49
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 51
+    },
+    "mktcap_million_yen": 5058.0,
+    "after_mcap_oku": 51
+  },
+  {
+    "session_date": "2026-09-03",
+    "group": "dropped_mcap",
+    "code": "3664",
+    "before": {
+      "mcap_oku": 22
+    },
+    "mktcap_million_yen": 2641.0,
+    "after_mcap_oku": 26
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "6176",
+    "before": {
+      "mcap_oku": 166,
+      "mcap_flag": "",
+      "shoutfy_jq": 14575300,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 16453.0,
+    "after_mcap_oku": 164
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "6740",
+    "before": {
+      "mcap_oku": 2095,
+      "mcap_flag": "",
+      "shoutfy_jq": 4458260222,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 214970.0,
+    "after_mcap_oku": 2150
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 298449,
+      "mcap_flag": "",
+      "shoutfy_jq": 548015088,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 29878857.0,
+    "after_mcap_oku": 298789
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "336A",
+    "before": {
+      "mcap_oku": 354,
+      "mcap_flag": "",
+      "shoutfy_jq": 23642050,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 35392.0,
+    "after_mcap_oku": 354
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "9697",
+    "before": {
+      "mcap_oku": 22642,
+      "mcap_flag": "",
+      "shoutfy_jq": 533011246,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1777026.0,
+    "after_mcap_oku": 17770
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "3687",
+    "before": {
+      "mcap_oku": 709,
+      "mcap_flag": "",
+      "shoutfy_jq": 33635000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 68095.0,
+    "after_mcap_oku": 681
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "5471",
+    "before": {
+      "mcap_oku": 4930,
+      "mcap_flag": "",
+      "shoutfy_jq": 217243845,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 453569.0,
+    "after_mcap_oku": 4536
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "6525",
+    "before": {
+      "mcap_oku": 19752,
+      "mcap_flag": "",
+      "shoutfy_jq": 238115614,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1937357.0,
+    "after_mcap_oku": 19374
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "rows",
+    "code": "5801",
+    "before": {
+      "mcap_oku": 27164,
+      "mcap_flag": "",
+      "shoutfy_jq": 706669170,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2704240.0,
+    "after_mcap_oku": 27042
+  },
+  {
+    "session_date": "2026-09-04",
+    "group": "dropped_mcap",
+    "code": "7689",
+    "before": {
+      "mcap_oku": 11
+    },
+    "mktcap_million_yen": 1129.0,
+    "after_mcap_oku": 11
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "rows",
+    "code": "446A",
+    "before": {
+      "mcap_oku": 1479,
+      "mcap_flag": "",
+      "shoutfy_jq": 69000000,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 147936.0,
+    "after_mcap_oku": 1479
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "rows",
+    "code": "6085",
+    "before": {
+      "mcap_oku": 222,
+      "mcap_flag": "",
+      "shoutfy_jq": 114860220,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 22145.0,
+    "after_mcap_oku": 221
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "rows",
+    "code": "7856",
+    "before": {
+      "mcap_oku": 283,
+      "mcap_flag": "",
+      "shoutfy_jq": 14897600,
+      "cur_end": "2026-10-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 26784.0,
+    "after_mcap_oku": 268
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "rows",
+    "code": "6203",
+    "before": {
+      "mcap_oku": 240,
+      "mcap_flag": "",
+      "shoutfy_jq": 12548134,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 23080.0,
+    "after_mcap_oku": 231
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "dropped_mcap",
+    "code": "2338",
+    "before": {
+      "mcap_oku": 62
+    },
+    "mktcap_million_yen": 6699.0,
+    "after_mcap_oku": 67
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "dropped_mcap",
+    "code": "2330",
+    "before": {
+      "mcap_oku": 48
+    },
+    "mktcap_million_yen": 4795.0,
+    "after_mcap_oku": 48
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "dropped_mcap",
+    "code": "8995",
+    "before": {
+      "mcap_oku": 41
+    },
+    "mktcap_million_yen": 4120.0,
+    "after_mcap_oku": 41
+  },
+  {
+    "session_date": "2026-09-07",
+    "group": "dropped_mcap",
+    "code": "520A",
+    "before": {
+      "mcap_oku": 85
+    },
+    "mktcap_million_yen": 8525.0,
+    "after_mcap_oku": 85
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "1436",
+    "before": {
+      "mcap_oku": 247,
+      "mcap_flag": "",
+      "shoutfy_jq": 12857400,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 23782.0,
+    "after_mcap_oku": 238
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "3687",
+    "before": {
+      "mcap_oku": 752,
+      "mcap_flag": "",
+      "shoutfy_jq": 33635000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 72198.0,
+    "after_mcap_oku": 722
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "6834",
+    "before": {
+      "mcap_oku": 476,
+      "mcap_flag": "†",
+      "shoutfy_jq": 9333654,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 46668270,
+      "mcap_kabutan_oku": 2380
+    },
+    "mktcap_million_yen": 227951.0,
+    "after_mcap_oku": 2280
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "6203",
+    "before": {
+      "mcap_oku": 270,
+      "mcap_flag": "",
+      "shoutfy_jq": 12548134,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 25929.0,
+    "after_mcap_oku": 259
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "6779",
+    "before": {
+      "mcap_oku": 583,
+      "mcap_flag": "",
+      "shoutfy_jq": 23128605,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 57760.0,
+    "after_mcap_oku": 578
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "6613",
+    "before": {
+      "mcap_oku": 812,
+      "mcap_flag": "",
+      "shoutfy_jq": 41995075,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 81428.0,
+    "after_mcap_oku": 814
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "6997",
+    "before": {
+      "mcap_oku": 736,
+      "mcap_flag": "",
+      "shoutfy_jq": 27992541,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 71983.0,
+    "after_mcap_oku": 720
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "5801",
+    "before": {
+      "mcap_oku": 25906,
+      "mcap_flag": "",
+      "shoutfy_jq": 706669170,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 2579018.0,
+    "after_mcap_oku": 25790
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "5802",
+    "before": {
+      "mcap_oku": 65770,
+      "mcap_flag": "",
+      "shoutfy_jq": 3175762284,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 6460853.0,
+    "after_mcap_oku": 64608
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "5016",
+    "before": {
+      "mcap_oku": 35516,
+      "mcap_flag": "",
+      "shoutfy_jq": 953183210,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 3536657.0,
+    "after_mcap_oku": 35367
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "rows",
+    "code": "5803",
+    "before": {
+      "mcap_oku": 90232,
+      "mcap_flag": "",
+      "shoutfy_jq": 1775180526,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 8418263.0,
+    "after_mcap_oku": 84183
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "dropped_mcap",
+    "code": "2321",
+    "before": {
+      "mcap_oku": 72
+    },
+    "mktcap_million_yen": 7226.0,
+    "after_mcap_oku": 72
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "dropped_mcap",
+    "code": "4440",
+    "before": {
+      "mcap_oku": 84
+    },
+    "mktcap_million_yen": 8055.0,
+    "after_mcap_oku": 80
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "dropped_mcap",
+    "code": "2330",
+    "before": {
+      "mcap_oku": 57
+    },
+    "mktcap_million_yen": 5667.0,
+    "after_mcap_oku": 57
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "dropped_mcap",
+    "code": "3113",
+    "before": {
+      "mcap_oku": 77
+    },
+    "mktcap_million_yen": 7738.0,
+    "after_mcap_oku": 77
+  },
+  {
+    "session_date": "2026-09-08",
+    "group": "dropped_mcap",
+    "code": "8995",
+    "before": {
+      "mcap_oku": 51
+    },
+    "mktcap_million_yen": 5126.0,
+    "after_mcap_oku": 51
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "6966",
+    "before": {
+      "mcap_oku": 1774,
+      "mcap_flag": "",
+      "shoutfy_jq": 197334325,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 164292.0,
+    "after_mcap_oku": 1643
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "1783",
+    "before": {
+      "mcap_oku": 139,
+      "mcap_flag": "",
+      "shoutfy_jq": 193308851,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13918.0,
+    "after_mcap_oku": 139
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "5032",
+    "before": {
+      "mcap_oku": 1745,
+      "mcap_flag": "",
+      "shoutfy_jq": 61128029,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 171055.0,
+    "after_mcap_oku": 1710
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "3989",
+    "before": {
+      "mcap_oku": 358,
+      "mcap_flag": "",
+      "shoutfy_jq": 24429800,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 35059.0,
+    "after_mcap_oku": 351
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "6203",
+    "before": {
+      "mcap_oku": 269,
+      "mcap_flag": "",
+      "shoutfy_jq": 12548134,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 25832.0,
+    "after_mcap_oku": 258
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "8918",
+    "before": {
+      "mcap_oku": 155,
+      "mcap_flag": "",
+      "shoutfy_jq": 1545140000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15379.0,
+    "after_mcap_oku": 154
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "5132",
+    "before": {
+      "mcap_oku": 158,
+      "mcap_flag": "",
+      "shoutfy_jq": 7898130,
+      "cur_end": "2026-10-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15692.0,
+    "after_mcap_oku": 157
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "rows",
+    "code": "336A",
+    "before": {
+      "mcap_oku": 331,
+      "mcap_flag": "",
+      "shoutfy_jq": 23642050,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 33052.0,
+    "after_mcap_oku": 330
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "4596",
+    "before": {
+      "mcap_oku": 100
+    },
+    "mktcap_million_yen": 10539.0,
+    "after_mcap_oku": 105
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 61
+    },
+    "mktcap_million_yen": 6081.0,
+    "after_mcap_oku": 61
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "4174",
+    "before": {
+      "mcap_oku": 36
+    },
+    "mktcap_million_yen": 3532.0,
+    "after_mcap_oku": 35
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "2321",
+    "before": {
+      "mcap_oku": 98
+    },
+    "mktcap_million_yen": 9826.0,
+    "after_mcap_oku": 98
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "8254",
+    "before": {
+      "mcap_oku": 21
+    },
+    "mktcap_million_yen": 2283.0,
+    "after_mcap_oku": 23
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "5287",
+    "before": {
+      "mcap_oku": 36
+    },
+    "mktcap_million_yen": 2987.0,
+    "after_mcap_oku": 30
+  },
+  {
+    "session_date": "2026-09-09",
+    "group": "dropped_mcap",
+    "code": "3113",
+    "before": {
+      "mcap_oku": 80
+    },
+    "mktcap_million_yen": 8018.0,
+    "after_mcap_oku": 80
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "rows",
+    "code": "9082",
+    "before": {
+      "mcap_oku": 133,
+      "mcap_flag": "",
+      "shoutfy_jq": 5250000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11295.0,
+    "after_mcap_oku": 113
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "rows",
+    "code": "4440",
+    "before": {
+      "mcap_oku": 107,
+      "mcap_flag": "",
+      "shoutfy_jq": 4176000,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10278.0,
+    "after_mcap_oku": 103
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "rows",
+    "code": "7777",
+    "before": {
+      "mcap_oku": 438,
+      "mcap_flag": "",
+      "shoutfy_jq": 127981481,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 43770.0,
+    "after_mcap_oku": 438
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "rows",
+    "code": "6740",
+    "before": {
+      "mcap_oku": 2095,
+      "mcap_flag": "",
+      "shoutfy_jq": 4458260222,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 214970.0,
+    "after_mcap_oku": 2150
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "rows",
+    "code": "1783",
+    "before": {
+      "mcap_oku": 137,
+      "mcap_flag": "",
+      "shoutfy_jq": 193308851,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13725.0,
+    "after_mcap_oku": 137
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "rows",
+    "code": "2983",
+    "before": {
+      "mcap_oku": 188,
+      "mcap_flag": "",
+      "shoutfy_jq": 10798960,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 18538.0,
+    "after_mcap_oku": 185
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "dropped_mcap",
+    "code": "8783",
+    "before": {
+      "mcap_oku": 21
+    },
+    "mktcap_million_yen": 2642.0,
+    "after_mcap_oku": 26
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "dropped_mcap",
+    "code": "8995",
+    "before": {
+      "mcap_oku": 51
+    },
+    "mktcap_million_yen": 5126.0,
+    "after_mcap_oku": 51
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "dropped_mcap",
+    "code": "7709",
+    "before": {
+      "mcap_oku": 10
+    },
+    "mktcap_million_yen": 991.0,
+    "after_mcap_oku": 10
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "dropped_mcap",
+    "code": "3823",
+    "before": {
+      "mcap_oku": 45
+    },
+    "mktcap_million_yen": 4655.0,
+    "after_mcap_oku": 46
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "dropped_mcap",
+    "code": "4883",
+    "before": {
+      "mcap_oku": 42
+    },
+    "mktcap_million_yen": 4578.0,
+    "after_mcap_oku": 46
+  },
+  {
+    "session_date": "2026-09-10",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 78
+    },
+    "mktcap_million_yen": 7836.0,
+    "after_mcap_oku": 78
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "6191",
+    "before": {
+      "mcap_oku": 244,
+      "mcap_flag": "",
+      "shoutfy_jq": 22772065,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 23705.0,
+    "after_mcap_oku": 237
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "3444",
+    "before": {
+      "mcap_oku": 125,
+      "mcap_flag": "",
+      "shoutfy_jq": 12337700,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12261.0,
+    "after_mcap_oku": 123
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "6203",
+    "before": {
+      "mcap_oku": 357,
+      "mcap_flag": "",
+      "shoutfy_jq": 12548134,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 34331.0,
+    "after_mcap_oku": 343
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "1783",
+    "before": {
+      "mcap_oku": 151,
+      "mcap_flag": "",
+      "shoutfy_jq": 193308851,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15078.0,
+    "after_mcap_oku": 151
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "456A",
+    "before": {
+      "mcap_oku": 1262,
+      "mcap_flag": "",
+      "shoutfy_jq": 91666322,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 126225.0,
+    "after_mcap_oku": 1262
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "3350",
+    "before": {
+      "mcap_oku": 3190,
+      "mcap_flag": "",
+      "shoutfy_jq": 1281283624,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 334983.0,
+    "after_mcap_oku": 3350
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "4667",
+    "before": {
+      "mcap_oku": 202,
+      "mcap_flag": "",
+      "shoutfy_jq": 5548979,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19193.0,
+    "after_mcap_oku": 192
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "rows",
+    "code": "593A",
+    "before": {
+      "mcap_oku": 983,
+      "mcap_flag": "†",
+      "shoutfy_jq": 46074490,
+      "cur_end": "2026-09-30",
+      "corr": 1.0,
+      "shares_kabutan": 63524090,
+      "mcap_kabutan_oku": 1356
+    },
+    "mktcap_million_yen": 135560.0,
+    "after_mcap_oku": 1356
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "dropped_mcap",
+    "code": "5131",
+    "before": {
+      "mcap_oku": 16
+    },
+    "mktcap_million_yen": 1571.0,
+    "after_mcap_oku": 16
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 65
+    },
+    "mktcap_million_yen": 6538.0,
+    "after_mcap_oku": 65
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "dropped_mcap",
+    "code": "4833",
+    "before": {
+      "mcap_oku": 38
+    },
+    "mktcap_million_yen": 3775.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "dropped_mcap",
+    "code": "4891",
+    "before": {
+      "mcap_oku": 54
+    },
+    "mktcap_million_yen": 5615.0,
+    "after_mcap_oku": 56
+  },
+  {
+    "session_date": "2026-09-11",
+    "group": "dropped_mcap",
+    "code": "4274",
+    "before": {
+      "mcap_oku": 47
+    },
+    "mktcap_million_yen": 4691.0,
+    "after_mcap_oku": 47
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "6317",
+    "before": {
+      "mcap_oku": 203,
+      "mcap_flag": "",
+      "shoutfy_jq": 9650803,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 19900.0,
+    "after_mcap_oku": 199
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "604A",
+    "before": {
+      "mcap_oku": 129,
+      "mcap_flag": "†",
+      "shoutfy_jq": 10175000,
+      "cur_end": "2026-07-31",
+      "corr": 1.0,
+      "shares_kabutan": 10666600,
+      "mcap_kabutan_oku": 135
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "5136",
+    "before": {
+      "mcap_oku": 120,
+      "mcap_flag": "",
+      "shoutfy_jq": 5937572,
+      "cur_end": "2026-10-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11952.0,
+    "after_mcap_oku": 120
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "3444",
+    "before": {
+      "mcap_oku": 142,
+      "mcap_flag": "",
+      "shoutfy_jq": 12337700,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13867.0,
+    "after_mcap_oku": 139
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "6356",
+    "before": {
+      "mcap_oku": 216,
+      "mcap_flag": "",
+      "shoutfy_jq": 14280000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21540.0,
+    "after_mcap_oku": 215
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "7711",
+    "before": {
+      "mcap_oku": 333,
+      "mcap_flag": "",
+      "shoutfy_jq": 5870000,
+      "cur_end": "2026-09-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 31324.0,
+    "after_mcap_oku": 313
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "4053",
+    "before": {
+      "mcap_oku": 184,
+      "mcap_flag": "",
+      "shoutfy_jq": 40055360,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 17984.0,
+    "after_mcap_oku": 180
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "9130",
+    "before": {
+      "mcap_oku": 132,
+      "mcap_flag": "",
+      "shoutfy_jq": 7650000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13215.0,
+    "after_mcap_oku": 132
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "rows",
+    "code": "8918",
+    "before": {
+      "mcap_oku": 155,
+      "mcap_flag": "",
+      "shoutfy_jq": 1545140000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15379.0,
+    "after_mcap_oku": 154
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "dropped_mcap",
+    "code": "5131",
+    "before": {
+      "mcap_oku": 23
+    },
+    "mktcap_million_yen": 2267.0,
+    "after_mcap_oku": 23
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "dropped_mcap",
+    "code": "3823",
+    "before": {
+      "mcap_oku": 48
+    },
+    "mktcap_million_yen": 4805.0,
+    "after_mcap_oku": 48
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "dropped_mcap",
+    "code": "246A",
+    "before": {
+      "mcap_oku": 25
+    },
+    "mktcap_million_yen": 2379.0,
+    "after_mcap_oku": 24
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "dropped_mcap",
+    "code": "460A",
+    "before": {
+      "mcap_oku": 51
+    },
+    "mktcap_million_yen": 5144.0,
+    "after_mcap_oku": 51
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "dropped_mcap",
+    "code": "5031",
+    "before": {
+      "mcap_oku": 69
+    },
+    "mktcap_million_yen": 6892.0,
+    "after_mcap_oku": 69
+  },
+  {
+    "session_date": "2026-09-14",
+    "group": "dropped_mcap",
+    "code": "7709",
+    "before": {
+      "mcap_oku": 11
+    },
+    "mktcap_million_yen": 1046.0,
+    "after_mcap_oku": 10
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "rows",
+    "code": "4933",
+    "before": {
+      "mcap_oku": 299,
+      "mcap_flag": "",
+      "shoutfy_jq": 17791270,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 29915.0,
+    "after_mcap_oku": 299
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "rows",
+    "code": "5574",
+    "before": {
+      "mcap_oku": 291,
+      "mcap_flag": "",
+      "shoutfy_jq": 9973957,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 29254.0,
+    "after_mcap_oku": 292
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "rows",
+    "code": "604A",
+    "before": {
+      "mcap_oku": 159,
+      "mcap_flag": "†",
+      "shoutfy_jq": 10175000,
+      "cur_end": "2026-07-31",
+      "corr": 1.0,
+      "shares_kabutan": 10666600,
+      "mcap_kabutan_oku": 167
+    },
+    "mktcap_million_yen": 16201.0,
+    "after_mcap_oku": 162
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "rows",
+    "code": "8918",
+    "before": {
+      "mcap_oku": 155,
+      "mcap_flag": "",
+      "shoutfy_jq": 1545140000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15379.0,
+    "after_mcap_oku": 154
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "dropped_mcap",
+    "code": "3787",
+    "before": {
+      "mcap_oku": 13
+    },
+    "mktcap_million_yen": 1260.0,
+    "after_mcap_oku": 13
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "dropped_mcap",
+    "code": "4840",
+    "before": {
+      "mcap_oku": 65
+    },
+    "mktcap_million_yen": 6357.0,
+    "after_mcap_oku": 64
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "dropped_mcap",
+    "code": "5131",
+    "before": {
+      "mcap_oku": 30
+    },
+    "mktcap_million_yen": 2962.0,
+    "after_mcap_oku": 30
+  },
+  {
+    "session_date": "2026-09-15",
+    "group": "dropped_mcap",
+    "code": "3823",
+    "before": {
+      "mcap_oku": 80
+    },
+    "mktcap_million_yen": 7959.0,
+    "after_mcap_oku": 80
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "6232",
+    "before": {
+      "mcap_oku": 238,
+      "mcap_flag": "†",
+      "shoutfy_jq": 19472474,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 23652474,
+      "mcap_kabutan_oku": 290
+    },
+    "mktcap_million_yen": 29090.0,
+    "after_mcap_oku": 291
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "3321",
+    "before": {
+      "mcap_oku": 134,
+      "mcap_flag": "",
+      "shoutfy_jq": 7971853,
+      "cur_end": "2026-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13423.0,
+    "after_mcap_oku": 134
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "6203",
+    "before": {
+      "mcap_oku": 268,
+      "mcap_flag": "",
+      "shoutfy_jq": 12548134,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 25772.0,
+    "after_mcap_oku": 258
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "8848",
+    "before": {
+      "mcap_oku": 3147,
+      "mcap_flag": "",
+      "shoutfy_jq": 334415678,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 298996.0,
+    "after_mcap_oku": 2990
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "4593",
+    "before": {
+      "mcap_oku": 389,
+      "mcap_flag": "",
+      "shoutfy_jq": 135002200,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 39037.0,
+    "after_mcap_oku": 390
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "3444",
+    "before": {
+      "mcap_oku": 136,
+      "mcap_flag": "",
+      "shoutfy_jq": 12337700,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13299.0,
+    "after_mcap_oku": 133
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "rows",
+    "code": "4523",
+    "before": {
+      "mcap_oku": 13955,
+      "mcap_flag": "",
+      "shoutfy_jq": 291649149,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1351566.0,
+    "after_mcap_oku": 13516
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "dropped_mcap",
+    "code": "4438",
+    "before": {
+      "mcap_oku": 27
+    },
+    "mktcap_million_yen": 2750.0,
+    "after_mcap_oku": 28
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "dropped_mcap",
+    "code": "7602",
+    "before": {
+      "mcap_oku": 44
+    },
+    "mktcap_million_yen": 3793.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "dropped_mcap",
+    "code": "4263",
+    "before": {
+      "mcap_oku": 70
+    },
+    "mktcap_million_yen": 6998.0,
+    "after_mcap_oku": 70
+  },
+  {
+    "session_date": "2026-09-16",
+    "group": "dropped_mcap",
+    "code": "4884",
+    "before": {
+      "mcap_oku": 37
+    },
+    "mktcap_million_yen": 3747.0,
+    "after_mcap_oku": 38
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "3075",
+    "before": {
+      "mcap_oku": 241,
+      "mcap_flag": "",
+      "shoutfy_jq": 14518000,
+      "cur_end": "2027-02-28",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 20787.0,
+    "after_mcap_oku": 208
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "3395",
+    "before": {
+      "mcap_oku": 568,
+      "mcap_flag": "",
+      "shoutfy_jq": 22941111,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 53076.0,
+    "after_mcap_oku": 531
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "3498",
+    "before": {
+      "mcap_oku": 1770,
+      "mcap_flag": "",
+      "shoutfy_jq": 24587930,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 176897.0,
+    "after_mcap_oku": 1769
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 356819,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 35601962.0,
+    "after_mcap_oku": 356020
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "285A",
+    "before": {
+      "mcap_oku": 273350,
+      "mcap_flag": "",
+      "shoutfy_jq": 548015088,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 27366093.0,
+    "after_mcap_oku": 273661
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "6232",
+    "before": {
+      "mcap_oku": 265,
+      "mcap_flag": "†",
+      "shoutfy_jq": 19472474,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 23652474,
+      "mcap_kabutan_oku": 321
+    },
+    "mktcap_million_yen": 32298.0,
+    "after_mcap_oku": 323
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "8418",
+    "before": {
+      "mcap_oku": 7644,
+      "mcap_flag": "",
+      "shoutfy_jq": 234767616,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 658791.0,
+    "after_mcap_oku": 6588
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "rows",
+    "code": "4259",
+    "before": {
+      "mcap_oku": 885,
+      "mcap_flag": "",
+      "shoutfy_jq": 97005500,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 86918.0,
+    "after_mcap_oku": 869
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "4436",
+    "before": {
+      "mcap_oku": 77
+    },
+    "mktcap_million_yen": 7685.0,
+    "after_mcap_oku": 77
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "4073",
+    "before": {
+      "mcap_oku": 14
+    },
+    "mktcap_million_yen": 1405.0,
+    "after_mcap_oku": 14
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "2788",
+    "before": {
+      "mcap_oku": 55
+    },
+    "mktcap_million_yen": 5066.0,
+    "after_mcap_oku": 51
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "3652",
+    "before": {
+      "mcap_oku": 93
+    },
+    "mktcap_million_yen": 9322.0,
+    "after_mcap_oku": 93
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "5542",
+    "before": {
+      "mcap_oku": 81
+    },
+    "mktcap_million_yen": 7648.0,
+    "after_mcap_oku": 76
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "3823",
+    "before": {
+      "mcap_oku": 66
+    },
+    "mktcap_million_yen": 6607.0,
+    "after_mcap_oku": 66
+  },
+  {
+    "session_date": "2026-09-17",
+    "group": "dropped_mcap",
+    "code": "7709",
+    "before": {
+      "mcap_oku": 10
+    },
+    "mktcap_million_yen": 964.0,
+    "after_mcap_oku": 10
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "rows",
+    "code": "3905",
+    "before": {
+      "mcap_oku": 494,
+      "mcap_flag": "†",
+      "shoutfy_jq": 32017051,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 38419151,
+      "mcap_kabutan_oku": 592
+    },
+    "mktcap_million_yen": 58988.0,
+    "after_mcap_oku": 590
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "rows",
+    "code": "3350",
+    "before": {
+      "mcap_oku": 3114,
+      "mcap_flag": "†",
+      "shoutfy_jq": 1281283624,
+      "cur_end": "2026-12-31",
+      "corr": 1.0,
+      "shares_kabutan": 1345340624,
+      "mcap_kabutan_oku": 3269
+    },
+    "mktcap_million_yen": 326911.0,
+    "after_mcap_oku": 3269
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "rows",
+    "code": "215A",
+    "before": {
+      "mcap_oku": 1332,
+      "mcap_flag": "",
+      "shoutfy_jq": 100743000,
+      "cur_end": "2027-04-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 131855.0,
+    "after_mcap_oku": 1318
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "rows",
+    "code": "5574",
+    "before": {
+      "mcap_oku": 325,
+      "mcap_flag": "",
+      "shoutfy_jq": 9973957,
+      "cur_end": "2026-08-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 32717.0,
+    "after_mcap_oku": 327
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "rows",
+    "code": "5367",
+    "before": {
+      "mcap_oku": 176,
+      "mcap_flag": "",
+      "shoutfy_jq": 12135695,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 17335.0,
+    "after_mcap_oku": 173
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "dropped_mcap",
+    "code": "6977",
+    "before": {
+      "mcap_oku": 20
+    },
+    "mktcap_million_yen": 1949.0,
+    "after_mcap_oku": 20
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "dropped_mcap",
+    "code": "4436",
+    "before": {
+      "mcap_oku": 92
+    },
+    "mktcap_million_yen": 9222.0,
+    "after_mcap_oku": 92
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "dropped_mcap",
+    "code": "2926",
+    "before": {
+      "mcap_oku": 17
+    },
+    "mktcap_million_yen": 1741.0,
+    "after_mcap_oku": 17
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "dropped_mcap",
+    "code": "4833",
+    "before": {
+      "mcap_oku": 36
+    },
+    "mktcap_million_yen": 3630.0,
+    "after_mcap_oku": 36
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "dropped_mcap",
+    "code": "5721",
+    "before": {
+      "mcap_oku": 96
+    },
+    "mktcap_million_yen": 9596.0,
+    "after_mcap_oku": 96
+  },
+  {
+    "session_date": "2026-09-18",
+    "group": "dropped_mcap",
+    "code": "7689",
+    "before": {
+      "mcap_oku": 15
+    },
+    "mktcap_million_yen": 1520.0,
+    "after_mcap_oku": 15
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "4436",
+    "before": {
+      "mcap_oku": 108,
+      "mcap_flag": "",
+      "shoutfy_jq": 15369700,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10759.0,
+    "after_mcap_oku": 108
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "9082",
+    "before": {
+      "mcap_oku": 147,
+      "mcap_flag": "",
+      "shoutfy_jq": 5250000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 12439.0,
+    "after_mcap_oku": 124
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "4967",
+    "before": {
+      "mcap_oku": 4593,
+      "mcap_flag": "",
+      "shoutfy_jq": 78050000,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 437483.0,
+    "after_mcap_oku": 4375
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "3905",
+    "before": {
+      "mcap_oku": 579,
+      "mcap_flag": "†",
+      "shoutfy_jq": 32017051,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 38419151,
+      "mcap_kabutan_oku": 694
+    },
+    "mktcap_million_yen": 69125.0,
+    "after_mcap_oku": 691
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "4716",
+    "before": {
+      "mcap_oku": 11734,
+      "mcap_flag": "",
+      "shoutfy_jq": 128313071,
+      "cur_end": "2027-05-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1172000.0,
+    "after_mcap_oku": 11720
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "5253",
+    "before": {
+      "mcap_oku": 1060,
+      "mcap_flag": "",
+      "shoutfy_jq": 65650100,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 102989.0,
+    "after_mcap_oku": 1030
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "rows",
+    "code": "9227",
+    "before": {
+      "mcap_oku": 132,
+      "mcap_flag": "",
+      "shoutfy_jq": 15904500,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 13201.0,
+    "after_mcap_oku": 132
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "dropped_mcap",
+    "code": "627A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "dropped_mcap",
+    "code": "4073",
+    "before": {
+      "mcap_oku": 16
+    },
+    "mktcap_million_yen": 1661.0,
+    "after_mcap_oku": 17
+  },
+  {
+    "session_date": "2026-09-24",
+    "group": "dropped_mcap",
+    "code": "4052",
+    "before": {
+      "mcap_oku": 66
+    },
+    "mktcap_million_yen": 6637.0,
+    "after_mcap_oku": 66
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "rows",
+    "code": "6533",
+    "before": {
+      "mcap_oku": 123,
+      "mcap_flag": "",
+      "shoutfy_jq": 10034200,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 11471.0,
+    "after_mcap_oku": 115
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "rows",
+    "code": "9509",
+    "before": {
+      "mcap_oku": 2402,
+      "mcap_flag": "",
+      "shoutfy_jq": 215291912,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 229068.0,
+    "after_mcap_oku": 2291
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "rows",
+    "code": "3905",
+    "before": {
+      "mcap_oku": 665,
+      "mcap_flag": "†",
+      "shoutfy_jq": 32017051,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 38419151,
+      "mcap_kabutan_oku": 798
+    },
+    "mktcap_million_yen": 79454.0,
+    "after_mcap_oku": 794
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "dropped_mcap",
+    "code": "7883",
+    "before": {
+      "mcap_oku": 86
+    },
+    "mktcap_million_yen": 7538.0,
+    "after_mcap_oku": 75
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "dropped_mcap",
+    "code": "5986",
+    "before": {
+      "mcap_oku": 59
+    },
+    "mktcap_million_yen": 5892.0,
+    "after_mcap_oku": 59
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "dropped_mcap",
+    "code": "7897",
+    "before": {
+      "mcap_oku": 31
+    },
+    "mktcap_million_yen": 3062.0,
+    "after_mcap_oku": 31
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "dropped_mcap",
+    "code": "7610",
+    "before": {
+      "mcap_oku": 94
+    },
+    "mktcap_million_yen": 8502.0,
+    "after_mcap_oku": 85
+  },
+  {
+    "session_date": "2026-09-25",
+    "group": "dropped_mcap",
+    "code": "627A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "rows",
+    "code": "6533",
+    "before": {
+      "mcap_oku": 153,
+      "mcap_flag": "",
+      "shoutfy_jq": 10034200,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 14274.0,
+    "after_mcap_oku": 143
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "rows",
+    "code": "6904",
+    "before": {
+      "mcap_oku": 225,
+      "mcap_flag": "",
+      "shoutfy_jq": 21758000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 21892.0,
+    "after_mcap_oku": 219
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "rows",
+    "code": "7552",
+    "before": {
+      "mcap_oku": 2063,
+      "mcap_flag": "",
+      "shoutfy_jq": 48100000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 185879.0,
+    "after_mcap_oku": 1859
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "rows",
+    "code": "6227",
+    "before": {
+      "mcap_oku": 1293,
+      "mcap_flag": "",
+      "shoutfy_jq": 18849000,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 129048.0,
+    "after_mcap_oku": 1290
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "rows",
+    "code": "5706",
+    "before": {
+      "mcap_oku": 13251,
+      "mcap_flag": "†",
+      "shoutfy_jq": 57415430,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 574203890,
+      "mcap_kabutan_oku": 132526
+    },
+    "mktcap_million_yen": 1320497.0,
+    "after_mcap_oku": 13205
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "rows",
+    "code": "604A",
+    "before": {
+      "mcap_oku": 142,
+      "mcap_flag": "†",
+      "shoutfy_jq": 10175000,
+      "cur_end": "2026-07-31",
+      "corr": 1.0,
+      "shares_kabutan": 10666600,
+      "mcap_kabutan_oku": 149
+    },
+    "mktcap_million_yen": 14420.0,
+    "after_mcap_oku": 144
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "dropped_mcap",
+    "code": "634A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "dropped_mcap",
+    "code": "7624",
+    "before": {
+      "mcap_oku": 98
+    },
+    "mktcap_million_yen": 9802.0,
+    "after_mcap_oku": 98
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "dropped_mcap",
+    "code": "4073",
+    "before": {
+      "mcap_oku": 19
+    },
+    "mktcap_million_yen": 1886.0,
+    "after_mcap_oku": 19
+  },
+  {
+    "session_date": "2026-09-28",
+    "group": "dropped_mcap",
+    "code": "627A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "4331",
+    "before": {
+      "mcap_oku": 108,
+      "mcap_flag": "",
+      "shoutfy_jq": 14619330,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 10812.0,
+    "after_mcap_oku": 108
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "6730",
+    "before": {
+      "mcap_oku": 171,
+      "mcap_flag": "",
+      "shoutfy_jq": 11211989,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 16436.0,
+    "after_mcap_oku": 164
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "4894",
+    "before": {
+      "mcap_oku": 467,
+      "mcap_flag": "†",
+      "shoutfy_jq": 8274576,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 8896416,
+      "mcap_kabutan_oku": 502
+    },
+    "mktcap_million_yen": 50079.0,
+    "after_mcap_oku": 501
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "3776",
+    "before": {
+      "mcap_oku": 156,
+      "mcap_flag": "",
+      "shoutfy_jq": 61905500,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 15521.0,
+    "after_mcap_oku": 155
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "4978",
+    "before": {
+      "mcap_oku": 134,
+      "mcap_flag": "†",
+      "shoutfy_jq": 98079891,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 103943891,
+      "mcap_kabutan_oku": 142
+    },
+    "mktcap_million_yen": 14223.0,
+    "after_mcap_oku": 142
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "9984",
+    "before": {
+      "mcap_oku": 344710,
+      "mcap_flag": "",
+      "shoutfy_jq": 5711848120,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 34393763.0,
+    "after_mcap_oku": 343938
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "6787",
+    "before": {
+      "mcap_oku": 6041,
+      "mcap_flag": "",
+      "shoutfy_jq": 26803320,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 578528.0,
+    "after_mcap_oku": 5785
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "6834",
+    "before": {
+      "mcap_oku": 577,
+      "mcap_flag": "†",
+      "shoutfy_jq": 9333654,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 46668270,
+      "mcap_kabutan_oku": 2884
+    },
+    "mktcap_million_yen": 276223.0,
+    "after_mcap_oku": 2762
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "8035",
+    "before": {
+      "mcap_oku": 53847,
+      "mcap_flag": "†",
+      "shoutfy_jq": 468032733,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 2340163665,
+      "mcap_kabutan_oku": 269236
+    },
+    "mktcap_million_yen": 26153810.0,
+    "after_mcap_oku": 261538
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "1963",
+    "before": {
+      "mcap_oku": 5404,
+      "mcap_flag": "",
+      "shoutfy_jq": 244293008,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 534973.0,
+    "after_mcap_oku": 5350
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "3436",
+    "before": {
+      "mcap_oku": 10645,
+      "mcap_flag": "",
+      "shoutfy_jq": 350175139,
+      "cur_end": "2026-12-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 1063186.0,
+    "after_mcap_oku": 10632
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "rows",
+    "code": "6920",
+    "before": {
+      "mcap_oku": 38657,
+      "mcap_flag": "",
+      "shoutfy_jq": 94286400,
+      "cur_end": "2026-06-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 3674857.0,
+    "after_mcap_oku": 36749
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "4395",
+    "before": {
+      "mcap_oku": 54
+    },
+    "mktcap_million_yen": 5257.0,
+    "after_mcap_oku": 53
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "4178",
+    "before": {
+      "mcap_oku": 28
+    },
+    "mktcap_million_yen": 2811.0,
+    "after_mcap_oku": 28
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "646A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "625A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "634A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "2667",
+    "before": {
+      "mcap_oku": 16
+    },
+    "mktcap_million_yen": 1577.0,
+    "after_mcap_oku": 16
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "7035",
+    "before": {
+      "mcap_oku": 27
+    },
+    "mktcap_million_yen": 2692.0,
+    "after_mcap_oku": 27
+  },
+  {
+    "session_date": "2026-09-29",
+    "group": "dropped_mcap",
+    "code": "8105",
+    "before": {
+      "mcap_oku": 55
+    },
+    "mktcap_million_yen": 5595.0,
+    "after_mcap_oku": 56
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "6523",
+    "before": {
+      "mcap_oku": 1821,
+      "mcap_flag": "",
+      "shoutfy_jq": 127320915,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 181775.0,
+    "after_mcap_oku": 1818
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "9632",
+    "before": {
+      "mcap_oku": 555,
+      "mcap_flag": "",
+      "shoutfy_jq": 13310000,
+      "cur_end": "2027-01-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 53812.0,
+    "after_mcap_oku": 538
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "6740",
+    "before": {
+      "mcap_oku": 2274,
+      "mcap_flag": "†",
+      "shoutfy_jq": 4458260222,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 4573828014,
+      "mcap_kabutan_oku": 2333
+    },
+    "mktcap_million_yen": 233265.0,
+    "after_mcap_oku": 2333
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "8358",
+    "before": {
+      "mcap_oku": 5061,
+      "mcap_flag": "",
+      "shoutfy_jq": 172139248,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 500034.0,
+    "after_mcap_oku": 5000
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "6332",
+    "before": {
+      "mcap_oku": 1044,
+      "mcap_flag": "",
+      "shoutfy_jq": 40125800,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 102892.0,
+    "after_mcap_oku": 1029
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "4894",
+    "before": {
+      "mcap_oku": 549,
+      "mcap_flag": "†",
+      "shoutfy_jq": 8274576,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 8896416,
+      "mcap_kabutan_oku": 591
+    },
+    "mktcap_million_yen": 58959.0,
+    "after_mcap_oku": 590
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "336A",
+    "before": {
+      "mcap_oku": 375,
+      "mcap_flag": "",
+      "shoutfy_jq": 23642050,
+      "cur_end": "2027-03-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 37496.0,
+    "after_mcap_oku": 375
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "5243",
+    "before": {
+      "mcap_oku": 691,
+      "mcap_flag": "",
+      "shoutfy_jq": 19368800,
+      "cur_end": "2026-11-30",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 69320.0,
+    "after_mcap_oku": 693
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "8766",
+    "before": {
+      "mcap_oku": 10395,
+      "mcap_flag": "†",
+      "shoutfy_jq": 1934000000,
+      "cur_end": "2027-03-31",
+      "corr": 1.0,
+      "shares_kabutan": 29010000000,
+      "mcap_kabutan_oku": 155929
+    },
+    "mktcap_million_yen": 15318702.0,
+    "after_mcap_oku": 153187
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "rows",
+    "code": "9279",
+    "before": {
+      "mcap_oku": 833,
+      "mcap_flag": "",
+      "shoutfy_jq": 40102602,
+      "cur_end": "2026-10-31",
+      "corr": 1.0
+    },
+    "mktcap_million_yen": 83341.0,
+    "after_mcap_oku": 833
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "dropped_mcap",
+    "code": "9246",
+    "before": {
+      "mcap_oku": 96
+    },
+    "mktcap_million_yen": 9271.0,
+    "after_mcap_oku": 93
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "dropped_mcap",
+    "code": "4840",
+    "before": {
+      "mcap_oku": 65
+    },
+    "mktcap_million_yen": 6357.0,
+    "after_mcap_oku": 64
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "dropped_mcap",
+    "code": "646A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  },
+  {
+    "session_date": "2026-09-30",
+    "group": "dropped_mcap",
+    "code": "623A",
+    "before": {
+      "mcap_oku": null
+    },
+    "mktcap_million_yen": null,
+    "after_mcap_oku": null
+  }
+]

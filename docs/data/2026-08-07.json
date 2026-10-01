@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 33,
@@ -21,17 +22,13 @@
       "code": "3374",
       "name": "内外テック",
       "market": "スタンダード",
-      "mcap_oku": 125,
-      "mcap_flag": "",
+      "mcap_oku": 123,
       "pct": 18.28,
       "pts": 4151.5,
       "close": 3510.0,
       "volume": 9600,
       "turnover_yen": 39854400,
       "turnover_m": 39.9,
-      "shoutfy_jq": 3553098,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:45",
@@ -131,23 +128,20 @@
           "title": "譲渡制限付株式報酬としての新株式発行に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260714/140120260714593056/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3676",
       "name": "デジタルハーツホールディングス",
       "market": "プライム",
-      "mcap_oku": 216,
-      "mcap_flag": "",
+      "mcap_oku": 201,
       "pct": 16.61,
       "pts": 1053.0,
       "close": 903.0,
       "volume": 37600,
       "turnover_yen": 39592800,
       "turnover_m": 39.6,
-      "shoutfy_jq": 23890800,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月6日にTDnet経由で開示されたMBO（マネジメント・バイアウト）実施発表が起点である。会長・宮澤氏が全株式を保有する目的会社Sandboxによる公開買付（TOB）で、買付価格は1株1,060円（買付期間：2026年8月7日〜9月24日）、2026年8月6日終値753円に対し約41%のプレミアムを付けている。8月7日の通常取引では終値ストップ高903円で引け、価格制限のないPTSでは1,053円まで上昇し、TOB価格1,060円への鞘寄せが継続した。",
       "factor_kind": "開示",
@@ -225,23 +219,20 @@
           "title": "Presentation Material for the Three Months Ended June 30, 2026",
           "url": "https://kabutan.jp/disclosures/pdf/20260806/140120260805509816/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6098",
       "name": "リクルートホールディングス",
       "market": "プライム",
-      "mcap_oku": 193855,
-      "mcap_flag": "",
+      "mcap_oku": 183812,
       "pct": 15.46,
       "pts": 15200.0,
       "close": 13165.0,
       "volume": 38800,
       "turnover_yen": 589760000,
       "turnover_m": 589.8,
-      "shoutfy_jq": 1472504149,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -341,23 +332,20 @@
           "title": "Recruit Holdings Announces the Release of an Analyst Report by Envalith, Inc.",
           "url": "https://kabutan.jp/disclosures/pdf/20260805/140120260805509748/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6492",
       "name": "岡野バルブ製造",
       "market": "スタンダード",
-      "mcap_oku": 243,
-      "mcap_flag": "",
+      "mcap_oku": 218,
       "pct": 10.55,
       "pts": 14990.0,
       "close": 13560.0,
       "volume": 1200,
       "turnover_yen": 17988000,
       "turnover_m": 18.0,
-      "shoutfy_jq": 1793000,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -419,23 +407,20 @@
           "title": "非上場の親会社等の決算に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260611/140120260611567818/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5331",
       "name": "ノリタケ",
       "market": "プライム",
-      "mcap_oku": 2001,
-      "mcap_flag": "",
+      "mcap_oku": 1958,
       "pct": 9.58,
       "pts": 3901.0,
       "close": 3560.0,
       "volume": 6500,
       "turnover_yen": 25356500,
       "turnover_m": 25.4,
-      "shoutfy_jq": 56206996,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:30",
@@ -535,23 +520,20 @@
           "title": "第145回定時株主総会招集ご通知の一部訂正について",
           "url": "https://kabutan.jp/disclosures/pdf/20260624/140120260623577517/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6072",
       "name": "地盤ネットホールディングス",
       "market": "スタンダード",
-      "mcap_oku": 214,
-      "mcap_flag": "",
+      "mcap_oku": 207,
       "pct": 9.25,
       "pts": 1009.5,
       "close": 924.0,
       "volume": 59900,
       "turnover_yen": 60469050,
       "turnover_m": 60.5,
-      "shoutfy_jq": 23148000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -639,23 +621,20 @@
           "title": "前日に動いた銘柄 part2三井金属、古河電気工業、ディスコなど",
           "url": "https://kabutan.jp/stock/news?code=6072&b=n202606270082"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4047",
       "name": "関東電化工業",
       "market": "プライム",
-      "mcap_oku": 1638,
-      "mcap_flag": "",
+      "mcap_oku": 1632,
       "pct": 8.92,
       "pts": 3100.0,
       "close": 2846.0,
       "volume": 3700,
       "turnover_yen": 11470000,
       "turnover_m": 11.5,
-      "shoutfy_jq": 57546050,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "三菱ガス化学（4182）が同日引け後に2027年3月期上期経常利益予想を従来比48%増の460億円へ大幅上方修正したことを受け、半導体製造プロセス向けフッ素系特殊ガスを主力とする同業大手の好決算への連想買いが波及した。関東電化工業自体の当日開示はなく、8月10日に2027年3月期第1四半期決算の発表を控えていたことも先回り買いの一因とみられる。",
       "factor_kind": "報道",
@@ -709,23 +688,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/06/29",
           "url": "https://kabutan.jp/disclosures/pdf/20260629/140120260609566790/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6855",
       "name": "日本電子材料",
       "market": "スタンダード",
-      "mcap_oku": 946,
-      "mcap_flag": "",
+      "mcap_oku": 945,
       "pct": 7.91,
       "pts": 6960.0,
       "close": 6450.0,
       "volume": 29600,
       "turnover_yen": 206016000,
       "turnover_m": 206.0,
-      "shoutfy_jq": 14663510,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -818,23 +794,20 @@
           "title": "電子材料について、モルガン・スタンレー・アンド・カンパニー・インターナショナル・ピーエルシーは保有割合が5％を超えたと報告 [大量保有報告書]",
           "url": "https://kabutan.jp/stock/news?code=6855&b=n202607220441"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6993",
       "name": "大黒屋ホールディングス",
       "market": "スタンダード",
-      "mcap_oku": 762,
-      "mcap_flag": "",
+      "mcap_oku": 764,
       "pct": 7.77,
       "pts": 111.0,
       "close": 103.0,
       "volume": 1729500,
       "turnover_yen": 191974500,
       "turnover_m": 192.0,
-      "shoutfy_jq": 739896570,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:30",
@@ -927,23 +900,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/07/23",
           "url": "https://kabutan.jp/disclosures/pdf/20260723/140120260723598700/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3989",
       "name": "シェアリングテクノロジー",
       "market": "グロース",
-      "mcap_oku": 341,
-      "mcap_flag": "",
+      "mcap_oku": 334,
       "pct": 7.45,
       "pts": 1500.0,
       "close": 1396.0,
       "volume": 12400,
       "turnover_yen": 18600000,
       "turnover_m": 18.6,
-      "shoutfy_jq": 24429800,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。材料窓（15:30以降）内の適時開示・報道は見当たらない。翌8月14日に第3四半期決算発表を控えており、直近中間期は増収増益で推移している。",
       "factor_kind": "テーマ",
@@ -979,23 +949,20 @@
           "title": "シェアテク、上期最終は13％増益で着地",
           "url": "https://kabutan.jp/stock/news?code=3989&b=k202605150437"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3156",
       "name": "レスター",
       "market": "プライム",
-      "mcap_oku": 1328,
-      "mcap_flag": "",
+      "mcap_oku": 1241,
       "pct": 7.36,
       "pts": 4740.0,
       "close": 4415.0,
       "volume": 3000,
       "turnover_yen": 14220000,
       "turnover_m": 14.2,
-      "shoutfy_jq": 30072643,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -1082,23 +1049,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/06/30",
           "url": "https://kabutan.jp/disclosures/pdf/20260630/140120260626581705/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4169",
       "name": "ＥＮＥＣＨＡＮＧＥ",
       "market": "グロース",
       "mcap_oku": 107,
-      "mcap_flag": "",
       "pct": 6.43,
       "pts": 265.0,
       "close": 249.0,
       "volume": 83200,
       "turnover_yen": 22048000,
       "turnover_m": 22.0,
-      "shoutfy_jq": 42917292,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2027年3月期第1四半期（4〜6月期）の経常損益が47百万円の黒字に浮上したことへの継続的な反応とみられる。前期（2026年3月期）通期は経常赤字であり、第1四半期段階での黒字転換がPTS参加者に好感された。",
       "factor_kind": "開示",
@@ -1176,23 +1140,20 @@
           "title": "新興市場銘柄ダイジェスト:サクシードが大幅反発、Defコンが急騰",
           "url": "https://kabutan.jp/stock/news?code=4169&b=n202607270787"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4082",
       "name": "第一稀元素化学工業",
       "market": "プライム",
-      "mcap_oku": 482,
-      "mcap_flag": "",
+      "mcap_oku": 477,
       "pct": 6.22,
       "pts": 2099.0,
       "close": 1976.0,
       "volume": 10200,
       "turnover_yen": 21409800,
       "turnover_m": 21.4,
-      "shoutfy_jq": 24400000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1272,23 +1233,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/06/22",
           "url": "https://kabutan.jp/disclosures/pdf/20260622/140120260518540182/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5985",
       "name": "サンコール",
       "market": "スタンダード",
-      "mcap_oku": 494,
-      "mcap_flag": "",
+      "mcap_oku": 439,
       "pct": 6.21,
       "pts": 1540.1,
       "close": 1450.0,
       "volume": 60000,
       "turnover_yen": 92406000,
       "turnover_m": 92.4,
-      "shoutfy_jq": 34057923,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1363,23 +1321,20 @@
           "title": "NTTのファンド組成が刺激、本格普及へ疾走する「IOWN」関連株 ＜株探トップ特集＞",
           "url": "https://kabutan.jp/stock/news?code=5985&b=n202606241096"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6258",
       "name": "平田機工",
       "market": "プライム",
-      "mcap_oku": 1021,
-      "mcap_flag": "",
+      "mcap_oku": 969,
       "pct": 6.16,
       "pts": 3360.0,
       "close": 3165.0,
       "volume": 4900,
       "turnover_yen": 16464000,
       "turnover_m": 16.5,
-      "shoutfy_jq": 32268270,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1429,23 +1384,20 @@
           "title": "レーティング日報【最上位を継続＋目標株価を増額】　(7月10日)",
           "url": "https://kabutan.jp/stock/news?code=6258&b=n202607101026"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7456",
       "name": "松田産業",
       "market": "プライム",
-      "mcap_oku": 1574,
-      "mcap_flag": "",
+      "mcap_oku": 1512,
       "pct": 5.98,
       "pts": 6200.0,
       "close": 5850.0,
       "volume": 6900,
       "turnover_yen": 42780000,
       "turnover_m": 42.8,
-      "shoutfy_jq": 26908581,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -1545,23 +1497,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/06/25",
           "url": "https://kabutan.jp/disclosures/pdf/20260625/140120260610567695/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8897",
       "name": "ＭＩＲＡＲＴＨホールディングス",
       "market": "プライム",
-      "mcap_oku": 567,
-      "mcap_flag": "",
+      "mcap_oku": 559,
       "pct": 5.96,
       "pts": 435.5,
       "close": 411.0,
       "volume": 64900,
       "turnover_yen": 28263950,
       "turnover_m": 28.3,
-      "shoutfy_jq": 137940000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "17:00",
@@ -1661,23 +1610,20 @@
           "title": "株式報酬型ストックオプション（Ｂ種新株予約権）の発行に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260706/140120260706588114/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4543",
       "name": "テルモ",
       "market": "プライム",
-      "mcap_oku": 35134,
-      "mcap_flag": "",
+      "mcap_oku": 35004,
       "pct": 5.77,
       "pts": 2510.0,
       "close": 2373.0,
       "volume": 9500,
       "turnover_yen": 23845000,
       "turnover_m": 23.8,
-      "shoutfy_jq": 1480559680,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1770,23 +1716,20 @@
           "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260804/140120260804508917/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6480",
       "name": "日本トムソン",
       "market": "プライム",
-      "mcap_oku": 1343,
-      "mcap_flag": "",
+      "mcap_oku": 1275,
       "pct": 5.69,
       "pts": 1931.0,
       "close": 1827.0,
       "volume": 22900,
       "turnover_yen": 44219900,
       "turnover_m": 44.2,
-      "shoutfy_jq": 73501425,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2027年3月期の通期連結経常利益予想を前回比44%上方修正し4期ぶりの最高益更新見込みとしたことへの継続的な反応とみられる。修正後の通期経常利益は11,700百万円（売上高80,000百万円・前期比26.9%増）。半導体製造装置向けIKOブランド直動製品の需要拡大が主因。",
       "factor_kind": "開示",
@@ -1864,23 +1807,20 @@
           "title": "前日に動いた銘柄 part1タツモ、SUMCO、ユニオンツールなど",
           "url": "https://kabutan.jp/stock/news?code=6480&b=n202607130013"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "7550",
       "name": "ゼンショーホールディングス",
       "market": "プライム",
-      "mcap_oku": 16837,
-      "mcap_flag": "",
+      "mcap_oku": 16389,
       "pct": 5.49,
       "pts": 11050.0,
       "close": 10475.0,
       "volume": 2700,
       "turnover_yen": 29835000,
       "turnover_m": 29.8,
-      "shoutfy_jq": 160733225,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -1973,7 +1913,8 @@
           "title": "【村瀬智一が斬る！深層マーケット】景気敏感・消費関連など内需系にシフト",
           "url": "https://kabutan.jp/stock/news?code=7550&b=n202607180095"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -2278,35 +2219,45 @@
       "name": "新日本理化",
       "pct": 17.7,
       "turnover_m": 94.5,
-      "mcap_oku": 78
+      "mcap_oku": 78,
+      "mcap_source": "jquants"
     },
     {
       "code": "7567",
       "name": "栄電子",
       "pct": 17.67,
       "turnover_m": 15.9,
-      "mcap_oku": 29
+      "mcap_oku": 29,
+      "mcap_source": "jquants"
     },
     {
       "code": "3422",
       "name": "Ｊ−ＭＡＸ",
       "pct": 14.68,
       "turnover_m": 100.2,
-      "mcap_oku": 71
+      "mcap_oku": 69,
+      "mcap_source": "jquants"
     },
     {
       "code": "3842",
       "name": "ネクストジェン",
       "pct": 4.51,
       "turnover_m": 13.5,
-      "mcap_oku": 31
+      "mcap_oku": 31,
+      "mcap_source": "jquants"
     },
     {
       "code": "6466",
       "name": "ＴＶＥ",
       "pct": 4.08,
       "turnover_m": 15.6,
-      "mcap_oku": 100
+      "mcap_oku": 95,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-08-07",
+    "original_selection_preserved": true
+  }
 }

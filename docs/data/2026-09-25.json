@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 3,
@@ -21,17 +22,13 @@
       "code": "6533",
       "name": "Ｏｒｃｈｅｓｔｒａ　Ｈｏｌｄｉｎｇｓ",
       "market": "プライム",
-      "mcap_oku": 123,
-      "mcap_flag": "",
+      "mcap_oku": 115,
       "pct": 24.43,
       "pts": 1528.0,
       "close": 1228.0,
       "volume": 7800,
       "turnover_yen": 11918400,
       "turnover_m": 11.9,
-      "shoutfy_jq": 10034200,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "18:15",
@@ -117,23 +114,20 @@
           "title": "新興市場銘柄ダイジェスト:テラドローンがストップ高、Defコンが大幅反落",
           "url": "https://kabutan.jp/stock/news?code=6533&b=n202608260872"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9509",
       "name": "北海道電力",
       "market": "プライム",
-      "mcap_oku": 2402,
-      "mcap_flag": "",
+      "mcap_oku": 2291,
       "pct": 3.18,
       "pts": 1151.0,
       "close": 1115.5,
       "volume": 41900,
       "turnover_yen": 48226900,
       "turnover_m": 48.2,
-      "shoutfy_jq": 215291912,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "16:00",
@@ -227,29 +221,24 @@
           "title": "「副首都」誘致レースで熱戦火ぶた、候補地の有望銘柄を徹底リサーチ ＜株探トップ特集＞",
           "url": "https://kabutan.jp/stock/news?code=9509&b=n202608150358"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3905",
       "name": "データセクション",
       "market": "グロース",
-      "mcap_oku": 665,
-      "mcap_flag": "†",
+      "mcap_oku": 794,
       "pct": 3.03,
       "pts": 2140.0,
       "close": 2077.0,
       "volume": 164500,
       "turnover_yen": 352030000,
       "turnover_m": 352.0,
-      "shoutfy_jq": 32017051,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月24日引け後、データセクションはTDnetにて「（開示事項の経過）大口受注（予定）に関するお知らせ」を開示した。米国拠点のAIインフラ企業からの大口受注について、デポジット総額1億3140万ドルのうち9855万ドルの初回入金が行われ受注の停止条件が解除・効力が発生したと公表し（[財経新聞 2026-09-25 10:05](https://www.zaikei.co.jp/article/20260925/871147.html)、[FISCO 2026-09-25 10:05](https://jp.investing.com/news/stock-market-news/article-1691635)）、9月25日の日中取引で3連騰・大幅続伸（終値2077円）の主因となった。引け後15:44に株探が配信した新興市場銘柄ダイジェストにも同銘柄が掲載されており、夜間PTSでも大口受注確定という好材料への評価が継続し、終値比+3.03%の2140円をつけた。",
       "factor_kind": "報道",
       "rank": 3,
-      "shares_kabutan": 38419151,
-      "mcap_kabutan_oku": 798,
       "kabutan_news": [
         {
           "datetime": "2026-09-25T15:44:17+09:00",
@@ -317,7 +306,8 @@
           "title": "大口受注（予定）に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260918/140120260918538994/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -461,35 +451,45 @@
       "name": "サンメッセ",
       "pct": 14.02,
       "turnover_m": 37.6,
-      "mcap_oku": 86
+      "mcap_oku": 75,
+      "mcap_source": "jquants"
     },
     {
       "code": "5986",
       "name": "モリテック　スチール",
       "pct": 13.31,
       "turnover_m": 25.5,
-      "mcap_oku": 59
+      "mcap_oku": 59,
+      "mcap_source": "jquants"
     },
     {
       "code": "7897",
       "name": "ホクシン",
       "pct": 11.2,
       "turnover_m": 32.3,
-      "mcap_oku": 31
+      "mcap_oku": 31,
+      "mcap_source": "jquants"
     },
     {
       "code": "7610",
       "name": "テイツー",
       "pct": 3.43,
       "turnover_m": 14.0,
-      "mcap_oku": 94
+      "mcap_oku": 85,
+      "mcap_source": "jquants"
     },
     {
       "code": "627A",
       "name": "ａｋｉｐｐａ",
       "pct": 3.42,
       "turnover_m": 649.8,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-25",
+    "original_selection_preserved": true
+  }
 }

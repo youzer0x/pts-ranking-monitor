@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 7,
@@ -21,17 +22,13 @@
       "code": "7630",
       "name": "壱番屋",
       "market": "プライム",
-      "mcap_oku": 1742,
-      "mcap_flag": "",
+      "mcap_oku": 1741,
       "pct": 14.67,
       "pts": 1251.0,
       "close": 1091.0,
       "volume": 319300,
       "turnover_yen": 399444300,
       "turnover_m": 399.4,
-      "shoutfy_jq": 159630000,
-      "cur_end": "2027-02-28",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月31日早朝に日本経済新聞が「カレー店『ココイチ』の壱番屋、親会社のハウス食品Gが売却検討 親子上場解消」と報じたことが起点となる。ハウス食品グループ本社（壱番屋株式51.01%保有）が事業ポートフォリオ見直しおよびROIC・PBR改善を目的に売却を検討しており、複数の投資ファンドが買収に名乗りを上げているとされる。買収プレミアム期待が高まり通常セッションでストップ高（引け1091円）を記録。引け後の材料窓内（15:30以降）に追加の新規開示・報道は確認されず、PTS1251円（+14.67%）は上記日経報道による買収プレミアム期待の継続とみられる。",
       "factor_kind": "報道",
@@ -103,23 +100,20 @@
           "title": "壱番屋、3-5月期(1Q)経常は16％減益で着地",
           "url": "https://kabutan.jp/stock/news?code=7630&b=k202606260006"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4420",
       "name": "イーソル",
       "market": "スタンダード",
-      "mcap_oku": 187,
-      "mcap_flag": "",
+      "mcap_oku": 184,
       "pct": 8.43,
       "pts": 1013.8,
       "close": 935.0,
       "volume": 58800,
       "turnover_yen": 59611440,
       "turnover_m": 59.6,
-      "shoutfy_jq": 20000000,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月28日に日本経済新聞が「自動車ソフトのイーソルがMBOへ、ベインと150億円規模」と報じ、ベインキャピタルと組んでTOBを実施し株式を非公開化する見通しと伝えた。同日イーソルはTDnetで「決定した事実はない」と開示したものの、買収プレミアム期待による買いが継続した。材料窓（15:30以降）内に新規の開示・報道は確認されなかった。",
       "factor_kind": "報道",
@@ -191,23 +185,20 @@
           "title": "ティアフォーはＳ高、トヨタが２８年に「レベル２＋＋」の自動運転車を投入と伝わる",
           "url": "https://kabutan.jp/stock/news?code=4420&b=n202608280591"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3031",
       "name": "ラクーンホールディングス",
       "market": "プライム",
-      "mcap_oku": 138,
-      "mcap_flag": "",
+      "mcap_oku": 126,
       "pct": 6.15,
       "pts": 690.0,
       "close": 650.0,
       "volume": 16600,
       "turnover_yen": 11454000,
       "turnover_m": 11.5,
-      "shoutfy_jq": 21262043,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -300,23 +291,20 @@
           "title": "ラクーングループ、BtoBネットワーク構想の実現に向け外部パートナー連携を本格化",
           "url": "https://kabutan.jp/disclosures/pdf/20260813/140120260813518883/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4667",
       "name": "アイサンテクノロジー",
       "market": "スタンダード",
-      "mcap_oku": 176,
-      "mcap_flag": "",
+      "mcap_oku": 167,
       "pct": 5.85,
       "pts": 3350.0,
       "close": 3165.0,
       "volume": 29900,
       "turnover_yen": 100165000,
       "turnover_m": 100.2,
-      "shoutfy_jq": 5548979,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月27日にCar Watchが「トヨタ、2028年よりレベル2＋＋の自動運転を導入開始」と報じたことを起点に自動運転テーマ物色が継続している。アイサンテクノロジーはティアフォー株（約3.42%）を保有し、自動運転用3次元地図作成・実証実験受託およびティアフォー製車載カメラの国内総代理店（2026年5月より）として自動運転実装拡大の恩恵を受ける構造にあり、連想買いが継続した。8月31日に連日2回目のストップ高（引け3165円）を記録しており、PTS3350円（+5.85%）はトヨタ自動運転報道による自動運転テーマ物色の継続とみられる。",
       "factor_kind": "報道",
@@ -394,23 +382,20 @@
           "title": "譲渡制限付株式報酬としての自己株式処分の払込完了に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260806512513/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5574",
       "name": "ＡＢＥＪＡ",
       "market": "グロース",
-      "mcap_oku": 318,
-      "mcap_flag": "",
+      "mcap_oku": 320,
       "pct": 4.08,
       "pts": 3320.0,
       "close": 3190.0,
       "volume": 3800,
       "turnover_yen": 12616000,
       "turnover_m": 12.6,
-      "shoutfy_jq": 9973957,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年8月26日15:30（東証引け後）にTDnetで「シンガポール子会社設立に関するお知らせ」（ABEJA GLOBAL Pte. Ltd.）が配信されており、同週の上昇テーマが材料窓前後まで持ち越されたとみられる。材料窓（8月31日15:30〜9月1日06:00）内に新規開示・報道は確認できない。",
       "factor_kind": "テーマ",
@@ -488,29 +473,24 @@
           "title": "新興市場銘柄ダイジェスト:MTGが急伸、HENNGEが年初来高値",
           "url": "https://kabutan.jp/stock/news?code=5574&b=n202608051145"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "593A",
       "name": "ティアフォー",
       "market": "グロース",
-      "mcap_oku": 1105,
-      "mcap_flag": "†",
+      "mcap_oku": 1524,
       "pct": 4.0,
       "pts": 2495.0,
       "close": 2399.0,
       "volume": 1124700,
       "turnover_yen": 2806126500,
       "turnover_m": 2806.1,
-      "shoutfy_jq": 46074490,
-      "cur_end": "2026-09-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月27日にCar Watchが「トヨタ、2028年よりレベル2＋＋の自動運転を導入開始」と報じたことを起点に、ティアフォーが開発するオープンソース自動運転OS「Autoware」がトヨタの次世代自動運転開発と親和性が高いとして思惑買いが集中した。2026年7月22日に東証グロース市場へ上場したばかりのティアフォーは8月31日に3連ストップ高（引け2399円）を記録。PTS2495円（+4.0%）はトヨタ自動運転報道による自動運転テーマ物色の継続とみられる。材料窓内に新たな一次材料は確認されなかった。",
       "factor_kind": "報道",
       "rank": 6,
-      "shares_kabutan": 63524090,
-      "mcap_kabutan_oku": 1524,
       "kabutan_news": [
         {
           "datetime": "2026-08-31T17:30:00+09:00",
@@ -584,23 +564,20 @@
           "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 10 銘柄　　S安＝ 3 銘柄　(8月27日)",
           "url": "https://kabutan.jp/stock/news?code=593A&b=n202608270812"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6376",
       "name": "日機装",
       "market": "プライム",
-      "mcap_oku": 2604,
-      "mcap_flag": "",
+      "mcap_oku": 2461,
       "pct": 3.01,
       "pts": 3878.5,
       "close": 3765.0,
       "volume": 4300,
       "turnover_yen": 16677550,
       "turnover_m": 16.7,
-      "shoutfy_jq": 69175664,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年8月31日17時頃に配信された株探「レーティング日報【格上げ↑】」によれば、国内証券が日機装のレーティングをやや強気に格上げし目標株価を4,600円に設定したと伝わった。格上げの背景として、同社が2026年8月14日に公表した2026年12月期の業績上方修正（最終利益130億円→158億円、2期連続最高益）および10円増配が評価されたとみられる。格上げの伝達は東証通常セッション終了後（材料窓内）であり、PTS3878.5円（+3.01%）の一因とみられる。",
       "factor_kind": "報道",
@@ -660,7 +637,8 @@
           "title": "[Summary]Consolidated Financial Results for the Six Months Ended June 30, 2026 (Under IFRS)",
           "url": "https://kabutan.jp/disclosures/pdf/20260814/140120260814521246/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -804,35 +782,45 @@
       "name": "トライアイズ",
       "pct": 10.26,
       "turnover_m": 48.2,
-      "mcap_oku": 77
+      "mcap_oku": 75,
+      "mcap_source": "jquants"
     },
     {
       "code": "2656",
       "name": "ベクターホールディングス",
       "pct": 8.92,
       "turnover_m": 49.2,
-      "mcap_oku": 57
+      "mcap_oku": 58,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 7.38,
       "turnover_m": 47.7,
-      "mcap_oku": 44
+      "mcap_oku": 44,
+      "mcap_source": "jquants"
     },
     {
       "code": "7709",
       "name": "クボテック",
       "pct": 5.87,
       "turnover_m": 10.1,
-      "mcap_oku": 9
+      "mcap_oku": 9,
+      "mcap_source": "jquants"
     },
     {
       "code": "9425",
       "name": "ＲｅＹｕｕ　Ｊａｐａｎ",
       "pct": 5.28,
       "turnover_m": 24.4,
-      "mcap_oku": 22
+      "mcap_oku": 25,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-08-31",
+    "original_selection_preserved": true
+  }
 }

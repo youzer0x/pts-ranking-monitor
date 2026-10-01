@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 5,
@@ -21,17 +22,13 @@
       "code": "3905",
       "name": "データセクション",
       "market": "グロース",
-      "mcap_oku": 494,
-      "mcap_flag": "†",
+      "mcap_oku": 590,
       "pct": 16.73,
       "pts": 1800.0,
       "close": 1542.0,
       "volume": 564600,
       "turnover_yen": 1016280000,
       "turnover_m": 1016.3,
-      "shoutfy_jq": 32017051,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "19:30",
@@ -44,8 +41,6 @@
       "factor": "2026年9月18日19:30、データセクション（3905）はTDnetで「大口受注（予定）に関するお知らせ」を開示した。米国に本社を置く「世界有数のAIインフラプラットフォーム提供企業」（NDA上、社名は非公開）との間で、完全子会社を通じてGPUクラスター及び関連するAIコンピュートサービスの提供契約を締結したと発表。契約金額は5年間累計1,399億23百万円（約8億7,600万米ドル）で、サービス開始は2026年10月を予定し最大2年間の延長オプションも付帯。NVIDIA社が商談成立に重要な役割を果たした旨も言及されている。時価総額494億円の同社に対して約2.8倍の大型受注を好感し、PTSで急騰した。",
       "factor_kind": "開示",
       "rank": 1,
-      "shares_kabutan": 38419151,
-      "mcap_kabutan_oku": 592,
       "kabutan_news": [
         {
           "datetime": "2026-09-18T19:30:00+09:00",
@@ -119,29 +114,24 @@
           "title": "データセク---大幅に反発、底打ち期待から買い、業績予想据え置きの決算説明会動画を公開",
           "url": "https://kabutan.jp/stock/news?code=3905&b=n202608190597"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3350",
       "name": "メタプラネット",
       "market": "スタンダード",
-      "mcap_oku": 3114,
-      "mcap_flag": "†",
+      "mcap_oku": 3269,
       "pct": 7.0,
       "pts": 260.0,
       "close": 243.0,
       "volume": 1436300,
       "turnover_yen": 373438000,
       "turnover_m": 373.4,
-      "shoutfy_jq": 1281283624,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "同社はビットコイン（BTC）を戦略的に大量保有するトレジャリー企業であり、材料窓内における米ドル建てBTC価格の急反発がPTS上昇の主因とみられる。BTCは日本時間9月18日21時時点で$77,979（前日比+2.35%）を記録し、その後も米国市場オープンにかけて$80,000を突破し$81,000超に達した。9月16日のCLARITYアクト否決を受けたBTC下落からの急回復を好感し、暗号資産関連代表銘柄としてPTSで買われたとみられる。",
       "factor_kind": "テーマ",
       "rank": 2,
-      "shares_kabutan": 1345340624,
-      "mcap_kabutan_oku": 3269,
       "kabutan_news": [
         {
           "datetime": "2026-09-18T15:55:10+09:00",
@@ -215,23 +205,20 @@
           "title": "Notice Regarding the Convening of an Extraordinary General Meeting of Shareholders, Reduction in the Amounts of Capital Stock and Capital Reserve, and",
           "url": "https://kabutan.jp/disclosures/pdf/20260911/140120260911535362/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "215A",
       "name": "タイミー",
       "market": "グロース",
-      "mcap_oku": 1332,
-      "mcap_flag": "",
+      "mcap_oku": 1318,
       "pct": 5.9,
       "pts": 1400.0,
       "close": 1322.0,
       "volume": 33400,
       "turnover_yen": 46760000,
       "turnover_m": 46.8,
-      "shoutfy_jq": 100743000,
-      "cur_end": "2027-04-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "引け後にノルウェー銀行（Norges Bank）がタイミー株に関する大量保有報告書（5%ルール報告書）を財務局に提出したことが16:22に伝わり、17:16には「ノルウェー銀行による5.04%保有が判明」と広く報じられた。報告義務発生日は2026年9月15日、保有株数は5,079,300株、保有目的は純投資とされた。ノルウェー政府年金基金を運用する世界最大級の政府系投資機関が新規に5%超の大株主として浮上したことが材料視され、PTSで買いが集まったとみられる。",
       "factor_kind": "報道",
@@ -309,23 +296,20 @@
           "title": "2027年4月期 第1四半期決算説明資料",
           "url": "https://kabutan.jp/disclosures/pdf/20260910/140120260910534065/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5574",
       "name": "ＡＢＥＪＡ",
       "market": "グロース",
-      "mcap_oku": 325,
-      "mcap_flag": "",
+      "mcap_oku": 327,
       "pct": 5.83,
       "pts": 3450.0,
       "close": 3260.0,
       "volume": 9000,
       "turnover_yen": 31050000,
       "turnover_m": 31.1,
-      "shoutfy_jq": 9973957,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月17日15:30に「Triple Human in the Loop（Triple HITL）」の開発・特許出願を開示したが、当日日中取引はもみ合い（終値3,260円・前日比+10円）に留まり日中に折り込み済みとみられる。9月15日に開示した防衛装備庁との「視覚言語行動モデルの検証及び運用基盤検討役務」契約締結を背景としたAI・防衛テーマ銘柄として物色されているとみられるが、当日固有の材料は確認できず。",
       "factor_kind": "テーマ",
@@ -403,23 +387,20 @@
           "title": "新興市場銘柄ダイジェスト:メディカルNが急騰、カイオムがストップ高",
           "url": "https://kabutan.jp/stock/news?code=5574&b=n202609040909"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5367",
       "name": "ニッカトー",
       "market": "スタンダード",
-      "mcap_oku": 176,
-      "mcap_flag": "",
+      "mcap_oku": 173,
       "pct": 5.52,
       "pts": 1530.0,
       "close": 1450.0,
       "volume": 21400,
       "turnover_yen": 32742000,
       "turnover_m": 32.7,
-      "shoutfy_jq": 12135695,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -493,7 +474,8 @@
           "title": "★本日の【イチオシ決算】 カシオ、ダイハツイン、明電舎 (7月31日)",
           "url": "https://kabutan.jp/stock/news?code=5367&b=n202607311437"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -644,42 +626,53 @@
       "name": "日本抵抗器製作所",
       "pct": 20.67,
       "turnover_m": 11.6,
-      "mcap_oku": 20
+      "mcap_oku": 20,
+      "mcap_source": "jquants"
     },
     {
       "code": "4436",
       "name": "ミンカブ・ジ・インフォノイド",
       "pct": 16.67,
       "turnover_m": 25.1,
-      "mcap_oku": 92
+      "mcap_oku": 92,
+      "mcap_source": "jquants"
     },
     {
       "code": "2926",
       "name": "篠崎屋",
       "pct": 9.76,
       "turnover_m": 25.8,
-      "mcap_oku": 17
+      "mcap_oku": 17,
+      "mcap_source": "jquants"
     },
     {
       "code": "4833",
       "name": "Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ",
       "pct": 6.0,
       "turnover_m": 14.2,
-      "mcap_oku": 36
+      "mcap_oku": 36,
+      "mcap_source": "jquants"
     },
     {
       "code": "5721",
       "name": "エスクリプトエナジー",
       "pct": 5.93,
       "turnover_m": 42.4,
-      "mcap_oku": 96
+      "mcap_oku": 96,
+      "mcap_source": "jquants"
     },
     {
       "code": "7689",
       "name": "コパ・コーポレーション",
       "pct": 3.1,
       "turnover_m": 53.3,
-      "mcap_oku": 15
+      "mcap_oku": 15,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-18",
+    "original_selection_preserved": true
+  }
 }

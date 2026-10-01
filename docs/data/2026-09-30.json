@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 10,
@@ -21,17 +22,13 @@
       "code": "6523",
       "name": "ＰＨＣホールディングス",
       "market": "プライム",
-      "mcap_oku": 1821,
-      "mcap_flag": "",
+      "mcap_oku": 1818,
       "pct": 20.98,
       "pts": 1730.0,
       "close": 1430.0,
       "volume": 18500,
       "turnover_yen": 32005000,
       "turnover_m": 32.0,
-      "shoutfy_jq": 127320915,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月30日にブルームバーグが「東邦ホールディングス（8129、医薬品卸大手）がKKR傘下の医療機器大手PHCホールディングスを2,000億円超（約13億ドル）で買収する交渉を進めている」と報道（[Bloomberg](https://www.bloomberg.com/news/articles/2026-09-30/japan-s-toho-eyes-kkr-s-health-device-maker-phc-for-1-3-billion)）。東邦HDはすでに初期提案を提出し、唯一の具体的交渉候補として両社がFAを起用して協議を進めていると複数の関係者が明かした。最大株主のKKR（約38%保有）の投資回収計画の一環であり、全株取得の場合は上場廃止となる見通し。同日の通常引け（1,430円、前日比-0.97%）から夜間PTSで1,730円（+20.98%）へ急騰しており、報道の伝達が引け後となったこととも整合的である。",
       "factor_kind": "報道",
@@ -97,23 +94,20 @@
           "title": "前日に動いた銘柄 part1フジクラ、三菱マテリアル、ロート製薬など",
           "url": "https://kabutan.jp/stock/news?code=6523&b=n202608100019"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9632",
       "name": "スバル興業",
       "market": "スタンダード",
-      "mcap_oku": 555,
-      "mcap_flag": "",
+      "mcap_oku": 538,
       "pct": 16.79,
       "pts": 4870.0,
       "close": 4170.0,
       "volume": 11100,
       "turnover_yen": 54057000,
       "turnover_m": 54.1,
-      "shoutfy_jq": 13310000,
-      "cur_end": "2027-01-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。2026年4月に公正取引委員会から独占禁止法違反（道路清掃業務の談合）による排除措置命令および課徴金約3億2000万円の納付命令を受けており、2026年9月8日公表の2027年1月期中間決算では経常利益が前年同期比12%減と業績低迷が続く。筆頭株主・東宝（約52.8%保有）によるグループ再編に伴うTOB観測が市場の一部に存在しているが、材料窓（2026年9月30日15:30以降）において確認できる開示および信頼できる報道は見当たらなかった。通常取引でストップ高（+20.17%）に達した後、夜間PTSでは未充足の買い需要が継続し+16.79%の上昇となったものとみられる。",
       "factor_kind": "テーマ",
@@ -191,23 +185,20 @@
           "title": "コーポレート・ガバナンスに関する報告書 2026/04/30",
           "url": "https://kabutan.jp/disclosures/pdf/20260430/140120260422508602/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6740",
       "name": "ジャパンディスプレイ",
       "market": "プライム",
-      "mcap_oku": 2274,
-      "mcap_flag": "†",
+      "mcap_oku": 2333,
       "pct": 16.47,
       "pts": 59.4,
       "close": 51.0,
       "volume": 12437600,
       "turnover_yen": 738793440,
       "turnover_m": 738.8,
-      "shoutfy_jq": 4458260222,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -227,8 +218,6 @@
       "factor": "2026年9月30日15:30にTDnetへ「茂原工場の譲渡及び特別利益の計上のお知らせ」（[TDnet](https://www.release.tdnet.info/inbs/140120260928540817.pdf)）を開示。千葉県茂原市の茂原工場を新光電気工業（長野市）に譲渡し、2027年1月〜3月期の連結決算で特別利益514億円を計上すると発表した。譲渡契約は2026年9月30日締結、引渡し完了は2028年度の予定。新光電気工業はAIアクセラレータ向けフリップチップ型パッケージの先端製造センターとして活用する計画。12期連続赤字が続くJDIの財務基盤強化策として好感され、夜間PTSで+16.47%の急騰となった。同日15時50分配信の[時事通信](https://sp.m.jiji.com/article/show/3879149)および[EE Times Japan](https://eetimes.itmedia.co.jp/ee/articles/2609/30/news105.html)が詳細を報じた。",
       "factor_kind": "開示",
       "rank": 3,
-      "shares_kabutan": 4573828014,
-      "mcap_kabutan_oku": 2333,
       "kabutan_news": [
         {
           "datetime": "2026-09-30T16:32:00+09:00",
@@ -302,23 +291,20 @@
           "title": "Completion of Sale of Tottori Fab and Recording of Extraordinary Gain on the Sale",
           "url": "https://kabutan.jp/disclosures/pdf/20260824/140120260819523147/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8358",
       "name": "スルガ銀行",
       "market": "プライム",
-      "mcap_oku": 5061,
-      "mcap_flag": "",
+      "mcap_oku": 5000,
       "pct": 10.51,
       "pts": 3249.0,
       "close": 2940.0,
       "volume": 3900,
       "turnover_yen": 12671100,
       "turnover_m": 12.7,
-      "shoutfy_jq": 172139248,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -398,23 +384,20 @@
           "title": "自己株式の取得状況に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260902/140120260902530586/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "6332",
       "name": "月島ホールディングス",
       "market": "プライム",
-      "mcap_oku": 1044,
-      "mcap_flag": "",
+      "mcap_oku": 1029,
       "pct": 8.54,
       "pts": 2823.0,
       "close": 2601.0,
       "volume": 9200,
       "turnover_yen": 25971600,
       "turnover_m": 26.0,
-      "shoutfy_jq": 40125800,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -514,29 +497,24 @@
           "title": "月島ＨＤ、4-6月期(1Q)経常は28％増益で着地",
           "url": "https://kabutan.jp/stock/news?code=6332&b=k202608060346"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "4894",
       "name": "クオリプス",
       "market": "グロース",
-      "mcap_oku": 549,
-      "mcap_flag": "†",
+      "mcap_oku": 590,
       "pct": 6.63,
       "pts": 7080.0,
       "close": 6640.0,
       "volume": 55200,
       "turnover_yen": 390816000,
       "turnover_m": 390.8,
-      "shoutfy_jq": 8274576,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月30日13時46分、クオリプスは再生医療等製品「リハート」の保険収載（2026年9月1日付、保険償還価格5,320万円）後初となる第1例目の移植を大阪けいさつ病院で完了したと発表した（[財経新聞](https://www.zaikei.co.jp/article/20260930/871759.html)・[ダイヤモンドZAi](https://diamond.jp/zai/articles/-/1073559)）。保険診療下での初実施という象徴的進展が好感され、日中取引でストップ高（前日比+1,000円・6,640円）を付けた後も、引け後15時45分配信の新興市場銘柄ダイジェストで「クオリプスがストップ高」と取り上げられたことでＰＴＳでも買いが続いた。",
       "factor_kind": "報道",
       "rank": 6,
-      "shares_kabutan": 8896416,
-      "mcap_kabutan_oku": 591,
       "kabutan_news": [
         {
           "datetime": "2026-09-30T15:45:14+09:00",
@@ -610,23 +588,20 @@
           "title": "リハートの保険収載に関するお知らせ",
           "url": "https://kabutan.jp/disclosures/pdf/20260901/140120260901529995/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "336A",
       "name": "ダイナミックマッププラットフォーム",
       "market": "グロース",
       "mcap_oku": 375,
-      "mcap_flag": "",
       "pct": 4.66,
       "pts": 1659.9,
       "close": 1586.0,
       "volume": 311900,
       "turnover_yen": 517722810,
       "turnover_m": 517.7,
-      "shoutfy_jq": 23642050,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月30日午前11時、ダイナミックマッププラットフォームと鹿島建設は国土交通省「令和8年度 自動物流道路の社会実装に向けた実証実験」テーマ2（複数台の搬送機器の自動走行）への共同採択をプレスリリースで発表した（[ＰＲ TIMES](https://prtimes.jp/main/html/rd/p/000000232.000063188.html)）。成田国際空港内の専用路で自動運転車両「ZELOS」3台を用いた走行性能・路側インフラ簡素化の検証を2026年11〜12月中旬に実施予定。同採択を好感した買いが日中取引でストップ高を付け、引け後15時32分配信の動意株まとめにも掲載されたことでＰＴＳでも買いが継続した。",
       "factor_kind": "報道",
@@ -704,23 +679,20 @@
           "title": "ダイナミックマッププラットフォーム、Voxel51主催イベントに登壇 実世界データを活用したフィジカルAI向けシミュレーション・合成データ生成事例を紹介",
           "url": "https://kabutan.jp/disclosures/pdf/20260928/140120260928540689/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "5243",
       "name": "ｎｏｔｅ",
       "market": "グロース",
-      "mcap_oku": 691,
-      "mcap_flag": "",
+      "mcap_oku": 693,
       "pct": 4.2,
       "pts": 3720.0,
       "close": 3570.0,
       "volume": 2900,
       "turnover_yen": 10788000,
       "turnover_m": 10.8,
-      "shoutfy_jq": 19368800,
-      "cur_end": "2026-11-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月29日15時10分、note株式会社は姫路市教育委員会が「note pro一括導入プラン」を活用し管轄する全107校の市立学校へnoteを導入したとのプレスリリースを配信した（[ＰＲ TIMES](https://prtimes.jp/main/html/rd/p/000000434.000017890.html)・[財経新聞](https://www.zaikei.co.jp/article/20260930/871701.html)）。翌9月30日の日中取引でも同ニュースへの継続的な関心から3日続伸を達成し、引け後の動意株まとめ（15:32配信）および新興市場銘柄ダイジェスト（15:45配信）にも掲載されたことでＰＴＳでも買いが続いた。",
       "factor_kind": "報道",
@@ -798,29 +770,24 @@
           "title": "note Content Now Reaches Korean AI Search: NAVER's Generative AI Search Cites note Articles as First Overseas UGC",
           "url": "https://kabutan.jp/disclosures/pdf/20260907/140120260907532187/"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8766",
       "name": "東京海上ホールディングス",
       "market": "プライム",
-      "mcap_oku": 10395,
-      "mcap_flag": "†",
+      "mcap_oku": 153187,
       "pct": 4.0,
       "pts": 559.0,
       "close": 537.5,
       "volume": 205400,
       "turnover_yen": 114818600,
       "turnover_m": 114.8,
-      "shoutfy_jq": 1934000000,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。直近の継続テーマとして、2026年8月25日付 [日本経済新聞](https://www.nikkei.com/article/DGXZQOUB257BA0V20C26A8000000/) が報じた1株→15株の株式分割（効力発生日：2026年10月1日）が翌日に迫っていたほか、2026年9月28日付 [Insurance Business Magazine](https://www.insurancebusinessmag.com/au/news/mergers-acquisitions/tokio-marine-takeover-talk-returns-as-bankers-reportedly-ready-for-a-suncorp-bid-591426.aspx) が「東京海上のアドバイザーが豪保険大手サンコープ（時価総額約200億豪ドル）への正式提案準備に入った模様」と伝えており、分割前夜の個人投資家の関心上昇と過去最大規模の海外M&A観測継続が夜間PTSでの買いを下支えしたとみられる。",
       "factor_kind": "テーマ",
       "rank": 9,
-      "shares_kabutan": 29010000000,
-      "mcap_kabutan_oku": 155929,
       "kabutan_news": [
         {
           "datetime": "2026-09-28T17:00:00+09:00",
@@ -882,23 +849,20 @@
           "title": "明日の株式相場に向けて＝「バークシャー効果」を減殺する６万円プットの存在感",
           "url": "https://kabutan.jp/stock/news?code=8766&b=n202609031024"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "9279",
       "name": "ギフトホールディングス",
       "market": "プライム",
       "mcap_oku": 833,
-      "mcap_flag": "",
       "pct": 3.46,
       "pts": 2150.0,
       "close": 2078.0,
       "volume": 6400,
       "turnover_yen": 13760000,
       "turnover_m": 13.8,
-      "shoutfy_jq": 40102602,
-      "cur_end": "2026-10-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年9月30日17時配信のレーティング日報【格上げ↑】に掲載され、国内証券によるギフトホールディングスの投資判断「強気」への格上げと目標株価2,600円が報じられた（[IFIS株予報](https://kabuyoho.ifis.co.jp/index.php?action=tp1&bcode=9279&sa=report_pbr)）。引け後の材料流入によりＰＴＳで買いを集めた。",
       "factor_kind": "報道",
@@ -976,7 +940,8 @@
           "title": "ギフトＨＤ、11-7月期(3Q累計)経常は56％増益で着地、今期配当を1.5円増額修正",
           "url": "https://kabutan.jp/stock/news?code=9279&b=k202609140028"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -1078,28 +1043,37 @@
       "name": "プロジェクトホールディングス",
       "pct": 26.03,
       "turnover_m": 53.1,
-      "mcap_oku": 96
+      "mcap_oku": 93,
+      "mcap_source": "jquants"
     },
     {
       "code": "4840",
       "name": "トライアイズ",
       "pct": 6.52,
       "turnover_m": 10.4,
-      "mcap_oku": 65
+      "mcap_oku": 64,
+      "mcap_source": "jquants"
     },
     {
       "code": "646A",
       "name": "クラサスケミカル",
       "pct": 6.11,
       "turnover_m": 47.1,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     },
     {
       "code": "623A",
       "name": "ベルテックス",
       "pct": 3.48,
       "turnover_m": 22.6,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-30",
+    "original_selection_preserved": true
+  }
 }

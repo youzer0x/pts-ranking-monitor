@@ -7,7 +7,8 @@
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
     "min_mcap_oku": 100,
-    "max_rows": 20
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 4,
@@ -21,23 +22,17 @@
       "code": "603A",
       "name": "アイ・グリッド・ソリューションズ",
       "market": "グロース",
-      "mcap_oku": 369,
-      "mcap_flag": "†",
+      "mcap_oku": 418,
       "pct": 12.27,
       "pts": 1290.0,
       "close": 1149.0,
       "volume": 208400,
       "turnover_yen": 268836000,
       "turnover_m": 268.8,
-      "shoutfy_jq": 32110000,
-      "cur_end": "2026-06-30",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。背景として、2026年7月29日に東証グロース市場へIPO（公開価格770円）した同社は、8月14日発表のFY2026（6月期）決算でGXソリューション事業売上高が前期比+54.5%と急拡大しており、省エネ法改正（2026年4月施行）による屋根上太陽光設置義務化の政策追い風を受けた上昇基調が続いている。なお8月28日付でコミットメントラインに基づく借入の開示があり、8月18日付スパークス・アセットの5%超保有報告も確認されているが、これらは材料窓外である。",
       "factor_kind": "テーマ",
       "rank": 1,
-      "shares_kabutan": 36380000,
-      "mcap_kabutan_oku": 418,
       "kabutan_news": [
         {
           "datetime": "2026-09-03T15:40:05+09:00",
@@ -111,23 +106,20 @@
           "title": "★本日の【サプライズ決算】続報 (08月14日)",
           "url": "https://kabutan.jp/stock/news?code=603A&b=n202608141313"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3350",
       "name": "メタプラネット",
       "market": "スタンダード",
-      "mcap_oku": 3575,
-      "mcap_flag": "",
+      "mcap_oku": 3753,
       "pct": 8.6,
       "pts": 303.0,
       "close": 279.0,
       "volume": 2665000,
       "turnover_yen": 807495000,
       "turnover_m": 807.5,
-      "shoutfy_jq": 1281283624,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "9月3日の米国市場時間帯（日本時間夜間＝材料窓内）にビットコイン価格が前日比で約4.7%上昇したことが主因である。[Yahoo Finance](https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-3-2026-crypto-prices-lift-this-morning-despite-oil-costs-gaining-steam-113526770.html)（配信：9月3日 6:35 CDT＝20:35 JST）は「空爆が短期的との大統領発言でエネルギー価格急騰への懸念が和らぎリスクオンとなった」とし、[Fortune](https://fortune.com/article/price-of-bitcoin-09-03-2026/)（配信：9月3日 8:00 AM ET＝21:00 JST）は同時点のBTC価格を前日比＋$1,262の$77,934と確認。その後1:30 PM EDT（JST翌4日 2:30）には$80,974付近まで上昇が続き、1日で約4〜5%の値上がりを記録した。メタプラネットは2026年6月末時点でBTC 43,000枚超を保有する国内最大のビットコイン特化型企業であり、BTC価格の大幅上昇がPTS株価上昇（＋8.6%）に直結した。",
       "factor_kind": "報道",
@@ -193,23 +185,20 @@
           "title": "今週の【話題株ダイジェスト】 ＴＯＲＩＣＯ、ハイパー、エニマインド (8月17日～21日)",
           "url": "https://kabutan.jp/stock/news?code=3350&b=n202608220125"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "3038",
       "name": "神戸物産",
       "market": "プライム",
-      "mcap_oku": 7934,
-      "mcap_flag": "",
+      "mcap_oku": 6432,
       "pct": 3.1,
       "pts": 2990.0,
       "close": 2900.0,
       "volume": 23900,
       "turnover_yen": 71461000,
       "turnover_m": 71.5,
-      "shoutfy_jq": 273600000,
-      "cur_end": "2026-10-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "当日固有の材料は確認できず。9月11日に予定する2026年10月期第3四半期決算の発表を8日後に控えており、2026年6月12日発表の第2四半期（売上高2,861億円・前期比5.1%増、営業利益210億円・同10.2%増、純利益165億円・同16%増）では3期連続で同期間最高益を更新している。",
       "factor_kind": "テーマ",
@@ -245,29 +234,24 @@
           "title": "前日に動いた銘柄 part1ベルパーク、キオクシアHD、円谷フィHDなど",
           "url": "https://kabutan.jp/stock/news?code=3038&b=n202607290186"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     },
     {
       "code": "8309",
       "name": "三井住友トラストグループ",
       "market": "プライム",
-      "mcap_oku": 12488,
-      "mcap_flag": "†",
+      "mcap_oku": 49213,
       "pct": 3.08,
       "pts": 1842.0,
       "close": 1787.0,
       "volume": 8300,
       "turnover_yen": 15288600,
       "turnover_m": 15.3,
-      "shoutfy_jq": 698812980,
-      "cur_end": "2027-03-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "Bloombergが9月3日に「日銀が9月17〜18日の金融政策決定会合で政策金利を現行1.00%から1.25%へ引き上げる方向で検討している」と報じた（配信：2026-09-03 07:56 UTC＝16:56 JST）。この報道を受け、市場の9月会合での利上げ確率織り込みは約80%に達した。日銀の追加利上げは貸出・運用利鞘の拡大を通じ信託銀行の収益改善を促すため、2027年3月期第1四半期に経常利益が前年同期比108.5%増を達成した三井住友トラストグループ株に連想買いが入り、PTS価格が前日比3.08%上昇したとみられる。",
       "factor_kind": "報道",
       "rank": 4,
-      "shares_kabutan": 2795251920,
-      "mcap_kabutan_oku": 49951,
       "kabutan_news": [
         {
           "datetime": "2026-08-27T09:39:00+09:00",
@@ -329,7 +313,8 @@
           "title": "三井住友トラ、4-6月期(1Q)経常は2.1倍増益で着地",
           "url": "https://kabutan.jp/stock/news?code=8309&b=k202607300124"
         }
-      ]
+      ],
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -487,42 +472,53 @@
       "name": "モルフォ",
       "pct": 22.81,
       "turnover_m": 475.8,
-      "mcap_oku": 72
+      "mcap_oku": 68,
+      "mcap_source": "jquants"
     },
     {
       "code": "4583",
       "name": "カイオム・バイオサイエンス",
       "pct": 14.76,
       "turnover_m": 32.8,
-      "mcap_oku": 65
+      "mcap_oku": 67,
+      "mcap_source": "jquants"
     },
     {
       "code": "4370",
       "name": "モビルス",
       "pct": 10.14,
       "turnover_m": 34.3,
-      "mcap_oku": 27
+      "mcap_oku": 26,
+      "mcap_source": "jquants"
     },
     {
       "code": "4576",
       "name": "デ・ウエスタン・セラピテクス研究所",
       "pct": 9.41,
       "turnover_m": 23.1,
-      "mcap_oku": 49
+      "mcap_oku": 49,
+      "mcap_source": "jquants"
     },
     {
       "code": "4052",
       "name": "フィーチャ",
       "pct": 7.05,
       "turnover_m": 191.9,
-      "mcap_oku": 51
+      "mcap_oku": 51,
+      "mcap_source": "jquants"
     },
     {
       "code": "3664",
       "name": "ＷＩＺＥ",
       "pct": 3.33,
       "turnover_m": 11.5,
-      "mcap_oku": 22
+      "mcap_oku": 26,
+      "mcap_source": "jquants"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-09-03",
+    "original_selection_preserved": true
+  }
 }

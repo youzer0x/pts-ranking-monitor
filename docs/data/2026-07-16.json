@@ -6,7 +6,8 @@
   "criteria": {
     "min_pct": 3.0,
     "min_turnover_yen": 10000000,
-    "min_mcap_oku": 100
+    "min_mcap_oku": 100,
+    "mcap_method": "jquants_valuation"
   },
   "counts": {
     "qualifying": 5,
@@ -18,37 +19,30 @@
       "code": "2354",
       "name": "ＹＥ　ＤＩＧＩＴＡＬ",
       "market": "スタンダード",
-      "mcap_oku": 181,
-      "mcap_flag": "",
+      "mcap_oku": 176,
       "pct": 15.34,
       "pts": 1128.0,
       "close": 978.0,
       "volume": 26200,
       "turnover_yen": 29553600,
       "turnover_m": 29.6,
-      "shoutfy_jq": 18519100,
-      "cur_end": "2027-02-28",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月16日12時40分、NVIDIAとのフィジカルAI分野での協業を発表した。倉庫自動化システム（WES）「MMLogiStation」とNVIDIA Omniverse librariesを連携させ、物流・工場内搬送工程のデジタルツイン構築期間を従来の数年から数カ月規模へ短縮することを目指す内容で、2025年11月から協議を開始し国内工場での実証も進めているとしている。同日東証通常取引では後場にストップ高カイ気配（978円）となり、売り手不在のまま引けた。デイリー値幅制限によって当日中に消化しきれなかった買い需要が夜間PTS取引に持ち越され、制限のないPTS市場でさらに上値を探り1128円（終値比＋15.3%）まで上昇した。",
       "factor_kind": "報道",
-      "rank": 1
+      "rank": 1,
+      "mcap_source": "jquants"
     },
     {
       "code": "3946",
       "name": "トーモク",
       "market": "プライム",
-      "mcap_oku": 821,
-      "mcap_flag": "",
+      "mcap_oku": 700,
       "pct": 8.43,
       "pts": 4603.0,
       "close": 4245.0,
       "volume": 5100,
       "turnover_yen": 23475300,
       "turnover_m": 23.5,
-      "shoutfy_jq": 19341568,
-      "cur_end": "2026-03-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "17:00",
@@ -60,43 +54,37 @@
       ],
       "factor": "株主優待制度を新設するとともに特別記念優待の実施を発表。引け後の開示が個人投資家の買いを誘い大幅高となった。",
       "factor_kind": "開示",
-      "rank": 2
+      "rank": 2,
+      "mcap_source": "jquants"
     },
     {
       "code": "7581",
       "name": "サイゼリヤ",
       "market": "プライム",
-      "mcap_oku": 3544,
-      "mcap_flag": "",
+      "mcap_oku": 3332,
       "pct": 6.06,
       "pts": 7191.0,
       "close": 6780.0,
       "volume": 79200,
       "turnover_yen": 569527200,
       "turnover_m": 569.5,
-      "shoutfy_jq": 52272342,
-      "cur_end": "2026-08-31",
-      "corr": 1.0,
       "disclosures": [],
       "factor": "2026年7月15日18時39分、サイゼリヤは2026年8月期第3四半期（2025年9月〜2026年5月）の連結決算を適時開示した。純利益は前年同期比12%増の87億円と同期間として過去最高を更新し、営業利益は同25.6%増の133億円、売上高は同17.5%増の2,213億円といずれも市場予想を上回った。期末配当予想も5円増額の35円に修正した。加えて松谷秀治社長が決算会見で「消費者物価指数の動向を見ながら価格改定を視野に入れている」と述べ、9月以降の値上げを示唆した。これは2020年7月以来約6年ぶりの値上げ検討表明であり、コスト上昇の自助努力限界を認めた上での収益性改善期待から買い注文が殺到した。翌7月16日通常取引では全日ストップ高気配となりストップ高配分（6,780円、前日比+17.3%）で引けたが、日中に約定できなかった大量の買い需要がPTSに持ち越され、夜間セッションで7,191円（+6.06%）へ続伸した。",
       "factor_kind": "報道",
-      "rank": 3
+      "rank": 3,
+      "mcap_source": "jquants"
     },
     {
       "code": "278A",
       "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
       "market": "グロース",
-      "mcap_oku": 1181,
-      "mcap_flag": "",
+      "mcap_oku": 1191,
       "pct": 4.37,
       "pts": 12650.0,
       "close": 12120.0,
       "volume": 25300,
       "turnover_yen": 320045000,
       "turnover_m": 320.0,
-      "shoutfy_jq": 9745300,
-      "cur_end": "2027-01-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -115,23 +103,20 @@
       ],
       "factor": "第19回新株予約権（行使価額修正条項付き）の大量行使が完了し、MS新株予約権による希薄化懸念が解消されたことが買い材料となった。あわせて第24回新株予約権（行使価額固定型）の行使状況も開示された。",
       "factor_kind": "開示",
-      "rank": 4
+      "rank": 4,
+      "mcap_source": "jquants"
     },
     {
       "code": "4392",
       "name": "ＦＩＧ",
       "market": "プライム",
-      "mcap_oku": 352,
-      "mcap_flag": "†",
+      "mcap_oku": 377,
       "pct": 3.95,
       "pts": 1159.0,
       "close": 1115.0,
       "volume": 40300,
       "turnover_yen": 46707700,
       "turnover_m": 46.7,
-      "shoutfy_jq": 31593115,
-      "cur_end": "2026-12-31",
-      "corr": 1.0,
       "disclosures": [
         {
           "time": "15:30",
@@ -144,8 +129,7 @@
       "factor": "プライム市場の上場維持基準への適合を開示。市場変更・上場廃止リスクの払拭が好感された。",
       "factor_kind": "開示",
       "rank": 5,
-      "shares_kabutan": 35167729,
-      "mcap_kabutan_oku": 392
+      "mcap_source": "jquants"
     }
   ],
   "dropped_turnover": [
@@ -282,14 +266,21 @@
       "name": "バリュークリエーション",
       "pct": 3.52,
       "turnover_m": 19.4,
-      "mcap_oku": 11
+      "mcap_oku": 10,
+      "mcap_source": "jquants"
     },
     {
       "code": "598A",
       "name": "チャットプラス",
       "pct": 3.45,
       "turnover_m": 975.2,
-      "mcap_oku": null
+      "mcap_oku": null,
+      "mcap_source": "unavailable"
     }
-  ]
+  ],
+  "mcap_revision": {
+    "revised_on": "2026-10-01",
+    "valuation_date": "2026-07-16",
+    "original_selection_preserved": true
+  }
 }
