@@ -1,13 +1,13 @@
 """Stage 1（決定的）: PTS ナイト値上がりランキングの素データを組み立てて JSON 出力する。
 
-  株探（PTS気配・上昇率・出来高） + J-Quants V2（市場区分・終値・発行済株式数→時価総額）
+  株探（PTS気配・上昇率・出来高） + J-Quants V2（市場区分・終値・valuation時価総額）
   + TDnet（15:30以降の適時開示の突合） を結合する。**変動要因は含めない**（後段で Claude が埋める）。
 
 フィルタ:
   - 東証個別株のみ（J-Quants ProdCat=011 かつ Mkt∈{0111,0112,0113}）。ETF/REIT/地方上場は除外。
   - PTS上昇率 ≥ min_pct（既定 +3%）かつ PTS売買代金 ≥ min_turnover（既定 ¥10,000,000）。
-  - 時価総額 ≥ min_mcap 億円（既定 100）。時価総額＝J-Quants 終値×発行済株式数×分割/併合補正。
-  - 期中の増資・自己株で J-Quants 株数と株探最新株数が >1% 乖離する銘柄は mcap_flag="†"。
+  - 時価総額 ≥ min_mcap 億円（既定 100）。J-Quants valuation の MktCap（自己株式控除後）を使用。
+  - MktCap が無い銘柄のみ Yahoo 補完（mcap_source="yahoo"）。株探株数との † 照合は行わない。
   - 掲載は上昇率降順で上位 max_rows 行（既定 20）。日次ルーチンのトークンと通信量が
     行数の急増（実測最大 67 行）で跳ねないための上限で、超過分は counts に件数だけ残す。
 
@@ -21,9 +21,11 @@ usage:
 """
 import sys, os, json, time, argparse, datetime
 from datetime import date
+from contextlib import redirect_stdout
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import kabutan_pts, jquants, tdnet, business_day
+import market_cap_jquants
 
 # 掲載上限。実測（公開済み32営業日・387行）は中央値 9.5 行で通常日は発動しないが、
 # 最大は 67 行（2026-07-30）に達する。突出して多い日を機械的に抑える安全弁として効く。
@@ -31,11 +33,16 @@ DEFAULT_MAX_ROWS = 20
 
 
 def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
-          from_files=None, do_kabutan_shares=True, max_rows=DEFAULT_MAX_ROWS,
+          from_files=None, max_rows=DEFAULT_MAX_ROWS,
           do_kabutan_news=True, verbose=True):
     def log(*a):
         if verbose:
             print(*a, file=sys.stderr)
+
+    api_key = os.environ.get("JQUANTS_API_KEY")
+    if not api_key:
+        raise SystemExit("JQUANTS_API_KEY not set")
+    sd = date.fromisoformat(session_iso)
 
     # 1) 株探 PTS ナイト値上がり（上昇率≥min_pct）
     if from_files:
@@ -53,6 +60,8 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
     master = jquants.master_by_date(session_iso)
     bars = jquants.bars_by_date(session_iso)
     log(f"# master={len(master)} bars={len(bars)}")
+    # 共有モジュールの東証収録判定に既取得の終値を渡す（株価の再取得は不要）。
+    prices = {code: b["C"] for code, b in bars.items() if b.get("C") is not None}
 
     qualifying, dropped_turnover, dropped_mcap, excluded = [], [], [], []
     for r in cand:
@@ -68,8 +77,10 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
             continue
         b = bars.get(c5)
         close = b.get("C") if b else None
-        mcap, shoutfy, cur_end, corr = jquants.market_cap_oku(r["code"], close, session_iso)
-        time.sleep(0.2)
+        # 共有モジュールのWARNはstdoutに出る。CLIのJSON出力に混ぜない。
+        with redirect_stdout(sys.stderr):
+            mcap, _shares, _period_end, _corr, source = market_cap_jquants.compute_one(
+                api_key, r["code"], prices, sd)
         if mcap is None or mcap < min_mcap:
             dropped_mcap.append({"code": r["code"], "name": m.get("CoName") or r["name"],
                                  "pct": r["pct"], "turnover_m": round(r["turnover_yen"] / 1e6, 1),
@@ -77,10 +88,9 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
             continue
         qualifying.append(dict(
             code=r["code"], name=m.get("CoName") or r["name"], market=m.get("MktNm"),
-            mcap_oku=round(mcap), mcap_flag="", pct=r["pct"], pts=r["pts"], close=close,
+            mcap_oku=round(mcap), mcap_source=source, pct=r["pct"], pts=r["pts"], close=close,
             volume=r["volume"], turnover_yen=round(r["turnover_yen"]),
             turnover_m=round(r["turnover_yen"] / 1e6, 1),
-            shoutfy_jq=shoutfy, cur_end=cur_end, corr=round(corr, 6),
             disclosures=[], factor="", factor_kind=""))
 
     qualifying.sort(key=lambda x: -x["pct"])
@@ -106,20 +116,7 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
     for row in qualifying:
         row["disclosures"] = by.get(row["code"], [])
 
-    # 4) 株探 最新発行済株式数とのクロスチェック（† 注記）
-    if do_kabutan_shares:
-        log(f"# kabutan shares cross-check for {len(qualifying)} names ...")
-        for row in qualifying:
-            shk = kabutan_pts.kabutan_shares(row["code"])
-            time.sleep(0.2)
-            base = (row["shoutfy_jq"] or 0) * (row["corr"] or 1.0)
-            if shk and base > 0 and abs(shk - base) / base > 0.01:
-                row["mcap_flag"] = "†"
-                row["shares_kabutan"] = shk
-                if row["close"]:
-                    row["mcap_kabutan_oku"] = round(row["close"] * shk / 1e8)
-
-    # 5) 株探 個別ニュース見出しの事前充填（Stage2 の起点データ）
+    # 4) 株探 個別ニュース見出しの事前充填（Stage2 の起点データ）
     #    実測で disclosures が空の行は約 69%。そこを埋めるための株探ページ取得を
     #    サブエージェント側の WebFetch から Python 側の1回に寄せる。
     if do_kabutan_news:
@@ -131,14 +128,13 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
         for row in qualifying:
             row["kabutan_news"] = []
 
-    sd = date.fromisoformat(session_iso)
     return {
         "session_date": session_iso,
         "next_date": (sd + datetime.timedelta(days=1)).isoformat(),
         "session_window": f"{session_iso} 17:00 → {(sd + datetime.timedelta(days=1)).isoformat()} 06:00 JST",
         "generated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M JST"),
         "criteria": {"min_pct": min_pct, "min_turnover_yen": min_turnover, "min_mcap_oku": min_mcap,
-                     "max_rows": max_rows},
+                     "max_rows": max_rows, "mcap_method": "jquants_valuation"},
         "counts": {"qualifying": n_qualifying, "published": len(qualifying), "capped": n_capped,
                    "dropped_turnover": len(dropped_turnover),
                    "dropped_mcap": len(dropped_mcap)},
@@ -157,7 +153,6 @@ def main():
     ap.add_argument("--max-rows", type=int, default=DEFAULT_MAX_ROWS,
                     help=f"掲載上限（既定 {DEFAULT_MAX_ROWS}）。0 で無制限")
     ap.add_argument("--out", help="JSON 出力先パス（省略時は stdout）")
-    ap.add_argument("--no-kabutan-shares", action="store_true")
     ap.add_argument("--no-kabutan-news", action="store_true")
     ap.add_argument("--files", nargs="*", help="保存済み株探HTML（--date 必須）")
     args = ap.parse_args()
@@ -166,7 +161,6 @@ def main():
     session_iso = args.date or business_day.prev_business_day(date.today()).isoformat()
     data = build(session_iso, min_pct=args.min_pct, min_turnover=args.min_turnover,
                  min_mcap=args.min_mcap, from_files=args.files,
-                 do_kabutan_shares=not args.no_kabutan_shares,
                  do_kabutan_news=not args.no_kabutan_news,
                  max_rows=args.max_rows or None)
     text = json.dumps(data, ensure_ascii=False, indent=2)

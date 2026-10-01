@@ -1,3 +1,4 @@
-# コア・パイプライン（kabutan/jquants/tdnet/build_ranking）と html_generator・gmail_sender・
-# publish は Python 標準ライブラリのみで動作する。外部依存は営業日判定の祝日対応のみ。
+# 時価総額の共有モジュール（J-Quants valuation / Yahoo補完）は requests を使用。
+# html_generator・gmail_sender・publish は Python 標準ライブラリで動作する。
+requests>=2.31
 jpholiday>=0.1.8

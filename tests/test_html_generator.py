@@ -131,3 +131,26 @@ def test_generate_pages_html_has_no_market_view():
     assert "viewMarket" not in html
     assert "renderMarket" not in html
     assert "pct5" not in html                # 5営業日騰落も PTS データに無い
+
+
+def test_email_uses_mixed_mcap_units_and_source_label():
+    data = _data(3)
+    data["criteria"] = {"mcap_method": "jquants_valuation"}
+    for row, value in zip(data["rows"], (9999, 10000, 123456)):
+        row["mcap_oku"] = value
+    data["rows"][2]["mcap_source"] = "yahoo"
+    html = hg.generate_email_html(data, "https://x/")
+    assert "9,999億円" in html and "1.0兆円" in html
+    assert "12.3兆円（Yahoo参照）" in html
+    assert "自己株式控除後株式数" in html
+    assert "自己株式控除後とは限らない" in html
+    assert "旧方式" not in html and "† は" not in html
+    assert hg.fmt_mcap_cell({}) == "—"
+    assert hg.fmt_mcap_cell({"mcap_oku": 10000, "mcap_flag": "†"}) == "1.0兆円†"
+
+
+def test_legacy_email_keeps_old_methodology():
+    html = hg.generate_email_html(_data(1), "https://x/")
+    assert "旧方式の東証終値×発行済株式数" in html
+    assert "† は株探最新株数" in html
+    assert "自己株式控除後株式数" not in html

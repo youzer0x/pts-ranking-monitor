@@ -2,7 +2,7 @@
 
 公開データ（docs/data/YYYY-MM-DD.json）は build_ranking.py の出力に各行の変動要因（factor /
 factor_kind）を埋めたもの。Pages は manifest.json から日付一覧を読み、選択日の JSON を描画する。
-時価総額は要件により **常に億円の整数（カンマ区切り、1兆円以上も億円表示）** とする。
+時価総額は **1兆円未満は億円の整数、1兆円以上は兆円の小数1桁** で表示する。
 
 Pages のデザインは tse-ranking-monitor の「金融紙エディトリアル」デザイン（生成りの紙面風背景・
 明朝見出し・ヘアライン罫線・tabular-nums）と統一している。見た目を変更する際は両リポで揃えること
@@ -45,6 +45,29 @@ def fmt_pct(pct):
     return f"+{pct:.2f}%"
 
 
+def fmt_mcap_cell(row):
+    """表示単位を含む時価総額。保存値は億円のまま。"""
+    oku = row.get("mcap_oku")
+    if oku is None:
+        return "—"
+    value = f"{oku / 10000:.1f}兆円" if oku >= 10000 else f"{oku:,.0f}億円"
+    value += row.get("mcap_flag") or ""
+    if row.get("mcap_source") == "yahoo":
+        value += "（Yahoo参照）"
+    return html.escape(value)
+
+
+def mcap_description(data):
+    if (data.get("criteria") or {}).get("mcap_method") == "jquants_valuation":
+        text = "時価総額は J-Quants valuation の MktCap（東証終値×自己株式控除後株式数）。"
+        if any(r.get("mcap_source") == "yahoo" for r in data.get("rows", [])):
+            text += "Yahoo参照の行は Yahoo Finance JP の公表値（自己株式控除後とは限らない）。"
+    else:
+        text = ("時価総額は旧方式の東証終値×発行済株式数×分割・併合補正。"
+                "† は株探最新株数との1%超の乖離を示す旧注記。")
+    return text + "表示は1兆円未満が億円の整数、1兆円以上が兆円の小数1桁。"
+
+
 # ----------------------------------------------------------------------------- email
 
 def _kind_badge(kind):
@@ -68,7 +91,7 @@ def generate_email_html(data, pages_url, max_items=25):
           <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;font-family:Arial,sans-serif;">{r.get('rank','')}</td>
           <td style="padding:7px 8px;border-bottom:1px solid #eee;font-family:Arial,sans-serif;white-space:nowrap;">{r.get('code','')}</td>
           <td style="padding:7px 8px;border-bottom:1px solid #eee;white-space:nowrap;">{r.get('name','')}</td>
-          <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;white-space:nowrap;font-family:Arial,sans-serif;">{fmt_mcap(r.get('mcap_oku'), r.get('mcap_flag'))}</td>
+          <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;white-space:nowrap;font-family:Arial,sans-serif;">{fmt_mcap_cell(r)}</td>
           <td style="padding:7px 8px;border-bottom:1px solid #eee;text-align:right;white-space:nowrap;font-family:Arial,sans-serif;color:#c0392b;font-weight:600;">{fmt_pct(r.get('pct'))}</td>
           <td class="col-factor" style="padding:7px 8px;border-bottom:1px solid #eee;font-size:12px;line-height:1.5;">{badge}{factor}</td>
         </tr>""")
@@ -93,7 +116,7 @@ def generate_email_html(data, pages_url, max_items=25):
           <th style="padding:8px;text-align:right;border-bottom:2px solid #11243f;">#</th>
           <th style="padding:8px;text-align:left;border-bottom:2px solid #11243f;white-space:nowrap;">コード</th>
           <th style="padding:8px;text-align:left;border-bottom:2px solid #11243f;">銘柄</th>
-          <th style="padding:8px;text-align:right;border-bottom:2px solid #11243f;white-space:nowrap;">時価総額<br>(億円)</th>
+          <th style="padding:8px;text-align:right;border-bottom:2px solid #11243f;white-space:nowrap;">時価総額</th>
           <th style="padding:8px;text-align:right;border-bottom:2px solid #11243f;white-space:nowrap;">上昇率</th>
           <th class="col-factor" style="padding:8px;text-align:left;border-bottom:2px solid #11243f;width:40%;">変動要因</th>
         </tr></thead>
@@ -101,7 +124,7 @@ def generate_email_html(data, pages_url, max_items=25):
 {table_rows}
         </tbody>
       </table>
-      <p style="margin:14px 0 0;font-size:11px;color:#888;">時価総額・終値・株数＝J-Quants V2／PTS気配・上昇率・出来高＝株探(J-Market)／開示＝TDnet。† は増資・自己株で株探最新株数と乖離。本情報は参考であり投資助言ではない。</p>
+      <p style="margin:14px 0 0;font-size:11px;color:#888;">時価総額・終値＝J-Quants V2／PTS気配・上昇率・出来高＝株探(J-Market)／開示＝TDnet。{html.escape(mcap_description(data))}本情報は参考であり投資助言ではない。</p>
     </div>
     <div style="background:#f6f8fa;padding:11px 20px;font-size:11px;color:#999;text-align:center;">PTS ランキング・モニター｜Claude 定期実行（自動送信）</div>
   </div>
@@ -164,6 +187,7 @@ tbody tr:hover td{background:var(--hover);}
 .code-inline{display:none;}
 .mkt{white-space:nowrap;}
 .num{font-family:Arial,sans-serif;text-align:right;white-space:nowrap;}
+.num .chg{display:block;font-size:11.5px;color:var(--sub);margin-top:1px;}
 .pct{font-family:Arial,sans-serif;text-align:right;white-space:nowrap;color:var(--accent);font-weight:600;}
 .factor{font-size:12.5px;line-height:1.55;min-width:240px;}
 .kind{display:inline-block;font-size:10px;color:#fff;border-radius:3px;padding:1px 6px;margin-right:5px;white-space:nowrap;}
@@ -216,7 +240,7 @@ tbody tr:hover td{background:var(--hover);}
 <div class="container" style="margin-top:0;"><div id="droppedArea"></div></div>
 </div>
 </div>
-<div class="footer">PTS ランキング・モニター｜Claude 定期実行で自動生成｜時価総額・終値・株数＝J-Quants V2／PTS＝株探(J-Market)／開示＝TDnet｜本情報は参考であり投資助言ではない</div>
+<div class="footer">PTS ランキング・モニター｜Claude 定期実行で自動生成｜時価総額・終値＝J-Quants V2（時価総額欠損銘柄はYahoo補完）／PTS＝株探(J-Market)／開示＝TDnet｜本情報は参考であり投資助言ではない</div>
 <dialog id="infoModal" class="info" onclick="closeInfoOnBackdrop(event)">
   <div class="info-head"><h2>データ情報</h2>
     <button class="info-close" onclick="document.getElementById('infoModal').close()" aria-label="閉じる">×</button></div>
@@ -233,6 +257,17 @@ function fmtCode(c){c=(c==null?'':String(c));return (c.length===5&&c.endsWith('0
 function fmtMcapCell(o,f){if(o==null)return '—';o=Number(o);var s=o>=10000?(o/10000).toFixed(1)+'兆円':Math.round(o).toLocaleString('ja-JP')+'億円';return s+(f||'');}
 function riseYen(r){if(r==null||r.pts==null||r.close==null)return null;return Math.round(Number(r.pts)-Number(r.close));}
 function fmtSigned(v){if(v==null)return '—';var n=Number(v);return (n>=0?'+':'')+n.toLocaleString('ja-JP');}
+function fmtYen(v){return v==null?'—':fmtNum(v)+'円';}
+function fmtPtsCell(r){if(r.pts==null)return '—';var c=riseYen(r);return fmtYen(r.pts)+(c!=null?'<span class="chg">'+fmtSigned(c)+'円</span>':'');}
+function fmtTurnoverCell(t){return t==null?'—':fmtTurnover(t)+'百万円';}
+function mcapDescription(d){
+  let text;
+  if((d.criteria||{}).mcap_method==='jquants_valuation'){
+    text='時価総額は J-Quants valuation の MktCap（東証終値×自己株式控除後株式数）。';
+    if((d.rows||[]).some(r=>r.mcap_source==='yahoo'))text+='Yahoo参照の行は Yahoo Finance JP の公表値（自己株式控除後とは限らない）。';
+  }else{text='時価総額は旧方式の東証終値×発行済株式数×分割・併合補正。† は株探最新株数との1%超の乖離を示す旧注記。';}
+  return text+'表示は1兆円未満が億円の整数、1兆円以上が兆円の小数1桁。';
+}
 function esc(s){const d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
 function linkifyFactor(s){var t=esc(s==null?'':s);return t.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)/g,function(_,label,url){return '<a href="'+url.replace(/"/g,'&quot;')+'" target="_blank" rel="noopener noreferrer">'+label+'</a>';});}
 function kindBadge(k){k=(k||'').replace(/[\[\]]/g,'');if(!k)return '';return '<span class="kind k'+k+'">'+k+'</span>';}
@@ -262,8 +297,8 @@ function render(){
   document.getElementById('infoBody').innerHTML=
     '<div class="k">データ対象日時</div><div class="v">'+esc(data.session_window||'—')+'</div>'+
     '<div class="k">生成日時</div><div class="v">'+esc(data.generated_at||'—')+'</div>'+
-    '<div class="k">抽出条件</div><div class="v">'+esc('PTS上昇率≥+'+(c.min_pct??3)+'% かつ 売買代金≥'+((c.min_turnover_yen??10e6)/1e6)+'百万円／東証個別株のみ・時価総額≥'+(c.min_mcap_oku??100)+'億円。'+(c.max_rows?'掲載は上昇率上位'+c.max_rows+'銘柄。':'')+'時価総額は当日終値×発行済株式数（億円・四捨五入）。† は増資・自己株で株探最新株数と>1%乖離。')+'</div>';
-  let h='<table><thead><tr><th class="r">#</th><th>コード</th><th>銘柄</th><th>市場</th><th class="r">上昇率</th><th class="r">上昇幅<br>(円)</th><th class="r">PTS気配<br>(円)</th><th class="r">東証終値<br>(円)</th><th class="r">売買代金<br>(百万円)</th><th>変動要因</th></tr></thead><tbody>';
+    '<div class="k">抽出条件</div><div class="v">'+esc('PTS上昇率≥+'+(c.min_pct??3)+'% かつ 売買代金≥'+((c.min_turnover_yen??10e6)/1e6)+'百万円／東証個別株のみ・時価総額≥'+(c.min_mcap_oku??100)+'億円。'+(c.max_rows?'掲載は上昇率上位'+c.max_rows+'銘柄。':'')+mcapDescription(data))+'</div>';
+  let h='<table><thead><tr><th class="r">#</th><th>コード</th><th>銘柄</th><th>市場</th><th class="r">上昇率</th><th class="r">PTS気配<br>(東証終値比)</th><th class="r">東証終値</th><th class="r">売買代金</th><th>変動要因</th></tr></thead><tbody>';
   rows.forEach(r=>{
     let factor=linkifyFactor(r.factor||'（材料未確認）');
     const fk=(r.factor_kind||'').replace(/[\[\]]/g,'');
@@ -272,13 +307,12 @@ function render(){
     h+='<tr>'+
       '<td class="rank">'+(r.rank||'')+'</td>'+
       '<td class="code rankcode" data-rank="'+(r.rank||'')+'"><a href="https://kabutan.jp/stock/?code='+esc(code)+'" target="_blank">'+esc(code)+'</a></td>'+
-      '<td class="name" data-code="'+esc(code)+'">'+esc(r.name)+'<span class="code-inline">（'+esc(code)+'）</span><span class="mcap">'+fmtMcapCell(r.mcap_oku,r.mcap_flag)+'</span></td>'+
+      '<td class="name" data-code="'+esc(code)+'">'+esc(r.name)+'<span class="code-inline">（'+esc(code)+'）</span><span class="mcap">'+fmtMcapCell(r.mcap_oku,r.mcap_flag)+(r.mcap_source==='yahoo'?'（Yahoo参照）':'')+'</span></td>'+
       '<td class="mkt">'+esc(fmtMarket(r.market))+'</td>'+
       '<td class="pct" data-label="上昇率">'+fmtPct(r.pct)+'</td>'+
-      '<td class="num" data-label="上昇幅(円)">'+fmtSigned(riseYen(r))+'</td>'+
-      '<td class="num" data-label="PTS気配(円)">'+fmtNum(r.pts)+'</td>'+
-      '<td class="num" data-label="東証終値(円)">'+fmtNum(r.close)+'</td>'+
-      '<td class="num" data-label="売買代金(百万円)">'+fmtTurnover(r.turnover_m)+'</td>'+
+      '<td class="num" data-label="PTS気配(東証終値比)">'+fmtPtsCell(r)+'</td>'+
+      '<td class="num" data-label="東証終値">'+fmtYen(r.close)+'</td>'+
+      '<td class="num" data-label="売買代金">'+fmtTurnoverCell(r.turnover_m)+'</td>'+
       '<td class="factor">'+kindBadge(r.factor_kind)+factor+'</td>'+
     '</tr>';
   });

@@ -11,7 +11,8 @@
 - 次のいずれかに当たったら**先へ進まず停止して報告する**：
   SKIP／`build_ranking.py` の異常終了／`build_research_plan.py` が exit 2（初期 pending 超過）／
   `reserve_dispatch.py` が exit 0 以外／`compile_research_results.py` の MISSING が解消しない／
-  `merge_factors.py` の MISSING・REJECTED が残る／factor が空の row が残る／push・Pages 反映・Gmail の失敗。
+  `merge_factors.py` の MISSING・REJECTED が残る／factor が空の row が残る／
+  `validate_ranking_quality.py` の指摘が残る／push・Pages 反映・Gmail の失敗。
 - 長文の方法論・runbook をタスクプロンプトへ複製しない。
 
 ## 1. 営業日ゲート
@@ -31,6 +32,9 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 抽出条件（スクリプトが適用済み）：東証個別株のみ・上昇率≥+3% かつ 売買代金≥¥10,000,000・
 時価総額≥100億円・**掲載は上昇率上位20銘柄**。各 row には TDnet 開示（15:30以降）と
 株探ニュース見出し（`kabutan_news`）が事前充填される。
+
+時価総額は J-Quants valuation の MktCap（東証終値×自己株式控除後株式数）。欠損銘柄だけYahoo補完し
+`mcap_source` を記録する。新規データに†照合は行わない。表示は1兆円未満が億円、以上が兆円の小数1桁。
 
 `ranking.json` は**手編集しない**。
 
@@ -83,6 +87,20 @@ python scripts/merge_factors.py --ranking docs/tmp/ranking.json --factors docs/t
 **factor が空の row を残さない。** 材料が確認できなければ「当日固有の材料は確認できず」と正直に記す。
 検索結果の要約をそのまま出典にしない・個人発信は引用も参照もしない・数値は実測のみ・
 創作禁止・投資助言をしない・「開示なし」等の定型注記は書かない（親にもサブエージェントにも適用）。
+
+### 3.5 表示品質検査
+
+factor は**表示250字以内**（Markdownリンクはラベルのみ。自動の[開示PDF]は除外）。自社名からの
+書き出し、内部フィールド名・業種コード、「材料窓」「窓内」「窓外」、自明な休場日等の背景を省く。
+必要な事実と出典を残して凝縮する。材料未確認の例外は `テーマ` の冒頭に所定の一文を記す場合のみ
+（背景は句点で区切る）。根拠のない推定や機械的な切り詰めは行わない。
+
+```bash
+python scripts/validate_ranking_quality.py docs/tmp/ranking.json
+```
+
+exit 1 なら指摘された銘柄だけを `inline_factors.json` で修正し、3.4のcompile・mergeと本検査を再実行する。
+**exit 0 になるまで公開しない。** `publish.py` も保存前に同じ検査を実行する。
 
 ## 4. 公開ファイルの生成（メールはまだ送らない）
 

@@ -7,7 +7,7 @@
 > 方法論の単一の真実源は本 `AGENTS.md`。対話版スキル
 > `news-financial-market/skills/pts-ranking-digest/SKILL.md` と同一の抽出条件・品質ゲートを用いる。
 > データ取得系の共有スクリプト（`jquants.py`・`business_day.py`・`kabutan_pts.py`・`tdnet.py`・
-> `merge_factors.py`）とサブエージェント定義（`.claude/agents/stock-factor-researcher.md`）の
+> `market_cap_jquants.py`・`market_cap_yahoo.py`・`merge_factors.py`）とサブエージェント定義（`.claude/agents/stock-factor-researcher.md`）の
 > **コード**は共有リポ `market-scripts-common` が単一の真実源（ベンダリング。
 > 各配布先の `vendor.lock.json` 参照・直接編集禁止）。
 
@@ -45,7 +45,8 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 ```
 - 株探 PTS ナイト値上がり＋J-Quants 時価総額＋TDnet 開示突合を結合し、抽出条件を満たす銘柄を JSON 化する。
 - 抽出条件（確定）：**東証個別株のみ**（J-Quants `ProdCat=011`＋`Mkt∈{0111,0112,0113}`／ETF・REIT・地方単独上場は除外）、**PTS上昇率≥+3% かつ 売買代金(=PTS気配×夜間出来高)≥¥10,000,000**、**時価総額≥100億円**、**掲載は上昇率上位20銘柄**（`--max-rows`。日次のトークンと通信量が行数の急増で跳ねないための安全弁。実測32営業日中の発動は3日＝2026-07-09の28行・07-28の23行・07-30の67行）。
-- 時価総額＝**J-Quants 当日終値×発行済株式数×分割/併合補正**（億円・四捨五入。1兆円以上も億円表示）。増資/自己株で株探最新株数と>1%乖離する銘柄は `mcap_flag="†"` が付き、`mcap_kabutan_oku`・`shares_kabutan` も入る。
+- 時価総額＝**J-Quants `/equities/valuation` の `MktCap`（東証終値×自己株式控除後株式数）**。共有モジュールが百万円から億円へ換算する。保存値 `mcap_oku` は億円・整数、画面は**1兆円未満が億円の整数、1兆円以上が兆円の小数1桁**。当日分が無ければ共有実装が最大5暦日遡り、採用日をWARNで示す。
+- 銘柄単位で `MktCap` が無い場合だけYahoo補完（`mcap_source="yahoo"`・表示は「Yahoo参照」。自己株式控除後とは保証できない）。API全体の失敗ではYahooへ流さない。株探株数との † 照合は廃止し、新規JSONは `criteria.mcap_method="jquants_valuation"` と `mcap_source` を記録する。過去JSONは変更せず、方式情報が無いデータには旧方式と既存の†注記を表示する。
 - 銘柄名は **J-Quants 正式名称（`CoName`・「株式会社」は付けない）** を用いる。**略称は使わない**（例：9984＝ソフトバンクグループ、6981＝村田製作所、6920＝レーザーテック）。
 - 出力 JSON：`rows`（採用銘柄）、`dropped_turnover`（≥+3%だが薄商い）、`dropped_mcap`（<100億）。各 row の `disclosures` には**当日15:30以降の TDnet 開示**が、`kabutan_news` には**株探の個別ニュース見出し**が入っている（Stage2 の起点データ。best-effort で取得失敗時は空配列。見出しの索引であり権威ではないので、採用時は §3.2 の規律で一次記事に当たる）。**この段階に変動要因は無い**（`factor`・`factor_kind` は空）。
 - 株探は次のナイト開始（17:00）まで当該セッションを表示する。06:06 実行なら確定済み。
@@ -90,6 +91,7 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
    python scripts/compile_research_results.py --research-dir .work/<SESSION>/research \
        --out docs/tmp/factors.json --inline docs/tmp/inline_factors.json
    python scripts/merge_factors.py --ranking docs/tmp/ranking.json --factors docs/tmp/factors.json
+   python scripts/validate_ranking_quality.py docs/tmp/ranking.json
    ```
    `factor`/`factor_kind` 以外のフィールドと `rows` の順序はスクリプトが保全する（`name` の上書き等は
    構造的に起きない）。検証に通ったバッチは manifest で `complete` になり再委譲されない。
@@ -98,6 +100,7 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
    （予約は毎回必要。`per_batch_limit=3` を超えると予約できず停止）。`UNRESOLVED` は材料未確認として
    許容する（`factor` は埋まっている）。merge の `MISSING`/`REJECTED` が残る行は親が §3.2 の優先順で
    インライン調査し、`inline_factors.json` を更新して 4 を再実行する（factor が空の row を残さない）。
+   品質検査が非ゼロ終了した場合も、指摘された銘柄だけの要因を修正し、集約・merge・検査を再実行する。
 
 ### 3.2 調査の優先順とソース規律（親のインライン調査・直接記入にも適用）
 
@@ -112,6 +115,8 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 
 **ソース規律（厳守）**：採用は確立した経済報道機関と一次情報（TDnet・企業 IR・取引所・中銀・統計当局）のみ。
 **個人発信（X/Twitter 個人・note.com・個人ブログ/Substack・Reddit/掲示板・YouTube 個人・匿名まとめ・生成系）は引用も参照もしない**。判断に迷うソースは不採用。数値は実測のみ・創作禁止・投資助言をしない。
+
+**factor の執筆規律（親・バッチ共通）**：表示250字以内（目安200字）。Markdownリンクはラベルのみを数え、URLと自動付与の[開示PDF]は数えない。書き出しの自社名（「〇〇は」）、自明な休場日・曜日の背景、業種コード・入力フィールド名、「材料窓」「窓内」「窓外」を書かない。時点は日付・時刻で具体化する。要因の事実と必要な出典を保って凝縮し、機械的な切り詰めや根拠のない推定で埋めない。「開示なし」等の不在注記は不要。ただし調査を尽くした `テーマ` の冒頭に「当日固有の材料は確認できず」と記す例外は維持する（背景を添える場合は句点で区切る）。`validate_ranking_quality.py` が字数・内部表記・自社名の書き出し・不在注記・空欄を検査し、非ゼロなら公開しない。`publish.py` も保存前に同じ検査を行う。
 
 `ranking.json` の更新は必ず §3.1 手順3の `merge_factors.py` で行う。**`factor`/`factor_kind` 以外の
 フィールド（`code`/`name`/`market`/`mcap_oku`/`pct`/`pts`/`close`/`turnover_m`/`disclosures` 等）と
@@ -157,6 +162,7 @@ python scripts/publish.py docs/tmp/ranking.json --notify
 - [ ] 抽出条件（上昇率≥+3% かつ 売買代金≥¥10M／東証個別／時価総額≥100億）を満たす銘柄のみ `rows` にあるか。
 - [ ] 各 row の `factor`/`factor_kind` を、**[開示]（15:30以降）→[報道]（一次記事＋配信時刻でセッション窓と整合）→[テーマ]** の順で裏取りして埋めたか。**検索要約を出典にしていないか**。材料が無ければ正直に「材料未確認」としたか。
 - [ ] 委譲結果と直接記入分を `docs/tmp/factors.json` に集約し、`merge_factors.py` で `MERGED` を確認したか。**`MISSING`/`REJECTED` の行を親のインライン調査で埋めて再実行**したか（`factor` が空の row を残していないか）。`ranking.json` を手編集していないか。
+- [ ] `validate_ranking_quality.py` が exit 0 か（factorは表示250字以内・内部表記や不在の定型注記なし。材料未確認の所定の一文は例外）。
 - [ ] 個人発信を引用・参照していないか。数値は実測のみで創作がないか。投資助言をしていないか。
 - [ ] `publish.py --no-email`（§4）が成功し、`docs/data/<SESSION>.json`・`manifest.json`・`index.html` が更新されたか。
 - [ ] `docs/` を **main** にコミット＆プッシュしたか（`git push origin HEAD:main`。`claude/...` ブランチではない）。
@@ -167,7 +173,7 @@ python scripts/publish.py docs/tmp/ranking.json --notify
 | データ | ソース |
 | --- | --- |
 | PTS気配・上昇率・出来高・順位 | 株探 J-Market `kabutan.jp/warning/pts_night_price_increase` |
-| 市場区分・当日終値・発行済株式数・時価総額 | J-Quants V2 API（`api.jquants.com`） |
+| 市場区分・当日終値・時価総額 | J-Quants V2 API（`api.jquants.com`）。時価総額はvaluationのMktCap、銘柄単位の欠損のみYahoo補完 |
 | 適時開示（一次情報） | TDnet `www.release.tdnet.info` |
 | 報道（裏取り） | ホワイトリスト主要メディア（日経・Bloomberg・ロイター・WSJ・FT・CNBC 等） |
 

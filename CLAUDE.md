@@ -21,7 +21,7 @@
 ## SOT（単一の真実源）との同期
 
 データ取得系の共有スクリプト（`jquants.py` / `business_day.py` / `kabutan_pts.py` / `tdnet.py` /
-`merge_factors.py`）とサブエージェント定義（`.claude/agents/stock-factor-researcher.md`）は、
+`market_cap_jquants.py` / `market_cap_yahoo.py` / `merge_factors.py`）とサブエージェント定義（`.claude/agents/stock-factor-researcher.md`）は、
 共有リポ **`market-scripts-common`** を単一の真実源とするベンダリング。各配布先の `vendor.lock.json` に
 バージョン・コミット・ファイル別 sha256 が刻印される（`.claude/agents/` 分は CI の check_vendor 対象外で、
 SOT 側 `python sync.py --check` で検証する）。`build_ranking.py` / `html_generator.py` /
@@ -33,6 +33,8 @@ SOT 側 `python sync.py --check` で検証する）。`build_ranking.py` / `html
 - 同期を取り込んだ直後は、必ず `python -m pytest` を実行して回帰が無いことを確認する。
 
 ## テストの実行
+
+Python 3.12とNode.js 22以降を用意する。Nodeは生成HTML内のJavaScriptの実行テストに使用する。
 
 ```bash
 python -m pip install -r requirements-dev.txt   # 初回のみ

@@ -3,8 +3,8 @@
 日本株の **PTS ナイトタイムセッション（前営業日 17:00 → 当日 06:00）の株価上昇率ランキング（値上がり専用）** を、**東証の営業日ベースで毎朝・無人**に生成し、**Web ページ（GitHub Pages）と Gmail 通知**で配信するシステムです。各銘柄の**変動要因**（なぜ上がったか）を適時開示・主要メディアの一次情報で裏取りして付けます。
 
 - 抽出条件：**東証個別株のみ**（ETF・REIT・地方単独上場は除外）／**PTS上昇率 ≥ +3% かつ 売買代金 ≥ ¥10,000,000**／**時価総額 ≥ 100億円**／**掲載は上昇率上位20銘柄**
-- 時価総額＝**当日終値 × 発行済株式数**（J-Quants V2 API・億円・四捨五入。1兆円以上も億円表示）
-- データ：PTS＝株探(J-Market)／時価総額・終値・株数・市場区分＝J-Quants V2／適時開示＝TDnet／報道＝主要メディア
+- 時価総額＝**東証終値 × 自己株式控除後株式数**（J-Quants valuation の MktCap）。表示は1兆円未満が億円、1兆円以上が兆円の小数1桁。保存値は億円のまま。
+- データ：PTS＝株探(J-Market)／時価総額・終値・市場区分＝J-Quants V2／適時開示＝TDnet／報道＝主要メディア。時価総額が無い銘柄のみYahoo補完（自己株式控除後とは限らないため「Yahoo参照」と明示）。
 
 ---
 
@@ -127,6 +127,7 @@ git push -u origin main
      ```
      kabutan.jp
      api.jquants.com
+     finance.yahoo.co.jp
      www.release.tdnet.info
      あなたの名前.github.io
      nikkei.com
@@ -145,7 +146,7 @@ git push -u origin main
    - **`<あなたの名前>.github.io` は publish の `--notify`（メール送信前の Pages ライブ確認）で必要**です。未許可だと毎回ライブ確認に失敗し、5分のタイムアウト後に送信します（＝従来どおりメールは届きますが、リンク先が前営業日のままになるラグが残ります）。`Full` なら追加不要。
 4. **セットアップ・スクリプト（Setup script）**に次を設定（クラウドの setup はリポジトリ外で走るため `-r requirements.txt` ではなくパッケージ名を直接指定する。クォートや `>=` は貼り付けで化けやすいので使わない。後半は PEP668 対策のフォールバック）：
    ```bash
-   pip install jpholiday || pip install --break-system-packages jpholiday
+   pip install requests jpholiday || pip install --break-system-packages requests jpholiday
    ```
 5. 「**Save changes**」で保存する。
 
@@ -184,7 +185,7 @@ git push -u origin main
 cd /c/Users/YujiroOkawa/project-private/pts-ranking-monitor
 python scripts/check_gate.py                                   # 営業日ゲート確認
 python scripts/build_ranking.py --date 2026-06-15 --out docs/tmp/ranking.json
-# （必要なら docs/tmp/ranking.json の各 row の factor/factor_kind を編集）
+# 要因は factors.json / inline_factors.json に書き、merge_factors.py で反映する（ranking.json は手編集しない）
 
 # Stage2 を無人ルーチンと同じ機械経路で回す場合（詳細は runbook/RUNTIME_CONTRACT.md）
 R=.work/2026-06-15/research
@@ -193,6 +194,7 @@ python scripts/reserve_dispatch.py --research-dir $R --batch batch-001   # 委�
 # → pts-factor-batch-researcher に batch_id と batch_path だけを渡し、返却を $R/results/ へ保存
 python scripts/compile_research_results.py --research-dir $R --out docs/tmp/factors.json --inline docs/tmp/inline_factors.json
 python scripts/merge_factors.py --ranking docs/tmp/ranking.json --factors docs/tmp/factors.json
+python scripts/validate_ranking_quality.py docs/tmp/ranking.json # exit 0 になるまで該当銘柄の要因を修正
 python scripts/publish.py docs/tmp/ranking.json --no-email     # 生成のみ（メールを送らず Pages だけ更新）
 git add docs/index.html docs/data && git commit -m "Update PTS ..." && git push origin HEAD:main  # Pages へ反映
 python scripts/publish.py docs/tmp/ranking.json --notify       # push 後: Pages 反映を待って Gmail 送信（推奨）
@@ -208,12 +210,15 @@ pts-ranking-monitor/
 ├── AGENTS.md            # ルーチンの方法論（クラウド Claude が従う単一の真実源）
 ├── ROUTINE_PROMPT.md    # Scheduled トリガに貼り付けるプロンプト本文
 ├── README.md            # このファイル（セットアップ手順）
-├── requirements.txt     # 依存（jpholiday のみ。他は標準ライブラリ）
+├── requirements.txt     # 依存（requests・jpholiday）
 ├── scripts/
 │   ├── check_gate.py    # 営業日ゲート（前営業日が営業日か）
 │   ├── build_ranking.py # Stage1: 株探+J-Quants+TDnet を結合し素データJSON（変動要因なし）
 │   ├── kabutan_pts.py   # 株探 PTS ナイト値上がりの取得・パース
-│   ├── jquants.py       # J-Quants V2（時価総額・市場区分・終値・株数）
+│   ├── jquants.py       # J-Quants V2（市場区分・終値）
+│   ├── market_cap_jquants.py # valuation MktCap（共有リポから同期）
+│   ├── market_cap_yahoo.py   # 時価総額欠損銘柄のYahoo補完（共有リポから同期）
+│   ├── validate_ranking_quality.py # factorの250字制限・表示品質検査
 │   ├── tdnet.py         # TDnet 適時開示（15:30以降の突合）
 │   ├── business_day.py  # 東証営業日判定・セッション日導出
 │   ├── html_generator.py# GitHub Pages / メール本文 HTML
@@ -231,8 +236,9 @@ pts-ranking-monitor/
 
 - **タイミング**：cron 06:06 JST。PTS ナイトは 06:00 終了、株探は 06:02 ごろ確定。確定後・寄り付き前に生成。
 - **営業日ゲート**：前営業日（＝ナイトを始めた日）が東証営業日のときだけ生成。土日・祝日・年末年始は `jpholiday` で判定し、新規セッションが無い朝はスキップ。
-- **時価総額**：J-Quants の当日終値×発行済株式数×分割/併合補正（億円・四捨五入）。**増資・自己株消却**で株探の最新株数と **>1% 乖離**する銘柄は **†** を付け、参考値を注記。
+- **時価総額**：共有モジュールのvaluation MktCap（自己株式控除後）を利用。当日分が無ければ最大5暦日遡り、採用日をWARNで示す。銘柄単位の欠損はYahoo補完するが、API全体の失敗では補完しない。新規データの†照合は廃止し、`criteria.mcap_method="jquants_valuation"` と行の `mcap_source` で方式・出典を識別する。過去JSONは書き換えず、方式情報が無ければ旧方式と†を説明する。
 - **変動要因**：当日 15:30 以降の TDnet 開示を最優先、次に主要メディアの一次記事を**配信時刻でセッション窓と整合確認**して裏取り。材料が無ければ「材料未確認」と正直に記載。**個人発信は不使用**。
+- **表示品質**：factorは250字以内（リンクのラベルのみ数える）。自社名からの書き出し、内部用語、開示不在の定型注記を省く。`テーマ` の冒頭の「当日固有の材料は確認できず」は例外として許容する。検査不合格のまま公開しない。価格は「PTS気配（東証終値比）」の二段表示、東証終値は別列に表示する。
 - **使用モデル**：Sonnet 4.6＋effort=max（Opus より単価が低く、変動要因の検証・判断の品質を確保）。
 
 ---

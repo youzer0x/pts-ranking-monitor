@@ -23,6 +23,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import html_generator
+from validate_ranking_quality import audit_ranking
 
 DOCS = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "docs"))
 DATA = os.path.join(DOCS, "data")
@@ -175,6 +176,11 @@ def main():
     print(f"Publishing {data['session_date']} ({len(rows)} rows) ...")
 
     normalize_names(data)
+    findings = audit_ranking(data)
+    if findings:
+        for item in findings:
+            print(f"[quality] {item['code']} {item['rule_id']}: {item['message']}", file=sys.stderr)
+        sys.exit("ranking quality check failed; fix factors via merge_factors.py before publishing")
     save_data(data)
     cleanup_old()
     update_manifest()

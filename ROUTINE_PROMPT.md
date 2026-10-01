@@ -12,5 +12,5 @@
 
 Stage2 は `build_research_plan.py` が作る pending batch だけを `pts-factor-batch-researcher` へ委譲する。各タスクへ渡すのは batch_id と batch_path だけとし、ranking row・plan 本文を貼らない。委譲直前に必ず `reserve_dispatch.py` を実行し、exit 0 以外なら委譲せず停止して報告する。開示だけで説明できる行は inline.json を読んで親が起こし、委譲しない。結果は `compile_research_results.py` → `merge_factors.py` で機械的に集約し、ranking.json は手編集しない。
 
-SKIP、build_research_plan の exit 2、reserve_dispatch の exit 0 以外、MISSING/REJECTED の未解消、空 factor、push・Pages 反映・Gmail の失敗はいずれも停止条件である。公開後は main へ直接 push し、Pages が当該セッションを配信し始めたことを確認してから Gmail を送る。最後に contract §7 の形式で簡潔に報告せよ。
+SKIP、build_research_plan の exit 2、reserve_dispatch の exit 0 以外、MISSING/REJECTED の未解消、空 factor、validate_ranking_quality の指摘残存、push・Pages 反映・Gmail の失敗はいずれも停止条件である。公開後は main へ直接 push し、Pages が当該セッションを配信し始めたことを確認してから Gmail を送る。最後に contract §7 の形式で簡潔に報告せよ。
 ```
