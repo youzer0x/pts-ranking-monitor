@@ -25,6 +25,17 @@ _ABSENCE_RE = re.compile(
     r"(?:適時開示|新規開示|個別開示|開示|新規材料|個別材料|固有の材料)"
     r"[^。]{0,20}(?:なし|無し|ない|無い|確認できず|確認できない|確認されず|見当たらない)"
     r"|材料未確認|材料(?:は|を)?確認でき(?:ず|ない)")
+# 海外企業名の非標準カタカナ表記と、日経など主要メディアの定着表記。英語の一次情報だけを読んで
+# 社名を自前で音訳すると生じる（2026-10-02 Micron→ミクロン、07-21 SK Hynix→ハイニクス）。
+# ミクロンは単位の外来語と同じ綴りなので、国内上場社名（ミクロン精密・ホソカワミクロン、
+# 株探略称ホソミクロン）と単位の用例は除外する。
+NONSTANDARD_NAMES = (
+    (re.compile(r"(?<!ホソカワ)(?<!ホソ)(?<![0-9.数十百千サブ])ミクロン(?!精密|単位|メートル|オーダー)"),
+     "米マイクロン（Micron Technology）"),
+    (re.compile(r"ハイニクス"), "SKハイニックス"),
+    (re.compile(r"エヌヴィディア|エヌヴィデア|エヌビデア"), "エヌビディア"),
+    (re.compile(r"サムソン電子"), "サムスン電子"),
+)
 
 
 def factor_display_text(factor):
@@ -68,6 +79,11 @@ def audit_ranking(data):
         name = unicodedata.normalize("NFKC", str(row.get("name") or "")).strip()
         if name and re.match(r"^[「『]?" + re.escape(name) + r"[」』]?(?:は|が|の|[、,])", text):
             add(code, "RANK_FACTOR_SELF_NAME_OPENER", "書き出しの自社名を省き、要因から記す")
+        for pattern, standard in NONSTANDARD_NAMES:
+            found = pattern.search(text)
+            if found:
+                add(code, "RANK_FACTOR_NOTATION",
+                    f"「{found.group(0)}」は一般的でない表記。{standard}と書く（英語社名を自前で音訳しない）")
         # PTS方法論の誠実な未確認表記は、テーマの冒頭1文に限り例外とする。
         absence_text = text
         if kind == "テーマ" and (text == UNRESOLVED_TEXT or text.startswith(UNRESOLVED_TEXT + "。")):

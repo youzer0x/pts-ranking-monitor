@@ -48,6 +48,40 @@ def test_valid_wording_is_not_flagged(factor):
     assert quality.audit_ranking(document(factor)) == []
 
 
+@pytest.mark.parametrize("factor,found,standard", [
+    # 2026-10-02 の実例（英文の SEC 8-K だけを根拠に Micron を音訳した）
+    ("9月30日発表のミクロン2026年8月期決算がHBM需要の強さを確認させた。", "ミクロン", "米マイクロン"),
+    ("米ミクロン・テクノロジーの好決算を受けた連れ高とみられる。", "ミクロン", "米マイクロン"),
+    ("ﾐｸﾛﾝの決算を受けて買われた。", "ミクロン", "米マイクロン"),
+    # 2026-07-21 の実例（英文の Yahoo Finance UK だけを根拠に SK Hynix を音訳した）
+    ("SKハイニクスが約9%高となった。", "ハイニクス", "SKハイニックス"),
+    ("エヌヴィディア株が続伸した。", "エヌヴィディア", "エヌビディア"),
+    ("サムソン電子の設備投資拡大が伝わった。", "サムソン電子", "サムスン電子"),
+])
+def test_nonstandard_foreign_company_names(factor, found, standard):
+    findings = quality.audit_ranking(document(factor, "報道"))
+    assert [item["rule_id"] for item in findings] == ["RANK_FACTOR_NOTATION"]
+    assert f"「{found}」" in findings[0]["message"] and standard in findings[0]["message"]
+
+
+@pytest.mark.parametrize("factor", [
+    "米マイクロン・テクノロジーの好決算を受けた連れ高とみられる。",
+    "[Micron Q4 FY2026決算](https://www.sec.gov/a.htm)を受けて買われた。",
+    "SKハイニックスやエヌビディア、サムスン電子が上昇した。",
+    # 国内上場社名（J-Quants CoName）と株探の略称
+    "ミクロン精密の受注拡大が材料視された。",
+    "ホソカワミクロンが全固体電池関連として買われた。",
+    "「ホソミクロンが急速人気化」と報じられた。",
+    # 単位としてのミクロン
+    "線幅0.5ミクロンの加工に対応した装置である。",
+    "数ミクロンの精度を持つ。",
+    "サブミクロン級の研磨技術が評価された。",
+    "ミクロン単位の加工精度が強みである。",
+])
+def test_standard_names_and_unit_usage_are_not_flagged(factor):
+    assert quality.audit_ranking(document(factor, "報道")) == []
+
+
 def test_self_name_normalizes_full_width():
     assert "RANK_FACTOR_SELF_NAME_OPENER" in rules(document("AGCは受注を発表した。", name="ＡＧＣ"))
 
