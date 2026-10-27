@@ -35,3 +35,30 @@ def test_valid_publish_writes_generated_files_without_email(tmp_path, monkeypatc
     assert json.loads((docs / "data/2026-10-01.json").read_text(encoding="utf-8")) == data
     assert json.loads((docs / "data/manifest.json").read_text())["dates"] == ["2026-10-01"]
     assert (docs / "index.html").read_text(encoding="utf-8") == publish.html_generator.generate_pages_html()
+
+
+def _run_notify(tmp_path, monkeypatch, live):
+    path = tmp_path / "ranking.json"
+    path.write_text(json.dumps({"session_date": "2026-10-27", "rows": []}), encoding="utf-8")
+    sent = []
+    monkeypatch.setattr(publish, "wait_until_live", lambda *a, **k: live)
+    monkeypatch.setitem(sys.modules, "gmail_sender",
+                        type(sys)("gmail_sender"))
+    sys.modules["gmail_sender"].send_gmail = lambda html, session, n: sent.append(session)
+    monkeypatch.setattr(sys, "argv", ["publish.py", str(path), "--notify"])
+    return sent
+
+
+def test_notify_sends_and_succeeds_when_pages_live(tmp_path, monkeypatch):
+    sent = _run_notify(tmp_path, monkeypatch, live=True)
+    publish.main()
+    assert sent == ["2026-10-27"]
+
+
+def test_notify_sends_but_exits_3_when_pages_not_live(tmp_path, monkeypatch):
+    # 2026-10-27 分：Pages ビルドが詰まり未反映のまま送信して成功扱いになっていた
+    sent = _run_notify(tmp_path, monkeypatch, live=False)
+    with pytest.raises(SystemExit) as e:
+        publish.main()
+    assert e.value.code == 3
+    assert sent == ["2026-10-27"]

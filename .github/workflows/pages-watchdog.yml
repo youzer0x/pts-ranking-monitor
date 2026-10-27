@@ -1,0 +1,35 @@
+name: Pages watchdog
+
+# 日次 push 後に GitHub Pages が当日分を実際に配信し始めたかを見張り、レガシー Pages ビルドが
+# 詰まった／errored のときは再ビルドを要求する（2026-10-27 分で building のまま止まった事故の再発防止）。
+# push で起動されない場合に備え、配信時間帯（JST 06:00–08:59）は schedule でも見回る。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/data/manifest.json"
+  schedule:
+    - cron: "*/20 21-23 * * *"   # UTC = JST 06:00–08:59
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+concurrency:
+  group: pages-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/pages_watchdog.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/

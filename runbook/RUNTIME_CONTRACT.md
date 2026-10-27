@@ -128,6 +128,8 @@ python scripts/publish.py docs/tmp/ranking.json --notify
 
 `data/manifest.json` の最新日付が `<SESSION>` になるまで最大5分ポーリングしてから Gmail を送る。
 **必ず §5 の push の後に実行する**（push 前に送るとリンク先が前営業日のままになる）。
+exit 3 は「メールは送信済みだが Pages 未反映」。**`--notify` を再実行しない**（二重送信になる）。
+Pages 反映失敗として停止し報告する（詰まった Pages ビルドは Actions の `Pages watchdog` が再要求する）。
 
 ## 7. 報告形式
 

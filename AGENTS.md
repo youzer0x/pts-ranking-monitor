@@ -153,6 +153,12 @@ python scripts/publish.py docs/tmp/ranking.json --notify
   まだ前コミット（最新日付＝前営業日）を返し、当日分が見えない（=メールのリンク先ラグ）。`--notify` はその窓を閉じる。
 - ライブ確認の取得先は Pages ホスト（`*.github.io`）。カスタム環境の**ネット許可に `github.io` を含める**こと
   （未許可だと毎回失敗→5分後に送信＝従来同様ラグが残る）。`--notify` は生成・コミットを行わない（§4/§5 済み前提）。
+- 5分以内に反映を確認できなくてもメールは送るが、その場合は **exit 3** で終わる（Pages 反映失敗＝停止条件。
+  `--notify` を再実行すると二重送信になるので再実行しない）。
+- GitHub 側でレガシー Pages ビルドが `building` のまま詰まることがある（2026-10-27 分で発生）。
+  `.github/workflows/pages-watchdog.yml`（`scripts/pages_watchdog.py`）が manifest の push 時と
+  JST 06:00–08:59 の20分毎に起動し、未反映かつビルドが詰まり／errored なら `POST /pages/builds` で再ビルドを要求する。
+  手動復旧は `gh api -X POST repos/{owner}/{repo}/pages/builds`。
 
 ---
 

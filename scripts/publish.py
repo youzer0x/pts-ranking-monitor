@@ -165,11 +165,17 @@ def main():
         # 通知フェーズ：生成・コミットは済んでいる前提。push 後の Pages 反映を待って送信する。
         url = pages_url()
         print(f"Notify {data['session_date']} ({len(rows)} rows): wait for Pages then send ... Pages: {url}")
-        wait_until_live(url, data["session_date"],
-                        timeout=args.live_timeout, interval=args.live_interval)
+        live = wait_until_live(url, data["session_date"],
+                               timeout=args.live_timeout, interval=args.live_interval)
         import gmail_sender
         email_html = html_generator.generate_email_html(data, url)
         gmail_sender.send_gmail(email_html, data["session_date"], len(rows))
+        if not live:
+            # メールは送信済み（再実行すると二重送信になる）。Pages 未反映を握りつぶさず停止条件として報告させる。
+            # 詰まったビルドの再要求は Actions の pages-watchdog が行う。
+            print(f"ERROR: email sent but Pages not confirmed live for {data['session_date']}; "
+                  "do NOT re-run --notify. Check the 'Pages watchdog' workflow.", file=sys.stderr)
+            sys.exit(3)
         print(f"Done (notify). Pages: {url}")
         return
 
