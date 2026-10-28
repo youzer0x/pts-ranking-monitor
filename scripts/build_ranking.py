@@ -15,9 +15,16 @@
 Stage2 のサブエージェントが銘柄ごとに同じページを取得し直さずに済ませるための起点データで、
 best-effort（取得失敗時は空リスト）。判断・出典採否は後段の Claude が行う。
 
+株探スナップショット（snapshots/kabutan_pts/<SESSION>.json）:
+  株探の PTS ナイトランキングは直近1セッションしか表示しない（次の 17:00 に入れ替わる）。
+  J-Quants 等の後段が失敗するとそのセッションは二度と組めないため（2026-10-22 分を API キー
+  失効で欠損）、株探の取得直後・J-Quants より前にスナップショットを保存する。同じセッションの
+  スナップショットがあれば株探を再取得せずにそれを使うので、後日でも同じコマンドで復旧できる。
+
 usage:
   python build_ranking.py [--date YYYY-MM-DD] [--out ranking.json]
   python build_ranking.py --files page1.html page2.html   # 保存済み株探HTMLから（要 --date）
+  python build_ranking.py --date YYYY-MM-DD --no-snapshot # スナップショットを読み書きしない
 """
 import sys, os, json, time, argparse, datetime
 from datetime import date
@@ -30,11 +37,40 @@ import market_cap_jquants
 # 掲載上限。実測（公開済み32営業日・387行）は中央値 9.5 行で通常日は発動しないが、
 # 最大は 67 行（2026-07-30）に達する。突出して多い日を機械的に抑える安全弁として効く。
 DEFAULT_MAX_ROWS = 20
+SNAPSHOT_DIR = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                             "..", "snapshots", "kabutan_pts"))
+
+
+def snapshot_path(session_iso, snapshot_dir=SNAPSHOT_DIR):
+    return os.path.join(snapshot_dir, f"{session_iso}.json")
+
+
+def save_snapshot(path, session_iso, min_pct, rows):
+    """株探の取得結果（上昇率≥min_pct の全行）をセッション日付きで保存する。"""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"session_date": session_iso,
+                   "fetched_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M JST"),
+                   "min_pct": min_pct, "rows": rows}, f, ensure_ascii=False, indent=1)
+
+
+def load_snapshot(path, session_iso, min_pct):
+    """保存済みスナップショットから上昇率≥min_pct の行を返す。
+
+    別セッションのファイルや、保存時より低い min_pct の要求（保存していない行が要る）は拒否する。
+    """
+    with open(path, encoding="utf-8") as f:
+        snap = json.load(f)
+    if snap.get("session_date") != session_iso:
+        raise SystemExit(f"snapshot {path} is for {snap.get('session_date')}, not {session_iso}")
+    if min_pct < snap["min_pct"]:
+        raise SystemExit(f"snapshot {path} only has pct>={snap['min_pct']}; cannot serve min_pct={min_pct}")
+    return [r for r in snap["rows"] if r["pct"] >= min_pct]
 
 
 def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
           from_files=None, max_rows=DEFAULT_MAX_ROWS,
-          do_kabutan_news=True, verbose=True):
+          do_kabutan_news=True, verbose=True, snapshot_dir=None):
     def log(*a):
         if verbose:
             print(*a, file=sys.stderr)
@@ -51,7 +87,16 @@ def build(session_iso, min_pct=3.0, min_turnover=10_000_000, min_mcap=100,
             rows += kabutan_pts.parse_html(open(fn, encoding="utf-8", errors="replace").read())
         rows = [r for r in rows if r.get("pct") is not None and r["pct"] >= min_pct]
     else:
-        rows = kabutan_pts.fetch_gainers(min_pct=min_pct, verbose=verbose)
+        snap = snapshot_path(session_iso, snapshot_dir) if snapshot_dir else None
+        if snap and os.path.exists(snap):
+            rows = load_snapshot(snap, session_iso, min_pct)
+            log(f"# kabutan snapshot reused: {snap} ({len(rows)} rows)")
+        else:
+            rows = kabutan_pts.fetch_gainers(min_pct=min_pct, verbose=verbose)
+            # 空（WAF 遮断等）は保存しない。空を保存すると以後の再実行が再取得しなくなる。
+            if snap and rows:
+                save_snapshot(snap, session_iso, min_pct, rows)
+                log(f"# kabutan snapshot saved: {snap} ({len(rows)} rows)")
     cand = [r for r in rows if kabutan_pts._is_tse_badge(r["badge"])]
     log(f"# kabutan≥{min_pct}%={len(rows)}  TSE-prefilter={len(cand)}")
 
@@ -155,6 +200,8 @@ def main():
     ap.add_argument("--out", help="JSON 出力先パス（省略時は stdout）")
     ap.add_argument("--no-kabutan-news", action="store_true")
     ap.add_argument("--files", nargs="*", help="保存済み株探HTML（--date 必須）")
+    ap.add_argument("--snapshot-dir", default=SNAPSHOT_DIR, help="株探スナップショットの保存先")
+    ap.add_argument("--no-snapshot", action="store_true", help="株探スナップショットを読み書きしない")
     args = ap.parse_args()
 
     sys.stdout.reconfigure(encoding="utf-8")
@@ -162,7 +209,8 @@ def main():
     data = build(session_iso, min_pct=args.min_pct, min_turnover=args.min_turnover,
                  min_mcap=args.min_mcap, from_files=args.files,
                  do_kabutan_news=not args.no_kabutan_news,
-                 max_rows=args.max_rows or None)
+                 max_rows=args.max_rows or None,
+                 snapshot_dir=None if args.no_snapshot else args.snapshot_dir)
     text = json.dumps(data, ensure_ascii=False, indent=2)
     if args.out:
         d = os.path.dirname(os.path.abspath(args.out))

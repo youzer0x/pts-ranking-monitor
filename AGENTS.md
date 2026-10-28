@@ -50,6 +50,20 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 - 銘柄名は **J-Quants 正式名称（`CoName`・「株式会社」は付けない）** を用いる。**略称は使わない**（例：9984＝ソフトバンクグループ、6981＝村田製作所、6920＝レーザーテック）。
 - 出力 JSON：`rows`（採用銘柄）、`dropped_turnover`（≥+3%だが薄商い）、`dropped_mcap`（<100億）。各 row の `disclosures` には**当日15:30以降の TDnet 開示**が、`kabutan_news` には**株探の個別ニュース見出し**が入っている（Stage2 の起点データ。best-effort で取得失敗時は空配列。見出しの索引であり権威ではないので、採用時は §3.2 の規律で一次記事に当たる）。**この段階に変動要因は無い**（`factor`・`factor_kind` は空）。
 - 株探は次のナイト開始（17:00）まで当該セッションを表示する。06:06 実行なら確定済み。
+- **株探スナップショット**：株探の取得直後（J-Quants より前）に `snapshots/kabutan_pts/<SESSION>.json` を保存し、
+  同じセッションのファイルがあれば株探を再取得せずそれを使う（`--no-snapshot` で無効化）。株探は直近1セッション
+  しか表示しないため、後段が失敗するとそのセッションは組めなくなる（実例：2026-10-22 分を J-Quants の API キー
+  失効＝403 で欠損）。**`build_ranking.py` が異常終了しても、スナップショットが生成されていれば必ずそれだけを main へ
+  push してから停止・報告する**：
+  ```bash
+  git add snapshots/kabutan_pts/<SESSION>.json && git commit -m "Save kabutan PTS snapshot <SESSION>" && git push origin HEAD:main
+  ```
+  正常時はスナップショットをコミットしない（公開データは `docs/data/` にある）。
+- **後日の復旧**（原因を直した後、対話セッションで行う）：`git pull` でスナップショットを取り込み、
+  `python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json` を実行する（スナップショットを
+  自動で再利用し、J-Quants・TDnet は過去日でも取得できる）。以降は §3〜§5 と同じ手順で公開する。
+  §6 のメールは送らない（`--notify` は最新日付＝SESSION を待つため、過去日の補完では成立しない）。
+  復旧で公開できたらスナップショットはコミットしたまま残してよい。
 
 ## 3. 変動要因の裏取り（★Claude の中核作業＝バッチ委譲）
 

@@ -4,6 +4,9 @@
 ネットワークにも依存させない）。上限は「掲載を絞る」だけでなく、後続の TDnet 突合・
 株探アクセス・Stage2 の調査対象も同時に絞るのが狙いなので、取得回数も検証する。
 """
+import json
+import sys
+
 import pytest
 
 import build_ranking
@@ -225,3 +228,77 @@ def test_shared_module_warnings_do_not_pollute_json_stdout(stub_sources, monkeyp
     captured = capsys.readouterr()
     assert captured.out == ""
     assert "WARN: using previous close basis" in captured.err
+
+
+# --- 株探スナップショット（2026-10-22 分を J-Quants 失敗で失った事故の再発防止） ---
+
+def test_snapshot_is_saved_before_jquants_failure(stub_sources, monkeypatch, tmp_path):
+    stub_sources(3)
+
+    def expired(d):
+        raise RuntimeError("HTTP Error 403: The incoming api key is invalid or expired.")
+
+    monkeypatch.setattr(jquants, "master_by_date", expired)
+    with pytest.raises(RuntimeError, match="403"):
+        build_ranking.build(SESSION, snapshot_dir=str(tmp_path))
+    snap = json.loads((tmp_path / f"{SESSION}.json").read_text(encoding="utf-8"))
+    assert snap["session_date"] == SESSION and snap["min_pct"] == 3.0
+    assert [r["code"] for r in snap["rows"]] == ["1000", "1001", "1002"]
+
+
+def test_existing_snapshot_is_reused_without_refetching_kabutan(stub_sources, monkeypatch, tmp_path):
+    state = stub_sources(3)
+    build_ranking.save_snapshot(str(tmp_path / f"{SESSION}.json"), SESSION, 3.0, state["raw"][:2])
+    monkeypatch.setattr(kabutan_pts, "fetch_gainers",
+                        lambda **kw: pytest.fail("スナップショットがあるのに株探を再取得した"))
+    data = build_ranking.build(SESSION, snapshot_dir=str(tmp_path))
+    assert [r["code"] for r in data["rows"]] == ["1000", "1001"]
+
+
+def test_empty_kabutan_result_is_not_saved(stub_sources, monkeypatch, tmp_path):
+    stub_sources(0)
+    build_ranking.build(SESSION, snapshot_dir=str(tmp_path))
+    assert not (tmp_path / f"{SESSION}.json").exists()
+
+
+def test_no_snapshot_dir_neither_reads_nor_writes(stub_sources, tmp_path, monkeypatch):
+    stub_sources(2)
+    monkeypatch.chdir(tmp_path)
+    build_ranking.build(SESSION)
+    assert list(tmp_path.iterdir()) == []
+
+
+def test_load_snapshot_filters_by_min_pct(tmp_path):
+    path = str(tmp_path / "s.json")
+    build_ranking.save_snapshot(path, SESSION, 3.0, [{"code": "1", "pct": 5.0}, {"code": "2", "pct": 3.5}])
+    assert [r["code"] for r in build_ranking.load_snapshot(path, SESSION, 4.0)] == ["1"]
+
+
+def test_load_snapshot_rejects_other_session(tmp_path):
+    path = str(tmp_path / "s.json")
+    build_ranking.save_snapshot(path, "2026-10-21", 3.0, [{"code": "1", "pct": 5.0}])
+    with pytest.raises(SystemExit, match="not 2026-10-22"):
+        build_ranking.load_snapshot(path, "2026-10-22", 3.0)
+
+
+def test_load_snapshot_rejects_lower_min_pct_than_saved(tmp_path):
+    path = str(tmp_path / "s.json")
+    build_ranking.save_snapshot(path, SESSION, 3.0, [{"code": "1", "pct": 5.0}])
+    with pytest.raises(SystemExit, match="cannot serve"):
+        build_ranking.load_snapshot(path, SESSION, 2.0)
+
+
+def test_cli_saves_snapshot_to_given_dir_and_no_snapshot_disables(stub_sources, monkeypatch, tmp_path):
+    stub_sources(1)
+    snaps = tmp_path / "snaps"
+    out = tmp_path / "ranking.json"
+    monkeypatch.setattr(sys, "argv", ["build_ranking.py", "--date", SESSION, "--out", str(out),
+                                      "--snapshot-dir", str(snaps)])
+    build_ranking.main()
+    assert (snaps / f"{SESSION}.json").exists()
+
+    other = tmp_path / "other"
+    monkeypatch.setattr(sys, "argv", ["build_ranking.py", "--date", SESSION, "--out", str(out),
+                                      "--snapshot-dir", str(other), "--no-snapshot"])
+    build_ranking.main()
+    assert not other.exists()

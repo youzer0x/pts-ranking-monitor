@@ -9,7 +9,7 @@
 
 - `<SESSION>` は §1 が出力するセッション日。`<R>` は `.work/<SESSION>/research` を指す。
 - 次のいずれかに当たったら**先へ進まず停止して報告する**：
-  SKIP／`build_ranking.py` の異常終了／`build_research_plan.py` が exit 2（初期 pending 超過）／
+  SKIP／`build_ranking.py` の異常終了（株探スナップショットを push してから停止。§2）／`build_research_plan.py` が exit 2（初期 pending 超過）／
   `reserve_dispatch.py` が exit 0 以外／`compile_research_results.py` の MISSING が解消しない／
   `merge_factors.py` の MISSING・REJECTED が残る／factor が空の row が残る／
   `validate_ranking_quality.py` の指摘が残る／push・Pages 反映・Gmail の失敗。
@@ -37,6 +37,14 @@ python scripts/build_ranking.py --date <SESSION> --out docs/tmp/ranking.json
 `mcap_source` を記録する。新規データに†照合は行わない。表示は1兆円未満が億円、以上が兆円の小数1桁。
 
 `ranking.json` は**手編集しない**。
+
+株探の取得直後に `snapshots/kabutan_pts/<SESSION>.json` が保存される（株探は直近1セッションしか表示しない）。
+**異常終了した場合も、このファイルが生成されていれば必ずそれだけを main へ push してから停止・報告する**
+（後日の復旧に使う唯一の材料）：
+
+```bash
+git add snapshots/kabutan_pts/<SESSION>.json && git commit -m "Save kabutan PTS snapshot <SESSION>" && git push origin HEAD:main
+```
 
 ## 3. 変動要因の裏取り（Stage2）
 
