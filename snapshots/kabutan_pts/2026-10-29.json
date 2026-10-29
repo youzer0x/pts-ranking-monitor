@@ -1,0 +1,367 @@
+{
+ "session_date": "2026-10-29",
+ "fetched_at": "2026-10-30 06:09 JST",
+ "min_pct": 3.0,
+ "rows": [
+  {
+   "code": "5341",
+   "name": "アサヒエイト",
+   "badge": "東Ｓ",
+   "close_k": 179.0,
+   "pts": 229.0,
+   "pct": 27.93,
+   "volume": 774100,
+   "turnover_yen": 177268900.0
+  },
+  {
+   "code": "6029",
+   "name": "アトラＧ",
+   "badge": "東Ｓ",
+   "close_k": 183.0,
+   "pts": 233.0,
+   "pct": 27.32,
+   "volume": 30600,
+   "turnover_yen": 7129800.0
+  },
+  {
+   "code": "4347",
+   "name": "ブロメディア",
+   "badge": "東Ｓ",
+   "close_k": 2017.0,
+   "pts": 2490.0,
+   "pct": 23.45,
+   "volume": 52400,
+   "turnover_yen": 130476000.0
+  },
+  {
+   "code": "6518",
+   "name": "三相電機",
+   "badge": "東Ｓ",
+   "close_k": 1796.0,
+   "pts": 2125.0,
+   "pct": 18.32,
+   "volume": 5900,
+   "turnover_yen": 12537500.0
+  },
+  {
+   "code": "2388",
+   "name": "ウェッジＨＤ",
+   "badge": "東Ｇ",
+   "close_k": 10.0,
+   "pts": 11.0,
+   "pct": 10.0,
+   "volume": 84900,
+   "turnover_yen": 933900.0
+  },
+  {
+   "code": "9766",
+   "name": "コナミＧ",
+   "badge": "東Ｐ",
+   "close_k": 22940.0,
+   "pts": 25100.0,
+   "pct": 9.42,
+   "volume": 3100,
+   "turnover_yen": 77810000.0
+  },
+  {
+   "code": "6574",
+   "name": "コンヴァノ",
+   "badge": "東Ｇ",
+   "close_k": 1120.0,
+   "pts": 1225.0,
+   "pct": 9.38,
+   "volume": 104100,
+   "turnover_yen": 127522500.0
+  },
+  {
+   "code": "6622",
+   "name": "ダイヘン",
+   "badge": "東Ｐ",
+   "close_k": 2367.0,
+   "pts": 2588.8,
+   "pct": 9.37,
+   "volume": 16400,
+   "turnover_yen": 42456320.0
+  },
+  {
+   "code": "7640",
+   "name": "トップカルチ",
+   "badge": "東Ｓ",
+   "close_k": 166.0,
+   "pts": 179.0,
+   "pct": 7.83,
+   "volume": 100,
+   "turnover_yen": 17900.0
+  },
+  {
+   "code": "4664",
+   "name": "ＲＳＣ",
+   "badge": "東Ｓ",
+   "close_k": 1083.0,
+   "pts": 1160.0,
+   "pct": 7.11,
+   "volume": 700,
+   "turnover_yen": 812000.0
+  },
+  {
+   "code": "9551",
+   "name": "メタウォータ",
+   "badge": "東Ｐ",
+   "close_k": 3000.0,
+   "pts": 3210.0,
+   "pct": 7.0,
+   "volume": 3000,
+   "turnover_yen": 9630000.0
+  },
+  {
+   "code": "7867",
+   "name": "タカラトミー",
+   "badge": "東Ｐ",
+   "close_k": 4408.0,
+   "pts": 4710.0,
+   "pct": 6.85,
+   "volume": 5500,
+   "turnover_yen": 25905000.0
+  },
+  {
+   "code": "3779",
+   "name": "Ｊエスコム",
+   "badge": "東Ｓ",
+   "close_k": 155.0,
+   "pts": 165.6,
+   "pct": 6.84,
+   "volume": 441000,
+   "turnover_yen": 73029600.0
+  },
+  {
+   "code": "4486",
+   "name": "ユナイト",
+   "badge": "東Ｇ",
+   "close_k": 745.0,
+   "pts": 793.0,
+   "pct": 6.44,
+   "volume": 200,
+   "turnover_yen": 158600.0
+  },
+  {
+   "code": "3753",
+   "name": "フライト",
+   "badge": "東Ｓ",
+   "close_k": 316.0,
+   "pts": 336.0,
+   "pct": 6.33,
+   "volume": 91100,
+   "turnover_yen": 30609600.0
+  },
+  {
+   "code": "4228",
+   "name": "積化成",
+   "badge": "東Ｐ",
+   "close_k": 688.0,
+   "pts": 730.0,
+   "pct": 6.1,
+   "volume": 108900,
+   "turnover_yen": 79497000.0
+  },
+  {
+   "code": "4059",
+   "name": "まぐまぐ",
+   "badge": "東Ｓ",
+   "close_k": 279.0,
+   "pts": 295.6,
+   "pct": 5.95,
+   "volume": 400,
+   "turnover_yen": 118240.00000000001
+  },
+  {
+   "code": "4572",
+   "name": "カルナバイオ",
+   "badge": "東Ｇ",
+   "close_k": 369.0,
+   "pts": 390.0,
+   "pct": 5.69,
+   "volume": 500,
+   "turnover_yen": 195000.0
+  },
+  {
+   "code": "2673",
+   "name": "夢みつけ隊",
+   "badge": "東Ｓ",
+   "close_k": 113.0,
+   "pts": 119.2,
+   "pct": 5.49,
+   "volume": 26100,
+   "turnover_yen": 3111120.0
+  },
+  {
+   "code": "6861",
+   "name": "キーエンス",
+   "badge": "東Ｐ",
+   "close_k": 76360.0,
+   "pts": 80500.0,
+   "pct": 5.42,
+   "volume": 3300,
+   "turnover_yen": 265650000.0
+  },
+  {
+   "code": "6744",
+   "name": "能美防災",
+   "badge": "東Ｐ",
+   "close_k": 4205.0,
+   "pts": 4432.0,
+   "pct": 5.4,
+   "volume": 1300,
+   "turnover_yen": 5761600.0
+  },
+  {
+   "code": "4461",
+   "name": "一工薬",
+   "badge": "東Ｐ",
+   "close_k": 10570.0,
+   "pts": 11139.0,
+   "pct": 5.38,
+   "volume": 15700,
+   "turnover_yen": 174882300.0
+  },
+  {
+   "code": "3133",
+   "name": "海帆",
+   "badge": "東Ｇ",
+   "close_k": 30.0,
+   "pts": 31.5,
+   "pct": 5.0,
+   "volume": 50300,
+   "turnover_yen": 1584450.0
+  },
+  {
+   "code": "9436",
+   "name": "沖縄セルラー",
+   "badge": "東Ｓ",
+   "close_k": 3190.0,
+   "pts": 3335.0,
+   "pct": 4.55,
+   "volume": 2700,
+   "turnover_yen": 9004500.0
+  },
+  {
+   "code": "2926",
+   "name": "篠崎屋",
+   "badge": "東Ｓ",
+   "close_k": 105.0,
+   "pts": 109.5,
+   "pct": 4.29,
+   "volume": 1300,
+   "turnover_yen": 142350.0
+  },
+  {
+   "code": "4564",
+   "name": "オンコセラピ",
+   "badge": "東Ｇ",
+   "close_k": 17.0,
+   "pts": 17.7,
+   "pct": 4.12,
+   "volume": 137600,
+   "turnover_yen": 2435520.0
+  },
+  {
+   "code": "2146",
+   "name": "ＵＴ",
+   "badge": "東Ｐ",
+   "close_k": 243.0,
+   "pts": 253.0,
+   "pct": 4.12,
+   "volume": 1700,
+   "turnover_yen": 430100.0
+  },
+  {
+   "code": "6454",
+   "name": "マックス",
+   "badge": "東Ｐ",
+   "close_k": 1872.0,
+   "pts": 1949.0,
+   "pct": 4.11,
+   "volume": 200,
+   "turnover_yen": 389800.0
+  },
+  {
+   "code": "4661",
+   "name": "ＯＬＣ",
+   "badge": "東Ｐ",
+   "close_k": 3170.0,
+   "pts": 3300.0,
+   "pct": 4.1,
+   "volume": 26100,
+   "turnover_yen": 86130000.0
+  },
+  {
+   "code": "2533",
+   "name": "オエノンＨＤ",
+   "badge": "東Ｐ",
+   "close_k": 455.0,
+   "pts": 472.0,
+   "pct": 3.74,
+   "volume": 1300,
+   "turnover_yen": 613600.0
+  },
+  {
+   "code": "6161",
+   "name": "エスティック",
+   "badge": "東Ｓ",
+   "close_k": 1033.0,
+   "pts": 1070.0,
+   "pct": 3.58,
+   "volume": 800,
+   "turnover_yen": 856000.0
+  },
+  {
+   "code": "2134",
+   "name": "北浜ＣＰ",
+   "badge": "東Ｓ",
+   "close_k": 14.0,
+   "pts": 14.5,
+   "pct": 3.57,
+   "volume": 103500,
+   "turnover_yen": 1500750.0
+  },
+  {
+   "code": "9872",
+   "name": "北恵",
+   "badge": "東Ｓ",
+   "close_k": 955.0,
+   "pts": 988.4,
+   "pct": 3.5,
+   "volume": 1400,
+   "turnover_yen": 1383760.0
+  },
+  {
+   "code": "8344",
+   "name": "山形銀",
+   "badge": "東Ｐ",
+   "close_k": 4590.0,
+   "pts": 4750.0,
+   "pct": 3.49,
+   "volume": 300,
+   "turnover_yen": 1425000.0
+  },
+  {
+   "code": "1783",
+   "name": "ファンタジス",
+   "badge": "東Ｓ",
+   "close_k": 65.0,
+   "pts": 67.0,
+   "pct": 3.08,
+   "volume": 201400,
+   "turnover_yen": 13493800.0
+  },
+  {
+   "code": "3664",
+   "name": "ＷＩＺＥ",
+   "badge": "東Ｇ",
+   "close_k": 13.0,
+   "pts": 13.4,
+   "pct": 3.08,
+   "volume": 420800,
+   "turnover_yen": 5638720.0
+  }
+ ]
+}
