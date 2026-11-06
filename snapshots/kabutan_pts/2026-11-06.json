@@ -1,0 +1,1967 @@
+{
+ "session_date": "2026-11-06",
+ "fetched_at": "2026-11-07 06:07 JST",
+ "min_pct": 3.0,
+ "rows": [
+  {
+   "code": "6245",
+   "name": "ヒラノテク",
+   "badge": "東Ｓ",
+   "close_k": 1518.0,
+   "pts": 1850.0,
+   "pct": 21.87,
+   "volume": 13700,
+   "turnover_yen": 25345000.0
+  },
+  {
+   "code": "6062",
+   "name": "チャームケア",
+   "badge": "東Ｐ",
+   "close_k": 1421.0,
+   "pts": 1721.0,
+   "pct": 21.11,
+   "volume": 1500,
+   "turnover_yen": 2581500.0
+  },
+  {
+   "code": "7826",
+   "name": "フルヤ金属",
+   "badge": "東Ｐ",
+   "close_k": 7890.0,
+   "pts": 9390.0,
+   "pct": 19.01,
+   "volume": 11300,
+   "turnover_yen": 106107000.0
+  },
+  {
+   "code": "3909",
+   "name": "ショーケース",
+   "badge": "東Ｓ",
+   "close_k": 514.0,
+   "pts": 610.0,
+   "pct": 18.68,
+   "volume": 30400,
+   "turnover_yen": 18544000.0
+  },
+  {
+   "code": "6777",
+   "name": "ｓａｎｔｅｃ",
+   "badge": "東Ｓ",
+   "close_k": 13190.0,
+   "pts": 15533.0,
+   "pct": 17.76,
+   "volume": 5300,
+   "turnover_yen": 82324900.0
+  },
+  {
+   "code": "6787",
+   "name": "メイコー",
+   "badge": "東Ｐ",
+   "close_k": 6210.0,
+   "pts": 7210.0,
+   "pct": 16.1,
+   "volume": 600,
+   "turnover_yen": 4326000.0
+  },
+  {
+   "code": "9560",
+   "name": "プログリット",
+   "badge": "東Ｇ",
+   "close_k": 964.0,
+   "pts": 1114.0,
+   "pct": 15.56,
+   "volume": 100,
+   "turnover_yen": 111400.0
+  },
+  {
+   "code": "6964",
+   "name": "サンコー",
+   "badge": "東Ｓ",
+   "close_k": 670.0,
+   "pts": 749.0,
+   "pct": 11.79,
+   "volume": 1100,
+   "turnover_yen": 823900.0
+  },
+  {
+   "code": "378A",
+   "name": "ヒット",
+   "badge": "東Ｇ",
+   "close_k": 724.0,
+   "pts": 800.0,
+   "pct": 10.5,
+   "volume": 1300,
+   "turnover_yen": 1040000.0
+  },
+  {
+   "code": "4381",
+   "name": "ビープラッツ",
+   "badge": "東Ｇ",
+   "close_k": 160.0,
+   "pts": 176.5,
+   "pct": 10.31,
+   "volume": 500,
+   "turnover_yen": 88250.0
+  },
+  {
+   "code": "1960",
+   "name": "サンテック",
+   "badge": "東Ｓ",
+   "close_k": 1470.0,
+   "pts": 1620.0,
+   "pct": 10.2,
+   "volume": 100,
+   "turnover_yen": 162000.0
+  },
+  {
+   "code": "3634",
+   "name": "ソケッツ",
+   "badge": "東Ｓ",
+   "close_k": 559.0,
+   "pts": 612.0,
+   "pct": 9.48,
+   "volume": 400,
+   "turnover_yen": 244800.0
+  },
+  {
+   "code": "7381",
+   "name": "ＣＣＩＧ",
+   "badge": "東Ｐ",
+   "close_k": 1007.0,
+   "pts": 1100.0,
+   "pct": 9.24,
+   "volume": 500,
+   "turnover_yen": 550000.0
+  },
+  {
+   "code": "2134",
+   "name": "北浜ＣＰ",
+   "badge": "東Ｓ",
+   "close_k": 12.0,
+   "pts": 13.1,
+   "pct": 9.17,
+   "volume": 613700,
+   "turnover_yen": 8039470.0
+  },
+  {
+   "code": "6834",
+   "name": "精工技研",
+   "badge": "東Ｓ",
+   "close_k": 4175.0,
+   "pts": 4550.5,
+   "pct": 8.99,
+   "volume": 11100,
+   "turnover_yen": 50510550.0
+  },
+  {
+   "code": "6315",
+   "name": "ＴＯＷＡ",
+   "badge": "東Ｐ",
+   "close_k": 1785.0,
+   "pts": 1943.0,
+   "pct": 8.85,
+   "volume": 42100,
+   "turnover_yen": 81800300.0
+  },
+  {
+   "code": "9706",
+   "name": "日本空港ビル",
+   "badge": "東Ｐ",
+   "close_k": 5854.0,
+   "pts": 6350.0,
+   "pct": 8.47,
+   "volume": 600,
+   "turnover_yen": 3810000.0
+  },
+  {
+   "code": "4968",
+   "name": "荒川化",
+   "badge": "東Ｐ",
+   "close_k": 1715.0,
+   "pts": 1859.3,
+   "pct": 8.41,
+   "volume": 400,
+   "turnover_yen": 743720.0
+  },
+  {
+   "code": "3623",
+   "name": "ビリングシス",
+   "badge": "東Ｇ",
+   "close_k": 1061.0,
+   "pts": 1150.0,
+   "pct": 8.39,
+   "volume": 300,
+   "turnover_yen": 345000.0
+  },
+  {
+   "code": "6266",
+   "name": "タツモ",
+   "badge": "東Ｐ",
+   "close_k": 2309.0,
+   "pts": 2500.0,
+   "pct": 8.27,
+   "volume": 1000,
+   "turnover_yen": 2500000.0
+  },
+  {
+   "code": "8012",
+   "name": "長瀬産",
+   "badge": "東Ｐ",
+   "close_k": 1070.0,
+   "pts": 1158.0,
+   "pct": 8.22,
+   "volume": 22600,
+   "turnover_yen": 26170800.0
+  },
+  {
+   "code": "8783",
+   "name": "ａｂｃ",
+   "badge": "東Ｓ",
+   "close_k": 34.0,
+   "pts": 36.7,
+   "pct": 7.94,
+   "volume": 706400,
+   "turnover_yen": 25924880.000000004
+  },
+  {
+   "code": "4783",
+   "name": "ＮＣＤ",
+   "badge": "東Ｓ",
+   "close_k": 2254.0,
+   "pts": 2430.0,
+   "pct": 7.81,
+   "volume": 300,
+   "turnover_yen": 729000.0
+  },
+  {
+   "code": "9160",
+   "name": "オンザページ",
+   "badge": "東Ｓ",
+   "close_k": 308.0,
+   "pts": 332.0,
+   "pct": 7.79,
+   "volume": 100,
+   "turnover_yen": 33200.0
+  },
+  {
+   "code": "6721",
+   "name": "ウインテスト",
+   "badge": "東Ｓ",
+   "close_k": 118.0,
+   "pts": 127.0,
+   "pct": 7.63,
+   "volume": 461000,
+   "turnover_yen": 58547000.0
+  },
+  {
+   "code": "7745",
+   "name": "Ａ＆Ｄホロン",
+   "badge": "東Ｐ",
+   "close_k": 2420.0,
+   "pts": 2600.0,
+   "pct": 7.44,
+   "volume": 100,
+   "turnover_yen": 260000.0
+  },
+  {
+   "code": "6890",
+   "name": "フェローテク",
+   "badge": "東Ｓ",
+   "close_k": 6087.0,
+   "pts": 6500.0,
+   "pct": 6.79,
+   "volume": 11200,
+   "turnover_yen": 72800000.0
+  },
+  {
+   "code": "6047",
+   "name": "Ｇｕｎｏｓｙ",
+   "badge": "東Ｓ",
+   "close_k": 281.0,
+   "pts": 300.0,
+   "pct": 6.76,
+   "volume": 300,
+   "turnover_yen": 90000.0
+  },
+  {
+   "code": "639A",
+   "name": "野村メモリ",
+   "badge": "東Ｅ",
+   "close_k": 122.0,
+   "pts": 130.0,
+   "pct": 6.56,
+   "volume": 280,
+   "turnover_yen": 36400.0
+  },
+  {
+   "code": "2501",
+   "name": "サッポロ",
+   "badge": "東Ｐ",
+   "close_k": 2161.5,
+   "pts": 2300.0,
+   "pct": 6.41,
+   "volume": 700,
+   "turnover_yen": 1610000.0
+  },
+  {
+   "code": "7729",
+   "name": "東京精",
+   "badge": "東Ｐ",
+   "close_k": 12130.0,
+   "pts": 12900.0,
+   "pct": 6.35,
+   "volume": 300,
+   "turnover_yen": 3870000.0
+  },
+  {
+   "code": "6134",
+   "name": "ＦＵＪＩ",
+   "badge": "東Ｐ",
+   "close_k": 4665.0,
+   "pts": 4950.0,
+   "pct": 6.11,
+   "volume": 4700,
+   "turnover_yen": 23265000.0
+  },
+  {
+   "code": "6803",
+   "name": "ティアック",
+   "badge": "東Ｓ",
+   "close_k": 82.0,
+   "pts": 87.0,
+   "pct": 6.1,
+   "volume": 8000,
+   "turnover_yen": 696000.0
+  },
+  {
+   "code": "350A",
+   "name": "ＤＧ",
+   "badge": "東Ｇ",
+   "close_k": 495.0,
+   "pts": 525.0,
+   "pct": 6.06,
+   "volume": 400,
+   "turnover_yen": 210000.0
+  },
+  {
+   "code": "190A",
+   "name": "コーディア",
+   "badge": "東Ｇ",
+   "close_k": 42.0,
+   "pts": 44.5,
+   "pct": 5.95,
+   "volume": 5900,
+   "turnover_yen": 262550.0
+  },
+  {
+   "code": "4461",
+   "name": "一工薬",
+   "badge": "東Ｐ",
+   "close_k": 7900.0,
+   "pts": 8370.0,
+   "pct": 5.95,
+   "volume": 1400,
+   "turnover_yen": 11718000.0
+  },
+  {
+   "code": "6469",
+   "name": "放電精密",
+   "badge": "東Ｓ",
+   "close_k": 2026.0,
+   "pts": 2146.3,
+   "pct": 5.94,
+   "volume": 600,
+   "turnover_yen": 1287780.0
+  },
+  {
+   "code": "2325",
+   "name": "ＮＪＳ",
+   "badge": "東Ｐ",
+   "close_k": 3945.0,
+   "pts": 4175.5,
+   "pct": 5.84,
+   "volume": 500,
+   "turnover_yen": 2087750.0
+  },
+  {
+   "code": "4406",
+   "name": "日理化",
+   "badge": "東Ｓ",
+   "close_k": 202.0,
+   "pts": 213.8,
+   "pct": 5.84,
+   "volume": 300,
+   "turnover_yen": 64140.0
+  },
+  {
+   "code": "8425",
+   "name": "みずほリース",
+   "badge": "東Ｐ",
+   "close_k": 1236.0,
+   "pts": 1307.0,
+   "pct": 5.74,
+   "volume": 12300,
+   "turnover_yen": 16076100.0
+  },
+  {
+   "code": "4062",
+   "name": "イビデン",
+   "badge": "東Ｐ",
+   "close_k": 6147.0,
+   "pts": 6500.0,
+   "pct": 5.74,
+   "volume": 69000,
+   "turnover_yen": 448500000.0
+  },
+  {
+   "code": "4553",
+   "name": "東和薬品",
+   "badge": "東Ｐ",
+   "close_k": 3310.0,
+   "pts": 3500.0,
+   "pct": 5.74,
+   "volume": 200,
+   "turnover_yen": 700000.0
+  },
+  {
+   "code": "6996",
+   "name": "ニチコン",
+   "badge": "東Ｐ",
+   "close_k": 1764.0,
+   "pts": 1865.0,
+   "pct": 5.73,
+   "volume": 6400,
+   "turnover_yen": 11936000.0
+  },
+  {
+   "code": "5820",
+   "name": "三ッ星",
+   "badge": "東Ｓ",
+   "close_k": 774.0,
+   "pts": 818.0,
+   "pct": 5.68,
+   "volume": 14700,
+   "turnover_yen": 12024600.0
+  },
+  {
+   "code": "2681",
+   "name": "セカリテ",
+   "badge": "東Ｐ",
+   "close_k": 1850.0,
+   "pts": 1955.0,
+   "pct": 5.68,
+   "volume": 8200,
+   "turnover_yen": 16031000.0
+  },
+  {
+   "code": "5706",
+   "name": "三井金属",
+   "badge": "東Ｐ",
+   "close_k": 1540.0,
+   "pts": 1627.0,
+   "pct": 5.65,
+   "volume": 27700,
+   "turnover_yen": 45067900.0
+  },
+  {
+   "code": "5801",
+   "name": "古河電",
+   "badge": "東Ｐ",
+   "close_k": 1960.0,
+   "pts": 2070.1,
+   "pct": 5.62,
+   "volume": 566000,
+   "turnover_yen": 1171676600.0
+  },
+  {
+   "code": "7456",
+   "name": "松田産業",
+   "badge": "東Ｐ",
+   "close_k": 5830.0,
+   "pts": 6155.0,
+   "pct": 5.57,
+   "volume": 200,
+   "turnover_yen": 1231000.0
+  },
+  {
+   "code": "4259",
+   "name": "エクサＷｉｚ",
+   "badge": "東Ｇ",
+   "close_k": 635.0,
+   "pts": 670.0,
+   "pct": 5.51,
+   "volume": 4000,
+   "turnover_yen": 2680000.0
+  },
+  {
+   "code": "6622",
+   "name": "ダイヘン",
+   "badge": "東Ｐ",
+   "close_k": 1844.0,
+   "pts": 1945.0,
+   "pct": 5.48,
+   "volume": 4500,
+   "turnover_yen": 8752500.0
+  },
+  {
+   "code": "4203",
+   "name": "住友ベ",
+   "badge": "東Ｐ",
+   "close_k": 6346.0,
+   "pts": 6690.0,
+   "pct": 5.42,
+   "volume": 400,
+   "turnover_yen": 2676000.0
+  },
+  {
+   "code": "6227",
+   "name": "ＡＩメカ",
+   "badge": "東Ｓ",
+   "close_k": 4025.0,
+   "pts": 4240.0,
+   "pct": 5.34,
+   "volume": 10000,
+   "turnover_yen": 42400000.0
+  },
+  {
+   "code": "2801",
+   "name": "キッコマン",
+   "badge": "東Ｐ",
+   "close_k": 1775.5,
+   "pts": 1869.0,
+   "pct": 5.27,
+   "volume": 1300,
+   "turnover_yen": 2429700.0
+  },
+  {
+   "code": "2695",
+   "name": "くら寿司",
+   "badge": "東Ｐ",
+   "close_k": 1683.0,
+   "pts": 1770.0,
+   "pct": 5.17,
+   "volume": 100,
+   "turnover_yen": 177000.0
+  },
+  {
+   "code": "3753",
+   "name": "フライト",
+   "badge": "東Ｓ",
+   "close_k": 252.0,
+   "pts": 265.0,
+   "pct": 5.16,
+   "volume": 7900,
+   "turnover_yen": 2093500.0
+  },
+  {
+   "code": "8035",
+   "name": "東エレク",
+   "badge": "東Ｐ",
+   "close_k": 8263.0,
+   "pts": 8689.0,
+   "pct": 5.16,
+   "volume": 105100,
+   "turnover_yen": 913213900.0
+  },
+  {
+   "code": "6855",
+   "name": "電子材料",
+   "badge": "東Ｓ",
+   "close_k": 4850.0,
+   "pts": 5100.0,
+   "pct": 5.15,
+   "volume": 1600,
+   "turnover_yen": 8160000.0
+  },
+  {
+   "code": "5333",
+   "name": "ＮＧＫ",
+   "badge": "東Ｐ",
+   "close_k": 4310.0,
+   "pts": 4530.0,
+   "pct": 5.1,
+   "volume": 1700,
+   "turnover_yen": 7701000.0
+  },
+  {
+   "code": "6361",
+   "name": "荏原",
+   "badge": "東Ｐ",
+   "close_k": 3198.0,
+   "pts": 3360.0,
+   "pct": 5.07,
+   "volume": 800,
+   "turnover_yen": 2688000.0
+  },
+  {
+   "code": "4004",
+   "name": "レゾナック",
+   "badge": "東Ｐ",
+   "close_k": 10530.0,
+   "pts": 11060.0,
+   "pct": 5.03,
+   "volume": 4600,
+   "turnover_yen": 50876000.0
+  },
+  {
+   "code": "5246",
+   "name": "エレメンツ",
+   "badge": "東Ｇ",
+   "close_k": 934.0,
+   "pts": 980.0,
+   "pct": 4.93,
+   "volume": 5600,
+   "turnover_yen": 5488000.0
+  },
+  {
+   "code": "3101",
+   "name": "東洋紡",
+   "badge": "東Ｐ",
+   "close_k": 1407.0,
+   "pts": 1476.0,
+   "pct": 4.9,
+   "volume": 400,
+   "turnover_yen": 590400.0
+  },
+  {
+   "code": "6264",
+   "name": "マルマエ",
+   "badge": "東Ｐ",
+   "close_k": 1266.0,
+   "pts": 1328.0,
+   "pct": 4.9,
+   "volume": 2500,
+   "turnover_yen": 3320000.0
+  },
+  {
+   "code": "8964",
+   "name": "三井不商業",
+   "badge": "東Ｒ",
+   "close_k": 71500.0,
+   "pts": 75000.0,
+   "pct": 4.9,
+   "volume": 4,
+   "turnover_yen": 300000.0
+  },
+  {
+   "code": "656A",
+   "name": "オルガナイズ",
+   "badge": "東Ｇ",
+   "close_k": 1090.0,
+   "pts": 1143.0,
+   "pct": 4.86,
+   "volume": 1100,
+   "turnover_yen": 1257300.0
+  },
+  {
+   "code": "6668",
+   "name": "ＡＤプラズマ",
+   "badge": "東Ｓ",
+   "close_k": 3405.0,
+   "pts": 3570.0,
+   "pct": 4.85,
+   "volume": 1600,
+   "turnover_yen": 5712000.0
+  },
+  {
+   "code": "213A",
+   "name": "上場半導体株",
+   "badge": "東Ｅ",
+   "close_k": 276.7,
+   "pts": 290.0,
+   "pct": 4.81,
+   "volume": 3680,
+   "turnover_yen": 1067200.0
+  },
+  {
+   "code": "9425",
+   "name": "ＲｅＹｕｕ",
+   "badge": "東Ｓ",
+   "close_k": 125.0,
+   "pts": 131.0,
+   "pct": 4.8,
+   "volume": 5000,
+   "turnover_yen": 655000.0
+  },
+  {
+   "code": "3436",
+   "name": "ＳＵＭＣＯ",
+   "badge": "東Ｐ",
+   "close_k": 1784.5,
+   "pts": 1870.0,
+   "pct": 4.79,
+   "volume": 10600,
+   "turnover_yen": 19822000.0
+  },
+  {
+   "code": "5027",
+   "name": "エニマインド",
+   "badge": "東Ｇ",
+   "close_k": 668.0,
+   "pts": 700.0,
+   "pct": 4.79,
+   "volume": 900,
+   "turnover_yen": 630000.0
+  },
+  {
+   "code": "4186",
+   "name": "東応化",
+   "badge": "東Ｐ",
+   "close_k": 6404.0,
+   "pts": 6710.0,
+   "pct": 4.78,
+   "volume": 1400,
+   "turnover_yen": 9394000.0
+  },
+  {
+   "code": "402A",
+   "name": "アクセルＨＤ",
+   "badge": "東Ｇ",
+   "close_k": 179.0,
+   "pts": 187.5,
+   "pct": 4.75,
+   "volume": 22200,
+   "turnover_yen": 4162500.0
+  },
+  {
+   "code": "6055",
+   "name": "Ｊマテリアル",
+   "badge": "東Ｐ",
+   "close_k": 1623.0,
+   "pts": 1700.0,
+   "pct": 4.74,
+   "volume": 800,
+   "turnover_yen": 1360000.0
+  },
+  {
+   "code": "6994",
+   "name": "指月電",
+   "badge": "東Ｓ",
+   "close_k": 810.0,
+   "pts": 847.8,
+   "pct": 4.67,
+   "volume": 900,
+   "turnover_yen": 763020.0
+  },
+  {
+   "code": "1925",
+   "name": "大和ハウス",
+   "badge": "東Ｐ",
+   "close_k": 2284.5,
+   "pts": 2391.0,
+   "pct": 4.66,
+   "volume": 1200,
+   "turnover_yen": 2869200.0
+  },
+  {
+   "code": "4840",
+   "name": "トライアイズ",
+   "badge": "東Ｓ",
+   "close_k": 860.0,
+   "pts": 900.0,
+   "pct": 4.65,
+   "volume": 100,
+   "turnover_yen": 90000.0
+  },
+  {
+   "code": "6278",
+   "name": "ユニオンツル",
+   "badge": "東Ｐ",
+   "close_k": 9750.0,
+   "pts": 10200.0,
+   "pct": 4.62,
+   "volume": 200,
+   "turnover_yen": 2040000.0
+  },
+  {
+   "code": "6768",
+   "name": "タムラ",
+   "badge": "東Ｐ",
+   "close_k": 650.0,
+   "pts": 680.0,
+   "pct": 4.62,
+   "volume": 800,
+   "turnover_yen": 544000.0
+  },
+  {
+   "code": "276A",
+   "name": "ククレブ",
+   "badge": "東Ｇ",
+   "close_k": 4015.0,
+   "pts": 4200.0,
+   "pct": 4.61,
+   "volume": 300,
+   "turnover_yen": 1260000.0
+  },
+  {
+   "code": "4375",
+   "name": "セーフィー",
+   "badge": "東Ｇ",
+   "close_k": 586.0,
+   "pts": 613.0,
+   "pct": 4.61,
+   "volume": 600,
+   "turnover_yen": 367800.0
+  },
+  {
+   "code": "3132",
+   "name": "マクニカＨＤ",
+   "badge": "東Ｐ",
+   "close_k": 2859.5,
+   "pts": 2990.0,
+   "pct": 4.56,
+   "volume": 2100,
+   "turnover_yen": 6279000.0
+  },
+  {
+   "code": "3664",
+   "name": "ＷＩＺＥ",
+   "badge": "東Ｇ",
+   "close_k": 11.0,
+   "pts": 11.5,
+   "pct": 4.55,
+   "volume": 183100,
+   "turnover_yen": 2105650.0
+  },
+  {
+   "code": "6961",
+   "name": "エンプラス",
+   "badge": "東Ｐ",
+   "close_k": 7080.0,
+   "pts": 7400.0,
+   "pct": 4.52,
+   "volume": 700,
+   "turnover_yen": 5180000.0
+  },
+  {
+   "code": "7134",
+   "name": "アップガレＧ",
+   "badge": "東Ｓ",
+   "close_k": 1330.0,
+   "pts": 1390.0,
+   "pct": 4.51,
+   "volume": 200,
+   "turnover_yen": 278000.0
+  },
+  {
+   "code": "6871",
+   "name": "日本マイクロ",
+   "badge": "東Ｐ",
+   "close_k": 8672.0,
+   "pts": 9060.0,
+   "pct": 4.47,
+   "volume": 6500,
+   "turnover_yen": 58890000.0
+  },
+  {
+   "code": "1570",
+   "name": "日経レバ",
+   "badge": "東Ｅ",
+   "close_k": 51910.0,
+   "pts": 54220.0,
+   "pct": 4.45,
+   "volume": 52937,
+   "turnover_yen": 2870244140.0
+  },
+  {
+   "code": "9984",
+   "name": "ＳＢＧ",
+   "badge": "東Ｐ",
+   "close_k": 3549.0,
+   "pts": 3706.8,
+   "pct": 4.45,
+   "volume": 263200,
+   "turnover_yen": 975629760.0
+  },
+  {
+   "code": "6258",
+   "name": "平田機工",
+   "badge": "東Ｐ",
+   "close_k": 2788.0,
+   "pts": 2910.0,
+   "pct": 4.38,
+   "volume": 200,
+   "turnover_yen": 582000.0
+  },
+  {
+   "code": "221A",
+   "name": "ＭＸ日半導体",
+   "badge": "東Ｅ",
+   "close_k": 780.2,
+   "pts": 813.9,
+   "pct": 4.32,
+   "volume": 500,
+   "turnover_yen": 406950.0
+  },
+  {
+   "code": "6323",
+   "name": "ローツェ",
+   "badge": "東Ｐ",
+   "close_k": 2785.0,
+   "pts": 2905.0,
+   "pct": 4.31,
+   "volume": 8600,
+   "turnover_yen": 24983000.0
+  },
+  {
+   "code": "1579",
+   "name": "日経ブル２",
+   "badge": "東Ｅ",
+   "close_k": 561.1,
+   "pts": 585.0,
+   "pct": 4.26,
+   "volume": 613310,
+   "turnover_yen": 358786350.0
+  },
+  {
+   "code": "6146",
+   "name": "ディスコ",
+   "badge": "東Ｐ",
+   "close_k": 40860.0,
+   "pts": 42598.0,
+   "pct": 4.25,
+   "volume": 1400,
+   "turnover_yen": 59637200.0
+  },
+  {
+   "code": "6590",
+   "name": "芝浦",
+   "badge": "東Ｐ",
+   "close_k": 2360.0,
+   "pts": 2460.0,
+   "pct": 4.24,
+   "volume": 5100,
+   "turnover_yen": 12546000.0
+  },
+  {
+   "code": "1458",
+   "name": "楽天Ｗブル",
+   "badge": "東Ｅ",
+   "close_k": 62070.0,
+   "pts": 64700.0,
+   "pct": 4.24,
+   "volume": 2889,
+   "turnover_yen": 186918300.0
+  },
+  {
+   "code": "3905",
+   "name": "データセク",
+   "badge": "東Ｇ",
+   "close_k": 1583.0,
+   "pts": 1650.0,
+   "pct": 4.23,
+   "volume": 203600,
+   "turnover_yen": 335940000.0
+  },
+  {
+   "code": "6525",
+   "name": "コクサイエレ",
+   "badge": "東Ｐ",
+   "close_k": 5057.0,
+   "pts": 5270.0,
+   "pct": 4.21,
+   "volume": 18600,
+   "turnover_yen": 98022000.0
+  },
+  {
+   "code": "5802",
+   "name": "住友電",
+   "badge": "東Ｐ",
+   "close_k": 1360.0,
+   "pts": 1417.0,
+   "pct": 4.19,
+   "volume": 219400,
+   "turnover_yen": 310889800.0
+  },
+  {
+   "code": "7713",
+   "name": "シグマ光機",
+   "badge": "東Ｓ",
+   "close_k": 2486.0,
+   "pts": 2590.0,
+   "pct": 4.18,
+   "volume": 200,
+   "turnover_yen": 518000.0
+  },
+  {
+   "code": "6627",
+   "name": "テラプローブ",
+   "badge": "東Ｓ",
+   "close_k": 1315.0,
+   "pts": 1370.0,
+   "pct": 4.18,
+   "volume": 3000,
+   "turnover_yen": 4110000.0
+  },
+  {
+   "code": "6963",
+   "name": "ローム",
+   "badge": "東Ｐ",
+   "close_k": 2759.0,
+   "pts": 2874.0,
+   "pct": 4.17,
+   "volume": 9800,
+   "turnover_yen": 28165200.0
+  },
+  {
+   "code": "6941",
+   "name": "山一電機",
+   "badge": "東Ｐ",
+   "close_k": 5760.0,
+   "pts": 6000.0,
+   "pct": 4.17,
+   "volume": 800,
+   "turnover_yen": 4800000.0
+  },
+  {
+   "code": "7412",
+   "name": "アトム",
+   "badge": "東Ｓ",
+   "close_k": 288.0,
+   "pts": 300.0,
+   "pct": 4.17,
+   "volume": 7900,
+   "turnover_yen": 2370000.0
+  },
+  {
+   "code": "218A",
+   "name": "リベラウェア",
+   "badge": "東Ｇ",
+   "close_k": 743.0,
+   "pts": 773.9,
+   "pct": 4.16,
+   "volume": 1200,
+   "turnover_yen": 928680.0
+  },
+  {
+   "code": "5803",
+   "name": "フジクラ",
+   "badge": "東Ｐ",
+   "close_k": 2962.0,
+   "pts": 3085.0,
+   "pct": 4.15,
+   "volume": 172700,
+   "turnover_yen": 532779500.0
+  },
+  {
+   "code": "2667",
+   "name": "イメージワン",
+   "badge": "東Ｓ",
+   "close_k": 70.0,
+   "pts": 72.9,
+   "pct": 4.14,
+   "volume": 28000,
+   "turnover_yen": 2041200.0000000002
+  },
+  {
+   "code": "6997",
+   "name": "日ケミコン",
+   "badge": "東Ｐ",
+   "close_k": 1331.0,
+   "pts": 1385.0,
+   "pct": 4.06,
+   "volume": 1000,
+   "turnover_yen": 1385000.0
+  },
+  {
+   "code": "3903",
+   "name": "ｇｕｍｉ",
+   "badge": "東Ｐ",
+   "close_k": 146.0,
+   "pts": 151.9,
+   "pct": 4.04,
+   "volume": 1900,
+   "turnover_yen": 288610.0
+  },
+  {
+   "code": "7603",
+   "name": "ジーイエット",
+   "badge": "東Ｓ",
+   "close_k": 20.0,
+   "pts": 20.8,
+   "pct": 4.0,
+   "volume": 43300,
+   "turnover_yen": 900640.0
+  },
+  {
+   "code": "6613",
+   "name": "ＱＤレーザ",
+   "badge": "東Ｇ",
+   "close_k": 2034.0,
+   "pts": 2115.0,
+   "pct": 3.98,
+   "volume": 10000,
+   "turnover_yen": 21150000.0
+  },
+  {
+   "code": "7735",
+   "name": "スクリン",
+   "badge": "東Ｐ",
+   "close_k": 7778.0,
+   "pts": 8085.0,
+   "pct": 3.95,
+   "volume": 12900,
+   "turnover_yen": 104296500.0
+  },
+  {
+   "code": "6862",
+   "name": "ミナトＨＤ",
+   "badge": "東Ｓ",
+   "close_k": 2561.0,
+   "pts": 2662.0,
+   "pct": 3.94,
+   "volume": 3800,
+   "turnover_yen": 10115600.0
+  },
+  {
+   "code": "5805",
+   "name": "ＳＷＣＣ",
+   "badge": "東Ｐ",
+   "close_k": 1762.5,
+   "pts": 1832.0,
+   "pct": 3.94,
+   "volume": 2300,
+   "turnover_yen": 4213600.0
+  },
+  {
+   "code": "593A",
+   "name": "ティアフォー",
+   "badge": "東Ｇ",
+   "close_k": 2266.0,
+   "pts": 2355.0,
+   "pct": 3.93,
+   "volume": 15700,
+   "turnover_yen": 36973500.0
+  },
+  {
+   "code": "6506",
+   "name": "安川電",
+   "badge": "東Ｐ",
+   "close_k": 3445.0,
+   "pts": 3580.0,
+   "pct": 3.92,
+   "volume": 10000,
+   "turnover_yen": 35800000.0
+  },
+  {
+   "code": "3110",
+   "name": "日東紡",
+   "badge": "東Ｐ",
+   "close_k": 2399.5,
+   "pts": 2493.4,
+   "pct": 3.91,
+   "volume": 17500,
+   "turnover_yen": 43634500.0
+  },
+  {
+   "code": "5016",
+   "name": "ＪＸ金属",
+   "badge": "東Ｐ",
+   "close_k": 2435.0,
+   "pts": 2530.0,
+   "pct": 3.9,
+   "volume": 85900,
+   "turnover_yen": 217327000.0
+  },
+  {
+   "code": "485A",
+   "name": "ＰｏｗｅｒＸ",
+   "badge": "東Ｇ",
+   "close_k": 1617.0,
+   "pts": 1680.0,
+   "pct": 3.9,
+   "volume": 38200,
+   "turnover_yen": 64176000.0
+  },
+  {
+   "code": "6966",
+   "name": "三井ハイテク",
+   "badge": "東Ｐ",
+   "close_k": 770.0,
+   "pts": 800.0,
+   "pct": 3.9,
+   "volume": 1800,
+   "turnover_yen": 1440000.0
+  },
+  {
+   "code": "6779",
+   "name": "日電波",
+   "badge": "東Ｐ",
+   "close_k": 1854.0,
+   "pts": 1926.0,
+   "pct": 3.88,
+   "volume": 2100,
+   "turnover_yen": 4044600.0
+  },
+  {
+   "code": "3668",
+   "name": "コロプラ",
+   "badge": "東Ｐ",
+   "close_k": 413.0,
+   "pts": 429.0,
+   "pct": 3.87,
+   "volume": 2500,
+   "turnover_yen": 1072500.0
+  },
+  {
+   "code": "6479",
+   "name": "ミネベア",
+   "badge": "東Ｐ",
+   "close_k": 2715.0,
+   "pts": 2820.0,
+   "pct": 3.87,
+   "volume": 12000,
+   "turnover_yen": 33840000.0
+  },
+  {
+   "code": "6262",
+   "name": "ペガサス",
+   "badge": "東Ｓ",
+   "close_k": 805.0,
+   "pts": 836.0,
+   "pct": 3.85,
+   "volume": 2000,
+   "turnover_yen": 1672000.0
+  },
+  {
+   "code": "4047",
+   "name": "関電化",
+   "badge": "東Ｐ",
+   "close_k": 1565.0,
+   "pts": 1625.0,
+   "pct": 3.83,
+   "volume": 1700,
+   "turnover_yen": 2762500.0
+  },
+  {
+   "code": "1568",
+   "name": "ＴＰＸブル",
+   "badge": "東Ｅ",
+   "close_k": 825.5,
+   "pts": 857.0,
+   "pct": 3.82,
+   "volume": 173840,
+   "turnover_yen": 148980880.0
+  },
+  {
+   "code": "9704",
+   "name": "アゴーラＨＧ",
+   "badge": "東Ｓ",
+   "close_k": 21.0,
+   "pts": 21.8,
+   "pct": 3.81,
+   "volume": 2700,
+   "turnover_yen": 58860.0
+  },
+  {
+   "code": "6840",
+   "name": "ＡＫＩＢＡ",
+   "badge": "東Ｓ",
+   "close_k": 556.0,
+   "pts": 577.0,
+   "pct": 3.78,
+   "volume": 2500,
+   "turnover_yen": 1442500.0
+  },
+  {
+   "code": "4392",
+   "name": "ＦＩＧ",
+   "badge": "東Ｐ",
+   "close_k": 637.0,
+   "pts": 661.0,
+   "pct": 3.77,
+   "volume": 1800,
+   "turnover_yen": 1189800.0
+  },
+  {
+   "code": "4883",
+   "name": "モダリス",
+   "badge": "東Ｇ",
+   "close_k": 24.0,
+   "pts": 24.9,
+   "pct": 3.75,
+   "volume": 4800,
+   "turnover_yen": 119520.0
+  },
+  {
+   "code": "478A",
+   "name": "フツパー",
+   "badge": "東Ｇ",
+   "close_k": 616.0,
+   "pts": 639.0,
+   "pct": 3.73,
+   "volume": 1200,
+   "turnover_yen": 766800.0
+  },
+  {
+   "code": "6723",
+   "name": "ルネサス",
+   "badge": "東Ｐ",
+   "close_k": 2477.5,
+   "pts": 2570.0,
+   "pct": 3.73,
+   "volume": 6100,
+   "turnover_yen": 15677000.0
+  },
+  {
+   "code": "6652",
+   "name": "ＩＤＥＣ",
+   "badge": "東Ｐ",
+   "close_k": 2991.0,
+   "pts": 3102.0,
+   "pct": 3.71,
+   "volume": 1100,
+   "turnover_yen": 3412200.0
+  },
+  {
+   "code": "4398",
+   "name": "ＢＢＳｅｃ",
+   "badge": "東Ｓ",
+   "close_k": 2170.0,
+   "pts": 2250.0,
+   "pct": 3.69,
+   "volume": 700,
+   "turnover_yen": 1575000.0
+  },
+  {
+   "code": "6946",
+   "name": "日本アビオ",
+   "badge": "東Ｓ",
+   "close_k": 4755.0,
+   "pts": 4930.0,
+   "pct": 3.68,
+   "volume": 400,
+   "turnover_yen": 1972000.0
+  },
+  {
+   "code": "5216",
+   "name": "倉元",
+   "badge": "東Ｓ",
+   "close_k": 109.0,
+   "pts": 113.0,
+   "pct": 3.67,
+   "volume": 900,
+   "turnover_yen": 101700.0
+  },
+  {
+   "code": "7247",
+   "name": "ミクニ",
+   "badge": "東Ｓ",
+   "close_k": 327.0,
+   "pts": 339.0,
+   "pct": 3.67,
+   "volume": 200,
+   "turnover_yen": 67800.0
+  },
+  {
+   "code": "7911",
+   "name": "ＴＯＰＰＡＮ",
+   "badge": "東Ｐ",
+   "close_k": 1881.0,
+   "pts": 1950.0,
+   "pct": 3.67,
+   "volume": 700,
+   "turnover_yen": 1365000.0
+  },
+  {
+   "code": "9880",
+   "name": "イノテック",
+   "badge": "東Ｐ",
+   "close_k": 2629.0,
+   "pts": 2725.0,
+   "pct": 3.65,
+   "volume": 400,
+   "turnover_yen": 1090000.0
+  },
+  {
+   "code": "186A",
+   "name": "アストロＨＤ",
+   "badge": "東Ｇ",
+   "close_k": 959.0,
+   "pts": 994.0,
+   "pct": 3.65,
+   "volume": 14600,
+   "turnover_yen": 14512400.0
+  },
+  {
+   "code": "2243",
+   "name": "ＧＸ半導体",
+   "badge": "東Ｅ",
+   "close_k": 3474.0,
+   "pts": 3600.0,
+   "pct": 3.63,
+   "volume": 750,
+   "turnover_yen": 2700000.0
+  },
+  {
+   "code": "247A",
+   "name": "Ａｉロボ",
+   "badge": "東Ｇ",
+   "close_k": 684.0,
+   "pts": 708.8,
+   "pct": 3.63,
+   "volume": 3200,
+   "turnover_yen": 2268160.0
+  },
+  {
+   "code": "6072",
+   "name": "ＥＲＴＨ",
+   "badge": "東Ｓ",
+   "close_k": 972.0,
+   "pts": 1007.0,
+   "pct": 3.6,
+   "volume": 12900,
+   "turnover_yen": 12990300.0
+  },
+  {
+   "code": "607A",
+   "name": "エブリー",
+   "badge": "東Ｇ",
+   "close_k": 181.0,
+   "pts": 187.5,
+   "pct": 3.59,
+   "volume": 200,
+   "turnover_yen": 37500.0
+  },
+  {
+   "code": "4593",
+   "name": "ヘリオス",
+   "badge": "東Ｇ",
+   "close_k": 223.0,
+   "pts": 231.0,
+   "pct": 3.59,
+   "volume": 1900,
+   "turnover_yen": 438900.0
+  },
+  {
+   "code": "6195",
+   "name": "ホープ",
+   "badge": "東Ｇ",
+   "close_k": 193.0,
+   "pts": 199.9,
+   "pct": 3.58,
+   "volume": 1200,
+   "turnover_yen": 239880.0
+  },
+  {
+   "code": "4015",
+   "name": "ペイクラウド",
+   "badge": "東Ｇ",
+   "close_k": 309.0,
+   "pts": 320.0,
+   "pct": 3.56,
+   "volume": 1300,
+   "turnover_yen": 416000.0
+  },
+  {
+   "code": "6762",
+   "name": "ＴＤＫ",
+   "badge": "東Ｐ",
+   "close_k": 2107.0,
+   "pts": 2182.0,
+   "pct": 3.56,
+   "volume": 12900,
+   "turnover_yen": 28147800.0
+  },
+  {
+   "code": "6368",
+   "name": "オルガノ",
+   "badge": "東Ｐ",
+   "close_k": 1608.5,
+   "pts": 1665.0,
+   "pct": 3.51,
+   "volume": 3200,
+   "turnover_yen": 5328000.0
+  },
+  {
+   "code": "9872",
+   "name": "北恵",
+   "badge": "東Ｓ",
+   "close_k": 964.0,
+   "pts": 997.7,
+   "pct": 3.5,
+   "volume": 2000,
+   "turnover_yen": 1995400.0
+  },
+  {
+   "code": "2737",
+   "name": "トーメンデバ",
+   "badge": "東Ｐ",
+   "close_k": 21470.0,
+   "pts": 22220.0,
+   "pct": 3.49,
+   "volume": 300,
+   "turnover_yen": 6666000.0
+  },
+  {
+   "code": "6144",
+   "name": "西部電機",
+   "badge": "東Ｓ",
+   "close_k": 2300.0,
+   "pts": 2380.0,
+   "pct": 3.48,
+   "volume": 500,
+   "turnover_yen": 1190000.0
+  },
+  {
+   "code": "6740",
+   "name": "Ｊディスプレ",
+   "badge": "東Ｐ",
+   "close_k": 26.0,
+   "pts": 26.9,
+   "pct": 3.46,
+   "volume": 631400,
+   "turnover_yen": 16984660.0
+  },
+  {
+   "code": "9376",
+   "name": "ユーラシア",
+   "badge": "東Ｓ",
+   "close_k": 725.0,
+   "pts": 750.0,
+   "pct": 3.45,
+   "volume": 800,
+   "turnover_yen": 600000.0
+  },
+  {
+   "code": "6981",
+   "name": "村田製",
+   "badge": "東Ｐ",
+   "close_k": 4882.0,
+   "pts": 5050.0,
+   "pct": 3.44,
+   "volume": 86300,
+   "turnover_yen": 435815000.0
+  },
+  {
+   "code": "2334",
+   "name": "イオレ",
+   "badge": "東Ｇ",
+   "close_k": 470.0,
+   "pts": 486.0,
+   "pct": 3.4,
+   "volume": 22200,
+   "turnover_yen": 10789200.0
+  },
+  {
+   "code": "3891",
+   "name": "高度紙",
+   "badge": "東Ｓ",
+   "close_k": 4855.0,
+   "pts": 5020.0,
+   "pct": 3.4,
+   "volume": 600,
+   "turnover_yen": 3012000.0
+  },
+  {
+   "code": "6337",
+   "name": "テセック",
+   "badge": "東Ｓ",
+   "close_k": 2268.0,
+   "pts": 2345.0,
+   "pct": 3.4,
+   "volume": 1400,
+   "turnover_yen": 3283000.0
+  },
+  {
+   "code": "4598",
+   "name": "デルタフライ",
+   "badge": "東Ｇ",
+   "close_k": 59.0,
+   "pts": 61.0,
+   "pct": 3.39,
+   "volume": 1700,
+   "turnover_yen": 103700.0
+  },
+  {
+   "code": "8306",
+   "name": "三菱ＵＦＪ",
+   "badge": "東Ｐ",
+   "close_k": 3224.0,
+   "pts": 3333.0,
+   "pct": 3.38,
+   "volume": 229800,
+   "turnover_yen": 765923400.0
+  },
+  {
+   "code": "6391",
+   "name": "加地テック",
+   "badge": "東Ｓ",
+   "close_k": 5030.0,
+   "pts": 5200.0,
+   "pct": 3.38,
+   "volume": 200,
+   "turnover_yen": 1040000.0
+  },
+  {
+   "code": "4889",
+   "name": "レナ",
+   "badge": "東Ｇ",
+   "close_k": 774.0,
+   "pts": 800.0,
+   "pct": 3.36,
+   "volume": 4100,
+   "turnover_yen": 3280000.0
+  },
+  {
+   "code": "282A",
+   "name": "ＧＸ半導１０",
+   "badge": "東Ｅ",
+   "close_k": 1707.0,
+   "pts": 1764.0,
+   "pct": 3.34,
+   "volume": 2460,
+   "turnover_yen": 4339440.0
+  },
+  {
+   "code": "1365",
+   "name": "ｉＦ日経Ｗブ",
+   "badge": "東Ｅ",
+   "close_k": 3204.0,
+   "pts": 3310.0,
+   "pct": 3.31,
+   "volume": 9220,
+   "turnover_yen": 30518200.0
+  },
+  {
+   "code": "4894",
+   "name": "クオリプス",
+   "badge": "東Ｇ",
+   "close_k": 6050.0,
+   "pts": 6250.0,
+   "pct": 3.31,
+   "volume": 2600,
+   "turnover_yen": 16250000.0
+  },
+  {
+   "code": "1367",
+   "name": "ｉＦＴＰＷブ",
+   "badge": "東Ｅ",
+   "close_k": 2546.0,
+   "pts": 2630.0,
+   "pct": 3.3,
+   "volume": 220,
+   "turnover_yen": 578600.0
+  },
+  {
+   "code": "4436",
+   "name": "ミンカブ",
+   "badge": "東Ｇ",
+   "close_k": 485.0,
+   "pts": 501.0,
+   "pct": 3.3,
+   "volume": 500,
+   "turnover_yen": 250500.0
+  },
+  {
+   "code": "6235",
+   "name": "オプトラン",
+   "badge": "東Ｐ",
+   "close_k": 1791.0,
+   "pts": 1850.0,
+   "pct": 3.29,
+   "volume": 500,
+   "turnover_yen": 925000.0
+  },
+  {
+   "code": "3433",
+   "name": "トーカロ",
+   "badge": "東Ｐ",
+   "close_k": 2316.0,
+   "pts": 2392.0,
+   "pct": 3.28,
+   "volume": 800,
+   "turnover_yen": 1913600.0
+  },
+  {
+   "code": "3678",
+   "name": "メディアドゥ",
+   "badge": "東Ｐ",
+   "close_k": 1194.0,
+   "pts": 1233.0,
+   "pct": 3.27,
+   "volume": 400,
+   "turnover_yen": 493200.0
+  },
+  {
+   "code": "8065",
+   "name": "佐藤商",
+   "badge": "東Ｐ",
+   "close_k": 2470.0,
+   "pts": 2550.0,
+   "pct": 3.24,
+   "volume": 300,
+   "turnover_yen": 765000.0
+  },
+  {
+   "code": "2160",
+   "name": "ジーエヌアイ",
+   "badge": "東Ｇ",
+   "close_k": 2073.0,
+   "pts": 2139.0,
+   "pct": 3.18,
+   "volume": 23400,
+   "turnover_yen": 50052600.0
+  },
+  {
+   "code": "7011",
+   "name": "三菱重",
+   "badge": "東Ｐ",
+   "close_k": 2912.5,
+   "pts": 3005.0,
+   "pct": 3.18,
+   "volume": 172800,
+   "turnover_yen": 519264000.0
+  },
+  {
+   "code": "278A",
+   "name": "テラドローン",
+   "badge": "東Ｇ",
+   "close_k": 4535.0,
+   "pts": 4679.0,
+   "pct": 3.18,
+   "volume": 5600,
+   "turnover_yen": 26202400.0
+  },
+  {
+   "code": "7527",
+   "name": "システムソフ",
+   "badge": "東Ｓ",
+   "close_k": 41.0,
+   "pts": 42.3,
+   "pct": 3.17,
+   "volume": 200,
+   "turnover_yen": 8460.0
+  },
+  {
+   "code": "6356",
+   "name": "日ギア",
+   "badge": "東Ｓ",
+   "close_k": 979.0,
+   "pts": 1010.0,
+   "pct": 3.17,
+   "volume": 600,
+   "turnover_yen": 606000.0
+  },
+  {
+   "code": "4099",
+   "name": "四国化ＨＤ",
+   "badge": "東Ｐ",
+   "close_k": 1870.0,
+   "pts": 1929.0,
+   "pct": 3.16,
+   "volume": 400,
+   "turnover_yen": 771600.0
+  },
+  {
+   "code": "7409",
+   "name": "エアロエッジ",
+   "badge": "東Ｇ",
+   "close_k": 1018.0,
+   "pts": 1050.0,
+   "pct": 3.14,
+   "volume": 100,
+   "turnover_yen": 105000.0
+  },
+  {
+   "code": "3777",
+   "name": "環境フレンド",
+   "badge": "東Ｇ",
+   "close_k": 35.0,
+   "pts": 36.1,
+   "pct": 3.14,
+   "volume": 13000,
+   "turnover_yen": 469300.0
+  },
+  {
+   "code": "4973",
+   "name": "日本高純度",
+   "badge": "東Ｐ",
+   "close_k": 3850.0,
+   "pts": 3971.0,
+   "pct": 3.14,
+   "volume": 200,
+   "turnover_yen": 794200.0
+  },
+  {
+   "code": "6962",
+   "name": "大真空",
+   "badge": "東Ｐ",
+   "close_k": 606.0,
+   "pts": 625.0,
+   "pct": 3.14,
+   "volume": 500,
+   "turnover_yen": 312500.0
+  },
+  {
+   "code": "9041",
+   "name": "近鉄ＧＨＤ",
+   "badge": "東Ｐ",
+   "close_k": 3503.0,
+   "pts": 3612.7,
+   "pct": 3.13,
+   "volume": 100,
+   "turnover_yen": 361270.0
+  },
+  {
+   "code": "7966",
+   "name": "リンテック",
+   "badge": "東Ｐ",
+   "close_k": 4320.0,
+   "pts": 4455.0,
+   "pct": 3.13,
+   "volume": 600,
+   "turnover_yen": 2673000.0
+  },
+  {
+   "code": "9424",
+   "name": "日本通信",
+   "badge": "東Ｐ",
+   "close_k": 96.0,
+   "pts": 99.0,
+   "pct": 3.13,
+   "volume": 2600,
+   "turnover_yen": 257400.0
+  },
+  {
+   "code": "4176",
+   "name": "ココナラ",
+   "badge": "東Ｇ",
+   "close_k": 257.0,
+   "pts": 265.0,
+   "pct": 3.11,
+   "volume": 700,
+   "turnover_yen": 185500.0
+  },
+  {
+   "code": "2644",
+   "name": "ＧＸ半導日株",
+   "badge": "東Ｅ",
+   "close_k": 2803.0,
+   "pts": 2890.0,
+   "pct": 3.1,
+   "volume": 5180,
+   "turnover_yen": 14970200.0
+  },
+  {
+   "code": "6254",
+   "name": "野村マイクロ",
+   "badge": "東Ｐ",
+   "close_k": 2095.0,
+   "pts": 2160.0,
+   "pct": 3.1,
+   "volume": 2900,
+   "turnover_yen": 6264000.0
+  },
+  {
+   "code": "7717",
+   "name": "Ｖテク",
+   "badge": "東Ｐ",
+   "close_k": 3870.0,
+   "pts": 3990.0,
+   "pct": 3.1,
+   "volume": 200,
+   "turnover_yen": 798000.0
+  },
+  {
+   "code": "6861",
+   "name": "キーエンス",
+   "badge": "東Ｐ",
+   "close_k": 69750.0,
+   "pts": 71890.0,
+   "pct": 3.07,
+   "volume": 100,
+   "turnover_yen": 7189000.0
+  },
+  {
+   "code": "475A",
+   "name": "ギミック",
+   "badge": "東Ｓ",
+   "close_k": 424.0,
+   "pts": 437.0,
+   "pct": 3.07,
+   "volume": 500,
+   "turnover_yen": 218500.0
+  },
+  {
+   "code": "6501",
+   "name": "日立",
+   "badge": "東Ｐ",
+   "close_k": 4542.0,
+   "pts": 4681.0,
+   "pct": 3.06,
+   "volume": 17400,
+   "turnover_yen": 81449400.0
+  },
+  {
+   "code": "3941",
+   "name": "レンゴー",
+   "badge": "東Ｐ",
+   "close_k": 1455.5,
+   "pts": 1500.0,
+   "pct": 3.06,
+   "volume": 500,
+   "turnover_yen": 750000.0
+  },
+  {
+   "code": "5955",
+   "name": "ワイズＨＤ",
+   "badge": "東Ｓ",
+   "close_k": 82.0,
+   "pts": 84.5,
+   "pct": 3.05,
+   "volume": 5300,
+   "turnover_yen": 447850.0
+  },
+  {
+   "code": "6986",
+   "name": "双葉電",
+   "badge": "東Ｐ",
+   "close_k": 565.0,
+   "pts": 582.0,
+   "pct": 3.01,
+   "volume": 200,
+   "turnover_yen": 116400.0
+  },
+  {
+   "code": "3099",
+   "name": "三越伊勢丹",
+   "badge": "東Ｐ",
+   "close_k": 1630.0,
+   "pts": 1679.0,
+   "pct": 3.01,
+   "volume": 4800,
+   "turnover_yen": 8059200.0
+  },
+  {
+   "code": "5255",
+   "name": "モンラボ",
+   "badge": "東Ｇ",
+   "close_k": 60.0,
+   "pts": 61.8,
+   "pct": 3.0,
+   "volume": 2200,
+   "turnover_yen": 135960.0
+  },
+  {
+   "code": "6770",
+   "name": "アルプスアル",
+   "badge": "東Ｐ",
+   "close_k": 1794.5,
+   "pts": 1848.3,
+   "pct": 3.0,
+   "volume": 200,
+   "turnover_yen": 369660.0
+  },
+  {
+   "code": "6920",
+   "name": "レーザーテク",
+   "badge": "東Ｐ",
+   "close_k": 32040.0,
+   "pts": 33000.0,
+   "pct": 3.0,
+   "volume": 12700,
+   "turnover_yen": 419100000.0
+  }
+ ]
+}
