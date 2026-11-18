@@ -1,0 +1,335 @@
+{
+  "session_date": "2026-11-18",
+  "next_date": "2026-11-19",
+  "session_window": "2026-11-18 17:00 → 2026-11-19 06:00 JST",
+  "generated_at": "2026-11-19 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
+  },
+  "counts": {
+    "qualifying": 2,
+    "published": 2,
+    "capped": 0,
+    "dropped_turnover": 9,
+    "dropped_mcap": 8
+  },
+  "rows": [
+    {
+      "code": "4712",
+      "name": "ＫｅｙＨｏｌｄｅｒ",
+      "market": "スタンダード",
+      "mcap_oku": 196,
+      "mcap_source": "jquants",
+      "pct": 8.19,
+      "pts": 1129.5,
+      "close": 1044.0,
+      "volume": 35800,
+      "turnover_yen": 40436100,
+      "turnover_m": 40.4,
+      "disclosures": [
+        {
+          "time": "16:00",
+          "code": "4712",
+          "name": "ＫｅｙＨ",
+          "title": "株式会社HYBE JAPANによる当社株式に対する公開買付けに関する意見表明のお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120261118582725.pdf"
+        }
+      ],
+      "factor": "HYBE JAPAN（韓国HYBEの完全子会社）が2026年11月18日16時、普通株式1株1,200円・買付上限51.42%の公開買付けを実施すると発表（[TDnet開示](https://www.release.tdnet.info/inbs/140120261118582725.pdf)）。取締役会は賛同意見を表明し、上場廃止は企図せず。終値1,044円比約15%のプレミアムで連結子会社化が目的。買付期間は2026年11月19日〜2027年1月6日（[株探](https://s.kabutan.jp/news/n202611181089/)）。",
+      "factor_kind": "開示",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-18T16:44:00+09:00",
+          "category": "材料",
+          "title": "ＫｅｙＨ、ＨＹＢＥ日本法人が１株１２００円でＴＯＢ　上場は維持",
+          "url": "https://kabutan.jp/stock/news?code=4712&b=n202611181089"
+        },
+        {
+          "datetime": "2026-11-18T16:00:00+09:00",
+          "category": "開示",
+          "title": "株式会社HYBE JAPANによる当社株式に対する公開買付けに関する意見表明のお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261118/140120261118582725/"
+        },
+        {
+          "datetime": "2026-11-13T15:30:00+09:00",
+          "category": "開示",
+          "title": "連結子会社からの配当金受領に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261113/140120261113578235/"
+        },
+        {
+          "datetime": "2026-11-13T15:30:00+09:00",
+          "category": "開示",
+          "title": "持分法による投資利益の計上に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261113/140120261113578227/"
+        },
+        {
+          "datetime": "2026-11-13T15:30:00+09:00",
+          "category": "開示",
+          "title": "2026年12月期　第３四半期決算説明資料",
+          "url": "https://kabutan.jp/disclosures/pdf/20261113/140120261113578214/"
+        },
+        {
+          "datetime": "2026-11-13T15:30:00+09:00",
+          "category": "開示",
+          "title": "2026年12月期 第３四半期決算短信〔ＩＦＲＳ〕（連結）",
+          "url": "https://kabutan.jp/disclosures/pdf/20261113/140120261113578043/"
+        },
+        {
+          "datetime": "2026-11-13T15:30:00+09:00",
+          "category": "決算",
+          "title": "ＫｅｙＨ、1-9月期(3Q累計)最終が45％増益で着地・7-9月期も9％増益",
+          "url": "https://kabutan.jp/stock/news?code=4712&b=k202611130433"
+        },
+        {
+          "datetime": "2026-08-24T15:30:00+09:00",
+          "category": "開示",
+          "title": "（経過開示）株主優待“ライブチケット抽選”企画に関するご案内 （ご提供コンテンツ「ＳＫＥ48」の情報更新）",
+          "url": "https://kabutan.jp/disclosures/pdf/20260824/140120260824525078/"
+        },
+        {
+          "datetime": "2026-08-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "持分法による投資利益の計上に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260807514197/"
+        },
+        {
+          "datetime": "2026-08-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "2026年12月期 第２四半期（中間期）決算資料",
+          "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260807514180/"
+        },
+        {
+          "datetime": "2026-08-07T15:30:00+09:00",
+          "category": "開示",
+          "title": "2026年12月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+          "url": "https://kabutan.jp/disclosures/pdf/20260807/140120260807514035/"
+        },
+        {
+          "datetime": "2026-08-07T15:30:00+09:00",
+          "category": "決算",
+          "title": "ＫｅｙＨ、上期最終が81％増益で着地・4-6月期は黒字浮上",
+          "url": "https://kabutan.jp/stock/news?code=4712&b=k202608070451"
+        }
+      ]
+    },
+    {
+      "code": "4498",
+      "name": "サイバートラスト",
+      "market": "グロース",
+      "mcap_oku": 281,
+      "mcap_source": "jquants",
+      "pct": 3.12,
+      "pts": 1750.0,
+      "close": 1697.0,
+      "volume": 12200,
+      "turnover_yen": 21350000,
+      "turnover_m": 21.4,
+      "disclosures": [],
+      "factor": "楽天証券が11月17日にテスト環境への不正アクセスによる最大約1,125万口座のID等・最大約447万口座の氏名・住所・資産情報漏えいを発表（[楽天証券IR](https://www.rakuten-sec.co.jp/web/info/info20261117-02.html)）したことでサイバー攻撃対策ニーズが再び投資テーマとして浮上。11月18日大引け後17:30のMINKABU PRESS「明日の株式相場に向けて＝「サイバー防衛関連」に熱視線再び」（[株探](https://s.kabutan.jp/news/n202611181137/)）が電子認証・PKI・IAM分野の有力銘柄として名指しした。",
+      "factor_kind": "報道",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-18T17:30:00+09:00",
+          "category": "市況",
+          "title": "明日の株式相場に向けて＝「サイバー防衛関連」に熱視線再び",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611181137"
+        },
+        {
+          "datetime": "2026-11-18T15:32:00+09:00",
+          "category": "材料",
+          "title": "＜動意株・１８日＞（大引け）＝日本空港ビル、テリロジＨＤ、電子材料など",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611180923"
+        },
+        {
+          "datetime": "2026-11-18T11:32:00+09:00",
+          "category": "材料",
+          "title": "＜動意株・１８日＞（前引け）＝カウリス、セキュアヴェ、ＶＮＸ",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611180572"
+        },
+        {
+          "datetime": "2026-11-18T10:20:00+09:00",
+          "category": "材料",
+          "title": "カウリス、セキュアヴェなど急騰、金融システム系サイバー防御で強みを持つセキュリティー関連株に物色人気集中",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611180423"
+        },
+        {
+          "datetime": "2026-11-06T15:30:00+09:00",
+          "category": "開示",
+          "title": "2027年３月期 第２四半期 決算説明会レポート（書き起こし）",
+          "url": "https://kabutan.jp/disclosures/pdf/20261106/140120261105566354/"
+        },
+        {
+          "datetime": "2026-11-04T15:44:23+09:00",
+          "category": "材料",
+          "title": "新興市場銘柄ダイジェスト:ACSLが反発、サイバートラストが大幅続落",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611041069"
+        },
+        {
+          "datetime": "2026-11-04T13:50:46+09:00",
+          "category": "材料",
+          "title": "サイバートラスト---続落、SSL/TLSサーバー証明書発行サービス、新たなスキームでの再開方針決定",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611040833"
+        },
+        {
+          "datetime": "2026-11-02T18:30:00+09:00",
+          "category": "開示",
+          "title": "SSL/TLS サーバー証明書発行サービスのサービス再開に関する方針のお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261102/140120261030561837/"
+        },
+        {
+          "datetime": "2026-11-02T16:00:00+09:00",
+          "category": "開示",
+          "title": "2027年３月期 第２四半期（中間期）決算説明会動画公開のお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261102/140120261102562488/"
+        },
+        {
+          "datetime": "2026-11-02T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2キオクシアHD、TDK、ブロードメディアなど",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202611020020"
+        },
+        {
+          "datetime": "2026-10-31T09:00:00+09:00",
+          "category": "特集",
+          "title": "今週の【上場来高値銘柄】オービック、信越ポリ、コナミＧなど52銘柄",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202610310153"
+        },
+        {
+          "datetime": "2026-10-31T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2キオクシアHD、TDK、ブロードメディアなど",
+          "url": "https://kabutan.jp/stock/news?code=4498&b=n202610310114"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "9213",
+      "name": "セイファート",
+      "pct": 16.99,
+      "turnover_m": 1.0,
+      "volume": 1000
+    },
+    {
+      "code": "3490",
+      "name": "アズ企画設計",
+      "pct": 8.33,
+      "turnover_m": 3.3,
+      "volume": 1000
+    },
+    {
+      "code": "6625",
+      "name": "ＪＡＬＣＯホールディングス",
+      "pct": 6.78,
+      "turnover_m": 0.1,
+      "volume": 200
+    },
+    {
+      "code": "3640",
+      "name": "電算",
+      "pct": 5.72,
+      "turnover_m": 0.3,
+      "volume": 100
+    },
+    {
+      "code": "2331",
+      "name": "ＡＬＳＯＫ",
+      "pct": 4.04,
+      "turnover_m": 3.5,
+      "volume": 2500
+    },
+    {
+      "code": "281A",
+      "name": "インフォメティス",
+      "pct": 3.66,
+      "turnover_m": 1.3,
+      "volume": 4600
+    },
+    {
+      "code": "1717",
+      "name": "明豊ファシリティワークス",
+      "pct": 3.52,
+      "turnover_m": 0.4,
+      "volume": 400
+    },
+    {
+      "code": "6908",
+      "name": "イリソ電子工業",
+      "pct": 3.35,
+      "turnover_m": 1.7,
+      "volume": 600
+    },
+    {
+      "code": "3054",
+      "name": "ハイパー",
+      "pct": 3.27,
+      "turnover_m": 0.1,
+      "volume": 300
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4422",
+      "name": "ＶＡＬＵＥＮＥＸ",
+      "pct": 18.26,
+      "turnover_m": 14.3,
+      "mcap_oku": 38
+    },
+    {
+      "code": "3624",
+      "name": "アクセルマーク",
+      "pct": 15.0,
+      "turnover_m": 14.9,
+      "mcap_oku": 65
+    },
+    {
+      "code": "5138",
+      "name": "Ｒｅｂａｓｅ",
+      "pct": 14.86,
+      "turnover_m": 12.8,
+      "mcap_oku": 33
+    },
+    {
+      "code": "3909",
+      "name": "ショーケース",
+      "pct": 8.09,
+      "turnover_m": 123.2,
+      "mcap_oku": 58
+    },
+    {
+      "code": "4598",
+      "name": "Ｄｅｌｔａ−Ｆｌｙ　Ｐｈａｒｍａ",
+      "pct": 6.9,
+      "turnover_m": 33.3,
+      "mcap_oku": 12
+    },
+    {
+      "code": "4883",
+      "name": "モダリス",
+      "pct": 5.48,
+      "turnover_m": 10.6,
+      "mcap_oku": 36
+    },
+    {
+      "code": "338A",
+      "name": "ＺｅｎｍｕＴｅｃｈ",
+      "pct": 3.58,
+      "turnover_m": 13.9,
+      "mcap_oku": 91
+    },
+    {
+      "code": "3042",
+      "name": "セキュアヴェイル",
+      "pct": 3.58,
+      "turnover_m": 146.6,
+      "mcap_oku": 59
+    }
+  ]
+}
