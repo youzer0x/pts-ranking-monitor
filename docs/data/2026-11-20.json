@@ -1,0 +1,313 @@
+{
+  "session_date": "2026-11-20",
+  "next_date": "2026-11-21",
+  "session_window": "2026-11-20 17:00 → 2026-11-21 06:00 JST",
+  "generated_at": "2026-11-21 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
+  },
+  "counts": {
+    "qualifying": 1,
+    "published": 1,
+    "capped": 0,
+    "dropped_turnover": 25,
+    "dropped_mcap": 3
+  },
+  "rows": [
+    {
+      "code": "3905",
+      "name": "データセクション",
+      "market": "グロース",
+      "mcap_oku": 282,
+      "mcap_source": "jquants",
+      "pct": 11.64,
+      "pts": 700.0,
+      "close": 627.0,
+      "volume": 730600,
+      "turnover_yen": 511420000,
+      "turnover_m": 511.4,
+      "disclosures": [],
+      "factor": "データセクション株式は、オアシス・マネジメントが11月18日に市場内で約410万株を取得し保有割合が9.76%から16.18%へ増加したと示す大量保有変更報告書が、11月20日17:05にEDINETで開示されたことを受けPTSで急伸した。同報告書では保有目的が純投資から経営関与に変更され、12か月以内の代表取締役選定・資本政策提案方針も明記された。[大量保有変更報告書](https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100ZJ54.pdf)",
+      "factor_kind": "開示",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-20T17:57:00+09:00",
+          "category": "材料",
+          "title": "データセクがＰＴＳで急伸、オアシスによる保有割合が１６．１８％に上昇",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201409"
+        },
+        {
+          "datetime": "2026-11-20T17:53:00+09:00",
+          "category": "材料",
+          "title": "データセク、オアシスによる買い増し判明　保有割合１６．１８％に上昇",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201407"
+        },
+        {
+          "datetime": "2026-11-20T17:08:02+09:00",
+          "category": "５％",
+          "title": "データセクについて、Oasis Management Company Ltd.は保有割合が増加したと報告 [変更報告書No.1]",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201363"
+        },
+        {
+          "datetime": "2026-11-20T16:14:03+09:00",
+          "category": "５％",
+          "title": "データセクについて、杉原行洋氏は保有割合が5％未満に減少したと報告 [変更報告書No.12]",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201279"
+        },
+        {
+          "datetime": "2026-11-20T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2 JX金属、セイコーグループ、日アビオなど",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611200173"
+        },
+        {
+          "datetime": "2026-11-19T15:40:05+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 7 銘柄　　S安＝ 3 銘柄　(11月19日)",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611190975"
+        },
+        {
+          "datetime": "2026-11-19T15:22:00+09:00",
+          "category": "材料",
+          "title": "データセクはＳ安ウリ気配、ＡＩ関連産業をめぐる見通し不安止まらず",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611190928"
+        },
+        {
+          "datetime": "2026-11-19T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2レイヤード、セキュアヴェイル、ショーケースなど",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611190142"
+        },
+        {
+          "datetime": "2026-11-18T15:40:04+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 7 銘柄　　S安＝ 4 銘柄　(11月18日)",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611180942"
+        },
+        {
+          "datetime": "2026-11-18T14:24:00+09:00",
+          "category": "材料",
+          "title": "＜みんかぶ・個人投資家の予想から＞＝「売り予想数上昇」１位にデータセク",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611180841"
+        },
+        {
+          "datetime": "2026-11-18T10:30:00+09:00",
+          "category": "開示",
+          "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261118/140120261118582520/"
+        },
+        {
+          "datetime": "2026-11-17T15:54:02+09:00",
+          "category": "５％",
+          "title": "データセクについて、FIRST PLUS FINANCIAL HOLDINGS PTE. LTD.は保有割合が減少したと報告 [変更報告書No.25]",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611171096"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "6727",
+      "name": "ワコム",
+      "pct": 15.04,
+      "turnover_m": 2.1,
+      "volume": 2700
+    },
+    {
+      "code": "2656",
+      "name": "ベクターホールディングス",
+      "pct": 13.6,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "288A",
+      "name": "ラクサス・テクノロジーズ",
+      "pct": 10.39,
+      "turnover_m": 0.1,
+      "volume": 1000
+    },
+    {
+      "code": "1847",
+      "name": "イチケン",
+      "pct": 9.64,
+      "turnover_m": 0.3,
+      "volume": 100
+    },
+    {
+      "code": "478A",
+      "name": "フツパー",
+      "pct": 8.43,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "3321",
+      "name": "ミタチ産業",
+      "pct": 7.51,
+      "turnover_m": 8.9,
+      "volume": 5600
+    },
+    {
+      "code": "3997",
+      "name": "トレードワークス",
+      "pct": 7.42,
+      "turnover_m": 0.1,
+      "volume": 400
+    },
+    {
+      "code": "4124",
+      "name": "大阪油化工業",
+      "pct": 7.28,
+      "turnover_m": 1.2,
+      "volume": 400
+    },
+    {
+      "code": "8835",
+      "name": "太平洋興発",
+      "pct": 6.74,
+      "turnover_m": 0.8,
+      "volume": 1000
+    },
+    {
+      "code": "4576",
+      "name": "デ・ウエスタン・セラピテクス研究所",
+      "pct": 6.67,
+      "turnover_m": 6.8,
+      "volume": 142700
+    },
+    {
+      "code": "3418",
+      "name": "バルニバービ",
+      "pct": 5.28,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "8366",
+      "name": "滋賀銀行",
+      "pct": 5.27,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "5216",
+      "name": "倉元製作所",
+      "pct": 5.05,
+      "turnover_m": 0.1,
+      "volume": 700
+    },
+    {
+      "code": "6997",
+      "name": "日本ケミコン",
+      "pct": 4.18,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "6807",
+      "name": "日本航空電子工業",
+      "pct": 4.12,
+      "turnover_m": 1.8,
+      "volume": 800
+    },
+    {
+      "code": "8550",
+      "name": "栃木銀行",
+      "pct": 3.7,
+      "turnover_m": 0.2,
+      "volume": 300
+    },
+    {
+      "code": "4564",
+      "name": "オンコセラピー・サイエンス",
+      "pct": 3.57,
+      "turnover_m": 1.4,
+      "volume": 95800
+    },
+    {
+      "code": "190A",
+      "name": "Ｃｈｏｒｄｉａ　Ｔｈｅｒａｐｅｕｔｉｃｓ",
+      "pct": 3.41,
+      "turnover_m": 0.1,
+      "volume": 3400
+    },
+    {
+      "code": "6495",
+      "name": "宮入バルブ製作所",
+      "pct": 3.37,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "4598",
+      "name": "Ｄｅｌｔａ−Ｆｌｙ　Ｐｈａｒｍａ",
+      "pct": 3.33,
+      "turnover_m": 3.8,
+      "volume": 60700
+    },
+    {
+      "code": "6387",
+      "name": "サムコ",
+      "pct": 3.23,
+      "turnover_m": 1.0,
+      "volume": 200
+    },
+    {
+      "code": "1783",
+      "name": "ｆａｎｔａｓｉｓｔａ",
+      "pct": 3.15,
+      "turnover_m": 1.1,
+      "volume": 19400
+    },
+    {
+      "code": "9274",
+      "name": "ＫＰＰグループホールディングス",
+      "pct": 3.11,
+      "turnover_m": 0.2,
+      "volume": 200
+    },
+    {
+      "code": "3659",
+      "name": "ネクソン",
+      "pct": 3.1,
+      "turnover_m": 2.2,
+      "volume": 700
+    },
+    {
+      "code": "4591",
+      "name": "リボミック",
+      "pct": 3.0,
+      "turnover_m": 1.0,
+      "volume": 18600
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "6573",
+      "name": "ＣＲＡＶＩＡ",
+      "pct": 35.29,
+      "turnover_m": 31.8,
+      "mcap_oku": 13
+    },
+    {
+      "code": "4586",
+      "name": "メドレックス",
+      "pct": 14.95,
+      "turnover_m": 304.1,
+      "mcap_oku": 76
+    },
+    {
+      "code": "3909",
+      "name": "ショーケース",
+      "pct": 3.23,
+      "turnover_m": 35.7,
+      "mcap_oku": 58
+    }
+  ]
+}
