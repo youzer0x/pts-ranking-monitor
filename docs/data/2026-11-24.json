@@ -1,0 +1,238 @@
+{
+  "session_date": "2026-11-24",
+  "next_date": "2026-11-25",
+  "session_window": "2026-11-24 17:00 → 2026-11-25 06:00 JST",
+  "generated_at": "2026-11-25 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
+  },
+  "counts": {
+    "qualifying": 2,
+    "published": 2,
+    "capped": 0,
+    "dropped_turnover": 8,
+    "dropped_mcap": 4
+  },
+  "rows": [
+    {
+      "code": "8918",
+      "name": "ランド",
+      "market": "スタンダード",
+      "mcap_oku": 108,
+      "mcap_source": "jquants",
+      "pct": 12.86,
+      "pts": 7.9,
+      "close": 7.0,
+      "volume": 2063500,
+      "turnover_yen": 16301650,
+      "turnover_m": 16.3,
+      "disclosures": [],
+      "factor": "当日固有の材料は確認できず。2026年10月8日大引け後に発表した27年2月期第2四半期（3〜8月）決算で経常損益が黒字転換（同期比147倍増益）していた。",
+      "factor_kind": "テーマ",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-06T15:40:03+09:00",
+          "category": "５％",
+          "title": "ランドについて、Long Corridor Asset Management Limitedは保有割合が5％未満に減少したと報告 [変更報告書No.9]",
+          "url": "https://kabutan.jp/stock/news?code=8918&b=n202611061478"
+        },
+        {
+          "datetime": "2026-10-08T16:00:00+09:00",
+          "category": "決算",
+          "title": "ランド、上期経常が黒字浮上で着地・6-8月期は147倍増益",
+          "url": "https://kabutan.jp/stock/news?code=8918&b=k202610080041"
+        },
+        {
+          "datetime": "2026-10-08T16:00:00+09:00",
+          "category": "開示",
+          "title": "2027年２月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+          "url": "https://kabutan.jp/disclosures/pdf/20261008/140120261008547947/"
+        }
+      ]
+    },
+    {
+      "code": "3905",
+      "name": "データセクション",
+      "market": "グロース",
+      "mcap_oku": 327,
+      "mcap_source": "jquants",
+      "pct": 6.88,
+      "pts": 777.0,
+      "close": 727.0,
+      "volume": 1031400,
+      "turnover_yen": 801397800,
+      "turnover_m": 801.4,
+      "disclosures": [],
+      "factor": "オアシス・マネジメントが2026年11月20日に提出した[変更報告書](https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ54,,)が材料視された。同報告書で保有割合が16.18%（前回比＋6.42pt）に増加し、保有目的に「重要提案行為」が追加されたことが確認されており、株主還元・経営改善への期待から日中ストップ高となり、PTSでも上昇が続いた。",
+      "factor_kind": "報道",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-24T15:42:09+09:00",
+          "category": "材料",
+          "title": "新興市場銘柄ダイジェスト:CRAVIAが急騰、データセクがストップ高",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611240957"
+        },
+        {
+          "datetime": "2026-11-24T15:40:05+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 12 銘柄　　S安＝ 1 銘柄　(11月24日)",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611240945"
+        },
+        {
+          "datetime": "2026-11-24T14:34:00+09:00",
+          "category": "材料",
+          "title": "＜みんかぶ・個人投資家の予想から＞＝「買い予想数上昇」２位にデータセク",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611240857"
+        },
+        {
+          "datetime": "2026-11-24T14:13:08+09:00",
+          "category": "材料",
+          "title": "データセク---ストップ高買い気配、オアシス・マネジメントの保有比率上昇と重要提案を材料視",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611240772"
+        },
+        {
+          "datetime": "2026-11-24T11:05:00+09:00",
+          "category": "開示",
+          "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261124/140120261124584625/"
+        },
+        {
+          "datetime": "2026-11-24T09:43:00+09:00",
+          "category": "材料",
+          "title": "データセクはＳ高カイ気配、オアシスによる買い増し判明で思惑",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611240383"
+        },
+        {
+          "datetime": "2026-11-21T08:50:00+09:00",
+          "category": "注目",
+          "title": "今週の【話題株ダイジェスト】 ＶＮＸ、スプリックス、ＪＤＳＣ (11月16日～20日)",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611210200"
+        },
+        {
+          "datetime": "2026-11-20T17:57:00+09:00",
+          "category": "材料",
+          "title": "データセクがＰＴＳで急伸、オアシスによる保有割合が１６．１８％に上昇",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201409"
+        },
+        {
+          "datetime": "2026-11-20T17:53:00+09:00",
+          "category": "材料",
+          "title": "データセク、オアシスによる買い増し判明　保有割合１６．１８％に上昇",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201407"
+        },
+        {
+          "datetime": "2026-11-20T17:08:02+09:00",
+          "category": "５％",
+          "title": "データセクについて、Oasis Management Company Ltd.は保有割合が増加したと報告 [変更報告書No.1]",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201363"
+        },
+        {
+          "datetime": "2026-11-20T16:14:03+09:00",
+          "category": "５％",
+          "title": "データセクについて、杉原行洋氏は保有割合が5％未満に減少したと報告 [変更報告書No.12]",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611201279"
+        },
+        {
+          "datetime": "2026-11-20T07:32:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part2 JX金属、セイコーグループ、日アビオなど",
+          "url": "https://kabutan.jp/stock/news?code=3905&b=n202611200173"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "6727",
+      "name": "ワコム",
+      "pct": 19.61,
+      "turnover_m": 1.7,
+      "volume": 1900
+    },
+    {
+      "code": "4264",
+      "name": "セキュア",
+      "pct": 16.91,
+      "turnover_m": 1.4,
+      "volume": 1100
+    },
+    {
+      "code": "8098",
+      "name": "稲畑産業",
+      "pct": 8.91,
+      "turnover_m": 0.4,
+      "volume": 100
+    },
+    {
+      "code": "5290",
+      "name": "ベルテクスコーポレーション",
+      "pct": 6.1,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "4484",
+      "name": "ランサーズ",
+      "pct": 4.94,
+      "turnover_m": 0.3,
+      "volume": 1300
+    },
+    {
+      "code": "4596",
+      "name": "窪田製薬ホールディングス",
+      "pct": 4.26,
+      "turnover_m": 0.9,
+      "volume": 18700
+    },
+    {
+      "code": "4527",
+      "name": "ロート製薬",
+      "pct": 3.61,
+      "turnover_m": 2.5,
+      "volume": 900
+    },
+    {
+      "code": "9063",
+      "name": "岡山県貨物運送",
+      "pct": 3.17,
+      "turnover_m": 1.6,
+      "volume": 400
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4422",
+      "name": "ＶＡＬＵＥＮＥＸ",
+      "pct": 16.23,
+      "turnover_m": 115.8,
+      "mcap_oku": 53
+    },
+    {
+      "code": "9331",
+      "name": "キャスター",
+      "pct": 14.88,
+      "turnover_m": 13.5,
+      "mcap_oku": 13
+    },
+    {
+      "code": "6573",
+      "name": "ＣＲＡＶＩＡ",
+      "pct": 7.6,
+      "turnover_m": 10.3,
+      "mcap_oku": 20
+    },
+    {
+      "code": "4586",
+      "name": "メドレックス",
+      "pct": 4.44,
+      "turnover_m": 79.9,
+      "mcap_oku": 71
+    }
+  ]
+}
