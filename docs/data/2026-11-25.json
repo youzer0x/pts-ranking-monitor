@@ -1,0 +1,356 @@
+{
+  "session_date": "2026-11-25",
+  "next_date": "2026-11-26",
+  "session_window": "2026-11-25 17:00 → 2026-11-26 06:00 JST",
+  "generated_at": "2026-11-26 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
+  },
+  "counts": {
+    "qualifying": 2,
+    "published": 2,
+    "capped": 0,
+    "dropped_turnover": 16,
+    "dropped_mcap": 3
+  },
+  "rows": [
+    {
+      "code": "3678",
+      "name": "メディアドゥ",
+      "market": "プライム",
+      "mcap_oku": 187,
+      "mcap_source": "jquants",
+      "pct": 21.95,
+      "pts": 1500.0,
+      "close": 1230.0,
+      "volume": 16200,
+      "turnover_yen": 24300000,
+      "turnover_m": 24.3,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "3678",
+          "name": "メディアドゥ",
+          "title": "配当予想の上方修正（特別配当）に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120261125585700.pdf"
+        },
+        {
+          "time": "15:30",
+          "code": "3678",
+          "name": "メディアドゥ",
+          "title": "取引先におけるサービス停止（不正アクセス）に伴う当社業績への影響に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120261125585727.pdf"
+        }
+      ],
+      "factor": "15:30開示（[TDnet](https://www.release.tdnet.info/inbs/140120261125585700.pdf)）で2027年2月期期末配当予想を55円から100円（普通配当55円＋特別配当45円）に増額修正。45円の特別配当はQuality Solutions, Inc.及びNetGalley, LLCの株式譲渡資金を原資とし、予想配当利回りは8.13%（同日終値1230円ベース）に上昇した。同時に取引先の不正アクセスによるサービス停止の業績影響も開示（[TDnet](https://www.release.tdnet.info/inbs/140120261125585727.pdf)）されたが、大幅増配が主買い材料となった（[Media Innovation](https://media-innovation.jp/article/2026/11/25/144060.html)）。",
+      "factor_kind": "開示",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-25T19:06:12+09:00",
+          "category": "注目",
+          "title": "★本日の【イチオシ決算】 メディアドゥ (11月25日)",
+          "url": "https://kabutan.jp/stock/news?code=3678&b=n202611251186"
+        },
+        {
+          "datetime": "2026-11-25T17:05:16+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】速報 (11月25日)",
+          "url": "https://kabutan.jp/stock/news?code=3678&b=n202611251061"
+        },
+        {
+          "datetime": "2026-11-25T15:59:00+09:00",
+          "category": "材料",
+          "title": "メディアドゥが２７年２月期配当予想を増額修正",
+          "url": "https://kabutan.jp/stock/news?code=3678&b=n202611250956"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "修正",
+          "title": "メディアドゥ、今期配当を45円増額修正",
+          "url": "https://kabutan.jp/stock/news?code=3678&b=k202611250003"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Regarding the Impact on the Company's Earnings of a Service Suspension (Unauthorized Access) at a Business Partner",
+          "url": "https://kabutan.jp/disclosures/pdf/20261125/140120261125585735/"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice Regarding Upward Revision of Dividend Forecast (Special Dividend)",
+          "url": "https://kabutan.jp/disclosures/pdf/20261125/140120261125585732/"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "開示",
+          "title": "取引先におけるサービス停止（不正アクセス）に伴う当社業績への影響に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261125/140120261125585727/"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "開示",
+          "title": "配当予想の上方修正（特別配当）に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261125/140120261125585700/"
+        },
+        {
+          "datetime": "2026-10-17T08:50:00+09:00",
+          "category": "注目",
+          "title": "今週の【話題株ダイジェスト】 クラスター、ショーケース、セキュアヴェ (10月13日～16日)",
+          "url": "https://kabutan.jp/stock/news?code=3678&b=n202610170133"
+        },
+        {
+          "datetime": "2026-10-16T00:30:00+09:00",
+          "category": "開示",
+          "title": "MEDIA DO Report 2026",
+          "url": "https://kabutan.jp/disclosures/pdf/20261016/140120261015551487/"
+        },
+        {
+          "datetime": "2026-10-15T09:32:00+09:00",
+          "category": "材料",
+          "title": "メディアドゥが続急伸、２７年２月期最終利益予想及び配当予想を上方修正",
+          "url": "https://kabutan.jp/stock/news?code=3678&b=n202610150360"
+        },
+        {
+          "datetime": "2026-10-14T18:45:00+09:00",
+          "category": "開示",
+          "title": "Financial Results Briefing Q2 and H1 FYE 2/27 (Ended August 31, 2026)",
+          "url": "https://kabutan.jp/disclosures/pdf/20261014/140120261002545208/"
+        }
+      ]
+    },
+    {
+      "code": "6727",
+      "name": "ワコム",
+      "market": "プライム",
+      "mcap_oku": 1215,
+      "mcap_source": "jquants",
+      "pct": 10.75,
+      "pts": 1013.4,
+      "close": 915.0,
+      "volume": 60500,
+      "turnover_yen": 61310700,
+      "turnover_m": 61.3,
+      "disclosures": [],
+      "factor": "11月20日19時40分の適時開示でMBOが判明。MBKパートナーズ系のMP-2611がTOB価格1,030円（11月19日終値687円比約50%プレミアム）での買付を予定し、取締役会は応募を推奨。以来3連続ストップ高となり、PTS1,013円は買付価格をなお約2%下回る水準での売買が続いている。[PC Watch](https://pc.watch.impress.co.jp/docs/news/2158842.html)",
+      "factor_kind": "報道",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-25T15:40:03+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 5 銘柄　　S安＝ 6 銘柄　(11月25日)",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=n202611250901"
+        },
+        {
+          "datetime": "2026-11-25T07:15:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part1イビデン、野村マイクロ・サイエンス、村田製作所など",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=n202611250128"
+        },
+        {
+          "datetime": "2026-11-24T15:52:33+09:00",
+          "category": "材料",
+          "title": "本日の注目個別銘柄：イビデン、ミタチ、平田機工など",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=n202611240984"
+        },
+        {
+          "datetime": "2026-11-24T15:40:05+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 12 銘柄　　S安＝ 1 銘柄　(11月24日)",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=n202611240945"
+        },
+        {
+          "datetime": "2026-11-24T10:51:23+09:00",
+          "category": "材料",
+          "title": "ワコム---ストップ高買い気配、MBO実施発表でTOB価格にサヤ寄せ",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=n202611240496"
+        },
+        {
+          "datetime": "2026-11-24T09:33:00+09:00",
+          "category": "材料",
+          "title": "ワコムはＳ高カイ気配、ＭＢＯのＴＯＢ価格１０３０円にサヤ寄せ",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=n202611240370"
+        },
+        {
+          "datetime": "2026-11-24T08:30:00+09:00",
+          "category": "開示",
+          "title": "[Delayed] Notice Regarding the Planned Commencement of a Tender Offer by MP-2611 Co., Ltd for Shares of Wacom Co., Ltd. (Securities Code: 6727)",
+          "url": "https://kabutan.jp/disclosures/pdf/20261124/140120261120584512/"
+        },
+        {
+          "datetime": "2026-11-24T08:30:00+09:00",
+          "category": "開示",
+          "title": "[Delayed] Notice of Revision to Year-End Dividend Forecast (No Dividends) for the Fiscal Year Ending March 31, 2027",
+          "url": "https://kabutan.jp/disclosures/pdf/20261124/140120261120584036/"
+        },
+        {
+          "datetime": "2026-11-24T08:30:00+09:00",
+          "category": "開示",
+          "title": "[Delayed] Notice of Opinion on the Planned Tender Offer in Connection with a Management Buyout and Recommendation to Tender Shares",
+          "url": "https://kabutan.jp/disclosures/pdf/20261124/140120261113579951/"
+        },
+        {
+          "datetime": "2026-11-20T19:40:00+09:00",
+          "category": "修正",
+          "title": "ワコム、下期配当を見送り（訂正）",
+          "url": "https://kabutan.jp/stock/news?code=6727&b=k202611200012"
+        },
+        {
+          "datetime": "2026-11-20T19:40:00+09:00",
+          "category": "開示",
+          "title": "MP-2611株式会社による株式会社ワコム株式（証券コード：6727）に対する公開買付けの開始予定に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261120/140120261120584437/"
+        },
+        {
+          "datetime": "2026-11-20T19:40:00+09:00",
+          "category": "開示",
+          "title": "2027年３月期期末配当予想の修正（無配）に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261120/140120261120584035/"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "4484",
+      "name": "ランサーズ",
+      "pct": 8.23,
+      "turnover_m": 0.5,
+      "volume": 1900
+    },
+    {
+      "code": "2134",
+      "name": "北浜キャピタルパートナーズ",
+      "pct": 8.0,
+      "turnover_m": 4.8,
+      "volume": 442800
+    },
+    {
+      "code": "7980",
+      "name": "重松製作所",
+      "pct": 7.2,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "4615",
+      "name": "神東塗料",
+      "pct": 4.83,
+      "turnover_m": 0.1,
+      "volume": 700
+    },
+    {
+      "code": "6044",
+      "name": "三機サービス",
+      "pct": 4.66,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "166A",
+      "name": "タスキホールディングス",
+      "pct": 4.44,
+      "turnover_m": 8.2,
+      "volume": 7700
+    },
+    {
+      "code": "1801",
+      "name": "大成建設",
+      "pct": 3.91,
+      "turnover_m": 1.2,
+      "volume": 100
+    },
+    {
+      "code": "9973",
+      "name": "ＫＯＺＯホールディングス",
+      "pct": 3.75,
+      "turnover_m": 1.6,
+      "volume": 96100
+    },
+    {
+      "code": "5255",
+      "name": "モンスターラボ",
+      "pct": 3.67,
+      "turnover_m": 2.5,
+      "volume": 48800
+    },
+    {
+      "code": "4527",
+      "name": "ロート製薬",
+      "pct": 3.53,
+      "turnover_m": 3.6,
+      "volume": 1200
+    },
+    {
+      "code": "5942",
+      "name": "日本フイルコン",
+      "pct": 3.5,
+      "turnover_m": 0.4,
+      "volume": 700
+    },
+    {
+      "code": "8166",
+      "name": "タカキュー",
+      "pct": 3.33,
+      "turnover_m": 0.4,
+      "volume": 5600
+    },
+    {
+      "code": "2338",
+      "name": "クオンタムソリューションズ",
+      "pct": 3.19,
+      "turnover_m": 0.1,
+      "volume": 1400
+    },
+    {
+      "code": "3161",
+      "name": "アゼアス",
+      "pct": 3.19,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "6644",
+      "name": "大崎電気工業",
+      "pct": 3.08,
+      "turnover_m": 0.6,
+      "volume": 600
+    },
+    {
+      "code": "438A",
+      "name": "インフキュリオン",
+      "pct": 3.0,
+      "turnover_m": 0.3,
+      "volume": 600
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4563",
+      "name": "アンジェス",
+      "pct": 22.08,
+      "turnover_m": 18.7,
+      "mcap_oku": 99
+    },
+    {
+      "code": "4422",
+      "name": "ＶＡＬＵＥＮＥＸ",
+      "pct": 20.95,
+      "turnover_m": 10.9,
+      "mcap_oku": 61
+    },
+    {
+      "code": "4598",
+      "name": "Ｄｅｌｔａ−Ｆｌｙ　Ｐｈａｒｍａ",
+      "pct": 3.19,
+      "turnover_m": 56.6,
+      "mcap_oku": 19
+    }
+  ]
+}
