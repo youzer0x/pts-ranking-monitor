@@ -1,0 +1,349 @@
+{
+  "session_date": "2026-11-27",
+  "next_date": "2026-11-28",
+  "session_window": "2026-11-27 17:00 → 2026-11-28 06:00 JST",
+  "generated_at": "2026-11-28 06:07 JST",
+  "criteria": {
+    "min_pct": 3.0,
+    "min_turnover_yen": 10000000,
+    "min_mcap_oku": 100,
+    "max_rows": 20,
+    "mcap_method": "jquants_valuation"
+  },
+  "counts": {
+    "qualifying": 2,
+    "published": 2,
+    "capped": 0,
+    "dropped_turnover": 16,
+    "dropped_mcap": 3
+  },
+  "rows": [
+    {
+      "code": "278A",
+      "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+      "market": "グロース",
+      "mcap_oku": 1106,
+      "mcap_source": "jquants",
+      "pct": 7.63,
+      "pts": 5500.0,
+      "close": 5110.0,
+      "volume": 60500,
+      "turnover_yen": 332750000,
+      "turnover_m": 332.8,
+      "disclosures": [],
+      "factor": "防衛装備庁の「迎撃ドローン早期取得プログラム」向けAI自律型迎撃ドローン「Terra B1」の生産・納品完了を2026年11月26日取引終了後に公表（[PR TIMES](https://prtimes.jp/main/html/rd/p/000000469.000020194.html)）。国内生産基盤を持つAI自律型迎撃ドローンの防衛装備庁採用は国内初と好感。11月27日の通常取引でストップ高に張り付き、同日夜のPTSでも終値比7.6%高まで上値が伸びた（[ドローンジャーナル](https://drone-journal.impress.co.jp/docs/news/1189113.html)）。",
+      "factor_kind": "報道",
+      "rank": 1,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-27T15:43:09+09:00",
+          "category": "材料",
+          "title": "新興市場銘柄ダイジェスト:TMNが大幅反発、テラドローンがストップ高",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611270853"
+        },
+        {
+          "datetime": "2026-11-27T15:40:08+09:00",
+          "category": "材料",
+          "title": "本日の【ストップ高／ストップ安】 引け　　S高＝ 5 銘柄　　S安＝ 2 銘柄　(11月27日)",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611270838"
+        },
+        {
+          "datetime": "2026-11-27T15:32:00+09:00",
+          "category": "材料",
+          "title": "＜動意株・２７日＞（大引け）＝ソラコム、日電波、東エレデバなど",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611270810"
+        },
+        {
+          "datetime": "2026-11-27T13:50:44+09:00",
+          "category": "材料",
+          "title": "テラドローン---ストップ高買い気配、防衛装備庁採用の自律型迎撃ドローン「Terra B1」の納品完了",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611270646"
+        },
+        {
+          "datetime": "2026-11-27T11:31:00+09:00",
+          "category": "材料",
+          "title": "＜動意株・２７日＞（前引け）＝アイコム、テラドローン、ＪＤＳＣ",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611270462"
+        },
+        {
+          "datetime": "2026-11-27T09:40:00+09:00",
+          "category": "材料",
+          "title": "テラドローンはＳ高カイ気配、迎撃ドローン・地上管制局を量産し防衛装備庁へ納品",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611270256"
+        },
+        {
+          "datetime": "2026-11-26T16:20:00+09:00",
+          "category": "材料",
+          "title": "テラドローン、迎撃ドローンと地上管制局の国内量産体制構築　防衛装備庁への納品完了",
+          "url": "https://kabutan.jp/stock/news?code=278A&b=n202611260980"
+        },
+        {
+          "datetime": "2026-11-26T15:30:00+09:00",
+          "category": "開示",
+          "title": "テラドローン、防衛装備庁が日本初採用した国産・AI 自律型迎撃ドローン「Terra B1」の生産・納品を完了",
+          "url": "https://kabutan.jp/disclosures/pdf/20261126/140120261126586681/"
+        },
+        {
+          "datetime": "2026-11-26T15:30:00+09:00",
+          "category": "開示",
+          "title": "テラドローン、複数の迎撃ドローンを制御する「国産GCS（地上管制局）」を自社開発、防衛装備庁へ納品",
+          "url": "https://kabutan.jp/disclosures/pdf/20261126/140120261126586675/"
+        },
+        {
+          "datetime": "2026-11-12T08:30:00+09:00",
+          "category": "開示",
+          "title": "テラドローン子会社 Unifly、欧州最大級の防衛ファンド「EDF」に採択、約 1.5 億円を獲得",
+          "url": "https://kabutan.jp/disclosures/pdf/20261112/140120261111574111/"
+        },
+        {
+          "datetime": "2026-11-06T12:05:00+09:00",
+          "category": "開示",
+          "title": "12月15日開催 決算説明会及び防衛事業進捗発表会のお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261106/140120261106567323/"
+        },
+        {
+          "datetime": "2026-11-02T15:30:00+09:00",
+          "category": "開示",
+          "title": "行使価額修正条項付新株予約権の月間行使状況に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261102/140120261102562275/"
+        }
+      ]
+    },
+    {
+      "code": "9009",
+      "name": "京成電鉄",
+      "market": "プライム",
+      "mcap_oku": 7540,
+      "mcap_source": "jquants",
+      "pct": 5.6,
+      "pts": 1651.0,
+      "close": 1563.5,
+      "volume": 6200,
+      "turnover_yen": 10236200,
+      "turnover_m": 10.2,
+      "disclosures": [
+        {
+          "time": "15:30",
+          "code": "9009",
+          "name": "京成",
+          "title": "業績予想の修正及び期末配当予想の修正に関するお知らせ",
+          "pdf_url": "https://www.release.tdnet.info/inbs/140120261126587141.pdf"
+        }
+      ],
+      "factor": "2026年11月27日15:30の適時開示で今期最終利益予想を一転34%増益に上方修正、期末配当予想も8円増額を発表。オリエンタルランド株売却益の一部を株主に還元する内容。",
+      "factor_kind": "開示",
+      "rank": 2,
+      "kabutan_news": [
+        {
+          "datetime": "2026-11-27T19:08:08+09:00",
+          "category": "注目",
+          "title": "★本日の【イチオシ決算】 京成、アゼアス、オータケ (11月27日)",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611271139"
+        },
+        {
+          "datetime": "2026-11-27T17:05:44+09:00",
+          "category": "注目",
+          "title": "★本日の【サプライズ決算】速報 (11月27日)",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611271017"
+        },
+        {
+          "datetime": "2026-11-27T16:23:00+09:00",
+          "category": "材料",
+          "title": "京成、期末配当予想を８円増額修正　ＯＬＣ株式の売却益を一部還元",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611270950"
+        },
+        {
+          "datetime": "2026-11-27T15:30:00+09:00",
+          "category": "修正",
+          "title": "京成、今期最終を一転34％増益に上方修正、配当も8円増額",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=k202611270003"
+        },
+        {
+          "datetime": "2026-11-27T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice on Revisions to the Earnings Forecast and Year-end Dividend Forecast",
+          "url": "https://kabutan.jp/disclosures/pdf/20261127/140120261126587165/"
+        },
+        {
+          "datetime": "2026-11-27T15:30:00+09:00",
+          "category": "開示",
+          "title": "業績予想の修正及び期末配当予想の修正に関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261127/140120261126587141/"
+        },
+        {
+          "datetime": "2026-11-26T07:15:00+09:00",
+          "category": "材料",
+          "title": "前日に動いた銘柄 part1 Zenmu、岡県運送、ネクセラファーマなど",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611260111"
+        },
+        {
+          "datetime": "2026-11-25T15:57:48+09:00",
+          "category": "材料",
+          "title": "本日の注目個別銘柄：キオクシアHD、ロート薬、フジクラなど",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611250955"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "開示",
+          "title": "Notice of Results of Participation in Oriental Land Co., Ltd.’s Share Repurchase Program via ToSTNeT-3 and Expected Extraordinary Profit and Loss",
+          "url": "https://kabutan.jp/disclosures/pdf/20261125/140120261125585775/"
+        },
+        {
+          "datetime": "2026-11-25T15:30:00+09:00",
+          "category": "開示",
+          "title": "株式会社オリエンタルランドが実施する自己株式立会外買付取引による自己株式の買付けへの応募結果並びに特別利益及び特別損失の計上見込みに関するお知らせ",
+          "url": "https://kabutan.jp/disclosures/pdf/20261125/140120261119583463/"
+        },
+        {
+          "datetime": "2026-11-25T10:57:51+09:00",
+          "category": "材料",
+          "title": "京成電鉄---大幅続伸、OLC株の保有株一部売却を発表",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611250454"
+        },
+        {
+          "datetime": "2026-11-25T10:35:00+09:00",
+          "category": "材料",
+          "title": "京成は大幅に４日続伸し年初来高値更新、ＯＬＣ株を最大６００億円で売却",
+          "url": "https://kabutan.jp/stock/news?code=9009&b=n202611250431"
+        }
+      ]
+    }
+  ],
+  "dropped_turnover": [
+    {
+      "code": "7689",
+      "name": "コパ・コーポレーション",
+      "pct": 25.72,
+      "turnover_m": 0.7,
+      "volume": 1700
+    },
+    {
+      "code": "6181",
+      "name": "タメニー",
+      "pct": 17.5,
+      "turnover_m": 7.0,
+      "volume": 99700
+    },
+    {
+      "code": "2152",
+      "name": "幼児活動研究会",
+      "pct": 16.44,
+      "turnover_m": 0.2,
+      "volume": 100
+    },
+    {
+      "code": "7096",
+      "name": "ステムセル研究所",
+      "pct": 16.16,
+      "turnover_m": 0.1,
+      "volume": 100
+    },
+    {
+      "code": "8107",
+      "name": "キムラタン",
+      "pct": 11.67,
+      "turnover_m": 0.7,
+      "volume": 27200
+    },
+    {
+      "code": "3840",
+      "name": "ヴィクトン",
+      "pct": 7.09,
+      "turnover_m": 0.1,
+      "volume": 1500
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラスホールディングス",
+      "pct": 5.63,
+      "turnover_m": 0.4,
+      "volume": 22600
+    },
+    {
+      "code": "8226",
+      "name": "理経",
+      "pct": 5.32,
+      "turnover_m": 0.0,
+      "volume": 100
+    },
+    {
+      "code": "3323",
+      "name": "レカム",
+      "pct": 5.21,
+      "turnover_m": 1.4,
+      "volume": 18100
+    },
+    {
+      "code": "6381",
+      "name": "アネスト岩田",
+      "pct": 4.02,
+      "turnover_m": 2.5,
+      "volume": 1400
+    },
+    {
+      "code": "3779",
+      "name": "ジェイ・エスコムホールディングス",
+      "pct": 3.9,
+      "turnover_m": 0.0,
+      "volume": 200
+    },
+    {
+      "code": "6190",
+      "name": "フェニックスバイオ",
+      "pct": 3.77,
+      "turnover_m": 0.6,
+      "volume": 1900
+    },
+    {
+      "code": "658A",
+      "name": "ｅｓｔｉｅ",
+      "pct": 3.5,
+      "turnover_m": 1.0,
+      "volume": 1200
+    },
+    {
+      "code": "4664",
+      "name": "アール・エス・シー",
+      "pct": 3.48,
+      "turnover_m": 0.5,
+      "volume": 500
+    },
+    {
+      "code": "4772",
+      "name": "ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ",
+      "pct": 3.39,
+      "turnover_m": 0.1,
+      "volume": 1100
+    },
+    {
+      "code": "7776",
+      "name": "セルシード",
+      "pct": 3.25,
+      "turnover_m": 0.0,
+      "volume": 100
+    }
+  ],
+  "dropped_mcap": [
+    {
+      "code": "4422",
+      "name": "ＶＡＬＵＥＮＥＸ",
+      "pct": 14.6,
+      "turnover_m": 34.1,
+      "mcap_oku": 59
+    },
+    {
+      "code": "281A",
+      "name": "インフォメティス",
+      "pct": 7.5,
+      "turnover_m": 63.5,
+      "mcap_oku": 20
+    },
+    {
+      "code": "5721",
+      "name": "エスクリプトエナジー",
+      "pct": 4.42,
+      "turnover_m": 67.3,
+      "mcap_oku": 78
+    }
+  ]
+}
